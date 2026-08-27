@@ -1,0 +1,76 @@
+{
+  "generated_verified_mutants": 23,
+  "non_generated_cases": 2,
+  "overall": [
+    {
+      "validator": "PAC",
+      "detected": 4,
+      "total_generated_verified": 23,
+      "missed": 19,
+      "detection_rate": 0.1739
+    },
+    {
+      "validator": "Acrobat",
+      "detected": 5,
+      "total_generated_verified": 23,
+      "missed": 18,
+      "detection_rate": 0.2174
+    },
+    {
+      "validator": "veraPDF",
+      "detected": 5,
+      "total_generated_verified": 23,
+      "missed": 18,
+      "detection_rate": 0.2174
+    }
+  ],
+  "pairwise_agreement": [
+    {
+      "validator_pair": "PAC vs Acrobat",
+      "agree": 22,
+      "disagree": 1,
+      "total": 23,
+      "agreement_rate": 0.9565,
+      "both_detected": 4,
+      "both_missed": 18,
+      "disagreement_cases": "G02_M04"
+    },
+    {
+      "validator_pair": "PAC vs veraPDF",
+      "agree": 22,
+      "disagree": 1,
+      "total": 23,
+      "agreement_rate": 0.9565,
+      "both_detected": 4,
+      "both_missed": 18,
+      "disagreement_cases": "G02_M04"
+    },
+    {
+      "validator_pair": "Acrobat vs veraPDF",
+      "agree": 23,
+      "disagree": 0,
+      "total": 23,
+      "agreement_rate": 1.0,
+      "both_detected": 5,
+      "both_missed": 18,
+      "disagreement_cases": "None"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Detected/Detected/Detected",
+      "count": 4,
+      "share": 0.1739
+    },
+    {
+      "pattern": "Missed/Detected/Detected",
+      "count": 1,
+      "share": 0.0435
+    },
+    {
+      "pattern": "Missed/Missed/Missed",
+      "count": 18,
+      "share": 0.7826
+    }
+  ]
+}

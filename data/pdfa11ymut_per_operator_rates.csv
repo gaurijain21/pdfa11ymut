@@ -1,0 +1,16 @@
+mutation_id,mutation_operator,validator,detected,total_generated_verified,missed,detection_rate
+M01,Structural reading-order swap,PAC,0,5,5,0.0
+M01,Structural reading-order swap,Acrobat,0,5,5,0.0
+M01,Structural reading-order swap,veraPDF,0,5,5,0.0
+M02,Omit visible content from tag structure,PAC,0,5,5,0.0
+M02,Omit visible content from tag structure,Acrobat,0,5,5,0.0
+M02,Omit visible content from tag structure,veraPDF,0,5,5,0.0
+M03,Incorrect heading level / skipped hierarchy,PAC,4,4,0,1.0
+M03,Incorrect heading level / skipped hierarchy,Acrobat,4,4,0,1.0
+M03,Incorrect heading level / skipped hierarchy,veraPDF,4,4,0,1.0
+M04,Wrong marked-content association,PAC,0,5,5,0.0
+M04,Wrong marked-content association,Acrobat,1,5,4,0.2
+M04,Wrong marked-content association,veraPDF,1,5,4,0.2
+M05,Internal MCID sequence reversal,PAC,0,4,4,0.0
+M05,Internal MCID sequence reversal,Acrobat,0,4,4,0.0
+M05,Internal MCID sequence reversal,veraPDF,0,4,4,0.0

@@ -1,0 +1,4 @@
+validator,detected,total_generated_verified,missed,detection_rate
+PAC,4,23,19,0.1739
+Acrobat,5,23,18,0.2174
+veraPDF,5,23,18,0.2174

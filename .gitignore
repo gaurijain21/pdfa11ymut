@@ -1,0 +1,25 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+~$*
+
+# Keep raw corpora out until redistribution is confirmed.
+corpus/
