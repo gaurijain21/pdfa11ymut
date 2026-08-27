@@ -1,6 +1,6 @@
 \documentclass[conference]{IEEEtran}
 
-\usepackage{graphicx}
+\usepackage[final]{graphicx}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{url}
@@ -14,14 +14,15 @@
 \title{PDFa11yMut: Mutation-Based Evaluation of Automated PDF Accessibility Validators}
 
 \author{
-\IEEEauthorblockN{Gauri Jain}
-\IEEEauthorblockA{University of California, Santa Cruz\\
-gjain1@ucsc.edu}
+\IEEEauthorblockN{Author Name(s) Omitted for Draft}
+\IEEEauthorblockA{Affiliation Omitted for Draft\\
+Email Omitted for Draft}
 }
 
 \maketitle
 
 \begin{abstract}
+\normalfont
 Automated validators are widely used to assess PDF accessibility, but their detection boundaries are difficult to measure without controlled ground truth. A validator-clean PDF may be free of the implemented machine-checkable failures, or it may contain accessibility-relevant structural defects that the validator does not detect. This paper introduces PDFa11yMut, a controlled mutation-based benchmark for evaluating automated PDF accessibility validators against independently verified PDF structure defects.
 
 We generated 23 verified mutants from five validator-clean golden PDFs using five mutation operators targeting reading order, omitted assistive structure, heading hierarchy, marked-content association, and internal marked-content sequence. Each generated mutant was independently verified at the PDF structure level and checked for parseability, page-count preservation, and absence of detected visual differences. We then evaluated the mutants with three validators: PAC, Adobe Acrobat Accessibility Checker, and veraPDF, with veraPDF run using the PDF/UA-1 profile.
@@ -94,7 +95,7 @@ Accessibility mutation testing has also been explored for mobile applications. S
 
 \subsection{Mutation Testing for Benchmark Auditing}
 
-GateTruth applies mutation testing to a different domain: auditing register-transfer-level design benchmarks for large language models \cite{bhadra2026gatetruth}. It is relevant here only as a methodological analogy. Its core claim is that an evaluator should be tested against controlled, meaningful defects before its pass rates are treated as strong evidence. PDFa11yMut adapts that logic to PDF accessibility validators: a validator-clean result is not sufficient evidence that a checker would detect accessibility-relevant structural defects unless the checker is tested against verified mutants.
+GateTruth applies mutation testing to register-transfer-level design benchmarks for large language models \cite{bhadra2026gatetruth}, demonstrating how controlled mutations can be used to audit whether an evaluation framework reliably distinguishes valid artifacts from defective ones. Its central methodological principle is that evaluator reliability should itself be tested against controlled, meaningful defects before benchmark pass rates are treated as strong evidence. PDFa11yMut applies this benchmark-auditing principle to PDF accessibility validation. Rather than assuming that validator-clean output demonstrates the absence of accessibility-relevant structural defects, PDFa11yMut introduces independently verified mutations and measures whether they survive automated validation. In this way, mutation testing provides a systematic mechanism for characterizing the detection boundaries of PDF accessibility validators.
 
 \section{Methodology}
 
@@ -126,7 +127,21 @@ M05 & Internal MCID sequence reversal & Reverse the internal marked-content sequ
 \end{tabular}
 \end{table*}
 
-The practical impact of each operator comes from the difference between the visual page and the structure exposed to assistive technologies. M01 models a case where the page looks correct but the assistive reading sequence is wrong: two list items that visually appear as ``submit the form'' and then ``wait for confirmation'' may be exposed in the opposite order. M02 models visible content that remains on the page but is absent from the tagged representation. M03 models a misleading document outline, such as jumping from H1 to H3 without an intervening H2. M04 models a tag that occupies the expected structural position but points to the wrong visible content, such as a list item tag associated with its sibling's text. M05 models cases where a single structural element exists but its internal content chunks are exposed in the wrong order.
+The practical impact of each operator comes from the difference between the
+visual page and the structure exposed to assistive technologies. M01 models a
+case where the page looks correct but the assistive reading sequence is wrong:
+two list items that visually appear as ``submit the form'' and then ``wait for
+confirmation'' may be exposed in the opposite order. M02 models visible content
+that remains on the page but is absent from the tagged representation, such as
+a visible heading that is no longer exposed through the document structure.
+M03 models a misleading document outline, such as jumping from H1 to H3 without
+an intervening H2. M04 models a tag that occupies the expected structural
+position but points to the wrong visible content; for example, the first list
+item's structural tag may reference the text belonging to the second list item,
+while the visual page remains unchanged. M05 models a single structural element
+whose internal content chunks are exposed in the wrong sequence; for example,
+multiple marked-content chunks belonging to one paragraph or list item may be
+encountered in reverse order by software consuming the tagged structure.
 
 \subsection{Mutant Generation and Verification}
 
@@ -147,7 +162,7 @@ Validator detection was separated from mutation verification. A mutant was inclu
 
 The experiment evaluated PAC, Adobe Acrobat Accessibility Checker, and veraPDF. PAC evidence identifies PAC 26.1. The recorded PAC experiment found that all golden PDFs passed. Among mutants, PAC reported Structure Elements failures for G01-M03, G02-M03, G03-M03, and G04-M03. All other generated mutants were recorded as passing.
 
-Acrobat was used as a widely available commercial PDF accessibility checker. The recorded Acrobat results found no automated failures in the five golden PDFs. Among mutants, Acrobat detected G01-M03, G02-M03, G03-M03, G04-M03, and G02-M04. For the M03 mutants, Acrobat reported heading nesting failures. For G02-M04, Acrobat reported list-related failures. The available experimental notes preserve the Acrobat rule outcomes; the exact Acrobat build is recorded as a reporting limitation.
+Adobe Acrobat Continuous Release version 2026.001.21789 (64-bit) was used as a widely available commercial PDF accessibility checker. The recorded Acrobat results found no automated failures in the five golden PDFs. Among mutants, Acrobat detected G01-M03, G02-M03, G03-M03, G04-M03, and G02-M04. For the M03 mutants, Acrobat reported heading nesting failures. For G02-M04, Acrobat reported list-related failures.
 
 veraPDF was used as an open-source standards-oriented validator with the PDF/UA-1 validation profile. The veraPDF report used version 1.30.2 and the GreenField parser. veraPDF detected G01-M03, G02-M03, G03-M03, G04-M03, and G02-M04. The M03 mutants failed ISO 14289-1:2014 Clause 7.4.2 Test 1. G02-M04 failed four list-structure checks under ISO 14289-1:2014 Clause 7.2.
 
@@ -284,7 +299,7 @@ The results support a practical distinction between using validators as conforma
 
 \textbf{Mutation operator coverage.} The five mutation operators target structure-level defects. They do not cover all PDF accessibility problems, such as alternative text quality, table header semantics, language metadata, color contrast, form labeling, or natural-language reading-order coherence.
 
-\textbf{Validator configuration.} The results depend on the validator versions and settings used in the experiment. Different versions or configurations may report different outcomes. The available evidence records PAC 26.1 and veraPDF 1.30.2; the exact Acrobat build is a reporting limitation.
+\textit{Validator configuration.} The results depend on the validator versions and settings used in the experiment. Different versions or configurations may report different outcomes. The evaluated versions were PAC 26.1, Adobe Acrobat Continuous Release 2026.001.21789 (64-bit), and veraPDF 1.30.2.
 
 \textbf{Detection coding.} The study codes detection based on relevant automated validator failures. Some validator outputs may include warnings, manual-check prompts, or failures that do not correspond directly to the injected mutation. This paper treats only relevant automated failures as detections.
 
@@ -292,15 +307,39 @@ The results support a practical distinction between using validators as conforma
 
 \section{Limitations and Future Work}
 
-Future work should expand the corpus to include more document genres, authoring tools, and structural patterns. Additional mutation operators should target table header associations, alternative text, artifact tagging, language metadata, form fields, links, annotations, and reading-order defects that require semantic interpretation.
+This study establishes an initial mutation-based methodology for evaluating
+automated PDF accessibility validators using independently verified structural
+defects. The present benchmark focuses on five structure-level mutation
+operators applied across five golden PDFs, enabling controlled comparison of
+validator behavior while preserving independently verified ground truth.
+Future work can build on this methodology by introducing additional mutation
+operators and document structures to investigate whether the operator-specific
+detection patterns observed here generalize across broader PDF accessibility
+scenarios.
 
-The benchmark should also be packaged as a public dataset with machine-readable manifests, mutation verification records, and validator result files. Releasing the corpus and scripts would allow other researchers to reproduce the results and evaluate additional validators. Future work can also extend PDFa11yMut by measuring how surviving mutants affect assistive-technology output and remediation decisions. This would complement the present benchmark, which focuses on whether automated validators detect independently verified structural mutations.
+The public PDFa11yMut repository provides machine-readable analysis artifacts
+and benchmark scripts to support reproduction and extension of the reported
+results. Future work can extend PDFa11yMut by evaluating additional validators,
+studying the effects of surviving mutants on assistive-technology output, and
+examining how mutation-based benchmarks can inform validator regression testing
+and remediation workflows.
 
 \section{Artifact Availability}
 
-For reproducibility, PDFa11yMut should be released with the golden PDFs, generated mutants, mutation-generation scripts, mutation-verification records, validator result matrix, and analysis workbook. The release should preserve N/A cases explicitly and include machine-readable metadata for each mutant: golden PDF ID, mutation operator, target object, intended accessibility effect, verification status, visual-preservation result, and validator outcomes.
+The PDFa11yMut research artifact is publicly available at
+\url{https://github.com/gaurijain21/pdfa11ymut}.
+The repository contains the paper source and figures, machine-readable
+analysis data, the validator detection matrix, the analysis workbook,
+and scripts used to generate the experimental analysis and paper
+figures. The released data preserve N/A cases explicitly and report
+per-mutant validator outcomes, per-operator detection rates, overall
+detection rates, and validator agreement results.
 
-The current analysis artifacts include the full detection matrix, per-operator rates, validator agreement table, and paper-ready analysis notes. Before publication, these should be packaged in a public repository and, ideally, archived with a persistent identifier.
+The current public release provides the reproducible analysis artifacts
+and benchmark scripts associated with the results reported in this paper.
+The golden PDFs, generated mutant PDFs, and raw validator reports are not
+included in the public release while redistribution rights and potential
+identifying or private information are reviewed.
 
 \section{Conclusion}
 

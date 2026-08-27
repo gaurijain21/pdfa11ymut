@@ -80,7 +80,16 @@ def overall_rates():
     ax.set_axisbelow(True)
     for bar, rate, count in zip(bars, rates, counts):
         ax.text(bar.get_x() + bar.get_width() / 2, rate + 0.8, f"{rate:.1f}%", ha="center", fontsize=8, fontweight="bold")
-        ax.text(bar.get_x() + bar.get_width() / 2, -3.1, count, ha="center", fontsize=7, color="#4b5563")
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            1.1,
+            count,
+            ha="center",
+            va="bottom",
+            fontsize=7,
+            color="white",
+            fontweight="bold",
+        )
     save(fig, "figure2_overall_detection_rates.png")
 
 
@@ -90,22 +99,33 @@ def per_operator():
     acrobat = [0, 0, 100, 20, 0]
     verapdf = [0, 0, 100, 20, 0]
     x = range(len(operators))
-    width = 0.24
-    fig, ax = plt.subplots(figsize=(5.2, 2.7))
-    ax.bar([i - width for i in x], pac, width=width, color="#4477aa", label="PAC")
-    ax.bar(list(x), acrobat, width=width, color="#228833", label="Acrobat")
-    ax.bar([i + width for i in x], verapdf, width=width, color="#66ccee", label="veraPDF")
+    offset = 0.30
+    width = 0.18
+    fig, ax = plt.subplots(figsize=(5.8, 2.9))
+    bars = [
+        ax.bar([i - offset for i in x], pac, width=width, color="#4477aa", label="PAC"),
+        ax.bar(list(x), acrobat, width=width, color="#228833", label="Acrobat"),
+        ax.bar([i + offset for i in x], verapdf, width=width, color="#66ccee", label="veraPDF"),
+    ]
     ax.set_xticks(list(x), operators)
-    ax.set_ylim(0, 110)
+    ax.set_ylim(0, 120)
     ax.set_ylabel("Detection rate (%)", fontsize=8)
     ax.tick_params(axis="both", labelsize=8)
     ax.grid(axis="y", color="#e5e7eb", linewidth=0.8)
     ax.set_axisbelow(True)
-    ax.legend(loc="upper right", fontsize=7, frameon=False, ncol=3)
-    for idx, val in enumerate([100, 100, 100]):
-        ax.text(2 + (idx - 1) * width, val + 2, "100", ha="center", fontsize=6.5)
-    ax.text(3, 22, "20", ha="center", fontsize=6.5)
-    ax.text(3 + width, 22, "20", ha="center", fontsize=6.5)
+    ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.16), fontsize=7, frameon=False, ncol=3)
+    for container in bars:
+        for bar in container:
+            value = bar.get_height()
+            if value > 0:
+                ax.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    value + 2,
+                    f"{value:.0f}",
+                    ha="center",
+                    va="bottom",
+                    fontsize=6.5,
+                )
     save(fig, "figure3_per_operator_detection.png")
 
 
