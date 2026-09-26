@@ -1,7 +1,10 @@
 {
   "status": "formal_complete_at_complete_pac_ai_future_work",
   "analysis_status": "formal_complete_at_complete_pac_ai_future_work",
-  "valid_verified_mutants": 73,
+  "generation_ledger_records": 73,
+  "materialized_mutant_artifacts": 72,
+  "valid_generation_records": 73,
+  "active_reaudited_mutants": 69,
   "active_mutants": 69,
   "valid_mutants": 69,
   "corpus_records": 9,
@@ -10,6 +13,8 @@
   "required_classified_formal_rows": 207,
   "at_observation_rows": 9,
   "at_observation_complete_rows": 9,
+  "formal_at_cases": 8,
+  "auxiliary_at_cases": 1,
   "at_observer_design": "single-observer illustrative exploratory observations under one fixed NVDA/Acrobat/Windows configuration",
   "pac_ai_status": "native_pilot_semantic_text_no_export_gate",
   "pac_ai_selected_mutants": 34,
@@ -17,6 +22,20 @@
   "pac_ai_classified_mutants": 0,
   "source_cluster_count": 9,
   "source_cluster_bootstrap_resamples": 5000,
+  "class_a_direct_proxy": {
+    "PAC": {
+      "direct": 30,
+      "proxy": 0
+    },
+    "Acrobat": {
+      "direct": 23,
+      "proxy": 3
+    },
+    "veraPDF": {
+      "direct": 30,
+      "proxy": 0
+    }
+  },
   "overall": [
     {
       "validator": "PAC",

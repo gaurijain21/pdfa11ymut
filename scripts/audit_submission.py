@@ -10,6 +10,7 @@ import csv
 import hashlib
 import json
 import math
+import re
 import subprocess
 import sys
 from collections import Counter
@@ -24,6 +25,7 @@ CSV_SCHEMAS: dict[str, tuple[list[str], str, set[str]]] = {
     "control_results.csv": (["control_id", "control_type", "source_pdf", "output_pdf", "expected_result", "artifact_status", "pac_failed_rules", "pac_warned_rules", "acrobat_failed_rules", "acrobat_manual_rules", "verapdf_failed_rules", "new_target_relevant_finding", "baseline_findings_persisted", "evidence_paths", "notes"], "control_id", {"control_type": {"no-op", "benign"}, "artifact_status": {"COMPLETE"}}),
     "controls.csv": (["control_id", "control_type", "source_pdf", "output_pdf", "expected_result", "status", "evidence_path", "notes", "verapdf_report_path", "verapdf_report_sha256", "verapdf_version", "verapdf_profile", "verapdf_exit_code", "verapdf_failed_rules", "verapdf_passed_rules", "verapdf_parse_status", "pac_report_path", "pac_report_sha256", "pac_version", "pac_profile", "pac_failed_rules", "pac_warned_rules", "pac_parse_status", "acrobat_report_path", "acrobat_report_sha256", "acrobat_version", "acrobat_profile", "acrobat_passed_rules", "acrobat_failed_rules", "acrobat_manual_rules", "acrobat_skipped_rules", "acrobat_parse_status"], "control_id", {"control_type": {"no-op", "benign"}, "status": {"COMPLETE"}}),
     "at_observations.csv": (["record_id", "artifact_id", "source_golden", "mutant_id", "operator", "at_name", "at_version", "viewer", "viewer_version", "os_version", "procedure", "expected_golden_behavior", "expected_mutant_behavior", "exact_at_observation", "golden_observation", "mutant_observation", "observation", "evidence_path", "golden_sha256", "mutant_sha256", "status", "coder_1", "coder_2", "agree", "adjudication", "notes", "raw_log_path", "raw_log_sha256", "raw_log_interval", "screenshot_path"], "record_id", {"status": {"COMPLETE"}}),
+    "at_observation_categories.csv": (["record_id", "mutant_id", "operator", "artifact_category", "formal_denominator_inclusion", "notes"], "record_id", {"artifact_category": {"ACTIVE_FORMAL_MUTANT", "AUXILIARY_AT_ARTIFACT"}, "formal_denominator_inclusion": {"YES", "NO"}}),
     "at_selection.csv": (["artifact_id", "source_golden", "mutant_id", "operator", "selected_golden", "reason", "expected_golden_behavior", "expected_mutant_behavior", "exact_at_observation", "status"], "artifact_id", {"status": {"COMPLETE"}}),
     "corpus_inventory.csv": (["artifact_id", "filename", "original_filename", "source_collection", "source_reference", "collection_version", "license", "attribution_requirement", "redistribution_status", "pdf_version", "pdfua_version", "page_count", "sha256", "document_genre", "relevant_structural_features", "baseline_status", "baseline_evidence_path", "baseline_notes", "notes"], "artifact_id", {"baseline_status": {"PASS", "BASELINE_PASS", "REVIEW_REQUIRED", "BASELINE_EVIDENCE_PRESENT", "BASELINE_EVIDENCE_PRESENT_WITH_DOCUMENTED_DELTA", "BASELINE_EVIDENCE_PRESENT_WITH_TOOL_CONFLICT"}}),
     "corpus_provenance_sources.csv": (["artifact_id", "source_item_id", "official_filename", "source_title_or_description", "listed_contributor_or_context", "source_index_url", "download_url", "mapping_basis", "local_hash_evidence", "license_basis", "provenance_status", "notes"], "artifact_id", {}),
@@ -125,6 +127,9 @@ def main() -> int:
         fail(errors, "paper-frozen manifest is attached to a dirty worktree")
     if not current_dirty and manifest_status != "PAPER_FROZEN":
         fail(errors, f"clean worktree requires manifest status PAPER_FROZEN, found {manifest_status}")
+    if not current_dirty and manifest_status == "PAPER_FROZEN":
+        if recorded_repo.get("scientific_state_commit") != recorded_head or recorded_repo.get("scientific_state_clean") is not True:
+            fail(errors, "frozen manifest must identify a clean scientific_state_commit")
     validate_csv_schemas(errors)
     paper_meta = manifest.get("paper_artifacts", {})
     for key, relative in (("source", "paper/pdfa11ymut_ieee.tex"), ("pdf", "paper/pdfa11ymut_ieee.pdf")):
@@ -251,7 +256,7 @@ def main() -> int:
         "paper/pdfa11ymut_ieee.tex": ROOT / "paper" / "pdfa11ymut_ieee.tex",
     }
     required_fragments = {
-        "73 valid verified generation records": "valid mutant count",
+        "73 generation-ledger records": "generation-ledger count",
         "69 active mutants": "active mutant count",
         "Class A contains 30": "Class A count",
         "Class B contains 39": "Class B count",
@@ -268,11 +273,17 @@ def main() -> int:
         text = path.read_text(encoding="utf-8", errors="replace")
         if label.startswith("paper/"):
             for fragment, description in {
-                r"\ValidGenerationRecords": "generated valid-record macro",
+                r"\GenerationLedgerRecords": "generated generation-ledger macro",
                 r"\ActiveMutants": "generated active-mutant macro",
                 r"\ClassAMutants": "generated Class-A macro",
                 r"\ClassBMutants": "generated Class-B macro",
                 r"\ATDifferenceCases": "generated AT-difference macro",
+                r"\MaterializedMutantArtifacts": "generated materialized-artifact macro",
+                r"\ActiveReauditedMutants": "generated active re-audited macro",
+                r"\ClassAAcrobatDirect": "generated Acrobat direct-detection macro",
+                r"\ClassAAcrobatProxy": "generated Acrobat proxy-detection macro",
+                r"\FormalATCases": "generated formal-AT macro",
+                r"\AuxiliaryATCases": "generated auxiliary-AT macro",
             }.items():
                 if fragment not in text:
                     fail(errors, f"{label} missing {description}")
@@ -288,7 +299,7 @@ def main() -> int:
         for fragment, description in required_fragments.items():
             if label == "README.md" and fragment not in text:
                 fail(errors, f"{label} missing manifest-derived {description}: {fragment}")
-        if label == "README.md" and "207 active formal" not in text and "207 classified formal validator rows" not in text:
+        if label == "README.md" and "207 active formal" not in text and "207 classified formal validator rows" not in text and "207 classified formal checker-configuration rows" not in text:
             fail(errors, f"{label} missing manifest-derived formal-row count")
         for fragment, description in forbidden_fragments.items():
             if fragment in text:
@@ -306,6 +317,20 @@ def main() -> int:
     operator_fragment = ROOT / "analysis" / "generated" / "operator_table_fragment.tex"
     if not operator_fragment.is_file() or not all(f"{operator:}" in operator_fragment.read_text(encoding="utf-8") for operator in (f"M{i:02d}" for i in range(1, 11))):
         fail(errors, "generated operator table is missing or incomplete")
+    current_facing_text = "\n".join((ROOT / path).read_text(encoding="utf-8", errors="replace") for path in ("README.md", "paper/pdfa11ymut_ieee.tex", "SUBMISSION_READINESS.md", "CITATION.cff" ) if (ROOT / path).is_file())
+    for phrase in ("independently double-coded", "independent coders", "two independent coders", "representative AT sample"):
+        if phrase.lower() in current_facing_text.lower():
+            fail(errors, f"current-facing artifact contains unsupported language: {phrase}")
+    paper_text = (ROOT / "paper" / "pdfa11ymut_ieee.tex").read_text(encoding="utf-8", errors="replace")
+    citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8", errors="replace")
+    title_match = re.search(r"\\title\{([^}]*)\}", paper_text)
+    citation_title_match = re.search(r'^title:\s*"([^"]+)"', citation_text, re.MULTILINE)
+    if not title_match or not citation_title_match or title_match.group(1) != citation_title_match.group(1):
+        fail(errors, "paper title and CITATION.cff title are inconsistent")
+    if not (ROOT / "SUBMISSION_READINESS.md").is_file():
+        fail(errors, "current-facing SUBMISSION_READINESS.md is missing")
+    if not (ROOT / "docs" / "ANONYMIZATION.md").is_file():
+        fail(errors, "docs/ANONYMIZATION.md is missing")
     for required in ("python scripts/regenerate_scratch.py", "final-freeze writer"):
         if required not in (ROOT / "README.md").read_text(encoding="utf-8") or required.replace("_", r"\_") not in (ROOT / "paper" / "pdfa11ymut_ieee.tex").read_text(encoding="utf-8"):
             fail(errors, f"README/manuscript generation-command boundary missing: {required}")
@@ -313,6 +338,30 @@ def main() -> int:
         fail(errors, "alternate-target sensitivity artifact is missing")
     if not (ROOT / "analysis" / "target_sensitivity" / "m09_exclusion_sensitivity.csv").is_file():
         fail(errors, "M09 exclusion sensitivity artifact is missing")
+
+    # AT observations are explicitly split between active formal-mutant cases
+    # and auxiliary demonstrations; the auxiliary row must not enter the 69-
+    # mutant denominator.
+    at_categories = read_csv(DATA / "at_observation_categories.csv") if (DATA / "at_observation_categories.csv").is_file() else []
+    at_observations = read_csv(DATA / "at_observations.csv")
+    active_at_ids = {row.get("artifact_id") for row in at_observations if row.get("artifact_id") in active_ids}
+    category_ids = {row.get("record_id") for row in at_categories}
+    if category_ids != {row.get("record_id") for row in at_observations}:
+        fail(errors, "AT category ledger does not cover exactly the nine AT observations")
+    if sum(row.get("artifact_category") == "ACTIVE_FORMAL_MUTANT" for row in at_categories) != len(active_at_ids):
+        fail(errors, "AT active-formal category count is inconsistent with the active mutant ledger")
+    if any(row.get("artifact_category") == "AUXILIARY_AT_ARTIFACT" and row.get("formal_denominator_inclusion") != "NO" for row in at_categories):
+        fail(errors, "auxiliary AT artifact is marked as part of the formal denominator")
+
+    sensitivity_path = ROOT / "analysis" / "generated" / "detection_sensitivity.csv"
+    if sensitivity_path.is_file():
+        sensitivity_rows = {row["validator"]: row for row in read_csv(sensitivity_path)}
+        expected_acrobat = {"direct_detected": "23", "proxy_detected": "3", "all_detected": "26"}
+        if any(sensitivity_rows.get("Acrobat", {}).get(key) != value for key, value in expected_acrobat.items()):
+            fail(errors, "Acrobat direct/proxy Class-A sensitivity counts are inconsistent")
+    control_rows = read_csv(DATA / "control_results.csv")
+    if any(row.get("new_target_relevant_finding") != "NONE_OBSERVED_BY_PAIRED_COUNT_COMPARISON" for row in control_rows):
+        fail(errors, "control ledger contains a new target-relevant finding")
 
     # Second-pass generated views and immutable evidence snapshot.
     applicability = DATA / "operator_applicability.csv"

@@ -1,0 +1,10 @@
+record_id,mutant_id,operator,artifact_category,formal_denominator_inclusion,notes
+AT::PDFUA-Ref-2-02_Invoice-M01,PDFUA-Ref-2-02_Invoice-M01,M01,AUXILIARY_AT_ARTIFACT,NO,AT observation is auxiliary and excluded from the 69-mutant formal denominator.
+AT::PDFUA-Ref-2-02_Invoice-M02,PDFUA-Ref-2-02_Invoice-M02,M02,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-02_Invoice-M03,PDFUA-Ref-2-02_Invoice-M03,M03,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-02_Invoice-M04,PDFUA-Ref-2-02_Invoice-M04,M04,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-03_AcademicAbstract-M05,PDFUA-Ref-2-03_AcademicAbstract-M05,M05,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-03_AcademicAbstract-M06,PDFUA-Ref-2-03_AcademicAbstract-M06,M06,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-02_Invoice-M07,PDFUA-Ref-2-02_Invoice-M07,M07,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-10_Form-M08,PDFUA-Ref-2-10_Form-M08,M08,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.
+AT::PDFUA-Ref-2-02_Invoice-M10,PDFUA-Ref-2-02_Invoice-M10,M10,ACTIVE_FORMAL_MUTANT,YES,AT observation uses an active hash-linked mutant; AT remains separate from checker rates.

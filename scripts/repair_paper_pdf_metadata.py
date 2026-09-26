@@ -30,7 +30,7 @@ def main() -> int:
     args = parser.parse_args()
     reader = PdfReader(str(args.input), strict=False)
     writer = PdfWriter(clone_from=str(args.input))
-    title = "PDFa11yMut: Measuring Mutation-Specific Detection by PDF Accessibility Validators"
+    title = "PDFa11yMut: Measuring Mutation-Specific Detection in PDF Accessibility Checkers"
     subject = "Mutation-based evaluation of PDF accessibility checking configurations"
     writer.add_metadata({"/Title": title, "/Subject": subject, "/Creator": "PDFa11yMut with Tectonic"})
     writer._root_object.update({

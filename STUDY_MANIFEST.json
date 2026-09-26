@@ -6,8 +6,10 @@
     "data/validator_runs.csv",
     "data/corpus_inventory.csv",
     "data/corpus_provenance_sources.csv",
+    "data/baseline_provenance.csv",
     "data/controls.csv",
     "data/at_observations.csv",
+    "data/at_observation_categories.csv",
     "data/public_evidence_records.csv"
   ],
   "coding_provenance": {
@@ -18,10 +20,12 @@
   },
   "counts": {
     "active_mutants": 69,
+    "active_reaudited_mutants": 69,
     "active_validator_rows": 207,
     "at_complete": 9,
     "at_observations": 9,
     "attempted_records": 73,
+    "auxiliary_at_cases": 1,
     "classified_formal_rows": 207,
     "controls": 18,
     "disagreement_by_cause": {
@@ -38,6 +42,7 @@
       "PDFUA-Ref-2-10_Form-M09"
     ],
     "excluded_records_in_manifest": 0,
+    "formal_at_mutant_cases": 8,
     "formal_double_coded_rows": 207,
     "formal_rows": 207,
     "formal_rows_per_validator": {
@@ -46,11 +51,13 @@
       "veraPDF": 69
     },
     "generated_mutant_pdf_files": 72,
+    "generation_ledger_records": 73,
     "generation_records": 73,
     "golden_reference_pdfs": 9,
     "historical_exclusion_only_records": [
       "PDFUA-Ref-2-09_Scanned-M09"
     ],
+    "materialized_mutant_artifacts": 72,
     "pac_ai_rows": 34,
     "valid_generation_records": 73,
     "valid_verified_mutants": 73
@@ -261,8 +268,8 @@
   "notes": [
     "Legacy 23-mutant summaries are historical and are not read.",
     "PAC AI remains separate and is not part of formal rates.",
-    "The clean M01 AT rerun is linked to the active Invoice-M01 pair; any auxiliary/manual artifact is not a formal denominator record.",
-    "Of five documented exclusions, four occur within the valid-generation manifest and one is a historical exclusion-only record outside it; active analysis is 73 valid records minus four in-manifest exclusions = 69.",
+    "The clean M01 AT rerun is an auxiliary M01 assistive-representation demonstration because Invoice-M01 is not in the active mutant ledger; it is not a formal denominator record.",
+    "The generation-ledger flow is 73 records, 72 materialized mutant PDFs, 5 documented exclusions, 4 exclusions inside the valid-generation manifest, 1 historical exclusion-only record, and 69 active independently re-audited mutants.",
     "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
     "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv.",
     "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions."
@@ -271,17 +278,19 @@
     "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
     "pdf": {
       "path": "paper/pdfa11ymut_ieee.pdf",
-      "sha256": "dde432d2013bb64bb8ea7cbc09ce70606be6d024aa4abd39f521910d09f32b7e"
+      "sha256": "a4f8f22e86befbef17a8c29be4973f85474e0749f6f358748d5a44d22490a622"
     },
     "source": {
       "path": "paper/pdfa11ymut_ieee.tex",
-      "sha256": "e8f4f696437f87e637dbd3ce576a15f536d9939ac520894ec9608593cfb8fafe"
+      "sha256": "13d8300ca8979c280b5c889f26bd4f0c7ce7b56ef53532d2f0e5452ee707d037"
     }
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "7d5edc7f1225b0e84c4df38dde00d683a0e61eb6",
-    "worktree_dirty": false
+    "git_head": "41ba7a140fd64ef8e182a292be7d33a9b32a1d39",
+    "scientific_state_clean": false,
+    "scientific_state_commit": "41ba7a140fd64ef8e182a292be7d33a9b32a1d39",
+    "worktree_dirty": true
   },
   "reproduction_commands": [
     "python scripts/build_study_manifest.py",
@@ -293,6 +302,6 @@
     "python scripts/build_m09_exclusion_sensitivity.py",
     "python scripts/audit_submission.py"
   ],
-  "status": "PAPER_FROZEN",
+  "status": "AUDIT_DERIVED_NOT_PAPER_FROZEN",
   "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped."
 }

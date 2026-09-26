@@ -352,6 +352,17 @@ def main() -> int:
     independent_dir = EVIDENCE / "independent_verification_v2"
     independent = [json.loads(path.read_text(encoding="utf-8")) for path in independent_dir.glob("*.json")] if independent_dir.is_dir() else []
     at_rows = read_csv(DATA / "at_observations.csv")
+    active_ids = {row.get("mutant_id") for row in active}
+    at_categories = [{
+        "record_id": row.get("record_id", ""),
+        "mutant_id": row.get("mutant_id", ""),
+        "operator": row.get("operator", ""),
+        "artifact_category": "ACTIVE_FORMAL_MUTANT" if row.get("mutant_id") in active_ids else "AUXILIARY_AT_ARTIFACT",
+        "formal_denominator_inclusion": "NO",
+        "notes": "AT observation is auxiliary and excluded from the 69-mutant formal denominator." if row.get("mutant_id") not in active_ids else "AT observation uses an active hash-linked mutant; AT remains separate from checker rates.",
+    } for row in at_rows]
+    for row in at_categories:
+        row["formal_denominator_inclusion"] = "YES" if row["artifact_category"] == "ACTIVE_FORMAL_MUTANT" else "NO"
     ai_rows = read_csv(DATA / "pac_ai_classifications.csv")
     double_rows = read_csv(DATA / "double_coding_decisions.csv")
     disagreement_rows = read_csv(ROOT / "analysis" / "generated" / "disagreement_analysis.csv")
@@ -362,27 +373,32 @@ def main() -> int:
         "generated_by": "scripts/build_study_manifest.py",
         "repository": {
             "git_head": git_value("rev-parse", "HEAD"),
+            "scientific_state_commit": git_value("rev-parse", "HEAD"),
             "git_branch": git_value("branch", "--show-current"),
             "worktree_dirty": bool(git_value("status", "--porcelain")),
+            "scientific_state_clean": not bool(git_value("status", "--porcelain")),
         },
         "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped.",
         "canonical_inputs": [
             "operators/operators.yaml", "data/mutants.jsonl", "data/mutant_exclusions.csv", "data/validator_runs.csv",
-            "data/corpus_inventory.csv", "data/corpus_provenance_sources.csv", "data/controls.csv", "data/at_observations.csv",
+            "data/corpus_inventory.csv", "data/corpus_provenance_sources.csv", "data/baseline_provenance.csv", "data/controls.csv", "data/at_observations.csv", "data/at_observation_categories.csv",
             "data/public_evidence_records.csv",
         ],
         "counts": {
             "golden_reference_pdfs": len(list((ROOT / "corpus" / "golden").glob("*.pdf"))),
             "generation_records": len(mutants),
+            "generation_ledger_records": len(mutants),
             "attempted_records": len(mutants),
             "valid_generation_records": len(valid_ids),
             "generated_mutant_pdf_files": len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))),
+            "materialized_mutant_artifacts": len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))),
             "valid_verified_mutants": len(valid_ids),
             "documented_exclusions": len(exclusions),
             "excluded_ids_in_valid_manifest": sorted(valid_ids & excluded_ids),
             "historical_exclusion_only_records": sorted(excluded_ids - valid_ids),
             "excluded_records_in_manifest": sum(row.get("status") == "excluded" for row in mutants),
             "active_mutants": len(active),
+            "active_reaudited_mutants": len(active),
             "formal_rows": len(formal),
             "classified_formal_rows": len(classified),
             "active_validator_rows": len(classified),
@@ -390,6 +406,8 @@ def main() -> int:
             "controls": len(controls),
             "at_observations": len(at_rows),
             "at_complete": sum(row.get("status") == "COMPLETE" for row in at_rows),
+            "formal_at_mutant_cases": sum(row.get("artifact_category") == "ACTIVE_FORMAL_MUTANT" for row in at_categories),
+            "auxiliary_at_cases": sum(row.get("artifact_category") == "AUXILIARY_AT_ARTIFACT" for row in at_categories),
             "pac_ai_rows": len(ai_rows),
             "formal_double_coded_rows": sum(bool(row.get("coder_1") and row.get("coder_2") and row.get("adjudication")) for row in formal),
             "disagreement_rows": len(disagreement_rows),
@@ -432,8 +450,8 @@ def main() -> int:
         "notes": [
             "Legacy 23-mutant summaries are historical and are not read.",
             "PAC AI remains separate and is not part of formal rates.",
-            "The clean M01 AT rerun is linked to the active Invoice-M01 pair; any auxiliary/manual artifact is not a formal denominator record.",
-            "Of five documented exclusions, four occur within the valid-generation manifest and one is a historical exclusion-only record outside it; active analysis is 73 valid records minus four in-manifest exclusions = 69.",
+            "The clean M01 AT rerun is an auxiliary M01 assistive-representation demonstration because Invoice-M01 is not in the active mutant ledger; it is not a formal denominator record.",
+            "The generation-ledger flow is 73 records, 72 materialized mutant PDFs, 5 documented exclusions, 4 exclusions inside the valid-generation manifest, 1 historical exclusion-only record, and 69 active independently re-audited mutants.",
             "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
             "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv.",
             "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions.",
@@ -488,6 +506,9 @@ def main() -> int:
     write_csv(DATA / "public_evidence_records.csv", public_evidence, [
         "record_id", "mutant_id", "source_golden", "operator", "validator", "configuration", "validator_version", "build", "profile",
         "baseline_sha256", "mutant_sha256", "baseline_state", "mutant_classification", "relevant_rule_ids", "raw_evidence_sha256", "rationale", "redistribution_note",
+    ])
+    write_csv(DATA / "at_observation_categories.csv", at_categories, [
+        "record_id", "mutant_id", "operator", "artifact_category", "formal_denominator_inclusion", "notes",
     ])
     write_csv(DATA / "validator_environment.csv", build_environment_rows(), [
         "component", "version", "configuration", "settings", "source",

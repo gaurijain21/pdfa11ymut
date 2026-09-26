@@ -9,7 +9,7 @@ PDFa11yMut is a mutation-testing study of PDF accessibility checking configurati
 - The formal outcome is one baseline-relative validator-mutant row for PAC Formal, Acrobat Accessibility Full Check, or veraPDF PDF/UA-1.
 - The unit of evidence is hash-linked: source hash, mutant hash, validator configuration, raw report path/hash, classification, and coding/adjudication fields.
 
-The current evidence-derived scope is nine reference PDFs, 73 valid verified generation records, 69 active mutants after documented exclusions, and 207 active formal rows. Three valid M09 replacement candidates remain outside the active interpretation because they cannot replace unavailable historical validator evidence. The active operator counts and all dependent counts are generated in `STUDY_MANIFEST.json`; historical 23-mutant summaries are not inputs.
+The current evidence-derived scope is nine reference PDFs, 73 generation-ledger records, 72 materialized mutant PDFs, 5 documented exclusions, 69 active independently re-audited mutants, and 207 active checker-configuration rows. Four exclusions are inside the valid-generation manifest and one is a historical exclusion-only/non-materialized record; therefore the counts are not a simple `73 - 5` subtraction. Three valid M09 replacement candidates remain outside the active interpretation because they cannot replace unavailable historical validator evidence. The active operator counts and all dependent counts are generated in `STUDY_MANIFEST.json`; historical 23-mutant summaries are not inputs.
 
 ## Operators and classes
 
@@ -29,4 +29,4 @@ PAC Formal, Acrobat Full Check, and veraPDF PDF/UA-1 are different checking conf
 
 ## Secondary observations
 
-The 18 no-op/benign controls are paired sanity checks against baseline-relative changes. The nine NVDA observations are illustrative exploratory observations under one NVDA/Acrobat/Windows configuration and one observer; they are not a user study and do not enter formal validator rates. PAC AI is retained separately as aggregate/unresolved exploratory evidence and is not a prerequisite for the formal study.
+The 18 no-op/benign controls are paired sanity checks against baseline-relative changes; none produced a new target-relevant automated finding under the paired count comparison. The nine NVDA observations are categorized in `data/at_observation_categories.csv`: eight active-formal-mutant cases and one auxiliary M01 demonstration. They are illustrative exploratory observations under one NVDA/Acrobat/Windows configuration and one observer; they are not a user study and do not enter formal checker rates. PAC AI is retained separately as aggregate/unresolved exploratory evidence and is not a prerequisite for the formal study.
