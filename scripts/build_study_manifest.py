@@ -64,6 +64,12 @@ def materialized_mutant_pdf_count() -> int:
     return sum(1 for path in (ROOT / "corpus" / "mutants").glob("*.pdf") if ".mismatch-backup-" not in path.name)
 
 
+def write_text_lf(path: Path, text: str) -> None:
+    """Write generated text with stable LF line endings on every platform."""
+    with path.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(text)
+
+
 def write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
@@ -468,7 +474,7 @@ def main() -> int:
             "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions.",
         ],
     }
-    (ROOT / "STUDY_MANIFEST.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    write_text_lf(ROOT / "STUDY_MANIFEST.json", json.dumps(manifest, indent=2, sort_keys=True) + "\n")
 
     write_csv(DATA / "baseline_provenance.csv", build_baseline_provenance(corpus, provenance), [
         "artifact_id", "local_filename", "source", "suite_identifier", "official_filename", "sha256", "license",
@@ -489,7 +495,7 @@ def main() -> int:
         "target_reachability_status", "mutant_sha256",
     ])
     delta_path = DATA / "mutant_delta_manifest.jsonl"
-    delta_path.write_text("".join(json.dumps(row, sort_keys=True) + "\n" for row in build_delta_manifest(active, specs)), encoding="utf-8")
+    write_text_lf(delta_path, "".join(json.dumps(row, sort_keys=True) + "\n" for row in build_delta_manifest(active, specs)))
     write_csv(DATA / "control_results.csv", build_control_results(controls, runs), [
         "control_id", "control_type", "source_pdf", "output_pdf", "expected_result", "artifact_status",
         "pac_failed_rules", "pac_warned_rules", "acrobat_failed_rules", "acrobat_manual_rules", "verapdf_failed_rules",
