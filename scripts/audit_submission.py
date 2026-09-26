@@ -20,6 +20,26 @@ DATA = ROOT / "data"
 FORMAL_VALIDATORS = {"PAC", "Acrobat", "veraPDF"}
 FORMAL_CONFIGS = {"Formal", "Full Check", "PDF/UA-1 ua1"}
 
+CSV_SCHEMAS: dict[str, tuple[list[str], str, set[str]]] = {
+    "control_results.csv": (["control_id", "control_type", "source_pdf", "output_pdf", "expected_result", "artifact_status", "pac_failed_rules", "pac_warned_rules", "acrobat_failed_rules", "acrobat_manual_rules", "verapdf_failed_rules", "new_target_relevant_finding", "baseline_findings_persisted", "evidence_paths", "notes"], "control_id", {"control_type": {"no-op", "benign"}, "artifact_status": {"COMPLETE"}}),
+    "controls.csv": (["control_id", "control_type", "source_pdf", "output_pdf", "expected_result", "status", "evidence_path", "notes", "verapdf_report_path", "verapdf_report_sha256", "verapdf_version", "verapdf_profile", "verapdf_exit_code", "verapdf_failed_rules", "verapdf_passed_rules", "verapdf_parse_status", "pac_report_path", "pac_report_sha256", "pac_version", "pac_profile", "pac_failed_rules", "pac_warned_rules", "pac_parse_status", "acrobat_report_path", "acrobat_report_sha256", "acrobat_version", "acrobat_profile", "acrobat_passed_rules", "acrobat_failed_rules", "acrobat_manual_rules", "acrobat_skipped_rules", "acrobat_parse_status"], "control_id", {"control_type": {"no-op", "benign"}, "status": {"COMPLETE"}}),
+    "at_observations.csv": (["record_id", "artifact_id", "source_golden", "mutant_id", "operator", "at_name", "at_version", "viewer", "viewer_version", "os_version", "procedure", "expected_golden_behavior", "expected_mutant_behavior", "exact_at_observation", "golden_observation", "mutant_observation", "observation", "evidence_path", "golden_sha256", "mutant_sha256", "status", "coder_1", "coder_2", "agree", "adjudication", "notes", "raw_log_path", "raw_log_sha256", "raw_log_interval", "screenshot_path"], "record_id", {"status": {"COMPLETE"}}),
+    "at_selection.csv": (["artifact_id", "source_golden", "mutant_id", "operator", "selected_golden", "reason", "expected_golden_behavior", "expected_mutant_behavior", "exact_at_observation", "status"], "artifact_id", {"status": {"COMPLETE"}}),
+    "corpus_inventory.csv": (["artifact_id", "filename", "original_filename", "source_collection", "source_reference", "collection_version", "license", "attribution_requirement", "redistribution_status", "pdf_version", "pdfua_version", "page_count", "sha256", "document_genre", "relevant_structural_features", "baseline_status", "baseline_evidence_path", "baseline_notes", "notes"], "artifact_id", {"baseline_status": {"PASS", "BASELINE_PASS", "REVIEW_REQUIRED", "BASELINE_EVIDENCE_PRESENT", "BASELINE_EVIDENCE_PRESENT_WITH_DOCUMENTED_DELTA", "BASELINE_EVIDENCE_PRESENT_WITH_TOOL_CONFLICT"}}),
+    "corpus_provenance_sources.csv": (["artifact_id", "source_item_id", "official_filename", "source_title_or_description", "listed_contributor_or_context", "source_index_url", "download_url", "mapping_basis", "local_hash_evidence", "license_basis", "provenance_status", "notes"], "artifact_id", {}),
+    "baseline_deltas.csv": (["record_id", "artifact_id", "source_golden", "validator", "configuration", "baseline_status", "baseline_run_id", "baseline_file_sha256", "mutant_file_sha256", "delta_state", "notes"], "record_id", {}),
+    "mutant_exclusions.csv": (["mutant_id", "operator", "source_golden", "status", "verdict", "reason", "action_taken"], "mutant_id", {}),
+    "exclusions.csv": (["mutant_id", "operator", "source_golden", "status", "verdict", "reason", "action_taken", "present_in_valid_manifest", "decision_date", "rule_timing"], "mutant_id", {}),
+    "m09_recovery_candidates.csv": (["historical_mutant_id", "operator", "source_golden", "historical_expected_sha256", "recovery_status", "recovery_candidate_sha256", "recovery_candidate_path", "reason_not_promoted", "validator_rerun_required"], "historical_mutant_id", {}),
+    "operator_applicability.csv": (["operator", "baseline_pdfs", "applicable_baselines_or_records", "successful_generation_records", "generation_failure_records", "documented_exclusions", "active_mutants", "selection_rule", "denominator_note"], "operator", {}),
+    "operator_standard_mapping.csv": (["operator", "description", "operator_class", "target_structure", "accessibility_property", "pdfua_relationship", "iso_clause_or_requirement", "matterhorn_or_technique", "machine_or_human_status", "expected_checker_capability", "class_rationale", "source_reference", "mapping_status"], "operator", {"operator_class": {"class_a", "class_b"}}),
+    "operator_target_selection.csv": (["mutant_id", "operator", "source_golden", "source_sha256", "requested_target", "selection_rule", "eligible_candidate_count", "eligible_candidate_refs", "chosen_target", "target_precondition_status", "target_reachability_status", "mutant_sha256"], "mutant_id", {"target_precondition_status": {"PASS"}, "target_reachability_status": {"PASS"}}),
+    "validator_capability_mapping.csv": (["validator", "version", "configuration", "operator", "relevant_rule", "machine_checkable", "validator_claims_coverage", "expected_automated_detection", "evidence_source"], "validator|operator", {}),
+    "validator_environment.csv": (["component", "version", "configuration", "settings", "source"], "component|configuration", {}),
+    "validator_runs.csv": (["record_id", "artifact_id", "baseline_or_mutant", "source_golden", "operator", "file_sha256", "validator", "configuration", "validator_version", "build", "platform", "profile", "PAC_AI_enabled", "run_timestamp", "automated_pass_fail", "relevant_rule_ids", "relevant_rule_text", "manual_check_prompts", "raw_report_path", "report_sha256", "raw_detection_classification", "baseline_status", "baseline_file_sha256", "baseline_run_id", "detection_classification", "classification_reason", "coder_1", "coder_2", "adjudication", "notes"], "record_id", {}),
+    "public_evidence_records.csv": (["record_id", "mutant_id", "source_golden", "operator", "validator", "configuration", "validator_version", "build", "profile", "baseline_sha256", "mutant_sha256", "baseline_state", "mutant_classification", "relevant_rule_ids", "raw_evidence_sha256", "rationale", "redistribution_note"], "record_id", {}),
+}
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8-sig") as handle:
@@ -40,6 +60,40 @@ def sha256(path: Path) -> str:
 
 def fail(errors: list[str], message: str) -> None:
     errors.append(message)
+
+
+def validate_csv_schemas(errors: list[str]) -> None:
+    """Fail closed on malformed canonical CSV records before semantic checks."""
+    for filename, (expected_header, unique_key, enums) in CSV_SCHEMAS.items():
+        path = DATA / filename
+        if not path.is_file():
+            fail(errors, f"canonical CSV is missing: data/{filename}")
+            continue
+        with path.open(newline="", encoding="utf-8-sig") as handle:
+            reader = csv.reader(handle)
+            try:
+                header = next(reader)
+            except StopIteration:
+                fail(errors, f"canonical CSV is empty: data/{filename}")
+                continue
+            if header != expected_header:
+                fail(errors, f"data/{filename} has the wrong header")
+                continue
+            keys: set[str] = set()
+            for line_number, values in enumerate(reader, start=2):
+                if len(values) != len(header):
+                    fail(errors, f"data/{filename} row {line_number} has {len(values)} columns; expected {len(header)}")
+                    continue
+                row = dict(zip(header, values))
+                key = "|".join(row.get(part, "") for part in unique_key.split("|"))
+                if unique_key and (not key or any(not row.get(part, "").strip() for part in unique_key.split("|"))):
+                    fail(errors, f"data/{filename} row {line_number} has an empty unique key")
+                elif unique_key and key in keys:
+                    fail(errors, f"data/{filename} has duplicate key {key}")
+                keys.add(key)
+                for field, allowed in enums.items():
+                    if row.get(field, "") not in allowed:
+                        fail(errors, f"data/{filename} row {line_number} has invalid {field}={row.get(field, '')!r}")
 
 
 def main() -> int:
@@ -66,6 +120,12 @@ def main() -> int:
     recorded_dirty = recorded_repo.get("worktree_dirty")
     if recorded_dirty is not current_dirty and not commit_boundary:
         fail(errors, f"manifest worktree_dirty={recorded_repo.get('worktree_dirty')} but current state is {current_dirty}")
+    manifest_status = manifest.get("status")
+    if current_dirty and manifest_status == "PAPER_FROZEN":
+        fail(errors, "paper-frozen manifest is attached to a dirty worktree")
+    if not current_dirty and manifest_status != "PAPER_FROZEN":
+        fail(errors, f"clean worktree requires manifest status PAPER_FROZEN, found {manifest_status}")
+    validate_csv_schemas(errors)
     paper_meta = manifest.get("paper_artifacts", {})
     for key, relative in (("source", "paper/pdfa11ymut_ieee.tex"), ("pdf", "paper/pdfa11ymut_ieee.pdf")):
         path = ROOT / relative
@@ -206,14 +266,53 @@ def main() -> int:
             fail(errors, f"current-facing artifact missing: {label}")
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
+        if label.startswith("paper/"):
+            for fragment, description in {
+                r"\ValidGenerationRecords": "generated valid-record macro",
+                r"\ActiveMutants": "generated active-mutant macro",
+                r"\ClassAMutants": "generated Class-A macro",
+                r"\ClassBMutants": "generated Class-B macro",
+                r"\ATDifferenceCases": "generated AT-difference macro",
+            }.items():
+                if fragment not in text:
+                    fail(errors, f"{label} missing {description}")
+            for fragment, description in {
+                "atomic bad PDF": "informal atomic bad-PDF wording",
+                "atomic bad PDFs": "informal atomic bad-PDF wording",
+                "validator-clean golden": "overstrong validator-clean terminology",
+                "Formal validator results": "superseded all-scope section title",
+                "0.0\\%": "scored zero-percent Class-B presentation",
+            }.items():
+                if fragment in text:
+                    fail(errors, f"{label} contains {description}: {fragment}")
         for fragment, description in required_fragments.items():
-            if fragment not in text:
+            if label == "README.md" and fragment not in text:
                 fail(errors, f"{label} missing manifest-derived {description}: {fragment}")
-        if "207 active formal" not in text and "207 classified formal validator rows" not in text:
+        if label == "README.md" and "207 active formal" not in text and "207 classified formal validator rows" not in text:
             fail(errors, f"{label} missing manifest-derived formal-row count")
         for fragment, description in forbidden_fragments.items():
             if fragment in text:
                 fail(errors, f"{label} contains {description}: {fragment}")
+
+    generated_fragment = ROOT / "analysis" / "generated" / "results_fragment.tex"
+    if not generated_fragment.is_file():
+        fail(errors, "generated results fragment is missing")
+    else:
+        generated_text = generated_fragment.read_text(encoding="utf-8", errors="replace")
+        if "Mutation-specific checker outcomes" not in generated_text or "Conformance-oriented mutation results" not in generated_text:
+            fail(errors, "generated results fragment has stale result section titles")
+        if any("Class B" in line and "0.0\\%" in line for line in generated_text.splitlines()):
+            fail(errors, "generated results fragment presents Class-B 0.0% as a scored rate")
+    operator_fragment = ROOT / "analysis" / "generated" / "operator_table_fragment.tex"
+    if not operator_fragment.is_file() or not all(f"{operator:}" in operator_fragment.read_text(encoding="utf-8") for operator in (f"M{i:02d}" for i in range(1, 11))):
+        fail(errors, "generated operator table is missing or incomplete")
+    for required in ("python scripts/regenerate_scratch.py", "final-freeze writer"):
+        if required not in (ROOT / "README.md").read_text(encoding="utf-8") or required.replace("_", r"\_") not in (ROOT / "paper" / "pdfa11ymut_ieee.tex").read_text(encoding="utf-8"):
+            fail(errors, f"README/manuscript generation-command boundary missing: {required}")
+    if not (ROOT / "analysis" / "target_sensitivity" / "target_sensitivity.csv").is_file():
+        fail(errors, "alternate-target sensitivity artifact is missing")
+    if not (ROOT / "analysis" / "target_sensitivity" / "m09_exclusion_sensitivity.csv").is_file():
+        fail(errors, "M09 exclusion sensitivity artifact is missing")
 
     # Second-pass generated views and immutable evidence snapshot.
     applicability = DATA / "operator_applicability.csv"

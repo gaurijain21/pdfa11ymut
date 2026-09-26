@@ -6,11 +6,11 @@ It does not measure general accessibility accuracy, prove that a validator-clean
 
 ## Current evidence status
 
-Nine reference-suite PDFs are present and the pipeline has produced 73 valid verified generation records with parse, page/content, operator-specific, and exact 150-DPI rendering checks passing. G09-M08 and four historical M09 records remain excluded from active interpretation; three newly generated M09 candidates are documented separately and are not substitutes for historical validator evidence. The formal scope therefore remains 69 active mutants and 207 classified formal validator rows. PAC AI remains a separate aggregate-only future-work experiment; no PAC-AI detection or non-detection is reported.
+Nine reference-suite PDFs are present and the pipeline has produced 73 valid verified generation records with parse, page/content, operator-specific, and exact 150-DPI rendering checks passing. Five exclusions are documented: four occur within the 73-record valid-generation manifest, yielding 69 active mutants, while one historical exclusion-only record is outside that manifest. G09-M08 and four historical M09 records remain excluded from active interpretation; three newly generated M09 candidates are documented separately and are not substitutes for historical validator evidence. The formal scope therefore remains 69 active mutants and 207 classified formal validator rows. PAC AI remains a separate aggregate-only future-work experiment; no PAC-AI detection or non-detection is reported.
 
 The generation ledger contains 73 records and 72 materialized mutant PDFs; all 73 records are valid and verified, of which 69 are active after documented exclusions. The current formal outcomes are PAC 30 detections and 39 no-target findings, Acrobat 26 automated detections, 28 no-target findings, and 15 separate manual-check rows, and veraPDF 30 detections and 39 no-target findings. Any displayed rate uses only Detected/(Detected + no automated target finding) rows in the stated denominator; these are mutation-specific detection/kill rates, not full accuracy. Class A contains 30 mutants and Class B contains 39. No Class B mutant received an automated detection in the tested configurations; this is not a claim that every Class B property was machine-checkable. All 18 negative-control artifacts and all 18 PAC, Acrobat, and veraPDF control runs are hash-linked and complete. Formal rows retain paired baseline/mutant classifications, rationale, and adjudication metadata for auditability. The public study claim does not rely on independent-coder identities or an independent-human double-coding claim.
 
-Nine selected NVDA observations are complete as illustrative exploratory evidence from one observer under one fixed NVDA/Acrobat/Windows configuration. A clean paired rerun confirms the M01 reading-order effect: the golden announces the logo first, while the mutant announces the address block first. M08 preserves the observed no-difference result. AT observations are separate from validator detection rates. The fresh M01 Speech Viewer captures and prior session log are preserved under `evidence/at/nvda/`; screenshots remain targeted evidence rather than a universal user-study claim.
+Nine selected NVDA observations are complete as illustrative exploratory evidence from one observer under one fixed NVDA/Acrobat/Windows configuration. Eight of nine selected pairs showed an observed baseline/mutant assistive-representation difference; M08 showed no observed difference. A clean paired rerun confirms the M01 reading-order effect: the golden announces the logo first, while the mutant announces the address block first. AT observations are separate from validator detection rates. The fresh M01 Speech Viewer captures and prior session log are preserved under `evidence/at/nvda/`; screenshots remain targeted evidence rather than a representative user-study or effect-rate estimate.
 
 The current manuscript source and PDF are hash-linked in `STUDY_MANIFEST.json`. The PDF was rebuilt with Tectonic 0.17.0 and visually inspected. It contains document language, title/subject metadata, `/MarkInfo`, and a semantic `/StructTreeRoot` with document, heading, paragraph, and table structure; the bounded local semantic review passes. Apply any target venue's additional PDF/UA policy before submission; see `docs/SEMANTIC_PDF_UA_REVIEW_2026-09-25.md`. The prior PDF is archived under `paper/archive/pre_current_rebuild/`.
 
@@ -20,6 +20,8 @@ The current manuscript source and PDF are hash-linked in `STUDY_MANIFEST.json`. 
 - Class B: semantic/human-judgment/assistive-representation defects, including reading-order swaps, omissions, marked-content association swaps, internal MCID-order reversal, and the structurally confirmed duplicate list-item reference. These are reported as surviving/no automated finding unless a validator explicitly claims the property.
 
 The complete preconditions, transformations, invariants, standards mappings, controls, and evidence fields are in [`operators/operators.yaml`](operators/operators.yaml).
+
+One mutant is one verified source/mutant pair. One validator row is one checker configuration × mutant pairing; the formal ledger therefore contains 69 mutants and 207 validator rows. The nine PDFs are source clusters, not independent samples. Class A is the scored conformance-oriented set; Class B is reported descriptively and is not assigned an automated detection rate.
 
 ## Layout
 
@@ -74,6 +76,8 @@ Check hash-named evidence after manual runs:
 ```text
 python scripts/check_evidence.py
 ```
+
+The open-source layer can be reproduced automatically: mutation generation, unit/operator/structural/purity tests, canonical analysis, generated tables, target-selection and exclusion-sensitivity artifacts, and the consistency audit. PAC and Acrobat native reports and NVDA observations require the named authorized applications and cannot be recollected by the clean CI workflow. `data/public_evidence_records.csv` provides sanitized validator/version/hash/rule/classification/rationale records. The public artifact retains classifications, hashes, protocols, and integrity metadata but does not redistribute every proprietary native report byte; independent recoding of those reports requires authorized access or recollection.
 
 ## Validator and AT runs
 

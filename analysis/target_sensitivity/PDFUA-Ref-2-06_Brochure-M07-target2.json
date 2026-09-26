@@ -1,0 +1,4291 @@
+{
+  "generation": {
+    "operator": "M07",
+    "requested_target": "obj=106:0",
+    "delta": {
+      "target_object": "106:0",
+      "old_alt": "Logo PDF Association\u0000",
+      "new_alt": null
+    },
+    "source_pages": 2
+  },
+  "verification": {
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-06_Brochure.pdf",
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\analysis\\target_sensitivity\\PDFUA-Ref-2-06_Brochure-M07-target2.pdf",
+    "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
+    "mutant_sha256": "6b11b2a88cb42025d0d8a33076197b8f9e99e5d1bde48917abd9fe95b10d1058",
+    "operator": "M07",
+    "parseability": true,
+    "mutation_valid": true,
+    "unexpected_structural_changes": [],
+    "invariant_checks": {
+      "page_count_preserved": true,
+      "page_content_byte_hashes_equal": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true,
+      "operator_specific_delta": true
+    },
+    "page_count_preserved": true,
+    "structural_before": {
+      "0": {
+        "role": "/Document",
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Caption"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.0": {
+        "role": "/Title",
+        "k": [
+          [
+            "mcid",
+            2,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.1": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.2": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+        "actual_text": null
+      },
+      "0.3": {
+        "role": "/Caption",
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.3.0": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            50,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.3.0.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[564.812, 126.344, 573.226, 191.977]",
+            "ojisanjake.blogspot.de"
+          ],
+          [
+            "mcid",
+            51,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            54,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u0080"
+      },
+      "0.4.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            7,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            55,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u0080"
+      },
+      "0.4.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            9,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            56,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u0080"
+      },
+      "0.4.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.5": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            4,
+            0
+          ]
+        ],
+        "alt": "Logo PDF Association\u0000",
+        "actual_text": null
+      },
+      "0.6": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            52,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.6.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[661.349, 13.4638, 733.736, 29.9879]",
+            "www.pdfa.org"
+          ],
+          [
+            "mcid",
+            53,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.7": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            0,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.8": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            43,
+            1
+          ],
+          [
+            "mcid",
+            44,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.9": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            2,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.10": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            3,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.11": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            4,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            5,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            6,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            7,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            8,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            9,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            45,
+            1
+          ],
+          [
+            "mcid",
+            46,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.3": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.3.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.3.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            11,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.3.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            12,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.4": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.4.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.4.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            13,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.4.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            14,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.5": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.5.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.5.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            15,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.5.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            16,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.6": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.6.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.6.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            17,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.6.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            18,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.13": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            19,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.14": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            20,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.15": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            47,
+            1
+          ],
+          [
+            "mcid",
+            48,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.16": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            49,
+            1
+          ],
+          [
+            "mcid",
+            50,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.17": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            23,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.18": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            53,
+            1
+          ],
+          [
+            "mcid",
+            54,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.19": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            51,
+            1
+          ],
+          [
+            "mcid",
+            52,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.20": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            26,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.21": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            27,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.22": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            28,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            29,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            30,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            31,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            32,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            33,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            34,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.3": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.3.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.3.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            35,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.3.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            36,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.24": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            37,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.25": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            38,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            39,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            40,
+            1
+          ],
+          [
+            "objr",
+            1,
+            "/Link",
+            "[663.248, 264.719, 722.005, 276.328]",
+            "www.pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            41,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.27": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            42,
+            1
+          ]
+        ],
+        "alt": "Partially sighted person looking at a computer screen through a magnifying glass\u0000",
+        "actual_text": null
+      },
+      "0.28": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            12,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.29": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            13,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.30": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            57,
+            0
+          ],
+          [
+            "mcid",
+            58,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.31": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.32": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            16,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.33": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            17,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            19,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            20,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            21,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            22,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            23,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.3": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.3.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.3.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            24,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.3.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            25,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.35": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            26,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.36": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            27,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.37": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            28,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.38": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            29,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            30,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            31,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[294.803, 359.219, 353.409, 370.828]",
+            "info@pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            32,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            33,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            34,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[328.863, 278.226, 387.469, 289.835]",
+            "info@pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            35,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.41": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            36,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.42": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            59,
+            0
+          ],
+          [
+            "mcid",
+            60,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.43": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            38,
+            0
+          ]
+        ],
+        "alt": "Logo PDF Association",
+        "actual_text": null
+      },
+      "0.44": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            48,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.45": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            49,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.46": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            40,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.47": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            41,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.48": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            42,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            43,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            44,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[294.803, 31.8831, 347.678, 42.5809]",
+            "www.pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            45,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.3": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            46,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[357.066, 31.8831, 409.531, 42.5809]",
+            "info@pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.4": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            47,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      }
+    },
+    "structural_after": {
+      "0": {
+        "role": "/Document",
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Caption"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.0": {
+        "role": "/Title",
+        "k": [
+          [
+            "mcid",
+            2,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.1": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.2": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+        "actual_text": null
+      },
+      "0.3": {
+        "role": "/Caption",
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.3.0": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            50,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.3.0.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[564.812, 126.344, 573.226, 191.977]",
+            "ojisanjake.blogspot.de"
+          ],
+          [
+            "mcid",
+            51,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            54,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u0080"
+      },
+      "0.4.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            7,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            55,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u0080"
+      },
+      "0.4.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            9,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.4.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            56,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u0080"
+      },
+      "0.4.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.5": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            4,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.6": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            52,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.6.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[661.349, 13.4638, 733.736, 29.9879]",
+            "www.pdfa.org"
+          ],
+          [
+            "mcid",
+            53,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.7": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            0,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.8": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            43,
+            1
+          ],
+          [
+            "mcid",
+            44,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.9": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            2,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.10": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            3,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.11": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            4,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            5,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            6,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            7,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            8,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            9,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            45,
+            1
+          ],
+          [
+            "mcid",
+            46,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.3": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.3.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.3.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            11,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.3.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            12,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.4": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.4.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.4.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            13,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.4.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            14,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.5": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.5.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.5.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            15,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.5.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            16,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.6": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.6.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.12.6.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            17,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.12.6.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            18,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.13": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            19,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.14": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            20,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.15": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            47,
+            1
+          ],
+          [
+            "mcid",
+            48,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.16": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            49,
+            1
+          ],
+          [
+            "mcid",
+            50,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.17": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            23,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.18": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            53,
+            1
+          ],
+          [
+            "mcid",
+            54,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.19": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            51,
+            1
+          ],
+          [
+            "mcid",
+            52,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.20": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            26,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.21": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            27,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.22": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            28,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            29,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            30,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            31,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            32,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            33,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            34,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.3": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.3.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.23.3.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            35,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.23.3.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            36,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.24": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            37,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.25": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            38,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            39,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            40,
+            1
+          ],
+          [
+            "objr",
+            1,
+            "/Link",
+            "[663.248, 264.719, 722.005, 276.328]",
+            "www.pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.26.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            41,
+            1
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.27": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            42,
+            1
+          ]
+        ],
+        "alt": "Partially sighted person looking at a computer screen through a magnifying glass\u0000",
+        "actual_text": null
+      },
+      "0.28": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            12,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.29": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            13,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.30": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            57,
+            0
+          ],
+          [
+            "mcid",
+            58,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.31": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.32": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            16,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.33": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            17,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34": {
+        "role": "/L",
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.0": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.0.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.0.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.0.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            19,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.1": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.1.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.1.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            20,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.1.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            21,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.2": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.2.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.2.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            22,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.2.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            23,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.3": {
+        "role": "/LI",
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.3.0": {
+        "role": "/Lbl",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.34.3.0.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            24,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": "\u2022"
+      },
+      "0.34.3.1": {
+        "role": "/LBody",
+        "k": [
+          [
+            "mcid",
+            25,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.35": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            26,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.36": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            27,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.37": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            28,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.38": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            29,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            30,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            31,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[294.803, 359.219, 353.409, 370.828]",
+            "info@pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.39.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            32,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            33,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            34,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[328.863, 278.226, 387.469, 289.835]",
+            "info@pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.40.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            35,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.41": {
+        "role": "/H1",
+        "k": [
+          [
+            "mcid",
+            36,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.42": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            59,
+            0
+          ],
+          [
+            "mcid",
+            60,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.43": {
+        "role": "/Figure",
+        "k": [
+          [
+            "mcid",
+            38,
+            0
+          ]
+        ],
+        "alt": "Logo PDF Association",
+        "actual_text": null
+      },
+      "0.44": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            48,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.45": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            49,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.46": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            40,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.47": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            41,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.48": {
+        "role": "/P",
+        "k": [
+          [
+            "mcid",
+            42,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49": {
+        "role": "/P",
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.0": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            43,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.1": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            44,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[294.803, 31.8831, 347.678, 42.5809]",
+            "www.pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.2": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            45,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.3": {
+        "role": "/Link",
+        "k": [
+          [
+            "mcid",
+            46,
+            0
+          ],
+          [
+            "objr",
+            0,
+            "/Link",
+            "[357.066, 31.8831, 409.531, 42.5809]",
+            "info@pdfa.org"
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      },
+      "0.49.4": {
+        "role": "/Span",
+        "k": [
+          [
+            "mcid",
+            47,
+            0
+          ]
+        ],
+        "alt": null,
+        "actual_text": null
+      }
+    },
+    "observed_changed_structure_paths": [
+      "0.5"
+    ],
+    "observed_delta": {
+      "0.5": {
+        "before": {
+          "role": "/Figure",
+          "k": [
+            [
+              "mcid",
+              4,
+              0
+            ]
+          ],
+          "alt": "Logo PDF Association\u0000",
+          "actual_text": null
+        },
+        "after": {
+          "role": "/Figure",
+          "k": [
+            [
+              "mcid",
+              4,
+              0
+            ]
+          ],
+          "alt": null,
+          "actual_text": null
+        }
+      }
+    },
+    "rendering": {
+      "status": "pass",
+      "renderer": "pdftoppm",
+      "dpi": 72,
+      "metric": "exact RGB pixel equality",
+      "tolerance": 0,
+      "different_pixel_count": 0,
+      "rmse": 0.0,
+      "max_channel_difference": 0,
+      "pages": [
+        {
+          "page": 1,
+          "dimensions": [
+            842,
+            596
+          ],
+          "different_pixels": 0,
+          "bbox": null
+        },
+        {
+          "page": 2,
+          "dimensions": [
+            842,
+            596
+          ],
+          "different_pixels": 0,
+          "bbox": null
+        }
+      ]
+    },
+    "intended_delta": {
+      "target_object": "106:0",
+      "old_alt": "Logo PDF Association\u0000",
+      "new_alt": null
+    },
+    "operator_delta_reason": "observed target Figure /Alt removal; its content and outside structure are unchanged"
+  }
+}

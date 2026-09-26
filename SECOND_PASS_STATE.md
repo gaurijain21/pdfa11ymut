@@ -1,19 +1,19 @@
-# Second-pass state audit
+# Second-pass state audit and final consolidation handoff
 
-Audit date: 2026-09-25 (America/Los_Angeles)
+Audit date: 2026-09-26 (America/Los_Angeles)
 
-The user-requested working directory (path intentionally omitted from the release artifact) is not the scientific checkout: it has no commits and contains only the master prompt plus temporary page images. The actual artifact audited here is the local candidate checkout.
+The user-requested working directory is an empty staging checkout. The populated scientific checkout audited here is `C:\Gauri\ma11ypdf`; its final freeze is created only after the repairs recorded in `FINAL_CONSOLIDATION_AUDIT.md`.
 
 ## Repository identity
 
 | Field | Value |
 |---|---|
 | Branch | `main` |
-| HEAD | `c94f4a33d01ded6be5b5a593041788bda1fc7768` (`Record final manifest identity`) |
-| Tag | `paper-freeze-v1` |
-| Working tree | Dirty after this second-pass artifact generation; pre-audit checkout was clean |
-| Remote relation | `main` is six commits ahead of `origin/main` (`origin/main`=`7b78a42`) |
-| Release status | The repaired study and freeze artifacts are committed and pushed to `origin/main`; raw vendor/AT evidence remains excluded from the public freeze |
+| HEAD before final consolidation | `2e86edb` (`Strengthen reviewer readiness and reproducibility disclosures`) |
+| Historical tag | `paper-freeze-v1` (immutable; retains the earlier anonymous manuscript) |
+| Working tree before final consolidation | Clean |
+| Remote relation before final consolidation | `main` matched `origin/main` at the audited starting point |
+| Release status | Final v2 commit/tag is pending this consolidation pass; raw vendor/AT evidence remains excluded from any public bundle |
 
 ## Canonical experiment
 

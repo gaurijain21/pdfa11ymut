@@ -7,7 +7,8 @@
     "data/corpus_inventory.csv",
     "data/corpus_provenance_sources.csv",
     "data/controls.csv",
-    "data/at_observations.csv"
+    "data/at_observations.csv",
+    "data/public_evidence_records.csv"
   ],
   "coding_provenance": {
     "identity_provenance_available": false,
@@ -17,8 +18,10 @@
   },
   "counts": {
     "active_mutants": 69,
+    "active_validator_rows": 207,
     "at_complete": 9,
     "at_observations": 9,
+    "attempted_records": 73,
     "classified_formal_rows": 207,
     "controls": 18,
     "disagreement_by_cause": {
@@ -45,7 +48,11 @@
     "generated_mutant_pdf_files": 72,
     "generation_records": 73,
     "golden_reference_pdfs": 9,
+    "historical_exclusion_only_records": [
+      "PDFUA-Ref-2-09_Scanned-M09"
+    ],
     "pac_ai_rows": 34,
+    "valid_generation_records": 73,
     "valid_verified_mutants": 73
   },
   "environment_files": [
@@ -254,24 +261,26 @@
   "notes": [
     "Legacy 23-mutant summaries are historical and are not read.",
     "PAC AI remains separate and is not part of formal rates.",
-    "A manually generated Invoice-M01 PDF is used in AT evidence but has no active data/mutants.jsonl generation record; it is not in the formal denominator.",
+    "The clean M01 AT rerun is linked to the active Invoice-M01 pair; any auxiliary/manual artifact is not a formal denominator record.",
+    "Of five documented exclusions, four occur within the valid-generation manifest and one is a historical exclusion-only record outside it; active analysis is 73 valid records minus four in-manifest exclusions = 69.",
     "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
-    "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv."
+    "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv.",
+    "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions."
   ],
   "paper_artifacts": {
     "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
     "pdf": {
       "path": "paper/pdfa11ymut_ieee.pdf",
-      "sha256": "f6c97ea4aaefec483db84f1d119e9cef842dcc384b215837a614ac0392280c1c"
+      "sha256": "dde432d2013bb64bb8ea7cbc09ce70606be6d024aa4abd39f521910d09f32b7e"
     },
     "source": {
       "path": "paper/pdfa11ymut_ieee.tex",
-      "sha256": "b592ec9328cdc3b0de89332db52c6e84b2d66b1981703e2f8f5cd7dbcec2c9f9"
+      "sha256": "e8f4f696437f87e637dbd3ce576a15f536d9939ac520894ec9608593cfb8fafe"
     }
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "b0ec77ade018f4f3ed97346bb04f553248f1c926",
+    "git_head": "2e86edb235b715f28249bc14f73f769ae9f6eb3a",
     "worktree_dirty": true
   },
   "reproduction_commands": [
@@ -279,7 +288,10 @@
     "python scripts/rebuild_analysis.py",
     "python scripts/verify_study_state.py --verify",
     "python scripts/check_evidence.py",
-    "python -m unittest discover -s tests -p \"test*.py\" -q"
+    "python -m unittest discover -s tests -p \"test*.py\" -q",
+    "python scripts/build_target_sensitivity.py",
+    "python scripts/build_m09_exclusion_sensitivity.py",
+    "python scripts/audit_submission.py"
   ],
   "status": "AUDIT_DERIVED_NOT_PAPER_FROZEN",
   "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped."

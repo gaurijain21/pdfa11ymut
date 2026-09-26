@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: "If you use PDFa11yMut, please cite the accompanying paper."
 title: "PDFa11yMut: Mutation-Based Evaluation of Automated PDF Accessibility Validators"
+version: "0.2.1"
 authors:
   - family-names: "Jain"
     given-names: "Gauri"
-date-released: "2026-08-27"
+date-released: "2026-09-26"
 url: "https://github.com/gaurijain21/pdfa11ymut"
 preferred-citation:
   type: article

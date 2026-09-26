@@ -1,0 +1,45 @@
+name: Open-source reproducibility
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  open-source-layer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install open-source dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Run unit, operator, structural, and purity tests
+        run: python -m unittest discover -s tests -p 'test*.py' -q
+
+      - name: Run scratch mutation generation and verification
+        run: python scripts/regenerate_scratch.py
+
+      - name: Rebuild canonical analysis views
+        run: python scripts/rebuild_analysis.py
+
+      - name: Run open-source consistency audit
+        run: python scripts/audit_submission.py
+
+      - name: Verify regeneration is clean
+        run: git diff --exit-code
+
+      - name: Scope boundary
+        run: |
+          echo 'CI reproduces the mutation framework, structural checks, canonical analysis, tables, and audit.'
+          echo 'PAC, Acrobat, and NVDA recollection remains an authorized native-application task outside CI.'

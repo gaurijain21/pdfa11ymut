@@ -11,6 +11,7 @@ import csv
 import hashlib
 import importlib.metadata
 import json
+import os
 import platform
 import re
 import shutil
@@ -357,7 +358,7 @@ def main() -> int:
 
     manifest = {
         "manifest_version": "1.0",
-        "status": "AUDIT_DERIVED_NOT_PAPER_FROZEN",
+        "status": "PAPER_FROZEN" if os.environ.get("PDFa11YMUT_FINAL_FREEZE") == "1" and not bool(git_value("status", "--porcelain")) else "AUDIT_DERIVED_NOT_PAPER_FROZEN",
         "generated_by": "scripts/build_study_manifest.py",
         "repository": {
             "git_head": git_value("rev-parse", "HEAD"),
@@ -368,18 +369,23 @@ def main() -> int:
         "canonical_inputs": [
             "operators/operators.yaml", "data/mutants.jsonl", "data/mutant_exclusions.csv", "data/validator_runs.csv",
             "data/corpus_inventory.csv", "data/corpus_provenance_sources.csv", "data/controls.csv", "data/at_observations.csv",
+            "data/public_evidence_records.csv",
         ],
         "counts": {
             "golden_reference_pdfs": len(list((ROOT / "corpus" / "golden").glob("*.pdf"))),
             "generation_records": len(mutants),
+            "attempted_records": len(mutants),
+            "valid_generation_records": len(valid_ids),
             "generated_mutant_pdf_files": len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))),
             "valid_verified_mutants": len(valid_ids),
             "documented_exclusions": len(exclusions),
             "excluded_ids_in_valid_manifest": sorted(valid_ids & excluded_ids),
+            "historical_exclusion_only_records": sorted(excluded_ids - valid_ids),
             "excluded_records_in_manifest": sum(row.get("status") == "excluded" for row in mutants),
             "active_mutants": len(active),
             "formal_rows": len(formal),
             "classified_formal_rows": len(classified),
+            "active_validator_rows": len(classified),
             "formal_rows_per_validator": {validator: sum(row.get("validator") == validator for row in classified) for validator in ("PAC", "Acrobat", "veraPDF")},
             "controls": len(controls),
             "at_observations": len(at_rows),
@@ -419,13 +425,18 @@ def main() -> int:
             "python scripts/verify_study_state.py --verify",
             "python scripts/check_evidence.py",
             "python -m unittest discover -s tests -p \"test*.py\" -q",
+            "python scripts/build_target_sensitivity.py",
+            "python scripts/build_m09_exclusion_sensitivity.py",
+            "python scripts/audit_submission.py",
         ],
         "notes": [
             "Legacy 23-mutant summaries are historical and are not read.",
             "PAC AI remains separate and is not part of formal rates.",
-            "A manually generated Invoice-M01 PDF is used in AT evidence but has no active data/mutants.jsonl generation record; it is not in the formal denominator.",
+            "The clean M01 AT rerun is linked to the active Invoice-M01 pair; any auxiliary/manual artifact is not a formal denominator record.",
+            "Of five documented exclusions, four occur within the valid-generation manifest and one is a historical exclusion-only record outside it; active analysis is 73 valid records minus four in-manifest exclusions = 69.",
             "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
             "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv.",
+            "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions.",
         ],
     }
     (ROOT / "STUDY_MANIFEST.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -454,6 +465,29 @@ def main() -> int:
         "control_id", "control_type", "source_pdf", "output_pdf", "expected_result", "artifact_status",
         "pac_failed_rules", "pac_warned_rules", "acrobat_failed_rules", "acrobat_manual_rules", "verapdf_failed_rules",
         "new_target_relevant_finding", "baseline_findings_persisted", "evidence_paths", "notes",
+    ])
+    public_evidence = [{
+        "record_id": row.get("record_id", ""),
+        "mutant_id": row.get("artifact_id", ""),
+        "source_golden": row.get("source_golden", ""),
+        "operator": row.get("operator", ""),
+        "validator": row.get("validator", ""),
+        "configuration": row.get("configuration", ""),
+        "validator_version": row.get("validator_version", ""),
+        "build": row.get("build", ""),
+        "profile": row.get("profile", ""),
+        "baseline_sha256": row.get("baseline_file_sha256", ""),
+        "mutant_sha256": row.get("file_sha256", ""),
+        "baseline_state": row.get("baseline_status", ""),
+        "mutant_classification": row.get("detection_classification", ""),
+        "relevant_rule_ids": row.get("relevant_rule_ids", ""),
+        "raw_evidence_sha256": row.get("report_sha256", ""),
+        "rationale": row.get("classification_reason", ""),
+        "redistribution_note": "Sanitized metadata only; native vendor report bytes are excluded from the public artifact.",
+    } for row in formal]
+    write_csv(DATA / "public_evidence_records.csv", public_evidence, [
+        "record_id", "mutant_id", "source_golden", "operator", "validator", "configuration", "validator_version", "build", "profile",
+        "baseline_sha256", "mutant_sha256", "baseline_state", "mutant_classification", "relevant_rule_ids", "raw_evidence_sha256", "rationale", "redistribution_note",
     ])
     write_csv(DATA / "validator_environment.csv", build_environment_rows(), [
         "component", "version", "configuration", "settings", "source",

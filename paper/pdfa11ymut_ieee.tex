@@ -32,6 +32,7 @@
 \newcommand{\tagth}[1]{\tagstructbegin{tag=TH}\tagmcbegin{tag=TH}#1\tagmcend\tagstructend}
 \newcommand{\tagtd}[1]{\tagstructbegin{tag=TD}\tagmcbegin{tag=TD}#1\tagmcend\tagstructend}
 \newcommand{\tagcaption}[1]{\tagstructbegin{tag=Caption}\tagmcbegin{tag=Caption}\caption{#1}\tagmcend\tagstructend}
+\input{../analysis/generated/study_macros.tex}
 
 \begin{document}
 \tagstructbegin{tag=Document}
@@ -43,7 +44,7 @@ University of California, Santa Cruz\\
 \tagstructbegin{tag=H1}\tagmcbegin{tag=H1}\maketitle\tagmcend\tagstructend
 
 \begin{taggedparagraph}\begin{abstract}
-Automated PDF accessibility checkers provide useful conformance evidence, but a clean report is not a complete accessibility oracle. PDFa11yMut measures mutation-specific checker behavior with paired transformations: a reference-suite baseline is mutated at the structure level, the primary verifier checks the intended delta, MuPDF independently checks visual invariants and operator-aware normalized structural deltas, and hash-linked validator evidence is recorded. Formal mutations provide positive cases; 18 no-op and benign controls support descriptive, baseline-relative sanity checks, not general specificity estimates. Formal rows retain paired baseline/mutant classifications and adjudication records; no independent-human coding claim is made. Results remain mutation-specific detection/kill behavior rather than general accessibility accuracy. The artifact separates conformance-oriented mutations from semantic or assistive-representation mutations. The current scope contains ten specified operators, nine reference PDFs, 73 valid verified generation records, 69 active mutants, 207 active formal validator rows, 18 completed controls, and nine illustrative exploratory NVDA observations.
+Automated PDF accessibility checkers provide useful conformance evidence, but a clean report is not a complete accessibility oracle. PDFa11yMut measures mutation-specific checker behavior by applying paired structure-level transformations to reference-suite baselines, verifying intended deltas and non-target invariants, and recording hash-linked checker evidence. Across \ClassAMutants{} conformance-oriented mutants, PAC and veraPDF detected \ClassAPACKills{} and \ClassAVeraKills{}, respectively, while Acrobat detected \ClassAAcrobatKills{}; the remaining Acrobat Class-A cases were automated no-target findings. The \ClassBMutants{} semantic/assistive-representation mutants produced no automated target finding in the tested configurations, while Acrobat issued manual-review prompts for a subset; Class B is interpreted descriptively rather than as a universal checker obligation. A separate convenience-selected exploratory AT sample observed representation differences in \ATDifferenceCases{} of \ATCases{} pairs under one fixed NVDA/Acrobat/Windows procedure. The artifact contributes reusable operators, structural and purity oracles, paired baseline/mutant evidence, and reproducible analysis for a scoped mutation-testing study rather than a general validator-accuracy benchmark.
 \end{abstract}\end{taggedparagraph}
 
 \begin{taggedparagraph}\begin{IEEEkeywords}
@@ -52,7 +53,7 @@ PDF accessibility, PDF/UA, mutation testing, validator evaluation, assistive tec
 
 \taggedsection{Introduction}
 \begin{taggedparagraph}
-PDF accessibility evaluation combines syntactic constraints with document-dependent judgments. PDF/UA and the Matterhorn Protocol provide an important conformance model, while accessible-PDF techniques provide atomic examples and procedures. These resources do not make every question about meaning, logical order, or useful alternative text mechanically decidable. A validator result must therefore be interpreted relative to its rules, version, profile, and configuration.
+PDF accessibility evaluation combines syntactic constraints with document-dependent judgments. PDF/UA and the Matterhorn Protocol provide an important conformance model, while accessible-PDF techniques provide focused examples and procedures. These resources do not make every question about meaning, logical order, or useful alternative text mechanically decidable. A checker result must therefore be interpreted relative to its rules, version, profile, and configuration.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
@@ -79,19 +80,15 @@ Mutation testing studies the behavior of test suites against controlled mutants,
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
-Kumar, Padath, and Wang provide a PDF accessibility benchmark with expert-validated criteria and systematically manipulated variants; PDFa11yMut is complementary because its ground truth is an explicit low-level transformation with a structural oracle rather than an expert label alone \cite{kumar}. The PDF/UA-1 Reference Suite provides reference-quality tagged documents across document types; nine of its files are used here as baselines, while the missing 2-07 item is documented rather than reconstructed \cite{refsuite}. The PDF Association's Matterhorn Protocol and Techniques for Accessible PDF provide normative failure conditions, atomic PASS/FAIL examples, and test procedures; PDFa11yMut does not claim those defect concepts as novel \cite{matterhorn,techniques}. The veraPDF corpus and Isartor suite are complementary sources for validator testing; Isartor targets PDF/A-1 archival conformance and deliberately violates archival requirements \cite{verapdfcorpus,isartor}. A recent comparison of PDF/UA-1 validators reports matching, partial, and divergent outcomes; our paired mutants add a hash-linked transformation unit but do not rank tools \cite{crossvalidator}.
+Kumar, Padath, and Wang provide a benchmark with systematically manipulated PDF variants and criterion-level expert-validated accessibility labels. PDFa11yMut is complementary: the transformation itself is the experimental unit, and reusable low-level operators define explicit preconditions, allowed structural deltas, invariants, and hash-linked paired baseline/mutant evidence for checker evaluation rather than replacing their expert validation with an isolated label \cite{kumar}. The PDF/UA-1 Reference Suite provides reference-quality tagged documents across document types; \ReferencePDFs{} of its files are used here as baselines, while the missing 2-07 item is documented rather than reconstructed \cite{refsuite}. The Matterhorn Protocol provides PDF/UA-1 failure conditions with machine/human-test classifications, while Techniques for Accessible PDF provides informative focused examples and test procedures; PDFa11yMut does not claim those defect concepts as novel \cite{matterhorn,techniques}. Prior checker comparisons report matching, partial, and divergent outcomes; our paired mutants add a hash-linked transformation unit but do not rank tools \cite{crossvalidator}.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
-The gap addressed here is narrower: reusable mutation of existing reference structures with explicit preconditions, allowed deltas, invariants, and paired baseline/mutant validator evidence. Atomic bad PDFs and validator comparisons remain important complementary resources, not substitutes for this mutation-testing unit.
+The gap addressed here is narrower: reusable mutation of existing reference structures with explicit preconditions, allowed deltas, invariants, and paired baseline/mutant checker evidence. Curated atomic failure examples and checker comparisons remain important complementary resources, not substitutes for this mutation-testing unit.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
-The tool landscape continues to change: Horn is an open-source Matterhorn-oriented PDF/UA-1 checker with structured
-CI output, and PDF4WCAG provides a current desktop interface built around veraPDF \cite{horn,pdf4wcag}. These tools
-are relevant future extensions, but the present experiment remains deliberately frozen to the three recorded
-configurations. PDF/UA-2 (ISO 14289-2), ISO/TS 32005, and WTPDF address newer PDF 2.0 structure and accessibility
-requirements; they are acknowledged scope context rather than untested claims about this PDF/UA-1 study.
+New open-source PDF accessibility checking implementations continue to emerge, reinforcing the value of reusable mutation artifacts for evaluating future configurations. The present experiment remains deliberately frozen to the three recorded configurations. PDF/UA-2 (ISO 14289-2), ISO/TS 32005, and WTPDF address newer PDF 2.0 structure and accessibility requirements; they are acknowledged scope context rather than untested claims about this PDF/UA-1 study.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
@@ -105,8 +102,10 @@ PAC/Acrobat/NVDA recollection requires the named applications and authorized evi
 
 \taggedsection{Experimental Model}
 \begin{taggedparagraph}
-Class A contains properties with a documented machine-checkable or profile-specific conformance condition in this study: M03 incorrect heading level, M07 missing figure alternate description, M08 missing document language, M09 invalid RoleMap target, and M10 illegal table-child role. Class B contains properties for which a structurally legal file can still expose an unintended semantic or assistive representation: M01 structural reading-order swap, M02 omission from assistive structure, M04 marked-content association swap, M05 internal marked-content sequence reversal, and M06 duplicate list-item reference. M06 is structurally verified but has no dedicated duplicate-reference failure condition in the reviewed normative materials. Class B survival is therefore reported as no automated finding, not as a validator failure.
+Class A contains properties with a documented machine-checkable or profile-specific conformance condition in this study: M03 incorrect heading level, M07 missing figure alternate description, M08 missing document language, M09 invalid RoleMap target, and M10 illegal table-child role. Class B contains properties for which a structurally legal file can still expose an unintended semantic or assistive representation: M01 structural reading-order swap, M02 omission from assistive structure, M04 marked-content association swap, M05 internal marked-content sequence reversal, and M06 duplicate list-item reference. M06 is structurally verified but has no dedicated duplicate-reference failure condition in the reviewed normative materials. Class B outcomes are therefore reported as no automated target finding, not as validator failures.
 \end{taggedparagraph}
+
+\input{../analysis/generated/operator_table_fragment.tex}
 
 \begin{taggedparagraph}
 The repository contains ten operator specifications with preconditions, transformations, invariants, expected structural deltas, expected assistive effects, and evidence fields. M04 mutants in the current corpus pass the association-only purity gate. The historical label G02-M04 is permanently excluded: its exact golden/mutant pair and complete COS-level audit trail are unavailable. Current hash-linked M04 mutants are separate artifacts and are interpreted only under the Class B semantic protocol.
@@ -114,7 +113,7 @@ The repository contains ten operator specifications with preconditions, transfor
 
 \taggedsection{Reproducible Pipeline}
 \begin{taggedparagraph}
-The input PDFs in \texttt{corpus/golden/} are immutable working inputs. The command \texttt{python -m pdfa11ymut generate-all} applies all applicable operators, records source and mutant SHA-256 values, performs parseability/page/content/structure checks, and rasterizes both PDFs with Poppler \texttt{pdftoppm} at 150 DPI. The current visual rule is exact RGB pixel equality with tolerance zero. A failed invariant removes the output and records an exclusion.
+The input PDFs in \texttt{corpus/golden/} are immutable working inputs. Reviewer reproduction uses the isolated scratch command \texttt{python scripts/regenerate\_scratch.py}, which writes to a temporary directory and applies all applicable operators without overwriting canonical PDFs or evidence. The separate \texttt{python -m pdfa11ymut generate-all} command is a final-freeze writer and is not the standard verification command. Generation records source and mutant SHA-256 values, perform parseability/page/content/structure checks, and rasterize both PDFs with Poppler \texttt{pdftoppm} at 150 DPI. The current visual rule is exact RGB pixel equality with tolerance zero. A failed invariant removes the output and records an exclusion.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
@@ -123,8 +122,27 @@ The primary verifier uses pypdf and is separate from the validators under evalua
 
 \taggedsection{Validator and AT Evidence}
 \begin{taggedparagraph}
-PAC Formal, Acrobat Full Check, and veraPDF evidence are stored in hash-addressed raw-report paths and compared with matching reference baselines. The active formal scope is 69 verified mutants and 207 validator-mutant rows, 69 per validator. Each row retains a baseline-relative classification, rationale, and adjudication record; coder identity and independent-human provenance are not part of the reported study claim. Three M10 disagreements were resolved under a decision rule fixed before final adjudication: the Acrobat \texttt{Headers} proxy applies only when fresh hash-linked verification proves an exact direct-child \texttt{/TH} to \texttt{/P} change under the same \texttt{/TR}, unchanged target content and non-target structure, equal page-content hashes, and pixel-identical rendering; the matched baseline must pass \texttt{Headers} and the mutant must newly fail it. G09-M08 is excluded because the PAC baseline rejects the golden's language value while veraPDF treats the non-empty value as present. Four historical M09 artifacts remain excluded as \texttt{EXCLUDED\_UNVERIFIABLE\_TARGET}: their original mutant bytes are unavailable, and the reviewed Matterhorn rule applies to unused as well as used RoleMap entries, so the old unused-target rationale cannot establish an invalid mutation. Acrobat manual-check prompts are retained separately and are not automated detections. The canonical Acrobat configuration is the native-session setting of 31 of 32 checks; an older metadata field saying 31 of 31 is preserved as historical provenance.
+PAC Formal, Acrobat Full Check, and veraPDF evidence are stored in hash-addressed raw-report paths and compared with matching reference baselines. The active formal scope is \ActiveMutants{} verified mutants and \ActiveValidatorRows{} checker-mutant rows, \ActiveMutants{} per configuration. The exact configurations are summarized in Table~\ref{tab:configurations}. Each row retains a baseline-relative classification, rationale, and adjudication record; coder identity and independent-human provenance are not part of the reported study claim. Three M10 disagreements were resolved under a decision rule fixed before final adjudication: the Acrobat \texttt{Headers} proxy applies only when fresh hash-linked verification proves an exact direct-child \texttt{/TH} to \texttt{/P} change under the same \texttt{/TR}, unchanged target content and non-target structure, equal page-content hashes, and pixel-identical rendering; the matched baseline must pass \texttt{Headers} and the mutant must newly fail it. G09-M08 is excluded because the PAC baseline rejects the golden's language value while veraPDF treats the non-empty catalog language as present. Four historical M09 artifacts remain excluded as \texttt{EXCLUDED\_UNVERIFIABLE\_TARGET}: their original mutant bytes are unavailable, and the reviewed Matterhorn rule applies to unused as well as used RoleMap entries, so the old unused-target rationale cannot establish an invalid mutation. Acrobat manual-check prompts are retained separately and are not automated detections.
 \end{taggedparagraph}
+
+\begin{table}[t]
+\tagtablebegin
+\tagcaption{Fixed checker and exploratory AT configurations.}
+\label{tab:configurations}
+\centering\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{p{0.17\columnwidth}p{0.23\columnwidth}p{0.42\columnwidth}}
+\toprule
+\tagtrbegin \tagth{Component} & \tagth{Version/profile} & \tagth{Settings} \tagtrend \\
+\midrule
+\tagtrbegin \tagtd{PAC Formal} & \tagtd{26.1.0.0} & \tagtd{PDF/UA formal/traditional; AI disabled} \tagtrend \\
+\tagtrbegin \tagtd{Acrobat Full Check} & \tagtd{Continuous 2026.002.21931} & \tagtd{All pages; Document category; 31 of 32 checks selected; no auto-tagging or remediation} \tagtrend \\
+\tagtrbegin \tagtd{veraPDF} & \tagtd{Greenfield 1.30.2} & \tagtd{PDF/UA-1 ua1 profile; JSON; repository-local Java 17.0.20.1} \tagtrend \\
+\tagtrbegin \tagtd{AT observation} & \tagtd{NVDA 2026.2.0.57664; Acrobat 26.2.21931.0} & \tagtd{Windows 10 Home 25H2; fixed paired reading procedure; one observer} \tagtrend \\
+\bottomrule
+\end{tabular}
+\tagtableend
+\end{table}
 
 \begin{taggedparagraph}
 The negative-control ledger contains 18 paired no-op and benign controls. Every control has an independently verified artifact plus native PAC PDF, Acrobat HTML, and veraPDF reports with hash-linked paths in \texttt{data/controls.csv}. These controls are paired sanity checks, not a sample from which specificity or false-positive rates are estimated. Their native findings are interpreted only relative to the matched golden and benign pair; they are not positive-study results. In particular, both G05 Acrobat controls carry the same pre-existing ``Lbl and LBody'' failure and both G09 PAC controls carry the same Natural language failure.
@@ -135,14 +153,14 @@ PAC AI was executed as a separate configuration on a selected cohort of 34 mutan
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
-Nine selected cases were observed with NVDA 2026.2.0.57664 and Adobe Acrobat 26.2.21931.0 on Windows 10 Home 25H2. This is a qualitative, single-observer illustrative exploratory sample, not a representative pilot or user study. Case selection and convenience/coverage rationale are recorded in the artifact. Transcripts are linked to a preserved timestamped NVDA log; fresh paired Speech Viewer captures are preserved for M01 and a second case. The clean M01 rerun confirmed that the golden announced the logo first while the mutant announced the address block first; the historical instability is retained as context. M08 preserves the observed no-difference result. These observations are reported separately from validator detections.
+\ATCases{} selected cases were observed with NVDA 2026.2.0.57664 and Adobe Acrobat 26.2.21931.0 on Windows 10 Home 25H2; \ATDifferenceCases{} produced an observed baseline/mutant representation difference and M08 produced no observed difference. This is a convenience/coverage-selected, qualitative, single-observer exploratory sample, not a representative pilot, user study, or effect-rate estimate. Case selection and rationale are recorded in the artifact. Transcripts are linked to a preserved timestamped NVDA log; fresh paired Speech Viewer captures are preserved for M01 and a second case. The clean M01 rerun confirmed that the golden announced the logo first while the mutant announced the address block first. M06 is a useful qualitative example: the targeted list item was announced twice, without treating that observation as a population-level harm estimate. These observations are reported separately from checker detections.
 \end{taggedparagraph}
 
 \taggedsection{Results}
 \input{../analysis/generated/results_fragment.tex}
 
 \begin{taggedparagraph}
-The class-specific table separates formal conformance-oriented outcomes from semantic survival. In the active scope, Class A contains 30 mutants: PAC detected 30, Acrobat detected 26, and veraPDF detected 30. Class B contains 39 mutants and received no automated detection in the tested configurations; Acrobat produced 15 Class B manual checkpoints, which are not automated detections. The overall Acrobat count is therefore 26 automated detections, 28 automated no-target findings, and 15 manual-review rows; its displayed automated rate is 26/54, while PAC and veraPDF rates are 30/69. The 26 Acrobat detections include three predeclared direct-consequence proxy detections for M10; a direct-only sensitivity count is retained in the generated analysis. These results are descriptive and source-clustered: 69 mutants are nested within nine baselines and ten operators, so the displayed rates should not be read as independent-observation confidence estimates. The Class B result is a statement about the tested automated checks, not a claim that the semantic mutations are universally harmful or that a validator was obligated to identify them.
+The active scope contains \ValidGenerationRecords{} valid verified generation records and \HistoricalExclusions{} documented exclusions. \InManifestExclusions{} exclusions occur within the valid-generation manifest, yielding \ActiveMutants{} active mutants; the fifth is a historical exclusion-only record outside that manifest. This distinction separates attempted records, valid generation records, historical exclusion-only records, and active analysis mutants. Class A contains \ClassAMutants{} mutants: PAC detected \ClassAPACKills{}, Acrobat detected \ClassAAcrobatKills{}, and veraPDF detected \ClassAVeraKills{}. Class B contains \ClassBMutants{} mutants and is reported descriptively; Acrobat produced \AcrobatManualRows{} manual-review checkpoints, which are not automated detections. The 26 Acrobat detections include three predeclared direct-consequence proxy detections for M10; a direct-only sensitivity count is retained in the generated analysis. These results are descriptive and source-clustered: \ActiveMutants{} mutants are nested within \ReferencePDFs{} baselines and ten operators, so no naive confidence interval or global accuracy claim is made.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
@@ -150,6 +168,23 @@ Pairwise agreement is also scope-dependent. PAC and veraPDF agreed on 69 of 69 a
 \end{taggedparagraph}
 \begin{taggedparagraph}
 The machine-generated disagreement audit contains 38 pairwise disagreement rows. Thirty are Acrobat manual-review versus an automated decision, six are M09 RoleMap rule/profile differences, and two are other rule/profile differences. This decomposition keeps manual prompts, proxy/direct classification, baseline-carried findings, and target-specific automated findings distinct; it explains disagreement structure rather than presenting a global validator ranking.
+\end{taggedparagraph}
+\begin{taggedparagraph}
+A secondary six-pair target-selection sample used the second eligible site for M01, M03, and M07 across two baselines per operator; all six passed the open-source structural, purity, content, and 72-DPI rendering checks. Native checker reruns were not performed, so this sample documents structural sensitivity rather than a new checker result. The separate M09 exclusion-sensitivity table shows that the four historical excluded IDs have no usable Detected/Missed outcome rows to append; their unavailable bytes remain invalid/unverified and outside the canonical denominator.
+\end{taggedparagraph}
+
+\taggedsection{Discussion}
+\begin{taggedparagraph}
+\textbf{RQ1.} For the \ClassAMutants{} Class-A conformance-oriented mutants, PAC and veraPDF detected all \ClassAPACKills{} and \ClassAVeraKills{}, while Acrobat detected \ClassAAcrobatKills{}; Acrobat's four no-target outcomes are configuration-specific rather than a global accuracy estimate.
+\end{taggedparagraph}
+\begin{taggedparagraph}
+\textbf{RQ2.} Detection varies by operator. M03, M07, and M08 were detected by all three configurations in this corpus; M09 separates PAC/veraPDF from Acrobat; and M10 includes Acrobat proxy/direct behavior. Class-B automated survival is expected to be interpreted as descriptive because these transformations target semantics or assistive representation.
+\end{taggedparagraph}
+\begin{taggedparagraph}
+\textbf{RQ3.} The \ClassBMutants{} Class-B cases produced no automated target finding in the tested configurations, while Acrobat produced \AcrobatManualRows{} manual-review prompts. The exploratory AT sample observed representation differences in \ATDifferenceCases{} of \ATCases{} selected pairs under one fixed stack, including the duplicated M06 list-item announcement; this is not a representative rate or user-study result.
+\end{taggedparagraph}
+\begin{taggedparagraph}
+\textbf{RQ4.} Cross-checker disagreements are explained by manual-versus-automated classifications, M09 RoleMap rule/profile differences, and M10's scoped Acrobat consequence proxy. The paired baseline-relative coding and hash-linked reports make these disagreements inspectable without ranking products.
 \end{taggedparagraph}
 
 \taggedsection{Threats to Validity}
@@ -159,7 +194,7 @@ The principal threats are corpus size and source clustering, operator selection 
 
 \taggedsection{Conclusion}
 \begin{taggedparagraph}
-PDFa11yMut's defensible contribution is a paired, hash-linked methodology for measuring mutation-specific PDF accessibility checker behavior, with generator-side delta checks, independent rendering invariants, a scoped raw-COS audit, matched baseline evidence, capability-aware classification, descriptive controls, and separate assistive-representation observations. The formal validator phase, 18-control evidence set, and nine-case exploratory AT sample are complete for the current 69-mutant scope, with AT evidence kept separate from detection rates. The M09 target-selection rule now requires a reachable structure element to use the mutated RoleMap key; four historical M09 artifacts remain excluded because their original mutant bytes are unavailable for re-audit. M06 is retained as a structurally verified Class B case rather than presented as a machine-checkable validator miss. Corpus filename mapping and collection-level licensing are documented in the artifact; the original acquisition archive/timestamp was not retained, and PAC AI is optional future work rather than a prerequisite for the formal study.
+PDFa11yMut's defensible contribution is a paired, hash-linked methodology for measuring mutation-specific PDF accessibility checker behavior, with structural verification, matched checker evidence, descriptive controls, and separate AT observations. The formal validator phase and exploratory AT sample are complete for the current 69-mutant scope, with AT evidence kept separate from detection rates. M09 exclusions and the Class-B status of M06 remain explicit limitations; corpus licensing and the missing acquisition archive are documented, while PAC AI remains optional future work.
 \end{taggedparagraph}
 
 \begin{thebibliography}{00}
@@ -171,10 +206,6 @@ PDFa11yMut's defensible contribution is a paired, hash-linked methodology for me
 \bibitem{matterhorn} PDF Association, ``Matterhorn Protocol 1.1,'' 2021, \url{https://pdfa.org/download-area/publications/Matterhorn-Protocol-1-1.pdf}.
 \bibitem{techniques} PDF Association, ``Techniques for Accessible PDF,'' 2025, \url{https://pdfa.org/techniques-for-accessible-pdf/}.
 \bibitem{crossvalidator} D. Kosovac, ``Understanding PDF/UA Validation Results: A Comparative Study Across Tools,'' PDF Association, Dec. 26, 2025, \href{https://pdfa.org/understanding-pdfua-validation-results-a-comparative-study-across-tools/}{PDF Association validator comparison}.
-\bibitem{horn} focusring, ``Horn: PDF accessibility testing at scale,'' official repository, accessed Sep. 25, 2026, \url{https://github.com/focusring/horn}.
-\bibitem{pdf4wcag} Dual Lab, ``PDF4WCAG Desktop,'' version 1.10.1, June 25, 2026, \url{https://pdf4wcag.com/desktop-app/}.
-\bibitem{verapdfcorpus} veraPDF, ``veraPDF-corpus,'' CC BY 4.0, \url{https://github.com/veraPDF/veraPDF-corpus}.
-\bibitem{isartor} PDF Association, ``Isartor Test Suite: Terms of Use,'' \url{https://pdfa.org/wp-content/uploads/2011/08/Isartor-Test-Suite4.pdf}.
 \end{thebibliography}
 
 \tagstructend

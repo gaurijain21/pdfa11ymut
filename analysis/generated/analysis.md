@@ -6,9 +6,9 @@ This report is generated from `data/mutants.jsonl`, `data/mutant_exclusions.csv`
 
 Formal validation is complete for 69 active mutants. PAC AI remains separate from formal outcomes: the preserved package is aggregate-only, while the fresh native pilot exposed element-level finding text and scores but no supported complete semantic export/API, so the full cohort remains gated. AT observations are complete for nine illustrative exploratory cases under one fixed configuration and are qualitative, not validator detections.
 
-## Formal validator outcomes
+## Mutation-specific checker outcomes
 
-| Validator | Detected | No automated target finding | Needs manual check | Not applicable | Classified total | Rate |
+| Validator | Detected | No automated target finding | Needs manual check | Not applicable | Classified total | Rate (descriptive overall view) |
 |---|---:|---:|---:|---:|---:|---:|
 | PAC | 30 | 39 | 0 | 0 | 69 | 43.5% |
 | Acrobat | 26 | 28 | 15 | 0 | 69 | 48.1% |

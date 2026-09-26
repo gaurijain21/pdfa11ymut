@@ -1,6 +1,6 @@
-# PDFa11yMut release
+# PDFa11yMut historical release documentation
 
-This file describes a historical 2026-09-24 study archive. It is not the current paper freeze and must not be submitted or redistributed without rechecking artifact licenses and regenerating all derived outputs.
+This file describes the historical 2026-09-24 study archive. The current paper freeze is `paper-freeze-v2`; this document is not its release manifest and must not be submitted or redistributed without rechecking artifact licenses and regenerating all derived outputs.
 
 The primary formal scope is 69 active mutants and 207 classified validator rows across PAC Formal, Acrobat Full Check, and veraPDF. The negative-control ledger contains 18 `COMPLETE` rows with PAC, Acrobat, and veraPDF report hashes. Role-labeled decision fields and adjudication metadata are retained as internal audit provenance; no independent-human coding claim is made. The correction ledger preserves two post-coding PAC evidence-identity repairs without rewriting the original evidence. PAC-AI remains unresolved future work and is not included in formal conclusions.
 

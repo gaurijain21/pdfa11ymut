@@ -9,7 +9,11 @@ from datetime import date
 from pathlib import Path
 
 
-RESULTS_INPUT = r"\input{../analysis/generated/results_fragment.tex}"
+GENERATED_INPUTS = {
+    r"\input{../analysis/generated/results_fragment.tex}": "results_fragment.tex",
+    r"\input{../analysis/generated/operator_table_fragment.tex}": "operator_table_fragment.tex",
+    r"\input{../analysis/generated/study_macros.tex}": "study_macros.tex",
+}
 
 
 def sha256(path: Path) -> str:
@@ -36,17 +40,18 @@ def main() -> int:
     staging.mkdir(parents=True, exist_ok=True)
 
     source = (root / "paper" / "pdfa11ymut_ieee.tex").read_text(encoding="utf-8")
-    if source.count(RESULTS_INPUT) != 1:
-        raise SystemExit("expected exactly one repository-relative results input")
-    source = source.replace(RESULTS_INPUT, r"\input{results_fragment.tex}")
+    for repository_input, package_name in GENERATED_INPUTS.items():
+        if source.count(repository_input) != 1:
+            raise SystemExit(f"expected exactly one repository-relative input: {repository_input}")
+        source = source.replace(repository_input, rf"\input{{{package_name}}}")
+        generated = root / "analysis" / "generated" / package_name
+        if not generated.is_file():
+            raise SystemExit(f"missing generated input: {generated}")
+        (staging / package_name).write_text(generated.read_text(encoding="utf-8"), encoding="utf-8")
     (staging / "pdfa11ymut_ieee.tex").write_text(source, encoding="utf-8")
-    (staging / "results_fragment.tex").write_text(
-        (root / "analysis" / "generated" / "results_fragment.tex").read_text(encoding="utf-8"),
-        encoding="utf-8",
-    )
 
     source_files = sorted(path.name for path in staging.iterdir() if path.is_file())
-    if source_files != ["pdfa11ymut_ieee.tex", "results_fragment.tex"]:
+    if source_files != ["operator_table_fragment.tex", "pdfa11ymut_ieee.tex", "results_fragment.tex", "study_macros.tex"]:
         raise SystemExit(f"unexpected arXiv source package contents: {source_files}")
     source_text = "\n".join((staging / name).read_text(encoding="utf-8", errors="replace") for name in source_files)
     forbidden = [r"C:\\Users\\", "C:/Users/", "<script", "javascript:", "\\input{../"]
