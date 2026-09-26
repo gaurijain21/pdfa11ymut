@@ -39,6 +39,15 @@ def read_jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
+def public_boundary_active() -> bool:
+    """Return whether this checkout intentionally omits raw native evidence."""
+    manifest_path = ROOT / "STUDY_MANIFEST.json"
+    if not manifest_path.is_file():
+        return False
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    return bool(manifest.get("public_artifact_boundary", {}).get("raw_native_evidence_excluded"))
+
+
 def study_counts() -> dict:
     mutants = read_jsonl(ROOT / "data" / "mutants.jsonl")
     exclusions = read_csv(ROOT / "data" / "mutant_exclusions.csv")
@@ -79,6 +88,7 @@ def study_counts() -> dict:
 
 def verify_hash_columns() -> list[str]:
     errors: list[str] = []
+    public_boundary = public_boundary_active()
     exclusions = {row.get("mutant_id", "") for row in read_csv(ROOT / "data" / "mutant_exclusions.csv") if row.get("status")}
     mutants = {row["mutant_id"]: row for row in read_jsonl(ROOT / "data" / "mutants.jsonl")}
     for artifact_id, row in mutants.items():
@@ -90,6 +100,11 @@ def verify_hash_columns() -> list[str]:
             path = Path(row.get(key, ""))
             if not path.is_absolute():
                 path = ROOT / path
+            if not path.is_file() and public_boundary and artifact_id in exclusions:
+                # Excluded historical/recovery mutants are retained in the
+                # sanitized ledger but their private candidate PDFs are not
+                # part of the public artifact.
+                continue
             if not path.is_file():
                 errors.append(f"{artifact_id}: missing {label} file {path}")
             elif row.get(f"{label}_sha256") and sha256(path) != row[f"{label}_sha256"]:
@@ -99,7 +114,7 @@ def verify_hash_columns() -> list[str]:
         expected = row.get("report_sha256", "")
         if expected and report.is_file() and sha256(report) != expected:
             errors.append(f"{row.get('record_id')}: report hash mismatch")
-        if expected and not report.is_file():
+        if expected and not report.is_file() and not public_boundary:
             errors.append(f"{row.get('record_id')}: missing report {report}")
     return errors
 
