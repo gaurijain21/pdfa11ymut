@@ -233,7 +233,7 @@
     },
     {
       "path": "scripts\\verify_study_state.py",
-      "sha256": "3f8265724d3d9414cbf25f16669b92d12cae6398664a31e102f4e02ad2c79df7"
+      "sha256": "3b123d979667d4e0d75e846c83ed57e08fe826e48f74ba702a1eb1595550952f"
     }
   ],
   "at_evidence_hashes": [
@@ -1009,7 +1009,7 @@
   },
   "platform": "Windows-10-10.0.26200-SP0",
   "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
-  "repository_commit": "d9160706dca31ba674c0611f51e6367f321fe4f1",
+  "repository_commit": "00ac9a75332e091775ecefb40ff7dee1c38eea11",
   "source_pdf_hashes": [
     {
       "path": "corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",
