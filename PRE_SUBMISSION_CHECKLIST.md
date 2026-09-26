@@ -40,7 +40,7 @@
 ## Submission policy
 
 - [ ] Venue anonymity policy checked; do not anonymize before instructed.
-- [ ] arXiv policy checked.
+- [x] arXiv source package checked against the current TeX-submission guidance; only the flattened manuscript source and generated results fragment are included, with no PDF, auxiliary files, hidden files, repository evidence, or JavaScript.
 - [ ] Public repository policy checked.
 - [ ] Supplemental artifact policy checked.
 - [x] Local venue-style semantic PDF/UA review passed for the final submission PDF; any target venue-specific policy remains to be checked after a venue is selected.
