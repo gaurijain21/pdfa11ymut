@@ -19,6 +19,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PipelineTests(unittest.TestCase):
+    def require_private_evidence(self, paths):
+        if any(not (ROOT / path).is_file() for path in paths):
+            self.skipTest("private native/double-coding evidence is excluded from the public clone")
+
     def make_fixture(self, path: Path):
         writer = PdfWriter()
         page = writer.add_blank_page(width=300, height=300)
@@ -76,6 +80,9 @@ class PipelineTests(unittest.TestCase):
 
     def test_double_coding_queue_is_blinded_and_hash_linked(self):
         with (ROOT / "data" / "double_coding_queue.csv").open(encoding="utf-8-sig", newline="") as fh:
+            queue_rows = list(csv.DictReader(fh))
+        self.require_private_evidence([row["evidence_path"] for row in queue_rows])
+        with (ROOT / "data" / "double_coding_queue.csv").open(encoding="utf-8-sig", newline="") as fh:
             queue = list(csv.DictReader(fh))
         with (ROOT / "data" / "double_coding_key.csv").open(encoding="utf-8-sig", newline="") as fh:
             key = list(csv.DictReader(fh))
@@ -111,6 +118,11 @@ class PipelineTests(unittest.TestCase):
     def test_double_coding_corrections_preserve_original_packets(self):
         with (ROOT / "data" / "double_coding_corrections.csv").open(encoding="utf-8-sig", newline="") as fh:
             corrections = list(csv.DictReader(fh))
+        private_paths = [path for row in corrections for path in (row["original_evidence_path"], row["corrected_evidence_path"])]
+        for name in ("double_coding_queue_coder_1.csv", "double_coding_queue_coder_2.csv"):
+            with (ROOT / "data" / name).open(encoding="utf-8-sig", newline="") as fh:
+                private_paths.extend(row["evidence_path"] for row in csv.DictReader(fh))
+        self.require_private_evidence(private_paths)
         self.assertEqual({row["case_id"] for row in corrections}, {"DC-0096", "DC-0105"})
         for row in corrections:
             original = ROOT / row["original_evidence_path"]

@@ -379,6 +379,12 @@ def main() -> int:
             "scientific_state_clean": not bool(git_value("status", "--porcelain")),
         },
         "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped.",
+        "public_artifact_boundary": {
+            "raw_native_evidence_excluded": True,
+            "sanitized_formal_records": "data/public_evidence_records.csv",
+            "excluded_paths": ["evidence/pac/", "evidence/acrobat/", "evidence/verapdf/", "evidence/at/", "evidence/controls/", "evidence/double_coding/"],
+            "public_audit_rule": "When excluded raw evidence is absent, validate the sanitized formal ledger and preserved hashes; when raw evidence is present in an authorized checkout, validate its bytes and hashes directly.",
+        },
         "canonical_inputs": [
             "operators/operators.yaml", "data/mutants.jsonl", "data/mutant_exclusions.csv", "data/validator_runs.csv",
             "data/corpus_inventory.csv", "data/corpus_provenance_sources.csv", "data/baseline_provenance.csv", "data/controls.csv", "data/at_observations.csv", "data/at_observation_categories.csv",

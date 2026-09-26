@@ -105,6 +105,9 @@ def main() -> int:
         print("FAIL: STUDY_MANIFEST.json is missing")
         return 1
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    public_boundary = manifest.get("public_artifact_boundary", {}).get("raw_native_evidence_excluded") is True
+    public_records = read_csv(DATA / "public_evidence_records.csv") if (DATA / "public_evidence_records.csv").is_file() else []
+    public_records_by_id = {row.get("record_id"): row for row in public_records}
     current_head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     current_dirty = bool(subprocess.check_output(["git", "status", "--porcelain"], cwd=ROOT, text=True).strip())
     recorded_repo = manifest.get("repository", {})
@@ -202,13 +205,19 @@ def main() -> int:
         seen_records.add(record_id)
         report = ROOT / row.get("raw_report_path", "")
         if not report.is_file():
-            fail(errors, f"{record_id} missing raw report: {row.get('raw_report_path')}")
+            sanitized = public_records_by_id.get(record_id)
+            if not (public_boundary and sanitized and sanitized.get("raw_evidence_sha256") == row.get("report_sha256")):
+                fail(errors, f"{record_id} missing raw report: {row.get('raw_report_path')}")
         elif row.get("report_sha256") and sha256(report) != row["report_sha256"]:
             fail(errors, f"{record_id} raw report hash mismatch")
         if not row.get("file_sha256") or not row.get("baseline_file_sha256"):
             fail(errors, f"{record_id} lacks mutant or baseline hash")
         if not row.get("detection_classification") or not row.get("classification_reason"):
             fail(errors, f"{record_id} lacks classification evidence")
+    if public_boundary:
+        active_formal_ids = {row.get("record_id") for row in active_formal}
+        if active_formal_ids != set(public_records_by_id):
+            fail(errors, "public sanitized evidence ledger does not cover exactly the active formal rows")
 
     # All ten operators and all active targets must be represented by the
     # machine-readable derived views.
@@ -400,6 +409,8 @@ def main() -> int:
             expected_hash, relative = parts
             path = ROOT / relative.replace("/", "\\")
             if not path.is_file():
+                if public_boundary and relative.replace("\\", "/").startswith("evidence/"):
+                    continue
                 fail(errors, f"checksum target is missing: {relative}")
             elif sha256(path) != expected_hash:
                 fail(errors, f"checksum mismatch: {relative}")

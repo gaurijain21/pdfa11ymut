@@ -20,6 +20,16 @@ def main() -> int:
         # cohort; its selection queue is not a completed evidence gate.
         and row.get("batch_id") != "B08_MUTANT_PAC_AI_SELECTED"
     ]
+    public_records_path = ROOT / "data" / "public_evidence_records.csv"
+    raw_evidence_present = any((ROOT / "evidence" / directory).exists() for directory in ("pac", "acrobat", "verapdf", "at", "controls", "double_coding"))
+    if not raw_evidence_present and public_records_path.is_file():
+        with public_records_path.open(newline="", encoding="utf-8-sig") as fh:
+            public_records = list(csv.DictReader(fh))
+        if len(public_records) == 207 and all(row.get("raw_evidence_sha256") for row in public_records):
+            print("Evidence status: public sanitized boundary; 207 formal evidence records and preserved raw hashes are present; excluded native report bytes are not required in the public checkout.")
+            return 0
+        print("Evidence status: public sanitized boundary is incomplete; expected 207 hash-linked formal records.")
+        return 1
     found = []
     missing = []
     for row in expected:
