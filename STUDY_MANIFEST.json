@@ -300,10 +300,10 @@
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "d9160706dca31ba674c0611f51e6367f321fe4f1",
-    "scientific_state_clean": false,
-    "scientific_state_commit": "d9160706dca31ba674c0611f51e6367f321fe4f1",
-    "worktree_dirty": true
+    "git_head": "61fc6da403e63cc6582a04871fd34fce6ba72359",
+    "scientific_state_clean": true,
+    "scientific_state_commit": "61fc6da403e63cc6582a04871fd34fce6ba72359",
+    "worktree_dirty": false
   },
   "reproduction_commands": [
     "python scripts/build_study_manifest.py",
@@ -315,6 +315,6 @@
     "python scripts/build_m09_exclusion_sensitivity.py",
     "python scripts/audit_submission.py"
   ],
-  "status": "AUDIT_DERIVED_NOT_PAPER_FROZEN",
+  "status": "PAPER_FROZEN",
   "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped."
 }
