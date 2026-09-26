@@ -50,14 +50,14 @@
       "PAC": 69,
       "veraPDF": 69
     },
-    "generated_mutant_pdf_files": 72,
+    "generated_mutant_pdf_files": 71,
     "generation_ledger_records": 73,
     "generation_records": 73,
     "golden_reference_pdfs": 9,
     "historical_exclusion_only_records": [
       "PDFUA-Ref-2-09_Scanned-M09"
     ],
-    "materialized_mutant_artifacts": 72,
+    "materialized_mutant_artifacts": 71,
     "pac_ai_rows": 34,
     "valid_generation_records": 73,
     "valid_verified_mutants": 73
@@ -269,7 +269,7 @@
     "Legacy 23-mutant summaries are historical and are not read.",
     "PAC AI remains separate and is not part of formal rates.",
     "The clean M01 AT rerun is an auxiliary M01 assistive-representation demonstration because Invoice-M01 is not in the active mutant ledger; it is not a formal denominator record.",
-    "The generation-ledger flow is 73 records, 72 materialized mutant PDFs, 5 documented exclusions, 4 exclusions inside the valid-generation manifest, 1 historical exclusion-only record, and 69 active independently re-audited mutants.",
+    "The generation-ledger flow is 73 records, 71 materialized mutant PDFs (including the auxiliary AT artifact), 5 documented exclusions, 4 exclusions inside the valid-generation manifest, 1 historical exclusion-only record, and 69 active independently re-audited mutants.",
     "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
     "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv.",
     "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions."
@@ -278,19 +278,32 @@
     "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
     "pdf": {
       "path": "paper/pdfa11ymut_ieee.pdf",
-      "sha256": "a4f8f22e86befbef17a8c29be4973f85474e0749f6f358748d5a44d22490a622"
+      "sha256": "36d8181d7546ec0bf5fbbc8019aaf7bd04e323fcfa4a91b72c151877d5224d8e"
     },
     "source": {
       "path": "paper/pdfa11ymut_ieee.tex",
-      "sha256": "13d8300ca8979c280b5c889f26bd4f0c7ce7b56ef53532d2f0e5452ee707d037"
+      "sha256": "68b18cc9651651f818d5ec2f5b31002a841d76db16556981753ef374b648a82e"
     }
+  },
+  "public_artifact_boundary": {
+    "excluded_paths": [
+      "evidence/pac/",
+      "evidence/acrobat/",
+      "evidence/verapdf/",
+      "evidence/at/",
+      "evidence/controls/",
+      "evidence/double_coding/"
+    ],
+    "public_audit_rule": "When excluded raw evidence is absent, validate the sanitized formal ledger and preserved hashes; when raw evidence is present in an authorized checkout, validate its bytes and hashes directly.",
+    "raw_native_evidence_excluded": true,
+    "sanitized_formal_records": "data/public_evidence_records.csv"
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "41ba7a140fd64ef8e182a292be7d33a9b32a1d39",
-    "scientific_state_clean": false,
-    "scientific_state_commit": "41ba7a140fd64ef8e182a292be7d33a9b32a1d39",
-    "worktree_dirty": true
+    "git_head": "8959d186dea975531183c14f1180a1304ba5e24d",
+    "scientific_state_clean": true,
+    "scientific_state_commit": "8959d186dea975531183c14f1180a1304ba5e24d",
+    "worktree_dirty": false
   },
   "reproduction_commands": [
     "python scripts/build_study_manifest.py",
@@ -302,6 +315,6 @@
     "python scripts/build_m09_exclusion_sensitivity.py",
     "python scripts/audit_submission.py"
   ],
-  "status": "AUDIT_DERIVED_NOT_PAPER_FROZEN",
+  "status": "PAPER_FROZEN",
   "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped."
 }

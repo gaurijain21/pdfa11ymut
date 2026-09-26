@@ -1,0 +1,13 @@
+{
+  "artifact": "PDFa11yMut: Measuring Mutation-Specific Detection in PDF Accessibility Checkers",
+  "scientific_state_commit": "8959d186dea975531183c14f1180a1304ba5e24d",
+  "scientific_state_status": "PAPER_FROZEN",
+  "manifest": "STUDY_MANIFEST.json",
+  "tag": "paper-freeze-v2",
+  "paper_source": "paper/pdfa11ymut_ieee.tex",
+  "paper_pdf": "paper/pdfa11ymut_ieee.pdf",
+  "public_evidence_boundary": "Raw PAC, Acrobat, veraPDF, NVDA, controls, and double-coding packets are excluded from the public artifact; sanitized formal records and preserved raw hashes remain in data/public_evidence_records.csv.",
+  "paper_pdf_sha256": "36D8181D7546EC0BF5FBBC8019AAF7BD04E323FCFA4A91B72C151877D5224D8E",
+  "release_date": "2026-09-26",
+  "status": "FINAL_SHIP"
+}
