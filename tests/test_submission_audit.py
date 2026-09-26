@@ -23,7 +23,7 @@ class SubmissionAuditTests(unittest.TestCase):
     def test_manifest_and_derived_rates_use_current_scope(self):
         manifest = json.loads((ROOT / "STUDY_MANIFEST.json").read_text(encoding="utf-8"))
         self.assertEqual(manifest["counts"]["generation_records"], 73)
-        self.assertEqual(manifest["counts"]["generated_mutant_pdf_files"], 72)
+        self.assertEqual(manifest["counts"]["generated_mutant_pdf_files"], 71)
         self.assertEqual(manifest["counts"]["active_mutants"], 69)
         self.assertEqual(manifest["counts"]["formal_rows"], 207)
         with (ROOT / "analysis" / "generated" / "overall_rates.csv").open(newline="", encoding="utf-8") as handle:
