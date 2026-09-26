@@ -1,3 +1,5 @@
+> **Canonical frozen artifact for reviewers:** Use the immutable [`paper-freeze-v2`](https://github.com/gaurijain21/pdfa11ymut/tree/paper-freeze-v2) tag for the submission artifact and reproducibility checks. The bare repository URL resolves to `main`, which may contain post-freeze documentation, audit, or packaging synchronization commits; `paper-freeze-v2` is the authoritative frozen snapshot for the paper, manifest, CFF, generated results, and release materials.
+
 # PDFa11yMut
 
 PDFa11yMut is a controlled mutation-testing artifact for studying the boundary of automated PDF accessibility checking configurations. It starts from a reference-suite baseline PDF, applies a specified structure-level transformation, verifies the transformation with generator-side and scoped independent checks, checks exact visual preservation, and records validator evidence against the tested file hash.
