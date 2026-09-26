@@ -1,0 +1,4 @@
+validator,all_detected,direct_detected,proxy_detected,missed,all_rate,direct_only_rate,note
+PAC,30,30,0,39,0.4348,0.4348,Proxy detections are included only in all_rate; direct_only_rate excludes them
+Acrobat,26,23,3,28,0.4815,0.4510,Proxy detections are included only in all_rate; direct_only_rate excludes them
+veraPDF,30,30,0,39,0.4348,0.4348,Proxy detections are included only in all_rate; direct_only_rate excludes them

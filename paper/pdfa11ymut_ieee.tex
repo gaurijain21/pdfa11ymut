@@ -37,7 +37,9 @@
 \tagstructbegin{tag=Document}
 
 \title{PDFa11yMut: Measuring Mutation-Specific Detection by PDF Accessibility Validators}
-\author{Author information withheld in this working draft}
+\author{Gauri Jain\\
+University of California, Santa Cruz\\
+\texttt{gjain1@ucsc.edu}}
 \tagstructbegin{tag=H1}\tagmcbegin{tag=H1}\maketitle\tagmcend\tagstructend
 
 \begin{taggedparagraph}\begin{abstract}
@@ -92,6 +94,15 @@ configurations. PDF/UA-2 (ISO 14289-2), ISO/TS 32005, and WTPDF address newer PD
 requirements; they are acknowledged scope context rather than untested claims about this PDF/UA-1 study.
 \end{taggedparagraph}
 
+\begin{taggedparagraph}
+Code, canonical ledgers, analysis scripts, sanitized metadata, and release-build instructions are available at
+\url{https://github.com/gaurijain21/pdfa11ymut}. The exact freeze commit is recorded in
+\texttt{STUDY\_MANIFEST.json} and the generated release manifests. The public release intentionally excludes
+raw proprietary validator reports and assistive-technology captures; those bytes are not claimed to be
+redistributable. Consequently, the public clone reproduces the analysis and integrity checks, while native
+PAC/Acrobat/NVDA recollection requires the named applications and authorized evidence.
+\end{taggedparagraph}
+
 \taggedsection{Experimental Model}
 \begin{taggedparagraph}
 Class A contains properties with a documented machine-checkable or profile-specific conformance condition in this study: M03 incorrect heading level, M07 missing figure alternate description, M08 missing document language, M09 invalid RoleMap target, and M10 illegal table-child role. Class B contains properties for which a structurally legal file can still expose an unintended semantic or assistive representation: M01 structural reading-order swap, M02 omission from assistive structure, M04 marked-content association swap, M05 internal marked-content sequence reversal, and M06 duplicate list-item reference. M06 is structurally verified but has no dedicated duplicate-reference failure condition in the reviewed normative materials. Class B survival is therefore reported as no automated finding, not as a validator failure.
@@ -107,7 +118,7 @@ The input PDFs in \texttt{corpus/golden/} are immutable working inputs. The comm
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
-The primary verifier uses pypdf and is separate from the validators under evaluation. A second PyMuPDF/MuPDF audit checks page/render invariants for every active pair and confirms operator-aware raw-COS deltas and whole-tree expected-result signatures for all 69 active pairs. The independent checks compare structure-tree order/reachability for M01/M02, marked-content association for M04, content-item order for M05, repeated direct /LI references for M06, and scoped structural deltas for M03 and M07--M10. Generator-side verification is not relabeled as independent evidence. MuPDF rendering equality is checked at 72 DPI; the primary generation invariant remains the Poppler 150-DPI render. Per-mutant delta manifests record allowed changes, invariants, observed changes, purity status, and verification methods. Active result tables are rebuilt from canonical data by \texttt{scripts/rebuild\_analysis.py}, while \texttt{scripts/audit\_submission.py} checks evidence, hashes, mappings, denominators, and manifest consistency. The PDF and release are regenerated only after the final artifact state is fixed.
+The primary verifier uses pypdf and is separate from the validators under evaluation. A second PyMuPDF/MuPDF audit checks page/render invariants for every active pair and confirms operator-aware raw-COS deltas and whole-tree expected-result signatures for all 69 active pairs. The independent checks compare structure-tree order/reachability for M01/M02, marked-content association for M04, content-item order for M05, repeated direct /LI references for M06, and scoped structural deltas for M03 and M07--M10. Here independent means a separate parser/check route, not an independent semantic oracle. Generator-side verification is not relabeled as independent evidence. MuPDF rendering equality is checked at 72 DPI; the primary generation invariant remains the Poppler 150-DPI render. Per-mutant delta manifests record allowed changes, invariants, observed changes, purity status, and verification methods. Active result tables are rebuilt from canonical data by \texttt{scripts/rebuild\_analysis.py}, while \texttt{scripts/audit\_submission.py} checks evidence, hashes, mappings, denominators, and manifest consistency. The PDF and release are regenerated only after the final artifact state is fixed.
 \end{taggedparagraph}
 
 \taggedsection{Validator and AT Evidence}
@@ -116,7 +127,7 @@ PAC Formal, Acrobat Full Check, and veraPDF evidence are stored in hash-addresse
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
-The negative-control ledger contains 18 paired no-op and benign controls. Every control has an independently verified artifact plus native PAC PDF, Acrobat HTML, and veraPDF reports with hash-linked paths in \texttt{data/controls.csv}. These controls support baseline and false-positive analysis, but their native findings are interpreted only relative to the matched golden and benign pair; they are not positive-study results. In particular, both G05 Acrobat controls carry the same pre-existing ``Lbl and LBody'' failure and both G09 PAC controls carry the same Natural language failure.
+The negative-control ledger contains 18 paired no-op and benign controls. Every control has an independently verified artifact plus native PAC PDF, Acrobat HTML, and veraPDF reports with hash-linked paths in \texttt{data/controls.csv}. These controls are paired sanity checks, not a sample from which specificity or false-positive rates are estimated. Their native findings are interpreted only relative to the matched golden and benign pair; they are not positive-study results. In particular, both G05 Acrobat controls carry the same pre-existing ``Lbl and LBody'' failure and both G09 PAC controls carry the same Natural language failure.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
@@ -131,7 +142,7 @@ Nine selected cases were observed with NVDA 2026.2.0.57664 and Adobe Acrobat 26.
 \input{../analysis/generated/results_fragment.tex}
 
 \begin{taggedparagraph}
-The class-specific table separates formal conformance-oriented outcomes from semantic survival. In the active scope, Class A contains 30 mutants: PAC detected 30, Acrobat detected 26, and veraPDF detected 30. Class B contains 39 mutants and received no automated detection in the tested configurations; Acrobat produced 15 Class B manual checkpoints, which are not automated detections. The overall Acrobat count is therefore 26 automated detections, 28 automated no-target findings, and 15 manual-review rows; its displayed automated rate is 26/54, while PAC and veraPDF rates are 30/69. The Class B result is a statement about the tested automated checks, not a claim that the semantic mutations are universally harmful or that a validator was obligated to identify them.
+The class-specific table separates formal conformance-oriented outcomes from semantic survival. In the active scope, Class A contains 30 mutants: PAC detected 30, Acrobat detected 26, and veraPDF detected 30. Class B contains 39 mutants and received no automated detection in the tested configurations; Acrobat produced 15 Class B manual checkpoints, which are not automated detections. The overall Acrobat count is therefore 26 automated detections, 28 automated no-target findings, and 15 manual-review rows; its displayed automated rate is 26/54, while PAC and veraPDF rates are 30/69. The 26 Acrobat detections include three predeclared direct-consequence proxy detections for M10; a direct-only sensitivity count is retained in the generated analysis. These results are descriptive and source-clustered: 69 mutants are nested within nine baselines and ten operators, so the displayed rates should not be read as independent-observation confidence estimates. The Class B result is a statement about the tested automated checks, not a claim that the semantic mutations are universally harmful or that a validator was obligated to identify them.
 \end{taggedparagraph}
 
 \begin{taggedparagraph}
@@ -143,7 +154,7 @@ The machine-generated disagreement audit contains 38 pairwise disagreement rows.
 
 \taggedsection{Threats to Validity}
 \begin{taggedparagraph}
-The principal threats are corpus size and source clustering, operator selection and representativeness, multiple legal PDF encodings, parser-specific interpretation, validator version/profile differences, the study-specific direct-consequence proxy, PAC-AI instability and limited exportability, assistive-technology and viewer variability, the limited PDF/UA version scope, the unretained historical download archive, and visual-renderer limitations. One source document cannot establish an operator-wide effect. Visual equality cannot establish equivalent speech output. A screen-reader observation from one AT/viewer pair cannot establish universal behavior. The nine local PDFs are mapped to the PDF/UA Reference Suite under the collection-level CC BY 4.0 terms; the omitted 2-07 suite item and the absence of the original acquisition archive are documented in the artifact. The second-parser audit provides a common artifact-verification route, but it does not make the Class B properties machine-checkable or require validators to report them. The dedicated M06 audit confirms its structural delta but classifies it as semantic/Class B. The four historical M09 pairs cannot be re-audited because original mutant bytes are unavailable. Coding/adjudication records are retained as internal audit provenance but are not used to support an independent-coder claim. Negative controls remain descriptive paired evidence rather than a basis for general accuracy or specificity claims.
+The principal threats are corpus size and source clustering, operator selection and representativeness, multiple legal PDF encodings, parser-specific interpretation, validator version/profile differences, the study-specific direct-consequence proxy, post-discovery exclusions, PAC-AI instability and limited exportability, assistive-technology and viewer variability, the limited PDF/UA version scope, the unretained historical download archive, and visual-renderer limitations. The 73 valid generation records, five documented exclusions, and 69 active records are shown as a complete attempted-set flow in the canonical ledgers; exclusions are not silently replaced. One source document cannot establish an operator-wide effect, and the nine baselines are clusters rather than independent samples. Visual equality cannot establish equivalent speech output. A screen-reader observation from one AT/viewer pair cannot establish universal behavior. The nine local PDFs are mapped to the PDF/UA Reference Suite under the collection-level CC BY 4.0 terms; the omitted 2-07 suite item and the absence of the original acquisition archive are documented in the artifact. The second-parser audit provides a common artifact-verification route, but it does not make the Class B properties machine-checkable or require validators to report them. The dedicated M06 audit confirms its structural delta but classifies it as semantic/Class B. The four historical M09 pairs cannot be re-audited because original mutant bytes are unavailable. Coding/adjudication records are retained as internal audit provenance but are not used to support an independent-coder claim. Negative controls remain descriptive paired evidence rather than a basis for general accuracy or specificity claims.
 \end{taggedparagraph}
 
 \taggedsection{Conclusion}

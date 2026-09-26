@@ -15,6 +15,8 @@
   "pac_ai_selected_mutants": 34,
   "pac_ai_deferred_mutants": 0,
   "pac_ai_classified_mutants": 0,
+  "source_cluster_count": 9,
+  "source_cluster_bootstrap_resamples": 5000,
   "overall": [
     {
       "validator": "PAC",
@@ -157,6 +159,38 @@
       "total_pairwise_classified": 69,
       "agreement_rate": "0.7246",
       "disagreement_cases": "PDFUA-Ref-2-01_Magazine-danish-M01;PDFUA-Ref-2-01_Magazine-danish-M05;PDFUA-Ref-2-01_Magazine-danish-M09;PDFUA-Ref-2-02_Invoice-M10;PDFUA-Ref-2-03_AcademicAbstract-M01;PDFUA-Ref-2-03_AcademicAbstract-M05;PDFUA-Ref-2-04_Presentation-M01;PDFUA-Ref-2-04_Presentation-M05;PDFUA-Ref-2-04_Presentation-M09;PDFUA-Ref-2-05_BookChapter-german-M01;PDFUA-Ref-2-05_BookChapter-german-M05;PDFUA-Ref-2-05_BookChapter-german-M09;PDFUA-Ref-2-06_Brochure-M01;PDFUA-Ref-2-06_Brochure-M05;PDFUA-Ref-2-08_BookChapter-M01;PDFUA-Ref-2-08_BookChapter-M05;PDFUA-Ref-2-09_Scanned-M01;PDFUA-Ref-2-09_Scanned-M05;PDFUA-Ref-2-10_Form-M01"
+    }
+  ],
+  "detection_sensitivity": [
+    {
+      "validator": "PAC",
+      "all_detected": 30,
+      "direct_detected": 30,
+      "proxy_detected": 0,
+      "missed": 39,
+      "all_rate": "0.4348",
+      "direct_only_rate": "0.4348",
+      "note": "Proxy detections are included only in all_rate; direct_only_rate excludes them"
+    },
+    {
+      "validator": "Acrobat",
+      "all_detected": 26,
+      "direct_detected": 23,
+      "proxy_detected": 3,
+      "missed": 28,
+      "all_rate": "0.4815",
+      "direct_only_rate": "0.4510",
+      "note": "Proxy detections are included only in all_rate; direct_only_rate excludes them"
+    },
+    {
+      "validator": "veraPDF",
+      "all_detected": 30,
+      "direct_detected": 30,
+      "proxy_detected": 0,
+      "missed": 39,
+      "all_rate": "0.4348",
+      "direct_only_rate": "0.4348",
+      "note": "Proxy detections are included only in all_rate; direct_only_rate excludes them"
     }
   ]
 }

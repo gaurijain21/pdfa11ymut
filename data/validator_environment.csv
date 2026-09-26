@@ -7,7 +7,7 @@ pypdf,6.18.1,runtime,,importlib.metadata
 PyMuPDF,1.28.2,runtime,,importlib.metadata
 Pillow,12.1.1,runtime,,importlib.metadata
 PyYAML,6.0.3,runtime,,importlib.metadata
-pdftoppm,pdftoppm version 26.07.0,runtime,"{""path"": ""C:\\Users\\iamga\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE""}",runtime capture
+pdftoppm,pdftoppm version 26.07.0,runtime,"{""path"": ""<SYSTEM_PATH>/pdftoppm""}",runtime capture
 qpdf,UNAVAILABLE,runtime,"{""path"": """"}",runtime capture
 mutool,UNAVAILABLE,runtime,"{""path"": """"}",runtime capture
-Tectonic,Tectonic 0.17.0,manuscript build,"{""path"": ""C:\\Gauri\\ma11ypdf\\tmp\\tectonic\\bin\\tectonic.exe""}",runtime capture
+Tectonic,Tectonic 0.17.0,manuscript build,"{""path"": ""<REPO_ROOT>/tmp/tectonic/bin/tectonic.exe""}",runtime capture

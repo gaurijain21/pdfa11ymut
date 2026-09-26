@@ -115,7 +115,7 @@ def write_ai_metadata() -> dict:
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "pac_version": formal.get("pac_version", "26.1.0.0"),
         "pac_build": formal.get("pac_build", "26.1.0.0 (PAC.exe FileVersion/ProductVersion)"),
-        "pac_executable": formal.get("pac_executable", "C:\\Users\\iamga\\AppData\\Local\\PAC\\PAC.exe"),
+        "pac_executable": formal.get("pac_executable", "<PAC_INSTALL_DIR>/PAC.exe"),
         "platform": formal.get("platform", platform.platform()),
         "profile": "PDF/UA formal/traditional check with PAC AI semantic analysis",
         "run_configuration": "PAC AI",

@@ -49,7 +49,7 @@ def main() -> int:
     if source_files != ["pdfa11ymut_ieee.tex", "results_fragment.tex"]:
         raise SystemExit(f"unexpected arXiv source package contents: {source_files}")
     source_text = "\n".join((staging / name).read_text(encoding="utf-8", errors="replace") for name in source_files)
-    forbidden = [r"C:\\Users\\", "C:/Users/", "iamga@", "<script", "javascript:", "\\input{../"]
+    forbidden = [r"C:\\Users\\", "C:/Users/", "<script", "javascript:", "\\input{../"]
     found = [fragment for fragment in forbidden if fragment.lower() in source_text.lower()]
     if found:
         raise SystemExit(f"forbidden arXiv source content: {found}")

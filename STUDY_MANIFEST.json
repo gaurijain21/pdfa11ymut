@@ -262,16 +262,16 @@
     "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
     "pdf": {
       "path": "paper/pdfa11ymut_ieee.pdf",
-      "sha256": "3ce4b9bcafa9bc74dcce30a327d0df4b9d87e8eefe0ec68d7b80acb809a5dc13"
+      "sha256": "f6c97ea4aaefec483db84f1d119e9cef842dcc384b215837a614ac0392280c1c"
     },
     "source": {
       "path": "paper/pdfa11ymut_ieee.tex",
-      "sha256": "02a8fcd397e771b7f626fcc37f768e4eeaee318be786bab422982578b715cdf6"
+      "sha256": "b592ec9328cdc3b0de89332db52c6e84b2d66b1981703e2f8f5cd7dbcec2c9f9"
     }
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "dfd7a1dbe8382b96ae3f18f2e4cea04c1b61f8a8",
+    "git_head": "b0ec77ade018f4f3ed97346bb04f553248f1c926",
     "worktree_dirty": true
   },
   "reproduction_commands": [

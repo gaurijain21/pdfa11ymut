@@ -16,6 +16,10 @@ Formal validation is complete for 69 active mutants. PAC AI remains separate fro
 
 Rates are Detected/(Detected + No automated target finding); manual and not-applicable rows are excluded. Rows without a canonical report and classification remain TODO and are excluded from rates.
 
+Mutants are nested within nine golden baselines. `source_cluster_summary.csv` reports per-baseline descriptive rates, and `source_cluster_bootstrap.csv` resamples complete baselines together for a deterministic sensitivity interval; these intervals are not population-level confidence claims.
+
+`detection_sensitivity.csv` separates direct target detections from the three Acrobat M10 consequence-proxy detections.
+
 ## Scope
 
 Valid verified mutants: 73

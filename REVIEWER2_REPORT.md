@@ -30,7 +30,7 @@ PDFa11yMut presents a scoped mutation-testing artifact for PDF accessibility che
 ## Questions for Authors
 
 - Which artifacts are legally redistributable? See `release/CURRENT_RELEASE_POLICY.md`, `data/public_release_manifest.json`, and `DATA_LICENSES.md`; raw vendor/AT evidence is excluded pending clearance.
-- Can the final submission identify the exact local freeze commit? Yes: current local HEAD is recorded in `SECOND_PASS_STATE.md`; it differs from `origin/main` and has not been pushed.
+- Can the final submission identify the exact freeze commit? Yes: the current pushed commit is recorded in `SECOND_PASS_STATE.md` and the generated study/release manifests; the public release boundary excludes raw proprietary vendor/AT bytes.
 
 ## Reproducibility Assessment
 
@@ -50,11 +50,11 @@ The artifact must not say that a validator “cannot detect” a mutation, that 
 
 ## Artifact Problems
 
-The original requested checkout is empty; the actual candidate is the local checkout. The repaired branch is local-only and ahead of `origin/main`; the final manifest now records the current HEAD and dirty state. Status: MITIGATED.
+The original requested checkout is empty; the actual candidate is the local checkout. The repaired state is committed and pushed to `origin/main`; the final manifest records the exact commit and dirty state. Raw vendor/AT evidence remains intentionally outside the public freeze. Status: MITIGATED.
 
 ## Remaining Work Before Submission
 
-- Preserve the final local manifest/commit identity if the artifact is frozen again.
+- Preserve the final manifest/commit identity if the artifact is frozen again.
 - Keep the final gate commands in the release checklist.
 - Review the release manifest for item-level redistribution clearance and submit only the permitted evidence subset.
 - Apply venue-specific final PDF accessibility review.

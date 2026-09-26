@@ -1,6 +1,6 @@
 # Fresh-copy reproducibility test
 
-Date: 2026-09-25. The test was performed in a temporary copy of the candidate artifact, separate from the working checkout. Because the repaired state is local and uncommitted, this was a fresh working-tree copy rather than a public remote clone. PAC, Acrobat, and NVDA GUI reruns were not attempted.
+Date: 2026-09-25. The test was performed in a temporary copy of the pushed candidate artifact, separate from the working checkout. It validates the public repository state at the recorded release commit; PAC, Acrobat, and NVDA GUI reruns were not attempted because those native applications and raw evidence are intentionally outside the public clone boundary.
 
 ## Commands
 
@@ -30,7 +30,7 @@ tmp/tectonic/bin/tectonic.exe --keep-logs --outdir tmp/paper_build_current paper
 | Dependency installation | Documented; not repeated against the network during this audit | Requires Python and package-index access |
 | Canonical manifest/analysis rebuild | PASS in the fresh copy | Regenerates derived files, not GUI reports |
 | Independent artifact audit | PASS for the archived 69 active pairs | Requires PyMuPDF and retained PDFs |
-| Evidence/hash completeness | PASS: 173 prescribed validator files | Checks archived reports; does not reproduce vendor applications |
+| Evidence/hash completeness | PASS in the authorized evidence checkout: 173 prescribed validator files | The public clone contains hashes and sanitized metadata, not proprietary vendor/AT report bytes |
 | Submission consistency gate | PASS in the final gate run | Fail-closed on canonical relationships |
 | Unit tests | PASS | Test count can vary with repository revision |
 | Manuscript compilation | Supported by bundled Tectonic 0.17.0 when present; venue PDF/UA semantics remain separate | Toolchain availability is an environment prerequisite |
@@ -39,4 +39,4 @@ tmp/tectonic/bin/tectonic.exe --keep-logs --outdir tmp/paper_build_current paper
 
 ## Reproduction boundary
 
-Analysis reproduction means archived raw evidence can regenerate tables, figures, rates, exclusions, and robustness views. External-validator evidence recollection is a separate layer because PAC, Acrobat, and NVDA are GUI/tool-version dependent. A changed raw report, PDF, or canonical ledger must fail the checksum/audit gate before release.
+Analysis reproduction means the public canonical data and authorized archived evidence can regenerate tables, figures, rates, exclusions, and robustness views. The public clone can reproduce the analysis layer but cannot recollect proprietary external-validator or AT evidence. A changed raw report, PDF, or canonical ledger must fail the checksum/audit gate before release.

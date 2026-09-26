@@ -1,7 +1,7 @@
 {
   "pac_version": "26.1.0.0",
   "pac_build": "26.1.0.0 (PAC.exe FileVersion/ProductVersion)",
-  "pac_executable": "C:\\Users\\iamga\\AppData\\Local\\PAC\\PAC.exe",
+  "pac_executable": "<PAC_INSTALL_DIR>/PAC.exe",
   "platform": "Windows 10 Home 25H2, build 26200.9168, x64",
   "profile": "PDF/UA formal/traditional check",
   "run_configuration": "PAC Formal",

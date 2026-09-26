@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import csv
 import json
+import random
 from pathlib import Path
 
 import yaml
@@ -47,6 +48,105 @@ def excluded_mutant_ids() -> set[str]:
 
 def pct(n: int, d: int) -> str:
     return "" if not d else f"{n / d:.4f}"
+
+
+def percentile(values: list[float], probability: float) -> float:
+    """Deterministic linear percentile for the small cluster bootstrap output."""
+    if not values:
+        return 0.0
+    ordered = sorted(values)
+    position = (len(ordered) - 1) * probability
+    lower = int(position)
+    upper = min(lower + 1, len(ordered) - 1)
+    fraction = position - lower
+    return ordered[lower] + (ordered[upper] - ordered[lower]) * fraction
+
+
+def source_cluster_summaries(current_runs: list[dict], mutants: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Return per-source rates and a source-cluster bootstrap sensitivity view.
+
+    Mutants from the same golden PDF are resampled together. The result is
+    descriptive sensitivity evidence, not a population-level confidence claim.
+    """
+    source_by_mutant = {
+        row.get("mutant_id", ""): Path(row.get("source_pdf", "")).stem
+        for row in mutants
+    }
+    grouped: dict[str, list[dict]] = {}
+    for row in current_runs:
+        source = source_by_mutant.get(row.get("mutant_id", ""), "UNKNOWN_SOURCE")
+        grouped.setdefault(source, []).append(row)
+    summaries: list[dict] = []
+    bootstrap: list[dict] = []
+    rng = random.Random(20260925)
+    for validator in VALIDATORS:
+        source_rates: list[float] = []
+        source_rows: list[list[dict]] = []
+        for source in sorted(grouped):
+            rows = [row for row in grouped[source] if row["validator"] == validator]
+            detected = sum(row["classification"] == "Detected" for row in rows)
+            missed = sum(row["classification"] == "Missed" for row in rows)
+            denominator = detected + missed
+            rate = detected / denominator if denominator else None
+            if rate is not None:
+                source_rates.append(rate)
+            source_rows.append(rows)
+            summaries.append({
+                "source_golden": source,
+                "validator": validator,
+                "mutants": len(rows),
+                "detected": detected,
+                "missed": missed,
+                "manual": sum(row["classification"] == "Needs Manual Check" for row in rows),
+                "rate_denominator": denominator,
+                "rate": "" if rate is None else f"{rate:.4f}",
+            })
+        observed_rows = [row for rows in source_rows for row in rows]
+        observed_detected = sum(row["classification"] == "Detected" for row in observed_rows)
+        observed_missed = sum(row["classification"] == "Missed" for row in observed_rows)
+        observed_denominator = observed_detected + observed_missed
+        observed_rate = observed_detected / observed_denominator if observed_denominator else 0.0
+        boot_rates: list[float] = []
+        for _ in range(5000):
+            sampled = [source_rows[rng.randrange(len(source_rows))] for _ in source_rows]
+            flat = [row for rows in sampled for row in rows]
+            detected = sum(row["classification"] == "Detected" for row in flat)
+            missed = sum(row["classification"] == "Missed" for row in flat)
+            if detected + missed:
+                boot_rates.append(detected / (detected + missed))
+        bootstrap.append({
+            "validator": validator,
+            "cluster_count": len(source_rows),
+            "observed_detected": observed_detected,
+            "observed_missed": observed_missed,
+            "observed_rate": f"{observed_rate:.4f}",
+            "cluster_bootstrap_resamples": len(boot_rates),
+            "cluster_bootstrap_95_low": f"{percentile(boot_rates, 0.025):.4f}",
+            "cluster_bootstrap_95_high": f"{percentile(boot_rates, 0.975):.4f}",
+            "interpretation": "Descriptive source-cluster sensitivity; not a population-level confidence interval",
+        })
+    return summaries, bootstrap
+
+
+def detection_sensitivity(current_runs: list[dict]) -> list[dict]:
+    rows: list[dict] = []
+    for validator in VALIDATORS:
+        subset = [row for row in current_runs if row["validator"] == validator]
+        detected = [row for row in subset if row["classification"] == "Detected"]
+        direct = [row for row in detected if row["detection_type"] == "DIRECT_TARGET_DETECTION"]
+        proxy = [row for row in detected if row["detection_type"] == "CONSEQUENCE_PROXY_DETECTION"]
+        missed = [row for row in subset if row["classification"] == "Missed"]
+        rows.append({
+            "validator": validator,
+            "all_detected": len(detected),
+            "direct_detected": len(direct),
+            "proxy_detected": len(proxy),
+            "missed": len(missed),
+            "all_rate": pct(len(detected), len(detected) + len(missed)),
+            "direct_only_rate": pct(len(direct), len(direct) + len(missed)),
+            "note": "Proxy detections are included only in all_rate; direct_only_rate excludes them",
+        })
+    return rows
 
 
 def detection_type(run: dict | None, classification: str) -> str:
@@ -229,7 +329,7 @@ def main() -> int:
                 classification = run.get("detection_classification", "TODO") if run else "TODO"
                 if classification not in FINAL_CLASSIFICATIONS:
                     classification = "TODO"
-                matrix.append({"mutant_id": mutant.get("mutant_id"), "operator": mutant.get("operator"), "validator": validator, "mode": config, "classification": classification, "detection_type": detection_type(run, classification), "classification_reason": (run or {}).get("classification_reason", ""), "baseline_status": (run or {}).get("baseline_status", ""), "file_sha256": mutant.get("mutant_sha256"), "raw_report_path": (run or {}).get("raw_report_path", "")})
+                matrix.append({"mutant_id": mutant.get("mutant_id"), "source_golden": Path(mutant.get("source_pdf", "")).stem, "operator": mutant.get("operator"), "validator": validator, "mode": config, "classification": classification, "detection_type": detection_type(run, classification), "classification_reason": (run or {}).get("classification_reason", ""), "baseline_status": (run or {}).get("baseline_status", ""), "file_sha256": mutant.get("mutant_sha256"), "raw_report_path": (run or {}).get("raw_report_path", "")})
     current_runs = [r for r in matrix if r["mode"] == "Formal" and r["classification"] in FINAL_CLASSIFICATIONS]
     overall = []
     for validator in VALIDATORS:
@@ -283,8 +383,10 @@ def main() -> int:
                 "left_baseline_status": left.get("baseline_status", ""),
                 "right_baseline_status": right.get("baseline_status", ""),
             })
+    source_summary, source_bootstrap = source_cluster_summaries(current_runs, mutants)
+    sensitivity = detection_sensitivity(current_runs)
     OUT.mkdir(parents=True, exist_ok=True)
-    for name, rows in (("matrix.csv", matrix), ("overall_rates.csv", overall), ("per_operator_rates.csv", per_operator), ("agreement.csv", agreement), ("disagreement_analysis.csv", disagreement_rows)):
+    for name, rows in (("matrix.csv", matrix), ("overall_rates.csv", overall), ("per_operator_rates.csv", per_operator), ("agreement.csv", agreement), ("disagreement_analysis.csv", disagreement_rows), ("source_cluster_summary.csv", source_summary), ("source_cluster_bootstrap.csv", source_bootstrap), ("detection_sensitivity.csv", sensitivity)):
         with (OUT / name).open("w", newline="", encoding="utf-8") as fh:
             if rows:
                 writer = csv.DictWriter(fh, fieldnames=list(rows[0]))
@@ -306,7 +408,7 @@ def main() -> int:
         analysis_status = "formal_evidence_pending"
     else:
         analysis_status = "formal_complete_at_complete_pac_ai_future_work"
-    summary = {"status": analysis_status, "analysis_status": analysis_status, "valid_verified_mutants": len(all_valid_mutants), "active_mutants": len(mutants), "valid_mutants": len(mutants), "corpus_records": len(corpus), "canonical_validator_rows": len(runs), "classified_formal_rows": len(current_runs), "required_classified_formal_rows": required_classified, "at_observation_rows": len(at_rows), "at_observation_complete_rows": at_complete, "at_observer_design": "single-observer illustrative exploratory observations under one fixed NVDA/Acrobat/Windows configuration", "pac_ai_status": "native_pilot_semantic_text_no_export_gate", "pac_ai_selected_mutants": len(selected_ai), "pac_ai_deferred_mutants": len(deferred_ai), "pac_ai_classified_mutants": ai_run_count, "overall": overall, "class_summary": class_summary, "agreement": agreement}
+    summary = {"status": analysis_status, "analysis_status": analysis_status, "valid_verified_mutants": len(all_valid_mutants), "active_mutants": len(mutants), "valid_mutants": len(mutants), "corpus_records": len(corpus), "canonical_validator_rows": len(runs), "classified_formal_rows": len(current_runs), "required_classified_formal_rows": required_classified, "at_observation_rows": len(at_rows), "at_observation_complete_rows": at_complete, "at_observer_design": "single-observer illustrative exploratory observations under one fixed NVDA/Acrobat/Windows configuration", "pac_ai_status": "native_pilot_semantic_text_no_export_gate", "pac_ai_selected_mutants": len(selected_ai), "pac_ai_deferred_mutants": len(deferred_ai), "pac_ai_classified_mutants": ai_run_count, "source_cluster_count": len({row["source_golden"] for row in source_summary}), "source_cluster_bootstrap_resamples": 5000, "overall": overall, "class_summary": class_summary, "agreement": agreement, "detection_sensitivity": sensitivity}
     (OUT / "metrics_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     lines = ["# Active analysis", "", "This report is generated from `data/mutants.jsonl`, `data/mutant_exclusions.csv`, `data/validator_runs.csv`, and `data/corpus_inventory.csv`.", ""]
     if not mutants or not formal_complete:
@@ -317,7 +419,7 @@ def main() -> int:
         for row in overall:
             rate = f"{float(row['rate']):.1%}" if row["rate"] else "TODO"
             lines.append(f"| {row['validator']} | {row['detected']} | {row['missed']} | {row['needs_manual_check']} | {row['not_applicable']} | {row['total_with_classification']} | {rate} |")
-        lines += ["", "Rates are Detected/(Detected + No automated target finding); manual and not-applicable rows are excluded. Rows without a canonical report and classification remain TODO and are excluded from rates."]
+        lines += ["", "Rates are Detected/(Detected + No automated target finding); manual and not-applicable rows are excluded. Rows without a canonical report and classification remain TODO and are excluded from rates.", "", "Mutants are nested within nine golden baselines. `source_cluster_summary.csv` reports per-baseline descriptive rates, and `source_cluster_bootstrap.csv` resamples complete baselines together for a deterministic sensitivity interval; these intervals are not population-level confidence claims.", "", "`detection_sensitivity.csv` separates direct target detections from the three Acrobat M10 consequence-proxy detections."]
     lines += ["", "## Scope", "", f"Valid verified mutants: {len(all_valid_mutants)}", f"Active mutants: {len(mutants)}", f"Corpus inventory records: {len(corpus)}", f"Canonical validator rows: {len(runs)}", "", "AI-assisted PAC rows are retained as a separate mode and are never merged with formal outcomes."]
     (OUT / "analysis.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     if formal_complete:

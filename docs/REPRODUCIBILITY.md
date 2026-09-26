@@ -1,6 +1,6 @@
 # Reproducibility protocol
 
-Run commands from the repository root (`C:\Gauri\ma11ypdf`) with the recorded Python environment and local validator evidence available.
+Run commands from the repository root (`<REPO_ROOT>`) with the recorded Python environment and authorized native-validator evidence available.
 
 ## Canonical regeneration and checks
 

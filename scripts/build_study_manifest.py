@@ -85,6 +85,10 @@ def common_target_selection_rule() -> str:
 
 def build_environment_rows() -> list[dict[str, object]]:
     """Flatten recorded validator metadata and local runtime versions."""
+    def portable_path(path: str, placeholder: str) -> str:
+        """Keep public manifests portable and free of workstation paths."""
+        return placeholder if path else ""
+
     rows: list[dict[str, object]] = []
     pac = json.loads((DATA / "pac_formal_run_metadata.json").read_text(encoding="utf-8"))
     rows.append({"component": "PAC", "version": pac.get("pac_version", ""), "configuration": pac.get("run_configuration", ""), "settings": json.dumps({"profile": pac.get("profile"), "ai_enabled": pac.get("ai_enabled"), "platform": pac.get("platform")}, sort_keys=True), "source": "data/pac_formal_run_metadata.json"})
@@ -109,7 +113,7 @@ def build_environment_rows() -> list[dict[str, object]]:
                 version = (result.stderr or result.stdout).splitlines()[0]
             except (OSError, IndexError):
                 version = "INSTALLED_VERSION_UNREAD"
-        rows.append({"component": executable, "version": version, "configuration": "runtime", "settings": json.dumps({"path": path or ""}, sort_keys=True), "source": "runtime capture"})
+        rows.append({"component": executable, "version": version, "configuration": "runtime", "settings": json.dumps({"path": portable_path(path, f"<SYSTEM_PATH>/{executable}" )}, sort_keys=True), "source": "runtime capture"})
     tectonic = ROOT / "tmp" / "tectonic" / "bin" / ("tectonic.exe" if platform.system() == "Windows" else "tectonic")
     tectonic_version = "UNAVAILABLE"
     if tectonic.is_file():
@@ -118,7 +122,7 @@ def build_environment_rows() -> list[dict[str, object]]:
             tectonic_version = (result.stdout or result.stderr).strip().splitlines()[0]
         except (OSError, IndexError):
             tectonic_version = "INSTALLED_VERSION_UNREAD"
-    rows.append({"component": "Tectonic", "version": tectonic_version, "configuration": "manuscript build", "settings": json.dumps({"path": str(tectonic) if tectonic.is_file() else ""}, sort_keys=True), "source": "runtime capture"})
+    rows.append({"component": "Tectonic", "version": tectonic_version, "configuration": "manuscript build", "settings": json.dumps({"path": "<REPO_ROOT>/tmp/tectonic/bin/tectonic.exe" if tectonic.is_file() else ""}, sort_keys=True), "source": "runtime capture"})
     return rows
 
 

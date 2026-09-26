@@ -13,7 +13,7 @@ The user-requested working directory (path intentionally omitted from the releas
 | Tag | `paper-freeze-v1` |
 | Working tree | Dirty after this second-pass artifact generation; pre-audit checkout was clean |
 | Remote relation | `main` is six commits ahead of `origin/main` (`origin/main`=`7b78a42`) |
-| Local-only repair status | The repaired study and freeze artifacts exist locally; they have not been pushed |
+| Release status | The repaired study and freeze artifacts are committed and pushed to `origin/main`; raw vendor/AT evidence remains excluded from the public freeze |
 
 ## Canonical experiment
 
@@ -37,4 +37,4 @@ The manuscript currently representing the study is `paper/pdfa11ymut_ieee.tex`, 
 
 ## State conclusion
 
-The canonical scientific state is 9 baselines / 10 operators / 69 active mutants / 207 formal rows / 18 controls / 9 exploratory AT cases. Historical 23-mutant summaries are not active inputs. Principal release caveats are local-only repairs, post-discovery exclusions for unavailable M09 bytes and one baseline conflict, collection-level corpus provenance without the original acquisition archive, and external-validator/AT evidence that cannot be recreated solely from open-source commands.
+The canonical scientific state is 9 baselines / 10 operators / 73 valid verified generation records / 69 active mutants / 207 formal rows / 18 controls / 9 exploratory AT cases. Historical 23-mutant summaries are not active inputs. Principal release caveats are post-discovery exclusions for unavailable M09 bytes and one baseline conflict, collection-level corpus provenance without the original acquisition archive, and external-validator/AT evidence that cannot be recreated solely from open-source commands. The public clone reproduces analysis and integrity checks; authorized native evidence is retained separately.

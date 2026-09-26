@@ -10,7 +10,7 @@
   "model_info": "PAC-managed AI model; PAC 26.1.0.0 did not expose an exact model/build identifier in the controlled UI.",
   "native_control_status": "AVAILABLE_NATIVE_PAC_WINDOW_VERIFIED",
   "pac_build": "26.1.0.0 (PAC.exe FileVersion/ProductVersion)",
-  "pac_executable": "C:\\Users\\iamga\\AppData\\Local\\PAC\\PAC.exe",
+  "pac_executable": "<PAC_INSTALL_DIR>/PAC.exe",
   "pac_version": "26.1.0.0",
   "platform": "Windows 10 Home 25H2, build 26200.9457, x64",
   "profile": "PDF/UA formal/traditional check with PAC AI semantic analysis",
