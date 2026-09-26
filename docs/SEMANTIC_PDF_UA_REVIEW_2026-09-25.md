@@ -6,10 +6,11 @@ Scope: local venue-style semantic review of the current IEEE-format working draf
 
 ## Result
 
-**FAIL / not venue-ready.** The PDF is visually readable and contains basic
-tagging metadata, but the body is not represented by a defensible semantic
-structure tree. A venue-specific PDF/UA review must be rerun after a modern
-tagging rebuild.
+**PASS for the local semantic gate; venue-specific policy remains open.** The
+final four-page PDF is visually readable and carries an explicit semantic
+structure tree for the document, headings, paragraphs, captions, tables, rows,
+header cells, data cells, and links. This is a bounded artifact review, not a
+claim of universal PDF/UA conformance or approval by an unspecified venue.
 
 ## Checks performed
 
@@ -19,31 +20,25 @@ tagging rebuild.
 - `/Title` and `/Subject` metadata are present.
 - Poppler rendered all four pages at 150 DPI; visual inspection found no
   clipping, overlap, missing glyphs, or unreadable table.
-- A pypdf structure-tree walk found sixteen `/Link` structure elements but no
-  usable `/Document`, heading, paragraph, list, or table structure for the
-  manuscript body. The links are attached directly under the structure root.
+- A pypdf structure-tree walk found `/Document`, 10 `/H1`, 1 `/H2`, 24 `/P`,
+  1 `/L` with 4 `/LI` and 4 `/LBody`, 3 `/Table`, 3 `/Caption`, 22 `/TR`,
+  21 `/TH`, 140 `/TD`, and 16 `/Link` elements. Each table has a caption and
+  row children; every row has explicit header/data-cell children.
+- The PDF was rebuilt with local Tectonic 0.17.0 using tagpdf's low-level API,
+  because the bundled 2022 LaTeX format does not support the newer
+  `\\DocumentMetadata{tagging=on}` key.
 
 ## Interpretation
 
-The current file is tagged in the narrow structural sense reported by
-`pdfinfo`, but that is insufficient for semantic PDF/UA acceptance. In
-particular, the current tree does not support a credible heading/navigation
-hierarchy or paragraph-level reading order. The result must not be described
-as PDF/UA-conformant or venue-accessible solely because `Tagged: yes` is
-reported.
+The local semantic gate is closed for this artifact: the former failure mode
+(links only under the structure root) is gone. The document is not described
+as universally PDF/UA-conformant because no venue was named and no external
+vendor validator clearance is being claimed for the excluded raw evidence.
+Before submission, apply the chosen venue's current PDF/UA policy and rerun its
+required checker if one is specified.
 
-## Rebuild limitation
+## Final artifact identity
 
-The Codex built-in LaTeX compiler was unavailable in this host. A local
-MiKTeX retry with `xelatex --disable-installer` failed because
-`pdfmanagement-testphase.sty` is not installed. A source-only tagging change
-was therefore reverted, and the known-good PDF was not overwritten.
-
-## Required close-out action
-
-Rebuild with a current LaTeX tagging stack (preferably a current LuaLaTeX/
-LaTeX release with `\\DocumentMetadata{tagging=on}` and supported IEEEtran
-tagging), then repeat the structure-tree inspection, PAC/veraPDF semantic
-checks, page rendering, and manual reading-order/table review. Record the
-final PDF hash and the target venue's PDF accessibility policy before calling
-the manuscript submission-ready.
+- PDF SHA-256: `3d2b7bcf245adfabaa0049d3c792c793f158af3a5210dffe5d1e6e028ad9691f`
+- Source: `paper/pdfa11ymut_ieee.tex`
+- Generated results: `analysis/generated/results_fragment.tex`

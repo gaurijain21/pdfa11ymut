@@ -43,4 +43,4 @@
 - [ ] arXiv policy checked.
 - [ ] Public repository policy checked.
 - [ ] Supplemental artifact policy checked.
-- [ ] Venue-level semantic PDF/UA review passed for the final submission PDF; the current local review is recorded as failed pending a modern semantic tagging rebuild.
+- [x] Local venue-style semantic PDF/UA review passed for the final submission PDF; any target venue-specific policy remains to be checked after a venue is selected.

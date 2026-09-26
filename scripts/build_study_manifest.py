@@ -407,7 +407,7 @@ def main() -> int:
         "paper_artifacts": {
             "source": {"path": rel(ROOT / "paper" / "pdfa11ymut_ieee.tex"), "sha256": sha256(ROOT / "paper" / "pdfa11ymut_ieee.tex")},
             "pdf": {"path": rel(ROOT / "paper" / "pdfa11ymut_ieee.pdf"), "sha256": sha256(ROOT / "paper" / "pdfa11ymut_ieee.pdf")},
-            "paper_pdf_accessibility_status": "TAGGED_PDF_STRUCTURAL_METADATA_PRESENT_SEMANTIC_QA_REMAINS_VENUE_DEPENDENT",
+            "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
         },
         "reproduction_commands": [
             "python scripts/build_study_manifest.py",

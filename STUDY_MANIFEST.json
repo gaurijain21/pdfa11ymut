@@ -259,20 +259,20 @@
     "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv."
   ],
   "paper_artifacts": {
-    "paper_pdf_accessibility_status": "TAGGED_METADATA_PRESENT_SEMANTIC_REVIEW_FAILED_2026-09-25",
+    "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
     "pdf": {
       "path": "paper/pdfa11ymut_ieee.pdf",
-      "sha256": "e3d432ba99b3f4dee0c9506ffa940d08d9cc2d7ea51b0f55156587b16066ffe6"
+      "sha256": "3d2b7bcf245adfabaa0049d3c792c793f158af3a5210dffe5d1e6e028ad9691f"
     },
     "source": {
       "path": "paper/pdfa11ymut_ieee.tex",
-      "sha256": "16abce33b726ece6521afe2373c43c95e5ee1d909ead1070c7768bfe03dba854"
+      "sha256": "c863a406407a8ae2d43eed2b596882457d2696bda458e97e6debb25ae27d27c6"
     }
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "a67850dbe9d0d729baabf2b42ce1b5c315da11a7",
-    "worktree_dirty": false
+    "git_head": "b95dfe1b56c365764010fe5fd3ec53496262f752",
+    "worktree_dirty": true
   },
   "reproduction_commands": [
     "python scripts/build_study_manifest.py",

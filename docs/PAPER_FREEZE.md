@@ -5,11 +5,11 @@ This is a preparation record, not a Git tag or release.
 - manifest-generation commit: `a67850dbe9d0d729baabf2b42ce1b5c315da11a7`
 - working tree: dirty before the final freeze; a clean public Git freeze must exclude raw vendor/AT evidence and historical bundles
 - canonical manifest: `STUDY_MANIFEST.json`
-- canonical manifest SHA-256: `0E98CC97F09A3F7B37D62159005CA3B49016E19226A1D09519A61303A5F2E6FF`
-- manuscript source SHA-256: `16abce33b726ece6521afe2373c43c95e5ee1d909ead1070c7768bfe03dba854`
-- current manuscript PDF SHA-256: `e3d432ba99b3f4dee0c9506ffa940d08d9cc2d7ea51b0f55156587b16066ffe6`
+- canonical manifest SHA-256: `9EFE24EEE0A4B59D0A836ED9B866CCFC0ABE7AC40BDE8C096F860DCC0F2679B6`
+- manuscript source SHA-256: `C863A406407A8AE2D43EED2B596882457D2696BDA458E97E6DEBB25AE27D27C6`
+- current manuscript PDF SHA-256: `3D2B7BCF245ADFABAA0049D3C792C793F158AF3A5210DFFE5D1E6E028AD9691F`
 - recommended eventual tag: `paper-freeze-v1`
 
-The canonical artifact is reproducible and hash-identified. The public Git freeze must stage only the intended current artifact set, exclude raw vendor/AT evidence and historical bundles, run the checks below, commit it, and create the local tag `paper-freeze-v1`. The tag freezes the current study state; it does not imply that the manuscript has passed venue-level semantic PDF/UA review.
+The canonical artifact is reproducible and hash-identified. The public Git freeze must stage only the intended current artifact set, exclude raw vendor/AT evidence and historical bundles, run the checks below, commit it, and create the local tag `paper-freeze-v1`. The tag freezes the current study state; the local semantic gate passes, while any target venue's additional PDF/UA policy remains venue-specific.
 
-The current PDF was rebuilt from the current source with Tectonic 0.17.0, rendered and visually inspected, and reports Tagged=yes with catalog language and structure metadata. The semantic audit found no usable document/heading/paragraph structure; see `docs/SEMANTIC_PDF_UA_REVIEW_2026-09-25.md`. Raw evidence is excluded from the public freeze, so no redistribution clearance is claimed for those bytes.
+The current PDF was rebuilt from the current source with Tectonic 0.17.0, rendered and visually inspected, and reports Tagged=yes with catalog language and explicit document/heading/paragraph/table structure; see `docs/SEMANTIC_PDF_UA_REVIEW_2026-09-25.md`. Raw evidence is excluded from the public freeze, so no redistribution clearance is claimed for those bytes.
