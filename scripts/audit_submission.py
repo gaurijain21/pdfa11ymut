@@ -52,9 +52,19 @@ def main() -> int:
     current_head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     current_dirty = bool(subprocess.check_output(["git", "status", "--porcelain"], cwd=ROOT, text=True).strip())
     recorded_repo = manifest.get("repository", {})
-    if recorded_repo.get("git_head") != current_head:
+    recorded_head = recorded_repo.get("git_head")
+    commit_boundary = False
+    if recorded_head != current_head and not current_dirty:
+        parents = subprocess.check_output(
+            ["git", "rev-list", "--parents", "-n", "1", "HEAD"],
+            cwd=ROOT,
+            text=True,
+        ).strip().split()[1:]
+        commit_boundary = recorded_head in parents
+    if recorded_head != current_head and not commit_boundary:
         fail(errors, f"manifest git_head={recorded_repo.get('git_head')} but current HEAD={current_head}")
-    if recorded_repo.get("worktree_dirty") is not current_dirty:
+    recorded_dirty = recorded_repo.get("worktree_dirty")
+    if recorded_dirty is not current_dirty and not commit_boundary:
         fail(errors, f"manifest worktree_dirty={recorded_repo.get('worktree_dirty')} but current state is {current_dirty}")
     paper_meta = manifest.get("paper_artifacts", {})
     for key, relative in (("source", "paper/pdfa11ymut_ieee.tex"), ("pdf", "paper/pdfa11ymut_ieee.pdf")):

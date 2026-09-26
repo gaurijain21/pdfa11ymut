@@ -271,7 +271,7 @@
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "c94f4a33d01ded6be5b5a593041788bda1fc7768",
+    "git_head": "4051b71039f1bc468be0ae4c7f79d9fe3e1073b3",
     "worktree_dirty": true
   },
   "reproduction_commands": [
