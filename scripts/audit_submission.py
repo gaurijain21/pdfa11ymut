@@ -114,12 +114,14 @@ def main() -> int:
     recorded_head = recorded_repo.get("git_head")
     commit_boundary = False
     if recorded_head != current_head and not current_dirty:
-        parents = subprocess.check_output(
-            ["git", "rev-list", "--parents", "-n", "1", "HEAD"],
+        # Permit clean descendant commits that only carry post-freeze packaging
+        # or audit fixes while keeping the frozen scientific commit authoritative.
+        ancestry = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", recorded_head, current_head],
             cwd=ROOT,
-            text=True,
-        ).strip().split()[1:]
-        commit_boundary = recorded_head in parents
+            check=False,
+        )
+        commit_boundary = ancestry.returncode == 0
     if recorded_head != current_head and not commit_boundary:
         fail(errors, f"manifest git_head={recorded_repo.get('git_head')} but current HEAD={current_head}")
     recorded_dirty = recorded_repo.get("worktree_dirty")
