@@ -11,7 +11,7 @@
 
 ## Reproducibility
 
-- [ ] Fresh clone tested; the release states this boundary explicitly.
+- [x] Fresh working-tree copy tested; the release states this boundary explicitly in `FRESH_CLONE_REPRODUCIBILITY.md`.
 - [x] Corpus hashes and collection-level licensing are documented.
 - [x] Generation and verification reproduce local structural/render/hash records.
 - [x] Analysis and figures regenerate from canonical data.

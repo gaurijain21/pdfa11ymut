@@ -39,6 +39,6 @@ required checker if one is specified.
 
 ## Final artifact identity
 
-- PDF SHA-256: `3d2b7bcf245adfabaa0049d3c792c793f158af3a5210dffe5d1e6e028ad9691f`
+- PDF SHA-256: `3ce4b9bcafa9bc74dcce30a327d0df4b9d87e8eefe0ec68d7b80acb809a5dc13`
 - Source: `paper/pdfa11ymut_ieee.tex`
 - Generated results: `analysis/generated/results_fragment.tex`

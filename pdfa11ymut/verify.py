@@ -28,7 +28,7 @@ def sha256(path: Path) -> str:
 
 def find_pdftoppm() -> str | None:
     configured = os.environ.get("PDFa11YMUT_PDFTOPPM")
-    candidates = [configured, shutil.which("pdftoppm"), r"C:\Users\iamga\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin\pdftoppm.exe"]
+    candidates = [configured, shutil.which("pdftoppm")]
     for candidate in candidates:
         if candidate and Path(candidate).is_file():
             return candidate

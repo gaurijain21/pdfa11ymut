@@ -10,7 +10,7 @@ At the initial audit the repository contained analysis summaries, duplicate pape
 
 ## Reproducibility failures
 
-- The original analysis read a manifest from `C:\Users\iamga\AppData\Local\Temp\...`, outside the repository.
+- The original analysis read a manifest from a machine-local temporary directory outside the repository.
 - `detected_by` and `failure_details` were hardcoded in the analysis script.
 - The original 23 inputs and outputs described by the paper were absent at audit time; the current nine-file corpus has now been hashed and locally verified through the rebuilt pipeline.
 - Raw validator exports, exact versions/settings, PAC formal versus AI configuration, and manual classification records are absent.

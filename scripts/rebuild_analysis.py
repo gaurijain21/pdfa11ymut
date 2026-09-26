@@ -101,6 +101,7 @@ def _write_results_fragment_untagged(path: Path, overall: list[dict], per_operat
         "\\caption{Formal validator outcomes in the active scope.}",
         "\\label{tab:formal-overall}",
         "\\centering\\small",
+        "\\setlength{\\tabcolsep}{3pt}",
         "\\begin{tabular}{lrrrrr}",
         "\\toprule",
         "Validator & Detected & No target & Manual & Total & Rate \\\\",

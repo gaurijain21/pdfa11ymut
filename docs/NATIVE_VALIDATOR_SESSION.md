@@ -10,7 +10,7 @@ Use the computer-use skill's native `@oai/sky` API through `mcp__node_repl__js`.
 
 Initialize `sky` with `await import("@oai/sky")`, use `list_apps`/`list_windows`, select the returned window with `get_window`, activate it, and inspect `get_window_state`. Use the skill's observe/action/refresh workflow. Accessibility trees were intermittently null; screenshot-based clicks and text entry worked. Some actions only focused a window; observe the result before retrying. Modal dialog screenshots can have different dimensions from the main-window screenshot.
 
-- PAC executable: `C:\Users\iamga\AppData\Local\PAC\PAC.exe`, version 26.1.0.0.
+- PAC executable: local PAC installation (absolute path intentionally omitted), version 26.1.0.0.
 - Acrobat executable: `C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe`, file version 26.2.21931.0.
 
 ## End-to-end smoke test: G01-NOOP

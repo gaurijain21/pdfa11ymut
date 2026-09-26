@@ -56,6 +56,9 @@ evidence/verapdf/
 pdfa11ymut_release_*.zip
 pdfa11ymut_release_*.zip.sha256
 pdfa11ymut_arxiv*.zip
+release/pdfa11ymut_public_*.zip
+release/pdfa11ymut_public_*.zip.sha256
+release/pdfa11ymut_public_*.manifest.txt
 paper/archive/
 tmp/
 outputs/

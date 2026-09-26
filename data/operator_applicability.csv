@@ -1,0 +1,11 @@
+operator,baseline_pdfs,applicable_baselines_or_records,successful_generation_records,generation_failure_records,documented_exclusions,active_mutants,selection_rule,denominator_note
+M01,9,8,8,2,0,8,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M02,9,9,9,0,0,9,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M03,9,8,8,3,0,8,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M04,9,8,8,3,0,8,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M05,9,7,7,6,0,7,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M06,9,7,7,6,0,7,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M07,9,7,7,6,0,7,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M08,9,9,9,0,1,8,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M09,9,6,6,14,4,3,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions
+M10,9,4,4,15,0,4,first eligible reachable target in stable structure traversal order,applicable count is record-based because generation ledger retains only applicable attempts; active excludes documented exclusions

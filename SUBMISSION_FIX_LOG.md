@@ -2,6 +2,14 @@
 
 This log records material changes made after `SUBMISSION_AUDIT.md`. Raw PDFs, raw validator reports, screenshots, and historical artifacts are not deleted or overwritten.
 
+## 2026-09-25 — stale final-artifact records corrected
+
+- Updated the current build-status, paper-freeze, semantic-review, and external-gate records to the final manuscript PDF hash `3ce4b9bcafa9bc74dcce30a327d0df4b9d87e8eefe0ec68d7b80acb809a5dc13`.
+- Corrected obsolete statements that described the final PDF as untagged or lacking a semantic tree. Those statements remain historical records of earlier builds; the current PDF passes the bounded local semantic gate.
+- Recorded that the generated-results table spacing repair removed the prior overfull-box warning. The remaining compiler messages are underfull spacing warnings only.
+
+Entries below this point preserve earlier intermediate states for audit history. Their hashes and accessibility findings are superseded by the correction above and by the current values in `STUDY_MANIFEST.json`.
+
 ## 2026-09-25 — current manuscript PDF rebuilt and archived
 
 - Built the repaired manuscript source with the local Tectonic 0.17.0 executable after MiKTeX could not complete first-run setup.

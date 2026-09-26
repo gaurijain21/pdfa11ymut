@@ -104,7 +104,7 @@ This is an adversarial pre-submission review of the current artifact after the c
 
 **Attack:** The current Tectonic build reports a tagged structure, but the compiler still reports an 8.3pt overfull box in the generated results fragment, and tag semantics have not been checked by a full PDF/UA validator.
 
-**Disposition:** Mitigated, with a non-fatal QA note. The PDF is tagged and metadata-complete at the catalog level; visual inspection found no clipping or unreadable table. The overfull warning is retained for later typography cleanup, and semantic PDF/UA acceptance remains venue-dependent.
+**Disposition:** Resolved for the local artifact gate, with venue-specific QA still open. The final four-page PDF is tagged, carries document/heading/paragraph/table/link structure, and has no remaining overfull-box warning in the generated results fragment. Visual inspection found no clipping, overlap, or unreadable table. A target venue's required PDF/UA checker remains outside this repository-only review.
 
 ## Attack 18 — Derived terminology is repaired but raw ledger labels can still mislead
 

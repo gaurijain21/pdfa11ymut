@@ -84,6 +84,14 @@ Kumar, Padath, and Wang provide a PDF accessibility benchmark with expert-valida
 The gap addressed here is narrower: reusable mutation of existing reference structures with explicit preconditions, allowed deltas, invariants, and paired baseline/mutant validator evidence. Atomic bad PDFs and validator comparisons remain important complementary resources, not substitutes for this mutation-testing unit.
 \end{taggedparagraph}
 
+\begin{taggedparagraph}
+The tool landscape continues to change: Horn is an open-source Matterhorn-oriented PDF/UA-1 checker with structured
+CI output, and PDF4WCAG provides a current desktop interface built around veraPDF \cite{horn,pdf4wcag}. These tools
+are relevant future extensions, but the present experiment remains deliberately frozen to the three recorded
+configurations. PDF/UA-2 (ISO 14289-2), ISO/TS 32005, and WTPDF address newer PDF 2.0 structure and accessibility
+requirements; they are acknowledged scope context rather than untested claims about this PDF/UA-1 study.
+\end{taggedparagraph}
+
 \taggedsection{Experimental Model}
 \begin{taggedparagraph}
 Class A contains properties with a documented machine-checkable or profile-specific conformance condition in this study: M03 incorrect heading level, M07 missing figure alternate description, M08 missing document language, M09 invalid RoleMap target, and M10 illegal table-child role. Class B contains properties for which a structurally legal file can still expose an unintended semantic or assistive representation: M01 structural reading-order swap, M02 omission from assistive structure, M04 marked-content association swap, M05 internal marked-content sequence reversal, and M06 duplicate list-item reference. M06 is structurally verified but has no dedicated duplicate-reference failure condition in the reviewed normative materials. Class B survival is therefore reported as no automated finding, not as a validator failure.
@@ -152,6 +160,8 @@ PDFa11yMut's defensible contribution is a paired, hash-linked methodology for me
 \bibitem{matterhorn} PDF Association, ``Matterhorn Protocol 1.1,'' 2021, \url{https://pdfa.org/download-area/publications/Matterhorn-Protocol-1-1.pdf}.
 \bibitem{techniques} PDF Association, ``Techniques for Accessible PDF,'' 2025, \url{https://pdfa.org/techniques-for-accessible-pdf/}.
 \bibitem{crossvalidator} D. Kosovac, ``Understanding PDF/UA Validation Results: A Comparative Study Across Tools,'' PDF Association, Dec. 26, 2025, \href{https://pdfa.org/understanding-pdfua-validation-results-a-comparative-study-across-tools/}{PDF Association validator comparison}.
+\bibitem{horn} focusring, ``Horn: PDF accessibility testing at scale,'' official repository, accessed Sep. 25, 2026, \url{https://github.com/focusring/horn}.
+\bibitem{pdf4wcag} Dual Lab, ``PDF4WCAG Desktop,'' version 1.10.1, June 25, 2026, \url{https://pdf4wcag.com/desktop-app/}.
 \bibitem{verapdfcorpus} veraPDF, ``veraPDF-corpus,'' CC BY 4.0, \url{https://github.com/veraPDF/veraPDF-corpus}.
 \bibitem{isartor} PDF Association, ``Isartor Test Suite: Terms of Use,'' \url{https://pdfa.org/wp-content/uploads/2011/08/Isartor-Test-Suite4.pdf}.
 \end{thebibliography}

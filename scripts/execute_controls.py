@@ -11,6 +11,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
 import shutil
 import subprocess
 import tempfile
@@ -25,9 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONTROLS = ROOT / "data" / "controls.csv"
 ARTIFACTS = ROOT / "corpus" / "controls"
 EVIDENCE = ROOT / "evidence" / "controls"
-POPPLER = Path(
-    r"C:\Users\iamga\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin\pdftoppm.exe"
-)
+POPPLER = Path(os.environ.get("PDFa11YMUT_PDFTOPPM") or shutil.which("pdftoppm") or "")
 
 
 def digest(path: Path) -> str:

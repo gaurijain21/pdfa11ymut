@@ -10,6 +10,7 @@ import csv
 import hashlib
 import json
 import math
+import subprocess
 import sys
 from collections import Counter
 from pathlib import Path
@@ -48,6 +49,19 @@ def main() -> int:
         print("FAIL: STUDY_MANIFEST.json is missing")
         return 1
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    current_head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+    current_dirty = bool(subprocess.check_output(["git", "status", "--porcelain"], cwd=ROOT, text=True).strip())
+    recorded_repo = manifest.get("repository", {})
+    if recorded_repo.get("git_head") != current_head:
+        fail(errors, f"manifest git_head={recorded_repo.get('git_head')} but current HEAD={current_head}")
+    if recorded_repo.get("worktree_dirty") is not current_dirty:
+        fail(errors, f"manifest worktree_dirty={recorded_repo.get('worktree_dirty')} but current state is {current_dirty}")
+    paper_meta = manifest.get("paper_artifacts", {})
+    for key, relative in (("source", "paper/pdfa11ymut_ieee.tex"), ("pdf", "paper/pdfa11ymut_ieee.pdf")):
+        path = ROOT / relative
+        expected = paper_meta.get(key, {}).get("sha256")
+        if path.is_file() and expected and sha256(path) != expected:
+            fail(errors, f"manifest hash mismatch for {relative}")
     mutants = read_jsonl(DATA / "mutants.jsonl")
     exclusions = read_csv(DATA / "mutant_exclusions.csv")
     runs = read_csv(DATA / "validator_runs.csv")
@@ -190,6 +204,47 @@ def main() -> int:
         for fragment, description in forbidden_fragments.items():
             if fragment in text:
                 fail(errors, f"{label} contains {description}: {fragment}")
+
+    # Second-pass generated views and immutable evidence snapshot.
+    applicability = DATA / "operator_applicability.csv"
+    capability = DATA / "validator_capability_mapping.csv"
+    loo = ROOT / "analysis" / "leave_one_source_out.csv"
+    checksums = DATA / "evidence_checksums.sha256"
+    if not applicability.is_file():
+        fail(errors, "operator_applicability.csv is missing")
+    elif len(read_csv(applicability)) != 10:
+        fail(errors, "operator_applicability.csv must contain one row per operator")
+    if not capability.is_file():
+        fail(errors, "validator_capability_mapping.csv is missing")
+    else:
+        expected_capability_fields = {
+            "validator", "version", "configuration", "operator", "relevant_rule",
+            "machine_checkable", "validator_claims_coverage", "expected_automated_detection", "evidence_source",
+        }
+        actual_fields = set(read_csv(capability)[0]) if read_csv(capability) else set()
+        if actual_fields != expected_capability_fields:
+            fail(errors, "validator_capability_mapping.csv has the wrong schema")
+        if len(read_csv(capability)) != 30:
+            fail(errors, "validator_capability_mapping.csv must contain 10 operators x 3 configurations")
+    if not loo.is_file() or len(read_csv(loo)) != 27:
+        fail(errors, "analysis/leave_one_source_out.csv must contain 9 baselines x 3 validators")
+    if not checksums.is_file():
+        fail(errors, "data/evidence_checksums.sha256 is missing")
+    else:
+        checksum_lines = [line for line in checksums.read_text(encoding="utf-8").splitlines() if line and not line.startswith("#")]
+        if not checksum_lines:
+            fail(errors, "evidence checksum manifest is empty")
+        for line in checksum_lines:
+            parts = line.split("  ", 1)
+            if len(parts) != 2:
+                fail(errors, f"malformed evidence checksum line: {line}")
+                continue
+            expected_hash, relative = parts
+            path = ROOT / relative.replace("/", "\\")
+            if not path.is_file():
+                fail(errors, f"checksum target is missing: {relative}")
+            elif sha256(path) != expected_hash:
+                fail(errors, f"checksum mismatch: {relative}")
 
     if errors:
         print(f"FAIL: {len(errors)} consistency issue(s)")

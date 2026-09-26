@@ -262,17 +262,17 @@
     "paper_pdf_accessibility_status": "TAGGED_SEMANTIC_STRUCTURE_REVIEW_PASSED_LOCAL_GATE_2026-09-25",
     "pdf": {
       "path": "paper/pdfa11ymut_ieee.pdf",
-      "sha256": "3d2b7bcf245adfabaa0049d3c792c793f158af3a5210dffe5d1e6e028ad9691f"
+      "sha256": "3ce4b9bcafa9bc74dcce30a327d0df4b9d87e8eefe0ec68d7b80acb809a5dc13"
     },
     "source": {
       "path": "paper/pdfa11ymut_ieee.tex",
-      "sha256": "c863a406407a8ae2d43eed2b596882457d2696bda458e97e6debb25ae27d27c6"
+      "sha256": "02a8fcd397e771b7f626fcc37f768e4eeaee318be786bab422982578b715cdf6"
     }
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "3f7679609486109c49b00410159544ffb981716e",
-    "worktree_dirty": false
+    "git_head": "c94f4a33d01ded6be5b5a593041788bda1fc7768",
+    "worktree_dirty": true
   },
   "reproduction_commands": [
     "python scripts/build_study_manifest.py",
