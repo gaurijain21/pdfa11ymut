@@ -73,15 +73,19 @@
   "analysis_script_hashes": [
     {
       "path": "operators\\operators.yaml",
-      "sha256": "931945f6add5a664330770aa77572a57f6afe0a6b3b49fa8334afb1e66a64c5f"
+      "sha256": "ef3558e70e434de2585abda9e80ac539589ef2c6fe5d6c3d0d0e05dac10f16cb"
     },
     {
       "path": "scripts\\audit_submission.py",
-      "sha256": "0c70666fe6d5f66253b0dfabf9d5b1c1eb5f9dd72b17b541e316c7862e252643"
+      "sha256": "4334564a35800ce333e84d0066020ba0687172434a0c6e1efbeffa339e651d03"
+    },
+    {
+      "path": "scripts\\build_arxiv_submission.py",
+      "sha256": "e4654d214e54a5de8d2784d6c5fe0c9b4bbdb333a32f111fab1ee4376d1358e8"
     },
     {
       "path": "scripts\\build_capability_matrix.py",
-      "sha256": "4238db7b14d0c95b6d7ba63b10f378f73b6bda96298ad05a1414af5bc3e77a81"
+      "sha256": "c72b28bb76aef915bc383f09f06c5817997024686f6fae02ac8fca4cb0e9a707"
     },
     {
       "path": "scripts\\build_detection_analysis.py",
@@ -97,11 +101,15 @@
     },
     {
       "path": "scripts\\build_formal_freeze.py",
-      "sha256": "7ee876d674a8570ef5b486a51855e0788bf3e6de67f7c7c6e69a58bf0af543da"
+      "sha256": "9e37216ab8cae9d2217c9f7fa5ec204fa1f172cdb6c3c59b96cd1bf8bd9e2a20"
     },
     {
       "path": "scripts\\build_ieee_assets.py",
       "sha256": "d6921643e291de795df0edfd9a42e51818e4a6448543c92f0b25cd4f03f3b21e"
+    },
+    {
+      "path": "scripts\\build_m09_exclusion_sensitivity.py",
+      "sha256": "67138dc186e93ac38c370c755b18300ab4b3cc8b702cf20e569f8a694db360e5"
     },
     {
       "path": "scripts\\build_mutant_run_guides.py",
@@ -116,16 +124,28 @@
       "sha256": "084c96c4ebb4a21803065f131ca322798ed8b24f8e18bb9b735eacd05db1375a"
     },
     {
+      "path": "scripts\\build_public_release.py",
+      "sha256": "c13ad9f774755adfddab9c110b370e3caee9fd8fae655125330121612be216ab"
+    },
+    {
+      "path": "scripts\\build_second_pass_artifacts.py",
+      "sha256": "ae58ae52297901f2d3c2ea612d37635a5622468b05b9b3818d0c7c01b33ac931"
+    },
+    {
       "path": "scripts\\build_study_freeze.py",
       "sha256": "87209e42973e954fee416f9b51c18811c9ecc486cdfe5f5795a9bee88f657870"
     },
     {
       "path": "scripts\\build_study_manifest.py",
-      "sha256": "3055bcab7b61bdeb1585993474e33acac84954b042fe1e62a904fe8029e58ea8"
+      "sha256": "d4b4600852e857992298ebc6fa558b1f2973ec6bfd2fb7a1bc3171050171a409"
+    },
+    {
+      "path": "scripts\\build_target_sensitivity.py",
+      "sha256": "22271afd0eccbfdb792adf627fe94e88d20a86b8d7daa3542b7567c5bc99d26e"
     },
     {
       "path": "scripts\\check_evidence.py",
-      "sha256": "18918c2b37c52876172748947eab9ff9d92c8414ff4c24df14c017ca5d23c91b"
+      "sha256": "5de6ac9103ee270939b7960a70a381dda76ce5d1f8cc900be02ca4242281cae2"
     },
     {
       "path": "scripts\\classify_formal.py",
@@ -149,11 +169,11 @@
     },
     {
       "path": "scripts\\execute_controls.py",
-      "sha256": "9f03c307b7fc82d7a54959cbfbf74a3cc343d6528e197dd913c73d1c3451a250"
+      "sha256": "58ae19a61e8ec6bb497ab7b25dff207202c11b736794cea03c17144095b6ab61"
     },
     {
       "path": "scripts\\independent_audit.py",
-      "sha256": "29cb3f332ac82043a5d6a7e2cacc5d191c57ee575bf22a7c188b8c9af0c83acc"
+      "sha256": "897e0d98d667b20691a12f966fc6454b94c0a48181af794db8f358730be8b9eb"
     },
     {
       "path": "scripts\\ingest_control_evidence.py",
@@ -169,19 +189,19 @@
     },
     {
       "path": "scripts\\prepare_double_coding.py",
-      "sha256": "c50fef914753832d71f93ad1e1e1fed15e6a612191b76524cf2f8f5b9c282a4f"
+      "sha256": "3e9365c713c79954d2234f19e2d8f0197108d342b773a3bf43da140a1f0c62cf"
     },
     {
       "path": "scripts\\prepare_phase2.py",
-      "sha256": "d183ff817f87b7dba939aa9e3c3ab223168c5696b34d48d5f69976260d9e78bc"
+      "sha256": "57b9f135c256cff1fb647aa59d812153d4214d6b88793c7a7c1e522f697dcf9e"
     },
     {
       "path": "scripts\\rebuild_analysis.py",
-      "sha256": "df52c8bad01b1cf708754b82138ef4a505cdb165dfb8dff2b5fe58f422c454a0"
+      "sha256": "a65c2acb0a4d354047f63824d9a2b56480c0e46fa6433e29070cd6a82b0e1992"
     },
     {
       "path": "scripts\\reconcile_canonical.py",
-      "sha256": "cf28fe5ed9740965cf022da72f0b082a45d8b440478c70ec7d5809d77d2892a7"
+      "sha256": "34161299fd5632b3129db33ab55556003c74e022824b31f15f5a9f7e5b0c6418"
     },
     {
       "path": "scripts\\reconcile_double_coding_corrections.py",
@@ -190,6 +210,10 @@
     {
       "path": "scripts\\regenerate_scratch.py",
       "sha256": "d72eb48c86d5fa3f2a66f885fd86172440183348dedf7778a7fff840533822b9"
+    },
+    {
+      "path": "scripts\\repair_paper_pdf_metadata.py",
+      "sha256": "9a612f85b6224651a1f4b879c1fa5684a24030f97760cd3a0aa728d48ab2e73a"
     },
     {
       "path": "scripts\\reverify_existing_mutants.py",
@@ -365,7 +389,7 @@
     "formal_validator_rows": 207,
     "golden_pdfs": 9,
     "pac_ai_rows": 34,
-    "valid_verified_mutants": 70,
+    "valid_verified_mutants": 73,
     "verapdf_control_rows": 18
   },
   "dependency_versions": {
@@ -408,279 +432,279 @@
   "independent_audit_hashes": [
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M01.json",
-      "sha256": "3a805442265421da573b463a6291f08062f40141fc75a516ca76cc2361d2b719"
+      "sha256": "22e37c388c4dd51e0eeb55967f0e6f3dafc26f4d94a476ec09c2f54f9481f175"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M02.json",
-      "sha256": "7daa632f5197e814c50c24c68d59b3400175ed6df3dc6fba601a51205aa46799"
+      "sha256": "2bb2fbe66e34e085fdb3d5869fc12a176874aee8c9ce783e1a3a6df14aacee84"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M03.json",
-      "sha256": "38d5e38d9a70704a5b5b28dd585eb883ccf90c6a6c974efc9542ee17b0da4b4c"
+      "sha256": "12ee1a2d211397da7b7c9f4600246de3c377fa9845df1239c522cacc53bac237"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M04.json",
-      "sha256": "4f2bf0eabccf97c6e1447d172f202eed889fa32d4c6e3c5b1d3b109730353db7"
+      "sha256": "ee78b5967afa0d9beea15de76166d9bc15fb52e61396f710eb1a5e3bac896917"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M05.json",
-      "sha256": "3559741ab69439760e60d5e17455f5a9bd9dffde72e3ec351a5ba11b68b6ad95"
+      "sha256": "b12ff2ecee003629075091e0b052b57b6cb8299b29eee2ce6074576dd9c6250f"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M06.json",
-      "sha256": "ca5ac4a9e2383103998d536ad764c2d7b44941ec721e737d49022e9ce8ca8b6e"
+      "sha256": "76297a6fc4f2e1eaaad71f8ef57c979a13c59b25b158a6ce85d6c483bff0c020"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M07.json",
-      "sha256": "ebfdd135f95210cbd78b266cbb037759b3028e656d08f4ff6ef914e1427a1cf2"
+      "sha256": "4b39cce69ff1b2922860162492dbd438a58a286bda7506215af4a1fb294d93d2"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M08.json",
-      "sha256": "6abfa62b1c150b19744fccb91ecde9636a197ebc641637bdb9776fceea37c52c"
+      "sha256": "f2927a70f7ac28888bb68b6f86cacfe4bd28153fb8856f22bba554692e796f4f"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M09.json",
-      "sha256": "f592762a2c8ff4427b3d5a2f4439d245874c1b36884f3c978ae56549fc36deae"
+      "sha256": "ac5328df9a707a0909d4de3c1e9403d7972c7fca262c8150a07a121d8c31c75f"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M02.json",
-      "sha256": "324f64e2ab0864fe8e7e553b741231573d4a1f16011eba1084f19829b52b1469"
+      "sha256": "1f061f4e433172212ef1ca3ee67c9abbec42d2a26fa65f93cfd5ba3bd2a62d88"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M03.json",
-      "sha256": "abc189b7ab6f06e63401a25db00f569b90f0784314ba196d5f9a8843f2eed855"
+      "sha256": "b2ecb9d69702068578d1d7b3ec2064d50222c5dc5c297fb5a8216f7f7e58178c"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M04.json",
-      "sha256": "c9dd3d208b7911c89c97dab474eb888aea5358e3d3574883e8f4cacb201efb8e"
+      "sha256": "a94b41d7876ef01317b30712d1cb6881b5ec5a9c737f0f90d4d9ff9ccf9cbedd"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M07.json",
-      "sha256": "8c4c2a668bfbc42f66e693b1ae28f96e226b650c2c9f84f53c00fba10dc3d405"
+      "sha256": "d85c595f23e88583f18a2ea5548ac53eaa30b2a930fe3037a3e060cda31f0d27"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M08.json",
-      "sha256": "92905fa0720737af61a589b69463bea5fba2e6881d5fbd636bc93d72881f8384"
+      "sha256": "a86d44b87690aa4e11349c609d2a5294aada53e19d9fe28ebd4d16d6ff7787e1"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M10.json",
-      "sha256": "58ca3918418dd90efa7cdbfd934454031a3f980419d64bc8976bc529f5ac2b1d"
+      "sha256": "922784509282e0a083a4d04296832a757389d1906318721140093cd561299ac9"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M01.json",
-      "sha256": "77881a50080e12820d51f67e6dc36f7f1d679c27ea87616c4bbf54ff421bc76d"
+      "sha256": "71b10ae4bd780864f7448e1c132d0fb71e199d9f1fec35434ffe7d541ce23221"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M02.json",
-      "sha256": "838dfff83203e62c43a9ec2c9af8561cb4796ae0a531e524de895a630b55e1ea"
+      "sha256": "368554bb649749825f9ac31baf03ac1c80428b90d68b84fc3b01c155fa0534c4"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M03.json",
-      "sha256": "2e8567b365a8cb61c634d0c43185dfd4718fae29bd046e8850e1ba4eab32088b"
+      "sha256": "6e6fa08921316893eb3b4cb5750ed09b8bada00fad0581dd2af766b4c145bf33"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M04.json",
-      "sha256": "6361fa8fc28a132703de58b0d3260c4118fcf0d6171e05fc49a0ceef6cbc0835"
+      "sha256": "bba48ec23a54235ef66e41cf548677c2f417fd0ba5e936ace51923564a970046"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M05.json",
-      "sha256": "165964ca487d31a41362b65aa28d4ddf57505429fa902e667130aa2c937074b5"
+      "sha256": "8f7cd8a70fc1d691d7470ed2458cc999c04a2b26387e60e3c456b3ae08c87570"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M06.json",
-      "sha256": "e360ecdf22ca02a62740a8639ec65c198bcc0b88ca40f39259e39a9afb5f8575"
+      "sha256": "f602e9f0d031f7f14d2d900df14eb02a782226d514ef8adbc0c3c73b7cb3cb5f"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M08.json",
-      "sha256": "e8ceae8b98265592618d19219f23a7808808c70f1276b5ad8bbee1455805907b"
+      "sha256": "3bd4ba83f66d61df6ae85ed2892fce0d101ab4374068c3f7cbe8a81835357d70"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M01.json",
-      "sha256": "fa6036ac144848e7a27d38643815553ea3c60cef1d6365d5f94b523147f453fc"
+      "sha256": "99be145a6b28e18d8ab2d9ba34abc44949ca68ca0f5c988972bfa8518cefe1a7"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M02.json",
-      "sha256": "f58aa117f7d9d28a7862de4aad39b2d5cc06854bf5b8d7ee8a59fab18d3f8b9e"
+      "sha256": "940a013b078becb9b1e8bf9a7a58f2ffd575c57b250d1ed3f70d1a9b6a5109b9"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M03.json",
-      "sha256": "942614539d28ac6a24cf886404016bfe1a85080d0168cda3266dfe801677e17c"
+      "sha256": "3b0a2f5d07da9a3076b7ded01fed6f0bed726365beb4c4c0afd25dcafd4dfbc3"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M04.json",
-      "sha256": "019fcba707f8802d8ecbcf3f63d8c840411da2f7398de553944189da16f17830"
+      "sha256": "7fdd9aee4b331db437f70a1a980703e22571526dc9db3bada182860949fef54b"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M05.json",
-      "sha256": "386a2a2b3a1f7d6db8e8765a100d77cff3010c0f2bbd0218e4b3cd90249f7b4d"
+      "sha256": "87ce5dbc48aa5837370ff74e5f800ec66c3de5e6c7aed6a44c2b94fc5a200219"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M06.json",
-      "sha256": "2dbb12e7c94c8ce70bf5172a777f63da4f0392dd23bb90a128ad85eb5c561972"
+      "sha256": "f5c618a797c261069cdffa586c3f0db288b1e05be52fd8a929b9a42d58c9f165"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M07.json",
-      "sha256": "24910ba03c772c181dccea2cc46970f3a0738423bed0fb84480e6d093d3e7e11"
+      "sha256": "75a59b23acc22c155b9eabdb96c1cf3ab5e546edd5c903309ca764d77e90f119"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M08.json",
-      "sha256": "a1cb0259e6967a6d79b8c6b62bb12f1144b5c8fd243864a89aaf3bb201a59084"
+      "sha256": "5757515debc6018453d1377bad3f2c65f5f7a714907e048f3cb534e9b4f19ee8"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M09.json",
-      "sha256": "6b1666e97cac5716afce71d41fdeeffc1f1f664f96bd204a6149558c1c193f8a"
+      "sha256": "6e4a25389490c5c366114d8541aa396b1a745a1b950f4c3c28d3b11ef6d78b92"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M01.json",
-      "sha256": "fd874ca7e25d4c25a69f09728979e9a8a7848c3a07fc494e38cc44b0ce5ea471"
+      "sha256": "0d1f6674e19a7f2b7eb7f794c8865d4d873de6a8ee371047cb88ba26c3b6f70e"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M02.json",
-      "sha256": "5a9a8be18cbc239df5b104b919ac1e2faa34e5fdf5bac26969867d8112458a51"
+      "sha256": "18645391a229de4ebb63a7c3ee89871575cf9bd312540cce7f53f6f0e5c6f57e"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M03.json",
-      "sha256": "0b9b4d044837755688a57a4f805c5cd6e3c46ac4cdccb2f5236ff472f5e6558b"
+      "sha256": "64200b6e1d2d4ed048d9b7bb8aed78cbaebc3426ff61d4aef238c93385ffb6a2"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M04.json",
-      "sha256": "f54cdc64d65b2e9aaf8bd8d8c8eb26c98ddc5f1e46ee6dfc47a80587699c6ae7"
+      "sha256": "e60cb6e4ebce6a4b9befb728dd24a8f2c721b6f552c245dce3a43f25c1492df8"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M05.json",
-      "sha256": "3f91e3f0ee313c5013487d2bc7a7016f0fca8927eb912153486ce21e35d9412f"
+      "sha256": "1ee261770e0c8fd1bc5abdbd8b75a846e2a07e18fee399d496d46257aad747ed"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M06.json",
-      "sha256": "238961b14ff30e470f3f8b4504a8dc3fe847f7937493e4fe9a9d947cde257159"
+      "sha256": "a232734ec813041aa199d0239b2a26b22e96fb12b7b16cb9bcfa7922441fb9a7"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M07.json",
-      "sha256": "ad419d6ed35a5162cd6aa12549a07d1f0b4c6860f036019c0229c07b8dac5adf"
+      "sha256": "8b674de97e0b15f6fa4fdbb2157537cf76ca2eb90e3e4750fed7224ee0c78fbf"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M08.json",
-      "sha256": "02d852c8eb0fffec95405fc23ed0a90374cdd1119222a62cb32a802b924dcaa5"
+      "sha256": "96c3514f293f3d3726e1bb82bff2043a9d43d9227934e8d8e1ce49c9edf77dd6"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M09.json",
-      "sha256": "073a93007d3c16eac719b1858c5928496a9ab0a93d2faedb66a1b9255a9988a5"
+      "sha256": "a6a154e73be33937d463ac76d1748b576cfba6283dc00079f3de213f02a212ff"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M10.json",
-      "sha256": "c773a41c1d4fb675a854b4b398a05952bf592dd1313b84f5f529305955c62737"
+      "sha256": "5ae7338aa61c0c2a21fbae4673ec9e2d566b659733aa5da741292400fe884398"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M01.json",
-      "sha256": "c431834de1bcb58b144ebf4ff0cb0d70e6f837c939d103c7b57666a7de7f6bb4"
+      "sha256": "5494ff81467d96448dd8f2af39bf2693f4b676ff95cd3c667bb601b3445bab32"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M02.json",
-      "sha256": "789252f541c4893ead82e99d6049a1afe16481e84cb133fbe9a691e0ebef26bc"
+      "sha256": "62b2be481a868e6efa11bd51edb3ed124964c8985a37a3391320a6b613cacf20"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M03.json",
-      "sha256": "65520ca0b17c907db021f43fbd7956712258344cc1deba8f10fcb728dcfe3d0c"
+      "sha256": "ab202fdd867928460afe9da75af6b0686d6b7a0e847ac9611205ad7f70d76cfc"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M04.json",
-      "sha256": "babf53a74a3a86b0e02a73bcb49fafabd91e86b96d94c7854a2821d1770a0f5a"
+      "sha256": "5633542b59b76899f270adf4d574c96fa4f4c6dfc3e564c3763b918bba3ec127"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M05.json",
-      "sha256": "f57bd2e2989d6a5534fefc0e6e5b46e9a8109850c3f79b3841f159f80d4bf398"
+      "sha256": "33c386583febe345c846defa520c6ef8a6c0ac43db4e6593f3d5715a31fbffe4"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M06.json",
-      "sha256": "afd6f9b8689bb0d66d9f3ae367d549c3dc496e7cc75c743dc418b59bd63c3047"
+      "sha256": "ab0f082a22855727a3b2725d6dbc0e76bd70d27388ba630f234abc03ada35391"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M07.json",
-      "sha256": "8495154d287dc48eb242592b5c5b31a028d1dccb4c0cc270f68d41e487580f5b"
+      "sha256": "4ddef2b83f20cf7630d264fe60e6f6b61920d3bb207d8a635ffee966abbe436c"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M08.json",
-      "sha256": "38614e1bc5259299b444076f7bb21c27e19c8e3d6df9f7081965de45a4bee248"
+      "sha256": "fa51d9eb1b52617a625bc165f5c1de9a3e8ca54e13e7da11663734c65d20e68b"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M01.json",
-      "sha256": "3940c85bb3279ac6bc755cb592e74270da69e60a853f218d3280d5ab4a58eb79"
+      "sha256": "9c7edde44b4811c79fbeafe2ead24085476ef733442ba158e01afb1c276f0f0e"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M02.json",
-      "sha256": "86ef9e3b2555f0f2e0db26a70857e37b04fc40363229eb99d7b2ee79438a9572"
+      "sha256": "c45109a5f5dab8fd7391f7692fb36cd1a7a238335fd841aa70705b46c56c71ef"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M03.json",
-      "sha256": "5ae14d9d6f36694d54af3a1ea8da32b27f1aa4b3e49347081282b75f2b521048"
+      "sha256": "da196a504ac03593294da46a49ab8b69ab906975a8b3e93266110fe2398d23dd"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M04.json",
-      "sha256": "b7bbe6abca28f70c6bd8c12c10c3a7a93ef690a0905499912c60d94e7fb201cd"
+      "sha256": "fe49b28c122e70f36dba3716e54931d21469a859955cf29f5f0c953602775ded"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M05.json",
-      "sha256": "a2179d69d270182baef364eb5fdf92661331e6d46523c69749e38c0e2c05fb5b"
+      "sha256": "f37c6e55184a019e1d9a54372f7549f40d4249d9d888cdffaa6797965cf01c35"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M06.json",
-      "sha256": "bed27f329b5ad1db56a3cc539cd88a62abcca30dca5aa7595a94dd4bf0e0cfcb"
+      "sha256": "0cc8b7c0344dfe3419c82d78f5720a981661eb007b10f431ca36bfdbe9227b94"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M07.json",
-      "sha256": "65a188c1d53707666e0888ac9fde9399597fe9dd0b54cc161eeb678527794219"
+      "sha256": "cd45d2d36b197bd3aa02828360e987963f67d2a313a22776a630e77ee80660b0"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M08.json",
-      "sha256": "1501e98fcd1502979094be8adaef9d5539891b3839ef04f1ad5cc94a7913b7b0"
+      "sha256": "d3739845bf7c16478848b090c74879b7c8b422761fd7f98ac58489a36873059d"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M10.json",
-      "sha256": "7787e257ce97dc472658363540567c5d7cb11b3d4853217ce3f748b61a113666"
+      "sha256": "5dc28ddaf3106384bc3f65cd34136b75a91729be01252068a47b99f796c9b669"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M01.json",
-      "sha256": "673156516f365b8130e18d4ceba5cb28e8dc93547626e034c4828914801d8e0f"
+      "sha256": "38a1ce5dfb05701767a690ea378cffdbf6a7c1d525934b563b862a950902a316"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M02.json",
-      "sha256": "7b69c2f0366a949a51a615d8992faba369935e47692142077cf56cda2ac408b2"
+      "sha256": "90b47c6be3a992de8bcd9f4191aeb4e11167e674315f1351aac33fc31d775605"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M03.json",
-      "sha256": "f356bccdd47fbadda3b24757b93135944671c2092d5d3d364b918d4395302cd7"
+      "sha256": "c30fc18c089bc880ff5f6cb62c21af1437d29f43f4e03cf2003bed326be847ae"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M04.json",
-      "sha256": "d707e4ca717b7f0afe9c505c07327f81663196632716db82c79daaf9a9737815"
+      "sha256": "29bb9ee14e6b8d6c8c2474621fa30f4d7f8de1b198ceb595539523558497d1d9"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M05.json",
-      "sha256": "74d285bdc4877efa4d9a2a20128149b71e4d24c3e068da2875d9b303fad7fce8"
+      "sha256": "77c7937b8a477eba31cd89d6be437c626da64f151a7c455cb3c64ebab05ca2e6"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M06.json",
-      "sha256": "9db11fa5cf763e416b0c29f55be6c9ed11290d49655cd701d191990767181080"
+      "sha256": "b0535a879eb0c054a4505656f9390fe6eaa91e526c50720750052a7aae13d070"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M07.json",
-      "sha256": "5c2ae89eecef33156b2e1c9e736274fb933410134e8127f6a629198a9f9e29c3"
+      "sha256": "ac549c683b797c8c625a72dc77647c9dc9d212a287ae15674ba429213172fbd0"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M10.json",
-      "sha256": "129acc5c95bf5cd12c5ca30d352fc840fedabb6a6e96d3e6d2706f84af43e52a"
+      "sha256": "9428ad2cd3f7b3918196d902cf368e25367422d2130064d27165d13bb3bc5883"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-10_Form-M01.json",
-      "sha256": "c16a854fcbc4edf4e22b562be2e1f1b9f7f7b18a9ff43d0755440862ad1e198b"
+      "sha256": "3c3963b3bad0d22c5b3984a2a9826ccb68964da573c7c3cd74cb93a57c8e4bd2"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-10_Form-M02.json",
-      "sha256": "7ddfbde52bd8486317a0aad54e392e5189e3775d2599733eec5f574fbc2d9e43"
+      "sha256": "ee255ce0fcea4e137d630b9b0d0614e33785ae9e5984cdf6102ab22d60ba791b"
     },
     {
       "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-10_Form-M08.json",
-      "sha256": "4ddffe8b3e05cdba49ef39f7a048c987a5210b2c0772136c67af0f31e391b23e"
+      "sha256": "91a384a102f07d37ba622626f4a238ce4643bcc5fca91cab3b94748adf483478"
     }
   ],
   "independent_oracle": {
@@ -693,7 +717,7 @@
   "manifest_version": "2.0",
   "manuscript_hash": {
     "path": "paper\\pdfa11ymut_ieee.tex",
-    "sha256": "b2a1fc14d526d27ac095c9a3ee27a069ab6d410f8e493971f85fbb9879b6e54c"
+    "sha256": "68b18cc9651651f818d5ec2f5b31002a841d76db16556981753ef374b648a82e"
   },
   "mutant_pdf_hashes": [
     {
@@ -985,7 +1009,7 @@
   },
   "platform": "Windows-10-10.0.26200-SP0",
   "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
-  "repository_commit": "7b78a42dfe7a9e6ebe936d8aabbe1417e3a0b99c",
+  "repository_commit": "042ac53207668be343bcb2a1d10e61f82aa921ac",
   "source_pdf_hashes": [
     {
       "path": "corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",

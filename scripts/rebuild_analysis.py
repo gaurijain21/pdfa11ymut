@@ -538,7 +538,7 @@ def main() -> int:
         write_study_macros(
             OUT / "study_macros.tex",
             corpus_count=len(corpus), operator_count=len(specs), generation_ledger_count=len(all_valid_mutants),
-            materialized_count=len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))), valid_count=len(all_valid_mutants), active_count=len(mutants),
+            materialized_count=materialized_mutant_pdf_count(), valid_count=len(all_valid_mutants), active_count=len(mutants),
             class_a_count=sum(classes.get(row["operator"]) == "class_a" for row in mutants),
             class_b_count=sum(classes.get(row["operator"]) == "class_b" for row in mutants), formal_rows=len(current_runs),
             controls_count=len(controls), at_count=at_complete, at_difference_count=at_complete - no_difference,
