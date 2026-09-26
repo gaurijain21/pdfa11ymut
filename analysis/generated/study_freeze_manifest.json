@@ -129,7 +129,7 @@
     },
     {
       "path": "scripts\\build_second_pass_artifacts.py",
-      "sha256": "ae58ae52297901f2d3c2ea612d37635a5622468b05b9b3818d0c7c01b33ac931"
+      "sha256": "27bb0f8b32345f0217448f1269b1366c23a3e40b2c84a219857548f78acda572"
     },
     {
       "path": "scripts\\build_study_freeze.py",
@@ -137,7 +137,7 @@
     },
     {
       "path": "scripts\\build_study_manifest.py",
-      "sha256": "d4b4600852e857992298ebc6fa558b1f2973ec6bfd2fb7a1bc3171050171a409"
+      "sha256": "ef75adce785175a505c4632bd658a3f79bf8a8e339d674e93d75bfea4658f29e"
     },
     {
       "path": "scripts\\build_target_sensitivity.py",
@@ -197,7 +197,7 @@
     },
     {
       "path": "scripts\\rebuild_analysis.py",
-      "sha256": "a65c2acb0a4d354047f63824d9a2b56480c0e46fa6433e29070cd6a82b0e1992"
+      "sha256": "7aec1c0719dc5fe80aec4d6f62d00a8576eed3bb63545a0ba5dd104f7b0743a0"
     },
     {
       "path": "scripts\\reconcile_canonical.py",
@@ -1009,7 +1009,7 @@
   },
   "platform": "Windows-10-10.0.26200-SP0",
   "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
-  "repository_commit": "042ac53207668be343bcb2a1d10e61f82aa921ac",
+  "repository_commit": "d7b52814f01560b193deb6d5261ff6c310cced87",
   "source_pdf_hashes": [
     {
       "path": "corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",

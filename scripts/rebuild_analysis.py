@@ -490,7 +490,7 @@ def main() -> int:
     for name, rows in (("matrix.csv", matrix), ("overall_rates.csv", overall), ("per_operator_rates.csv", per_operator), ("agreement.csv", agreement), ("disagreement_analysis.csv", disagreement_rows), ("source_cluster_summary.csv", source_summary), ("source_cluster_bootstrap.csv", source_bootstrap), ("detection_sensitivity.csv", sensitivity)):
         with (OUT / name).open("w", newline="", encoding="utf-8") as fh:
             if rows:
-                writer = csv.DictWriter(fh, fieldnames=list(rows[0]))
+                writer = csv.DictWriter(fh, fieldnames=list(rows[0]), lineterminator="\n")
                 writer.writeheader(); writer.writerows(rows)
             else:
                 fh.write("status\nNO_CANONICAL_EVIDENCE\n")
