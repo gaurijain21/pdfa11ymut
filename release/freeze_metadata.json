@@ -1,6 +1,6 @@
 {
   "artifact": "PDFa11yMut: Measuring Mutation-Specific Detection in PDF Accessibility Checkers",
-  "scientific_state_commit": "61fc6da403e63cc6582a04871fd34fce6ba72359",
+  "scientific_state_commit": "8e0c8d122deb1f565f34d7ea594ece8e47c7c2d0",
   "scientific_state_status": "PAPER_FROZEN",
   "manifest": "STUDY_MANIFEST.json",
   "tag": "paper-freeze-v2",

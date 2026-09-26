@@ -300,9 +300,9 @@
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "00ac9a75332e091775ecefb40ff7dee1c38eea11",
+    "git_head": "8e0c8d122deb1f565f34d7ea594ece8e47c7c2d0",
     "scientific_state_clean": true,
-    "scientific_state_commit": "00ac9a75332e091775ecefb40ff7dee1c38eea11",
+    "scientific_state_commit": "8e0c8d122deb1f565f34d7ea594ece8e47c7c2d0",
     "worktree_dirty": false
   },
   "reproduction_commands": [
