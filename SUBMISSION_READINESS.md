@@ -7,7 +7,7 @@ This is the current reviewer-facing readiness summary for PDFa11yMut. Historical
 The canonical frozen study contains:
 
 - 9 reference PDFs and 10 structure-level operators.
-- 73 generation-ledger records; 72 materialized mutant PDFs.
+- 73 generation-ledger records; 71 materialized mutant PDFs, including the auxiliary AT artifact.
 - 5 documented exclusions: 4 within the valid-generation manifest and 1 historical exclusion-only/non-materialized record.
 - 69 active independently re-audited mutants: 30 Class A and 39 Class B.
 - 207 active checker-configuration rows across PAC Formal, Acrobat Full Check, and veraPDF PDF/UA-1.

@@ -12,10 +12,10 @@
   },
   "generation_version": "0.2.0",
   "mutant_id": "PDFUA-Ref-2-01_Magazine-danish-M03",
-  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M03.pdf",
+  "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-01_Magazine-danish-M03.pdf",
   "mutant_sha256": "f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb",
   "operator": "M03",
-  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",
+  "source_pdf": "corpus/golden/PDFUA-Ref-2-01_Magazine-danish.pdf",
   "source_sha256": "aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434",
   "status": "valid",
   "verification": {
@@ -30,7 +30,7 @@
       "rendering_preserved": true,
       "source_and_mutant_hash_differ": true
     },
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M03.pdf",
+    "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-01_Magazine-danish-M03.pdf",
     "mutant_sha256": "f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb",
     "mutation_valid": true,
     "observed_changed_structure_paths": [
@@ -1170,7 +1170,7 @@
       "status": "pass",
       "tolerance": 0
     },
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-01_Magazine-danish.pdf",
     "source_sha256": "aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434",
     "structural_after": {
       "0": {

@@ -12,10 +12,10 @@
   },
   "generation_version": "0.2.0",
   "mutant_id": "PDFUA-Ref-2-10_Form-M08",
-  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-10_Form-M08.pdf",
+  "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-10_Form-M08.pdf",
   "mutant_sha256": "53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a",
   "operator": "M08",
-  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+  "source_pdf": "corpus/golden/PDFUA-Ref-2-10_Form.pdf",
   "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
   "status": "valid",
   "verification": {
@@ -30,7 +30,7 @@
       "rendering_preserved": true,
       "source_and_mutant_hash_differ": true
     },
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-10_Form-M08.pdf",
+    "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-10_Form-M08.pdf",
     "mutant_sha256": "53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a",
     "mutation_valid": true,
     "observed_changed_structure_paths": [
@@ -269,7 +269,7 @@
       "status": "pass",
       "tolerance": 0
     },
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-10_Form.pdf",
     "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
     "structural_after": {
       "0": {

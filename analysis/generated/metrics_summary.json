@@ -2,7 +2,7 @@
   "status": "formal_complete_at_complete_pac_ai_future_work",
   "analysis_status": "formal_complete_at_complete_pac_ai_future_work",
   "generation_ledger_records": 73,
-  "materialized_mutant_artifacts": 72,
+  "materialized_mutant_artifacts": 71,
   "valid_generation_records": 73,
   "active_reaudited_mutants": 69,
   "active_mutants": 69,

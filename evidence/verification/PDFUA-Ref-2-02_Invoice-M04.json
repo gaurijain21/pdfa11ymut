@@ -18,10 +18,10 @@
   },
   "generation_version": "0.2.0",
   "mutant_id": "PDFUA-Ref-2-02_Invoice-M04",
-  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M04.pdf",
+  "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-02_Invoice-M04.pdf",
   "mutant_sha256": "c831396c411f0e67e1fa9eea43cf7e8f741b9f99c69cbdd9f0ce3c17dcab2514",
   "operator": "M04",
-  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+  "source_pdf": "corpus/golden/PDFUA-Ref-2-02_Invoice.pdf",
   "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
   "status": "valid",
   "verification": {
@@ -42,7 +42,7 @@
       "rendering_preserved": true,
       "source_and_mutant_hash_differ": true
     },
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M04.pdf",
+    "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-02_Invoice-M04.pdf",
     "mutant_sha256": "c831396c411f0e67e1fa9eea43cf7e8f741b9f99c69cbdd9f0ce3c17dcab2514",
     "mutation_valid": true,
     "observed_changed_structure_paths": [
@@ -120,7 +120,7 @@
       "status": "pass",
       "tolerance": 0
     },
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-02_Invoice.pdf",
     "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
     "structural_after": {
       "0": {

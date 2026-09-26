@@ -64,8 +64,8 @@
     "source_pages": 2
   },
   "verification": {
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-03_AcademicAbstract.pdf",
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\analysis\\target_sensitivity\\PDFUA-Ref-2-03_AcademicAbstract-M01-target2.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-03_AcademicAbstract.pdf",
+    "mutant_pdf": "analysis/target_sensitivity/PDFUA-Ref-2-03_AcademicAbstract-M01-target2.pdf",
     "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
     "mutant_sha256": "f3c22dd27afa43316c826d9fab0d565aaefeb4b6d63bd3775e08c2ffe939905b",
     "operator": "M01",

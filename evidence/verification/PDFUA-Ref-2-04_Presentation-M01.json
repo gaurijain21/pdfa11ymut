@@ -3766,10 +3766,10 @@
   },
   "generation_version": "0.2.0",
   "mutant_id": "PDFUA-Ref-2-04_Presentation-M01",
-  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M01.pdf",
+  "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-04_Presentation-M01.pdf",
   "mutant_sha256": "1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c",
   "operator": "M01",
-  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-04_Presentation.pdf",
+  "source_pdf": "corpus/golden/PDFUA-Ref-2-04_Presentation.pdf",
   "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
   "status": "valid",
   "verification": {
@@ -7538,7 +7538,7 @@
       "rendering_preserved": true,
       "source_and_mutant_hash_differ": true
     },
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M01.pdf",
+    "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-04_Presentation-M01.pdf",
     "mutant_sha256": "1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c",
     "mutation_valid": true,
     "observed_changed_structure_paths": [
@@ -13343,7 +13343,7 @@
       "status": "pass",
       "tolerance": 0
     },
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-04_Presentation.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-04_Presentation.pdf",
     "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
     "structural_after": {
       "0": {

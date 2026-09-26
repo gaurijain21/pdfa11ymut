@@ -10,8 +10,8 @@
     "source_pages": 32
   },
   "verification": {
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\analysis\\target_sensitivity\\PDFUA-Ref-2-01_Magazine-danish-M07-target2.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-01_Magazine-danish.pdf",
+    "mutant_pdf": "analysis/target_sensitivity/PDFUA-Ref-2-01_Magazine-danish-M07-target2.pdf",
     "source_sha256": "aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434",
     "mutant_sha256": "bed0a550045846604632a1f75100d3a22a72871aac0176433377228cc496edd4",
     "operator": "M07",

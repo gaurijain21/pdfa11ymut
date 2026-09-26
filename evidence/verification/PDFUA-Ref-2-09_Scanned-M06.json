@@ -214,10 +214,10 @@
   },
   "generation_version": "0.2.0",
   "mutant_id": "PDFUA-Ref-2-09_Scanned-M06",
-  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M06.pdf",
+  "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-09_Scanned-M06.pdf",
   "mutant_sha256": "637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa",
   "operator": "M06",
-  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-09_Scanned.pdf",
+  "source_pdf": "corpus/golden/PDFUA-Ref-2-09_Scanned.pdf",
   "source_sha256": "bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae",
   "status": "valid",
   "verification": {
@@ -434,7 +434,7 @@
       "rendering_preserved": true,
       "source_and_mutant_hash_differ": true
     },
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M06.pdf",
+    "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-09_Scanned-M06.pdf",
     "mutant_sha256": "637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa",
     "mutation_valid": true,
     "observed_changed_structure_paths": [
@@ -1350,7 +1350,7 @@
       "status": "pass",
       "tolerance": 0
     },
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-09_Scanned.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-09_Scanned.pdf",
     "source_sha256": "bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae",
     "structural_after": {
       "0": {

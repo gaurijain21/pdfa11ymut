@@ -10,8 +10,8 @@
     "source_pages": 2
   },
   "verification": {
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-06_Brochure.pdf",
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\analysis\\target_sensitivity\\PDFUA-Ref-2-06_Brochure-M07-target2.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-06_Brochure.pdf",
+    "mutant_pdf": "analysis/target_sensitivity/PDFUA-Ref-2-06_Brochure-M07-target2.pdf",
     "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
     "mutant_sha256": "6b11b2a88cb42025d0d8a33076197b8f9e99e5d1bde48917abd9fe95b10d1058",
     "operator": "M07",

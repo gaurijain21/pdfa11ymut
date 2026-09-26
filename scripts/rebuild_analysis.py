@@ -17,6 +17,11 @@ DATA = ROOT / "data"
 OUT = ROOT / "analysis" / "generated"
 
 
+def materialized_mutant_pdf_count() -> int:
+    """Count retained mutant artifacts, excluding generator mismatch backups."""
+    return sum(1 for path in (ROOT / "corpus" / "mutants").glob("*.pdf") if ".mismatch-backup-" not in path.name)
+
+
 def latex_percent(value: str) -> str:
     """Escape a generated percentage for LaTeX table cells."""
     return value.replace("%", r"\%")
@@ -512,7 +517,7 @@ def main() -> int:
         }
         for validator in VALIDATORS
     }
-    summary = {"status": analysis_status, "analysis_status": analysis_status, "generation_ledger_records": len(all_valid_mutants), "materialized_mutant_artifacts": len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))), "valid_generation_records": len(all_valid_mutants), "active_reaudited_mutants": len(mutants), "active_mutants": len(mutants), "valid_mutants": len(mutants), "corpus_records": len(corpus), "canonical_validator_rows": len(runs), "classified_formal_rows": len(current_runs), "required_classified_formal_rows": required_classified, "at_observation_rows": len(at_rows), "at_observation_complete_rows": at_complete, "formal_at_cases": sum(row.get("status") == "COMPLETE" and row.get("mutant_id") in active_ids for row in at_rows), "auxiliary_at_cases": sum(row.get("status") == "COMPLETE" and row.get("mutant_id") not in active_ids for row in at_rows), "at_observer_design": "single-observer illustrative exploratory observations under one fixed NVDA/Acrobat/Windows configuration", "pac_ai_status": "native_pilot_semantic_text_no_export_gate", "pac_ai_selected_mutants": len(selected_ai), "pac_ai_deferred_mutants": len(deferred_ai), "pac_ai_classified_mutants": ai_run_count, "source_cluster_count": len({row["source_golden"] for row in source_summary}), "source_cluster_bootstrap_resamples": 5000, "class_a_direct_proxy": class_a_direct_proxy, "overall": overall, "class_summary": class_summary, "agreement": agreement, "detection_sensitivity": sensitivity}
+    summary = {"status": analysis_status, "analysis_status": analysis_status, "generation_ledger_records": len(all_valid_mutants), "materialized_mutant_artifacts": materialized_mutant_pdf_count(), "valid_generation_records": len(all_valid_mutants), "active_reaudited_mutants": len(mutants), "active_mutants": len(mutants), "valid_mutants": len(mutants), "corpus_records": len(corpus), "canonical_validator_rows": len(runs), "classified_formal_rows": len(current_runs), "required_classified_formal_rows": required_classified, "at_observation_rows": len(at_rows), "at_observation_complete_rows": at_complete, "formal_at_cases": sum(row.get("status") == "COMPLETE" and row.get("mutant_id") in active_ids for row in at_rows), "auxiliary_at_cases": sum(row.get("status") == "COMPLETE" and row.get("mutant_id") not in active_ids for row in at_rows), "at_observer_design": "single-observer illustrative exploratory observations under one fixed NVDA/Acrobat/Windows configuration", "pac_ai_status": "native_pilot_semantic_text_no_export_gate", "pac_ai_selected_mutants": len(selected_ai), "pac_ai_deferred_mutants": len(deferred_ai), "pac_ai_classified_mutants": ai_run_count, "source_cluster_count": len({row["source_golden"] for row in source_summary}), "source_cluster_bootstrap_resamples": 5000, "class_a_direct_proxy": class_a_direct_proxy, "overall": overall, "class_summary": class_summary, "agreement": agreement, "detection_sensitivity": sensitivity}
     (OUT / "metrics_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     lines = ["# Active analysis", "", "This report is generated from `data/mutants.jsonl`, `data/mutant_exclusions.csv`, `data/validator_runs.csv`, and `data/corpus_inventory.csv`.", ""]
     if not mutants or not formal_complete:

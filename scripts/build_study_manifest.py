@@ -59,6 +59,11 @@ def rel(path: Path) -> str:
     return path.resolve().relative_to(ROOT.resolve()).as_posix()
 
 
+def materialized_mutant_pdf_count() -> int:
+    """Count retained mutant artifacts, excluding generator mismatch backups."""
+    return sum(1 for path in (ROOT / "corpus" / "mutants").glob("*.pdf") if ".mismatch-backup-" not in path.name)
+
+
 def write_csv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
@@ -396,8 +401,8 @@ def main() -> int:
             "generation_ledger_records": len(mutants),
             "attempted_records": len(mutants),
             "valid_generation_records": len(valid_ids),
-            "generated_mutant_pdf_files": len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))),
-            "materialized_mutant_artifacts": len(list((ROOT / "corpus" / "mutants").glob("*.pdf"))),
+            "generated_mutant_pdf_files": materialized_mutant_pdf_count(),
+            "materialized_mutant_artifacts": materialized_mutant_pdf_count(),
             "valid_verified_mutants": len(valid_ids),
             "documented_exclusions": len(exclusions),
             "excluded_ids_in_valid_manifest": sorted(valid_ids & excluded_ids),
@@ -457,7 +462,7 @@ def main() -> int:
             "Legacy 23-mutant summaries are historical and are not read.",
             "PAC AI remains separate and is not part of formal rates.",
             "The clean M01 AT rerun is an auxiliary M01 assistive-representation demonstration because Invoice-M01 is not in the active mutant ledger; it is not a formal denominator record.",
-            "The generation-ledger flow is 73 records, 72 materialized mutant PDFs, 5 documented exclusions, 4 exclusions inside the valid-generation manifest, 1 historical exclusion-only record, and 69 active independently re-audited mutants.",
+            "The generation-ledger flow is 73 records, 71 materialized mutant PDFs (including the auxiliary AT artifact), 5 documented exclusions, 4 exclusions inside the valid-generation manifest, 1 historical exclusion-only record, and 69 active independently re-audited mutants.",
             "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
             "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv.",
             "The alternate-target sensitivity sample is structural-only and remains outside the active denominator because PAC/Acrobat reruns require authorized native GUI sessions.",

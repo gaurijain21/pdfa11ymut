@@ -18,10 +18,10 @@
   },
   "generation_version": "0.2.0",
   "mutant_id": "PDFUA-Ref-2-03_AcademicAbstract-M04",
-  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M04.pdf",
+  "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-03_AcademicAbstract-M04.pdf",
   "mutant_sha256": "aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec",
   "operator": "M04",
-  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-03_AcademicAbstract.pdf",
+  "source_pdf": "corpus/golden/PDFUA-Ref-2-03_AcademicAbstract.pdf",
   "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
   "status": "valid",
   "verification": {
@@ -42,7 +42,7 @@
       "rendering_preserved": true,
       "source_and_mutant_hash_differ": true
     },
-    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M04.pdf",
+    "mutant_pdf": "corpus/mutants/PDFUA-Ref-2-03_AcademicAbstract-M04.pdf",
     "mutant_sha256": "aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec",
     "mutation_valid": true,
     "observed_changed_structure_paths": [
@@ -284,7 +284,7 @@
       "status": "pass",
       "tolerance": 0
     },
-    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-03_AcademicAbstract.pdf",
+    "source_pdf": "corpus/golden/PDFUA-Ref-2-03_AcademicAbstract.pdf",
     "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
     "structural_after": {
       "0": {
