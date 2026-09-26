@@ -1,0 +1,2347 @@
+{
+  "active_mutant_ids": [
+    "PDFUA-Ref-2-01_Magazine-danish-M01",
+    "PDFUA-Ref-2-01_Magazine-danish-M02",
+    "PDFUA-Ref-2-01_Magazine-danish-M03",
+    "PDFUA-Ref-2-01_Magazine-danish-M04",
+    "PDFUA-Ref-2-01_Magazine-danish-M05",
+    "PDFUA-Ref-2-01_Magazine-danish-M06",
+    "PDFUA-Ref-2-01_Magazine-danish-M07",
+    "PDFUA-Ref-2-01_Magazine-danish-M08",
+    "PDFUA-Ref-2-01_Magazine-danish-M09",
+    "PDFUA-Ref-2-02_Invoice-M02",
+    "PDFUA-Ref-2-02_Invoice-M03",
+    "PDFUA-Ref-2-02_Invoice-M04",
+    "PDFUA-Ref-2-02_Invoice-M07",
+    "PDFUA-Ref-2-02_Invoice-M08",
+    "PDFUA-Ref-2-02_Invoice-M10",
+    "PDFUA-Ref-2-03_AcademicAbstract-M01",
+    "PDFUA-Ref-2-03_AcademicAbstract-M02",
+    "PDFUA-Ref-2-03_AcademicAbstract-M03",
+    "PDFUA-Ref-2-03_AcademicAbstract-M04",
+    "PDFUA-Ref-2-03_AcademicAbstract-M05",
+    "PDFUA-Ref-2-03_AcademicAbstract-M06",
+    "PDFUA-Ref-2-03_AcademicAbstract-M08",
+    "PDFUA-Ref-2-04_Presentation-M01",
+    "PDFUA-Ref-2-04_Presentation-M02",
+    "PDFUA-Ref-2-04_Presentation-M03",
+    "PDFUA-Ref-2-04_Presentation-M04",
+    "PDFUA-Ref-2-04_Presentation-M05",
+    "PDFUA-Ref-2-04_Presentation-M06",
+    "PDFUA-Ref-2-04_Presentation-M07",
+    "PDFUA-Ref-2-04_Presentation-M08",
+    "PDFUA-Ref-2-04_Presentation-M09",
+    "PDFUA-Ref-2-05_BookChapter-german-M01",
+    "PDFUA-Ref-2-05_BookChapter-german-M02",
+    "PDFUA-Ref-2-05_BookChapter-german-M03",
+    "PDFUA-Ref-2-05_BookChapter-german-M04",
+    "PDFUA-Ref-2-05_BookChapter-german-M05",
+    "PDFUA-Ref-2-05_BookChapter-german-M06",
+    "PDFUA-Ref-2-05_BookChapter-german-M07",
+    "PDFUA-Ref-2-05_BookChapter-german-M08",
+    "PDFUA-Ref-2-05_BookChapter-german-M09",
+    "PDFUA-Ref-2-05_BookChapter-german-M10",
+    "PDFUA-Ref-2-06_Brochure-M01",
+    "PDFUA-Ref-2-06_Brochure-M02",
+    "PDFUA-Ref-2-06_Brochure-M03",
+    "PDFUA-Ref-2-06_Brochure-M04",
+    "PDFUA-Ref-2-06_Brochure-M05",
+    "PDFUA-Ref-2-06_Brochure-M06",
+    "PDFUA-Ref-2-06_Brochure-M07",
+    "PDFUA-Ref-2-06_Brochure-M08",
+    "PDFUA-Ref-2-08_BookChapter-M01",
+    "PDFUA-Ref-2-08_BookChapter-M02",
+    "PDFUA-Ref-2-08_BookChapter-M03",
+    "PDFUA-Ref-2-08_BookChapter-M04",
+    "PDFUA-Ref-2-08_BookChapter-M05",
+    "PDFUA-Ref-2-08_BookChapter-M06",
+    "PDFUA-Ref-2-08_BookChapter-M07",
+    "PDFUA-Ref-2-08_BookChapter-M08",
+    "PDFUA-Ref-2-08_BookChapter-M10",
+    "PDFUA-Ref-2-09_Scanned-M01",
+    "PDFUA-Ref-2-09_Scanned-M02",
+    "PDFUA-Ref-2-09_Scanned-M03",
+    "PDFUA-Ref-2-09_Scanned-M04",
+    "PDFUA-Ref-2-09_Scanned-M05",
+    "PDFUA-Ref-2-09_Scanned-M06",
+    "PDFUA-Ref-2-09_Scanned-M07",
+    "PDFUA-Ref-2-09_Scanned-M10",
+    "PDFUA-Ref-2-10_Form-M01",
+    "PDFUA-Ref-2-10_Form-M02",
+    "PDFUA-Ref-2-10_Form-M08"
+  ],
+  "analysis_script_hashes": [
+    {
+      "path": "operators\\operators.yaml",
+      "sha256": "931945f6add5a664330770aa77572a57f6afe0a6b3b49fa8334afb1e66a64c5f"
+    },
+    {
+      "path": "scripts\\audit_submission.py",
+      "sha256": "0c70666fe6d5f66253b0dfabf9d5b1c1eb5f9dd72b17b541e316c7862e252643"
+    },
+    {
+      "path": "scripts\\build_capability_matrix.py",
+      "sha256": "4238db7b14d0c95b6d7ba63b10f378f73b6bda96298ad05a1414af5bc3e77a81"
+    },
+    {
+      "path": "scripts\\build_detection_analysis.py",
+      "sha256": "b62ebe4f2c2ba9f84e025e98dc7dcc28c402efee76a26f9f75e46568838e5386"
+    },
+    {
+      "path": "scripts\\build_double_coding_reliability.py",
+      "sha256": "5bce4079c73c33023d01ee717f2c740d630241b6bdb710c23325090c0abd7bcf"
+    },
+    {
+      "path": "scripts\\build_figures.py",
+      "sha256": "50952a18fa12883642f5a4d91b5ccfc50d4d4064138a861cc12c9926147277c6"
+    },
+    {
+      "path": "scripts\\build_formal_freeze.py",
+      "sha256": "7ee876d674a8570ef5b486a51855e0788bf3e6de67f7c7c6e69a58bf0af543da"
+    },
+    {
+      "path": "scripts\\build_ieee_assets.py",
+      "sha256": "d6921643e291de795df0edfd9a42e51818e4a6448543c92f0b25cd4f03f3b21e"
+    },
+    {
+      "path": "scripts\\build_mutant_run_guides.py",
+      "sha256": "bcba1ed8ab595b59a52ec5a816d414511109553489c80c20992a096b808446c3"
+    },
+    {
+      "path": "scripts\\build_pac_formal_freeze.py",
+      "sha256": "a95b3985bdce06a5793a7fabd2f3449e817277fa214f51dba047b8f8da29e4fc"
+    },
+    {
+      "path": "scripts\\build_paper_figures.py",
+      "sha256": "084c96c4ebb4a21803065f131ca322798ed8b24f8e18bb9b735eacd05db1375a"
+    },
+    {
+      "path": "scripts\\build_study_freeze.py",
+      "sha256": "87209e42973e954fee416f9b51c18811c9ecc486cdfe5f5795a9bee88f657870"
+    },
+    {
+      "path": "scripts\\build_study_manifest.py",
+      "sha256": "3055bcab7b61bdeb1585993474e33acac84954b042fe1e62a904fe8029e58ea8"
+    },
+    {
+      "path": "scripts\\check_evidence.py",
+      "sha256": "18918c2b37c52876172748947eab9ff9d92c8414ff4c24df14c017ca5d23c91b"
+    },
+    {
+      "path": "scripts\\classify_formal.py",
+      "sha256": "35c6cd98f6d8e1fe9b81fb524e74fb77e2bc4199853afbb441c8ad9b5260264a"
+    },
+    {
+      "path": "scripts\\classify_pac_m01.py",
+      "sha256": "7df7edadad702b872e5911caae997e6347afa99b543a3c9ddb7fcafee5788778"
+    },
+    {
+      "path": "scripts\\classify_pac_m02.py",
+      "sha256": "c2b225c929169a928892f02976a1246ae60ea2fad70182d323cf3fb2751a861a"
+    },
+    {
+      "path": "scripts\\classify_pac_m03.py",
+      "sha256": "b33c11602a6e08186e3249aaffe8fac5292fe889845abb374d8a8c97d1d33428"
+    },
+    {
+      "path": "scripts\\classify_pac_m04_m10.py",
+      "sha256": "e6ac87e1e79e0ccf5e9d562ac6de2c6f014f8565ccffea172c6bb537a91eb4c7"
+    },
+    {
+      "path": "scripts\\execute_controls.py",
+      "sha256": "9f03c307b7fc82d7a54959cbfbf74a3cc343d6528e197dd913c73d1c3451a250"
+    },
+    {
+      "path": "scripts\\independent_audit.py",
+      "sha256": "29cb3f332ac82043a5d6a7e2cacc5d191c57ee575bf22a7c188b8c9af0c83acc"
+    },
+    {
+      "path": "scripts\\ingest_control_evidence.py",
+      "sha256": "6426295d9d858c18286c57d6cae41161fa9f46ddaa4a03bd20f33c236d18611c"
+    },
+    {
+      "path": "scripts\\ingest_validator_evidence.py",
+      "sha256": "792bb7989d50964ea7925ddb6ef2402304d574a5f702ed3bdee5c68a09c6f0e4"
+    },
+    {
+      "path": "scripts\\merge_double_coding.py",
+      "sha256": "90da81ec2a43738c2f3742f6219bc2edf53d53576ccc50a96e9606ca73b6a5a8"
+    },
+    {
+      "path": "scripts\\prepare_double_coding.py",
+      "sha256": "c50fef914753832d71f93ad1e1e1fed15e6a612191b76524cf2f8f5b9c282a4f"
+    },
+    {
+      "path": "scripts\\prepare_phase2.py",
+      "sha256": "d183ff817f87b7dba939aa9e3c3ab223168c5696b34d48d5f69976260d9e78bc"
+    },
+    {
+      "path": "scripts\\rebuild_analysis.py",
+      "sha256": "df52c8bad01b1cf708754b82138ef4a505cdb165dfb8dff2b5fe58f422c454a0"
+    },
+    {
+      "path": "scripts\\reconcile_canonical.py",
+      "sha256": "cf28fe5ed9740965cf022da72f0b082a45d8b440478c70ec7d5809d77d2892a7"
+    },
+    {
+      "path": "scripts\\reconcile_double_coding_corrections.py",
+      "sha256": "ae25db143572e43da4085f3087b6f4d7e8a47b9d3638b0e8f34df29c13f0ee52"
+    },
+    {
+      "path": "scripts\\regenerate_scratch.py",
+      "sha256": "d72eb48c86d5fa3f2a66f885fd86172440183348dedf7778a7fff840533822b9"
+    },
+    {
+      "path": "scripts\\reverify_existing_mutants.py",
+      "sha256": "393d5d6e2daaba43decec8e5f89630070fad35346f8ccae8f6da4fc82efdae33"
+    },
+    {
+      "path": "scripts\\robustness_sensitivity.py",
+      "sha256": "c0cf889a0976329306d4ee051beb23c0634760ea9dfa19bd40d534208af1a9dd"
+    },
+    {
+      "path": "scripts\\run_verapdf_batch.py",
+      "sha256": "b0b2b0d0e4a1e016748e113237f724e6368f0d04dccb3627738801a6dd965cfe"
+    },
+    {
+      "path": "scripts\\run_verapdf_controls.py",
+      "sha256": "638c9c69f0d4b90be6d5276df94a50d3f19baa67fbb1cdd76a9d79a3fe010c81"
+    },
+    {
+      "path": "scripts\\verify_study_state.py",
+      "sha256": "3f8265724d3d9414cbf25f16669b92d12cae6398664a31e102f4e02ad2c79df7"
+    }
+  ],
+  "at_evidence_hashes": [
+    {
+      "path": "evidence\\at\\nvda\\nvda-session.log",
+      "sha256": "cd91230be795aba7708c6671f3bc43ca93d57bc9cfcb305c9a27a4a6c523ecf5"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-02_Invoice-M01.txt",
+      "sha256": "1f076ae2c2b8814d6fd50a88c84f41af35565c15fbff7793bf2fa29c6102244e"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-02_Invoice-M02.txt",
+      "sha256": "d28ac223fb93240f4cf55f2bb9f629dfd308101c48a6c4864b056cbc19d86405"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-02_Invoice-M03.txt",
+      "sha256": "f3a6f2ce081d74e5a0e8dccba30b3abbd6b816b6a1a9a48f6e899ee8a21cb5b3"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-02_Invoice-M04.txt",
+      "sha256": "3d5d42361c60d6616a6ec536f6a92be6369527d6b9acdf20088b31c3df524629"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-02_Invoice-M07.txt",
+      "sha256": "790ff5327ff9bc756adbd5c8c60c716822dc7751e01ea7d879a936534dfa6903"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-02_Invoice-M10.txt",
+      "sha256": "56290af82c77eafab070085d6b7606cb52e644e0392a8cf98cccf8ddfab0882b"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-03_AcademicAbstract-M05.txt",
+      "sha256": "1a570dfacb914a1c278c08ede796118a22e6847f5f5a3288c83eb9c2654ebb27"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-03_AcademicAbstract-M06.txt",
+      "sha256": "23c944ede7cdc1837629e80299797132e1a6f453d23ec08292e09cd7024e6317"
+    },
+    {
+      "path": "evidence\\at\\nvda\\PDFUA-Ref-2-10_Form-M08.txt",
+      "sha256": "4fb945a36d7bf67b5cfb26ed68486fc5dc9ec2ad127e8dc8e45243017b69a14c"
+    }
+  ],
+  "authoritative_basis": "data/mutants.jsonl valid verified rows minus every documented data/mutant_exclusions.csv row; formal rows are matching active IDs under the three named formal configurations",
+  "commands": {
+    "analysis": "python scripts/rebuild_analysis.py",
+    "control_artifact_verification": "python scripts/execute_controls.py",
+    "evidence_check": "python scripts/check_evidence.py",
+    "independent_audit": "python scripts/independent_audit.py",
+    "release_verify": "python scripts/verify_study_state.py --verify",
+    "scratch_regeneration": "python scripts/regenerate_scratch.py",
+    "tests": "python -m unittest discover -s tests -p \"test*.py\" -q",
+    "verify": "python reproduce.py"
+  },
+  "counts": {
+    "active_ids": [
+      "PDFUA-Ref-2-01_Magazine-danish-M01",
+      "PDFUA-Ref-2-01_Magazine-danish-M02",
+      "PDFUA-Ref-2-01_Magazine-danish-M03",
+      "PDFUA-Ref-2-01_Magazine-danish-M04",
+      "PDFUA-Ref-2-01_Magazine-danish-M05",
+      "PDFUA-Ref-2-01_Magazine-danish-M06",
+      "PDFUA-Ref-2-01_Magazine-danish-M07",
+      "PDFUA-Ref-2-01_Magazine-danish-M08",
+      "PDFUA-Ref-2-01_Magazine-danish-M09",
+      "PDFUA-Ref-2-02_Invoice-M02",
+      "PDFUA-Ref-2-02_Invoice-M03",
+      "PDFUA-Ref-2-02_Invoice-M04",
+      "PDFUA-Ref-2-02_Invoice-M07",
+      "PDFUA-Ref-2-02_Invoice-M08",
+      "PDFUA-Ref-2-02_Invoice-M10",
+      "PDFUA-Ref-2-03_AcademicAbstract-M01",
+      "PDFUA-Ref-2-03_AcademicAbstract-M02",
+      "PDFUA-Ref-2-03_AcademicAbstract-M03",
+      "PDFUA-Ref-2-03_AcademicAbstract-M04",
+      "PDFUA-Ref-2-03_AcademicAbstract-M05",
+      "PDFUA-Ref-2-03_AcademicAbstract-M06",
+      "PDFUA-Ref-2-03_AcademicAbstract-M08",
+      "PDFUA-Ref-2-04_Presentation-M01",
+      "PDFUA-Ref-2-04_Presentation-M02",
+      "PDFUA-Ref-2-04_Presentation-M03",
+      "PDFUA-Ref-2-04_Presentation-M04",
+      "PDFUA-Ref-2-04_Presentation-M05",
+      "PDFUA-Ref-2-04_Presentation-M06",
+      "PDFUA-Ref-2-04_Presentation-M07",
+      "PDFUA-Ref-2-04_Presentation-M08",
+      "PDFUA-Ref-2-04_Presentation-M09",
+      "PDFUA-Ref-2-05_BookChapter-german-M01",
+      "PDFUA-Ref-2-05_BookChapter-german-M02",
+      "PDFUA-Ref-2-05_BookChapter-german-M03",
+      "PDFUA-Ref-2-05_BookChapter-german-M04",
+      "PDFUA-Ref-2-05_BookChapter-german-M05",
+      "PDFUA-Ref-2-05_BookChapter-german-M06",
+      "PDFUA-Ref-2-05_BookChapter-german-M07",
+      "PDFUA-Ref-2-05_BookChapter-german-M08",
+      "PDFUA-Ref-2-05_BookChapter-german-M09",
+      "PDFUA-Ref-2-05_BookChapter-german-M10",
+      "PDFUA-Ref-2-06_Brochure-M01",
+      "PDFUA-Ref-2-06_Brochure-M02",
+      "PDFUA-Ref-2-06_Brochure-M03",
+      "PDFUA-Ref-2-06_Brochure-M04",
+      "PDFUA-Ref-2-06_Brochure-M05",
+      "PDFUA-Ref-2-06_Brochure-M06",
+      "PDFUA-Ref-2-06_Brochure-M07",
+      "PDFUA-Ref-2-06_Brochure-M08",
+      "PDFUA-Ref-2-08_BookChapter-M01",
+      "PDFUA-Ref-2-08_BookChapter-M02",
+      "PDFUA-Ref-2-08_BookChapter-M03",
+      "PDFUA-Ref-2-08_BookChapter-M04",
+      "PDFUA-Ref-2-08_BookChapter-M05",
+      "PDFUA-Ref-2-08_BookChapter-M06",
+      "PDFUA-Ref-2-08_BookChapter-M07",
+      "PDFUA-Ref-2-08_BookChapter-M08",
+      "PDFUA-Ref-2-08_BookChapter-M10",
+      "PDFUA-Ref-2-09_Scanned-M01",
+      "PDFUA-Ref-2-09_Scanned-M02",
+      "PDFUA-Ref-2-09_Scanned-M03",
+      "PDFUA-Ref-2-09_Scanned-M04",
+      "PDFUA-Ref-2-09_Scanned-M05",
+      "PDFUA-Ref-2-09_Scanned-M06",
+      "PDFUA-Ref-2-09_Scanned-M07",
+      "PDFUA-Ref-2-09_Scanned-M10",
+      "PDFUA-Ref-2-10_Form-M01",
+      "PDFUA-Ref-2-10_Form-M02",
+      "PDFUA-Ref-2-10_Form-M08"
+    ],
+    "active_mutants": 69,
+    "ambiguous_or_missing_formal_rows": 0,
+    "artifact_verified_control_rows": 18,
+    "at_observations": 9,
+    "baseline_conflict_rows": 1,
+    "class_a_mutants": 30,
+    "class_b_mutants": 39,
+    "classified_formal_rows": 207,
+    "classified_rows_per_validator": {
+      "Acrobat": 69,
+      "PAC": 69,
+      "veraPDF": 69
+    },
+    "control_rows": 18,
+    "documented_exclusions": 5,
+    "double_coded_formal_rows": 207,
+    "excluded_ids": [
+      "PDFUA-Ref-2-03_AcademicAbstract-M09",
+      "PDFUA-Ref-2-06_Brochure-M09",
+      "PDFUA-Ref-2-09_Scanned-M08",
+      "PDFUA-Ref-2-09_Scanned-M09",
+      "PDFUA-Ref-2-10_Form-M09"
+    ],
+    "exclusions_present_in_manifest": 4,
+    "executed_control_rows": 18,
+    "formal_validator_rows": 207,
+    "golden_pdfs": 9,
+    "pac_ai_rows": 34,
+    "valid_verified_mutants": 70,
+    "verapdf_control_rows": 18
+  },
+  "dependency_versions": {
+    "Pillow": "12.1.1",
+    "PyMuPDF": "1.28.2",
+    "PyYAML": "6.0.3",
+    "pypdf": "6.18.1"
+  },
+  "double_coding": {
+    "coded_rows": 207,
+    "reason": "All formal rows contain two recorded coder decision fields and a final adjudication; coder identity/independence provenance is not substantiated by this repository, and original decisions plus documented evidence corrections are preserved.",
+    "required_rows": 207,
+    "status": "COMPLETE"
+  },
+  "excluded_mutant_ids": [
+    "PDFUA-Ref-2-03_AcademicAbstract-M09",
+    "PDFUA-Ref-2-06_Brochure-M09",
+    "PDFUA-Ref-2-09_Scanned-M08",
+    "PDFUA-Ref-2-09_Scanned-M09",
+    "PDFUA-Ref-2-10_Form-M09"
+  ],
+  "figure_hashes": [
+    {
+      "path": "analysis\\generated\\figures\\active_outcomes.svg",
+      "sha256": "f2149b8f35c76f7174c2b9d626a5b1da74866fa8ea345af0ea88a2b5c16d9407"
+    },
+    {
+      "path": "paper\\figures\\figure1_pipeline.png",
+      "sha256": "f97253d17b720f46dc22121b505385565579e05d01087be0145e2a5c3f29b058"
+    },
+    {
+      "path": "paper\\figures\\figure2_overall_detection_rates.png",
+      "sha256": "53b50ed115ebe606f8dc20033e1ba230dfb8fdf01e4a9ba90e2fd345c7bf4d5b"
+    },
+    {
+      "path": "paper\\figures\\figure3_per_operator_detection.png",
+      "sha256": "70935993edd0fe39d1d0da53320be37e0f2a678be2b779cf924cc23d6ad5c0a1"
+    }
+  ],
+  "independent_audit_hashes": [
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M01.json",
+      "sha256": "3a805442265421da573b463a6291f08062f40141fc75a516ca76cc2361d2b719"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M02.json",
+      "sha256": "7daa632f5197e814c50c24c68d59b3400175ed6df3dc6fba601a51205aa46799"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M03.json",
+      "sha256": "38d5e38d9a70704a5b5b28dd585eb883ccf90c6a6c974efc9542ee17b0da4b4c"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M04.json",
+      "sha256": "4f2bf0eabccf97c6e1447d172f202eed889fa32d4c6e3c5b1d3b109730353db7"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M05.json",
+      "sha256": "3559741ab69439760e60d5e17455f5a9bd9dffde72e3ec351a5ba11b68b6ad95"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M06.json",
+      "sha256": "ca5ac4a9e2383103998d536ad764c2d7b44941ec721e737d49022e9ce8ca8b6e"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M07.json",
+      "sha256": "ebfdd135f95210cbd78b266cbb037759b3028e656d08f4ff6ef914e1427a1cf2"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M08.json",
+      "sha256": "6abfa62b1c150b19744fccb91ecde9636a197ebc641637bdb9776fceea37c52c"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-01_Magazine-danish-M09.json",
+      "sha256": "f592762a2c8ff4427b3d5a2f4439d245874c1b36884f3c978ae56549fc36deae"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M02.json",
+      "sha256": "324f64e2ab0864fe8e7e553b741231573d4a1f16011eba1084f19829b52b1469"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M03.json",
+      "sha256": "abc189b7ab6f06e63401a25db00f569b90f0784314ba196d5f9a8843f2eed855"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M04.json",
+      "sha256": "c9dd3d208b7911c89c97dab474eb888aea5358e3d3574883e8f4cacb201efb8e"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M07.json",
+      "sha256": "8c4c2a668bfbc42f66e693b1ae28f96e226b650c2c9f84f53c00fba10dc3d405"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M08.json",
+      "sha256": "92905fa0720737af61a589b69463bea5fba2e6881d5fbd636bc93d72881f8384"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-02_Invoice-M10.json",
+      "sha256": "58ca3918418dd90efa7cdbfd934454031a3f980419d64bc8976bc529f5ac2b1d"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M01.json",
+      "sha256": "77881a50080e12820d51f67e6dc36f7f1d679c27ea87616c4bbf54ff421bc76d"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M02.json",
+      "sha256": "838dfff83203e62c43a9ec2c9af8561cb4796ae0a531e524de895a630b55e1ea"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M03.json",
+      "sha256": "2e8567b365a8cb61c634d0c43185dfd4718fae29bd046e8850e1ba4eab32088b"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M04.json",
+      "sha256": "6361fa8fc28a132703de58b0d3260c4118fcf0d6171e05fc49a0ceef6cbc0835"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M05.json",
+      "sha256": "165964ca487d31a41362b65aa28d4ddf57505429fa902e667130aa2c937074b5"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M06.json",
+      "sha256": "e360ecdf22ca02a62740a8639ec65c198bcc0b88ca40f39259e39a9afb5f8575"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-03_AcademicAbstract-M08.json",
+      "sha256": "e8ceae8b98265592618d19219f23a7808808c70f1276b5ad8bbee1455805907b"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M01.json",
+      "sha256": "fa6036ac144848e7a27d38643815553ea3c60cef1d6365d5f94b523147f453fc"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M02.json",
+      "sha256": "f58aa117f7d9d28a7862de4aad39b2d5cc06854bf5b8d7ee8a59fab18d3f8b9e"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M03.json",
+      "sha256": "942614539d28ac6a24cf886404016bfe1a85080d0168cda3266dfe801677e17c"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M04.json",
+      "sha256": "019fcba707f8802d8ecbcf3f63d8c840411da2f7398de553944189da16f17830"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M05.json",
+      "sha256": "386a2a2b3a1f7d6db8e8765a100d77cff3010c0f2bbd0218e4b3cd90249f7b4d"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M06.json",
+      "sha256": "2dbb12e7c94c8ce70bf5172a777f63da4f0392dd23bb90a128ad85eb5c561972"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M07.json",
+      "sha256": "24910ba03c772c181dccea2cc46970f3a0738423bed0fb84480e6d093d3e7e11"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M08.json",
+      "sha256": "a1cb0259e6967a6d79b8c6b62bb12f1144b5c8fd243864a89aaf3bb201a59084"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-04_Presentation-M09.json",
+      "sha256": "6b1666e97cac5716afce71d41fdeeffc1f1f664f96bd204a6149558c1c193f8a"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M01.json",
+      "sha256": "fd874ca7e25d4c25a69f09728979e9a8a7848c3a07fc494e38cc44b0ce5ea471"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M02.json",
+      "sha256": "5a9a8be18cbc239df5b104b919ac1e2faa34e5fdf5bac26969867d8112458a51"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M03.json",
+      "sha256": "0b9b4d044837755688a57a4f805c5cd6e3c46ac4cdccb2f5236ff472f5e6558b"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M04.json",
+      "sha256": "f54cdc64d65b2e9aaf8bd8d8c8eb26c98ddc5f1e46ee6dfc47a80587699c6ae7"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M05.json",
+      "sha256": "3f91e3f0ee313c5013487d2bc7a7016f0fca8927eb912153486ce21e35d9412f"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M06.json",
+      "sha256": "238961b14ff30e470f3f8b4504a8dc3fe847f7937493e4fe9a9d947cde257159"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M07.json",
+      "sha256": "ad419d6ed35a5162cd6aa12549a07d1f0b4c6860f036019c0229c07b8dac5adf"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M08.json",
+      "sha256": "02d852c8eb0fffec95405fc23ed0a90374cdd1119222a62cb32a802b924dcaa5"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M09.json",
+      "sha256": "073a93007d3c16eac719b1858c5928496a9ab0a93d2faedb66a1b9255a9988a5"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-05_BookChapter-german-M10.json",
+      "sha256": "c773a41c1d4fb675a854b4b398a05952bf592dd1313b84f5f529305955c62737"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M01.json",
+      "sha256": "c431834de1bcb58b144ebf4ff0cb0d70e6f837c939d103c7b57666a7de7f6bb4"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M02.json",
+      "sha256": "789252f541c4893ead82e99d6049a1afe16481e84cb133fbe9a691e0ebef26bc"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M03.json",
+      "sha256": "65520ca0b17c907db021f43fbd7956712258344cc1deba8f10fcb728dcfe3d0c"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M04.json",
+      "sha256": "babf53a74a3a86b0e02a73bcb49fafabd91e86b96d94c7854a2821d1770a0f5a"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M05.json",
+      "sha256": "f57bd2e2989d6a5534fefc0e6e5b46e9a8109850c3f79b3841f159f80d4bf398"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M06.json",
+      "sha256": "afd6f9b8689bb0d66d9f3ae367d549c3dc496e7cc75c743dc418b59bd63c3047"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M07.json",
+      "sha256": "8495154d287dc48eb242592b5c5b31a028d1dccb4c0cc270f68d41e487580f5b"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-06_Brochure-M08.json",
+      "sha256": "38614e1bc5259299b444076f7bb21c27e19c8e3d6df9f7081965de45a4bee248"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M01.json",
+      "sha256": "3940c85bb3279ac6bc755cb592e74270da69e60a853f218d3280d5ab4a58eb79"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M02.json",
+      "sha256": "86ef9e3b2555f0f2e0db26a70857e37b04fc40363229eb99d7b2ee79438a9572"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M03.json",
+      "sha256": "5ae14d9d6f36694d54af3a1ea8da32b27f1aa4b3e49347081282b75f2b521048"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M04.json",
+      "sha256": "b7bbe6abca28f70c6bd8c12c10c3a7a93ef690a0905499912c60d94e7fb201cd"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M05.json",
+      "sha256": "a2179d69d270182baef364eb5fdf92661331e6d46523c69749e38c0e2c05fb5b"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M06.json",
+      "sha256": "bed27f329b5ad1db56a3cc539cd88a62abcca30dca5aa7595a94dd4bf0e0cfcb"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M07.json",
+      "sha256": "65a188c1d53707666e0888ac9fde9399597fe9dd0b54cc161eeb678527794219"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M08.json",
+      "sha256": "1501e98fcd1502979094be8adaef9d5539891b3839ef04f1ad5cc94a7913b7b0"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-08_BookChapter-M10.json",
+      "sha256": "7787e257ce97dc472658363540567c5d7cb11b3d4853217ce3f748b61a113666"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M01.json",
+      "sha256": "673156516f365b8130e18d4ceba5cb28e8dc93547626e034c4828914801d8e0f"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M02.json",
+      "sha256": "7b69c2f0366a949a51a615d8992faba369935e47692142077cf56cda2ac408b2"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M03.json",
+      "sha256": "f356bccdd47fbadda3b24757b93135944671c2092d5d3d364b918d4395302cd7"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M04.json",
+      "sha256": "d707e4ca717b7f0afe9c505c07327f81663196632716db82c79daaf9a9737815"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M05.json",
+      "sha256": "74d285bdc4877efa4d9a2a20128149b71e4d24c3e068da2875d9b303fad7fce8"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M06.json",
+      "sha256": "9db11fa5cf763e416b0c29f55be6c9ed11290d49655cd701d191990767181080"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M07.json",
+      "sha256": "5c2ae89eecef33156b2e1c9e736274fb933410134e8127f6a629198a9f9e29c3"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-09_Scanned-M10.json",
+      "sha256": "129acc5c95bf5cd12c5ca30d352fc840fedabb6a6e96d3e6d2706f84af43e52a"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-10_Form-M01.json",
+      "sha256": "c16a854fcbc4edf4e22b562be2e1f1b9f7f7b18a9ff43d0755440862ad1e198b"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-10_Form-M02.json",
+      "sha256": "7ddfbde52bd8486317a0aad54e392e5189e3775d2599733eec5f574fbc2d9e43"
+    },
+    {
+      "path": "evidence\\independent_verification_v2\\PDFUA-Ref-2-10_Form-M08.json",
+      "sha256": "4ddffe8b3e05cdba49ef39f7a048c987a5210b2c0772136c67af0f31e391b23e"
+    }
+  ],
+  "independent_oracle": {
+    "command": "python scripts/independent_audit.py",
+    "parser_a": "pypdf",
+    "parser_b": "PyMuPDF/MuPDF",
+    "renderer_a": "Poppler pdftoppm",
+    "renderer_b": "MuPDF pixmap"
+  },
+  "manifest_version": "2.0",
+  "manuscript_hash": {
+    "path": "paper\\pdfa11ymut_ieee.tex",
+    "sha256": "b2a1fc14d526d27ac095c9a3ee27a069ab6d410f8e493971f85fbb9879b6e54c"
+  },
+  "mutant_pdf_hashes": [
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M01.pdf",
+      "sha256": "a52e75193364438a1701f76c986fc047ee3e3b98dd691ec662d2c1d380c5d2df"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M02.pdf",
+      "sha256": "e8df97191d286d7b52b625d3664034a14374aac4965a0bdd2aa6af57f9876c5f"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M03.pdf",
+      "sha256": "f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M04.pdf",
+      "sha256": "eb79fabe18daacdee5408ca7bc5a7968f8113c1721ff80830870d5680a639c82"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M05.pdf",
+      "sha256": "5b5f3a85909983e4b44ba0babf92c7e9704757387a94804ef792ca3d3918bb6f"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M06.pdf",
+      "sha256": "4774ad31d5381502e81bc0e30ee6a92559c51bf4bd3772adcc50b3ca1d671d81"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M07.pdf",
+      "sha256": "a45021dfa3ce09f803eac101d0d5bffcd1326662a9a71c028bbd51cbe01a595f"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M08.pdf",
+      "sha256": "798d1807493ecbed375ba1a175bb6d19f6d51dfe508c6df88df7ec3f8e1d6061"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-01_Magazine-danish-M09.pdf",
+      "sha256": "3ef299495b93ea1d1fd50ba38ec265412abb6e1d7e147918d50ec9afcc36662b"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M02.pdf",
+      "sha256": "462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M03.pdf",
+      "sha256": "7887ebfcc438c907ca1981ad33769f3ebee0831b86c8f18ba672a682e45e0323"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M04.pdf",
+      "sha256": "c831396c411f0e67e1fa9eea43cf7e8f741b9f99c69cbdd9f0ce3c17dcab2514"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M07.pdf",
+      "sha256": "14e04ae7cadc509f5b6479aff17be9cf6d79e68524801d8aa9a27e49ea348506"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M08.pdf",
+      "sha256": "4fa45b60c80cb404e90b60c4eb2e273acfc22555afdab15b8b1684d09b4f33df"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M10.pdf",
+      "sha256": "a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M01.pdf",
+      "sha256": "3e2fe0a15cd8758f335e91aef7bb50a2b45f2e003448723f106d803a55ce788f"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M02.pdf",
+      "sha256": "16aed0e5075a817106227b70904ceee8d8c2f771c2a83fc933e07e4a561ba5f1"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M03.pdf",
+      "sha256": "fcc8533b325c9a1a1675c46ec0856649fa02feea531e4aba4492a12a41e1a571"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M04.pdf",
+      "sha256": "aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M05.pdf",
+      "sha256": "ee82308195b4488f8c6e01bc8e4ba469df760c122c766ff84fc3425302d6f528"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M06.pdf",
+      "sha256": "ca37553b2d45198cd26b168a6c9eb41f248cd4f9179118b991fc47917a443afb"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-03_AcademicAbstract-M08.pdf",
+      "sha256": "381ec9f9fe1f7ef256d3f2ed7e5e405bb9802b17bb64d762f572bc6d313af091"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M01.pdf",
+      "sha256": "1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M02.pdf",
+      "sha256": "e85501fb90d221c574cae80f0cab8f7db33b2a21c9b89e7f2de4167b4dd87880"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M03.pdf",
+      "sha256": "23612f2c7708412a2bcfc9ba1023d8712c0db74be6f6752d7b04bb54b23913b7"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M04.pdf",
+      "sha256": "d54e7cdfa78b6be17e9234803de1e88ece27cba0282e244b0f0abfdd992487cd"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M05.pdf",
+      "sha256": "5d72a6c172200b5c5bf50850d45e535a9ed8454edfec1b2714a6c72159995d5c"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M06.pdf",
+      "sha256": "56a2b7314c6bb652499bd6ed6a070925d4a76b840d9a06a4377b055a02d37da4"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M07.pdf",
+      "sha256": "09d414160bdb30b7d9aa23413647b6ba38f434340f1d3f0d3164a1d37d5d3088"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M08.pdf",
+      "sha256": "72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M09.pdf",
+      "sha256": "d9603ca680cfdcaf22033828f12e55e1d26f825bcbdfaf7dd0a29798ea61de3a"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M01.pdf",
+      "sha256": "f3455e42a1e7610054506c9ece9cfbef949f888e93294fce9eae762222be6078"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M02.pdf",
+      "sha256": "5b806fd39c6559c0416737eb3cc131c05f5071f0b1d758af0fecca9b315070af"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M03.pdf",
+      "sha256": "08a17db95cf262351a8e2a6464edaec73836e71fd34b0db112bdec9676930e75"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M04.pdf",
+      "sha256": "668b5c55c85237169484722c15354e8d353179f8b9fc9e96a2a6f83a13c71250"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M05.pdf",
+      "sha256": "b7a688694201ed24e8dda1fcf6290c752e42d1ab1d074fc0c8f9d29c0dcad216"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M06.pdf",
+      "sha256": "823c2b5ddc120128c9e6eb07963de30f15be94f72a40d781b698af48fb5833a6"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M07.pdf",
+      "sha256": "be8cb7f6aca4a81ecb01654b816f6ae0f5cf8f5daa45ebf5468925fcf7ab9742"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M08.pdf",
+      "sha256": "01ada38b1d9dc17882581a3ae080fa771f7a3ed2d3affbff49473ff510719fdd"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M09.pdf",
+      "sha256": "0ceaf48c6cf200ecab12a36c5bc30bb019911102fe2f2c7bc94508c87f43333f"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-05_BookChapter-german-M10.pdf",
+      "sha256": "4dcdbc2dd191cbca8b848640ec29c68cd21d74dedbbcacdb21e76112bb1d3f9c"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M01.pdf",
+      "sha256": "a1a94935bccdbaad7b39c045e9c627fb5deacc3f7fd7fa80c8c77cd6c02acf0a"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M02.pdf",
+      "sha256": "6a7c6c4b28369d6bc3ab0f091ff69a08665fe3b8d8398a7fa59ac5bab1cef360"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M03.pdf",
+      "sha256": "ed0e82b1eecd666930ccb41d3c75cc0a8703cc39d76b6ab87e15b1f70fd5935f"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M04.pdf",
+      "sha256": "12c8c27582c8ca949f0f95dc11371ef2a8c3a3a6a72bed7e8b82ff9aa74a049d"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M05.pdf",
+      "sha256": "692c7fddc91d6d6899dc1f9e820e2851a6cbeaa9694f0841b53445b15b8e3012"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M06.pdf",
+      "sha256": "a8629a74e71648776b2bb71606a7de30f1cbea3ffa60417d0bc936fabdb3c382"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M07.pdf",
+      "sha256": "7aed010a1cad015f6b9de4498a855cccc6599be37fe85e0ecdbddaef1d9af3dd"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-06_Brochure-M08.pdf",
+      "sha256": "fa090d7a7a195eca6b885da4e9b0884b162b73a3b015be189fc41173738c2996"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M01.pdf",
+      "sha256": "f5fdd674ca53247a75d32f520d656f24f8e97e864466f9a72ca8e62487f63178"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M02.pdf",
+      "sha256": "820bea08c3a5eed724bb8d1e65d9e9733c1ca47a0e003ae477aea7cce81725e4"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M03.pdf",
+      "sha256": "2907d533740ae0bea18da032ef36cea8ec48e3bf026dcf8b61439b86b931ed27"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M04.pdf",
+      "sha256": "20ac005e0fb4cf3812fefd64b496cf14488a56d493e7c7ee5f5045ce9540c1f5"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M05.pdf",
+      "sha256": "db8fd0be417f0b011ca55e313d0bc1bbe4421aec1d8bb27584fa99a9c5d1f7d3"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M06.pdf",
+      "sha256": "86091f5caa50e48f16a3a67354122d88c286f8ad8e5a892f22202d5dfe0be414"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M07.pdf",
+      "sha256": "8df764ab15f21435fc2283a261e0fa073baef1005f3d740e3991a952285746e8"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M08.pdf",
+      "sha256": "2c631cd85add3b7883781fb114651993280bb8c9f360361eaf20cb1f3c1ef0c1"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-08_BookChapter-M10.pdf",
+      "sha256": "135ebc92b095127190c98164be07186359b69f0908bda83266abdbb34adab269"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M01.pdf",
+      "sha256": "04ce7bde54a9e481e0da7d5bf8a4e7fc98467f2bdbc3803291d166e219df9dc0"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M02.pdf",
+      "sha256": "f45a0b6356c4f2435d8bd75482c8ff0c17fc8f072b81169e342bff4376b04946"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M03.pdf",
+      "sha256": "b86a34d9c3d9be9e5022027a4856df45a5ab30b42b4cc04791130c0229119f7b"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M04.pdf",
+      "sha256": "494532eaa86c5136f8de492a0bf4f227d91b90aabc6d7eed62506f2e1838ef28"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M05.pdf",
+      "sha256": "6bbc4a32f5cfa0ae69e6f77ec68a66988bc5644b1e60e34278181c151d71b932"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M06.pdf",
+      "sha256": "637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M07.pdf",
+      "sha256": "c16652da4ab2f15701bf4b12fb0790c269bea5fadbfd0443c1e5db51c51d2c3a"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-09_Scanned-M10.pdf",
+      "sha256": "c5f2c1706faf55b963f7ae539710aa419a530967f41fcbc495d5fbc6708927e8"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-10_Form-M01.pdf",
+      "sha256": "3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-10_Form-M02.pdf",
+      "sha256": "85550ea9d4a77f73600cbc328ea4c1edf6916e032e2f5c79bf30e97f3db2d478"
+    },
+    {
+      "path": "corpus\\mutants\\PDFUA-Ref-2-10_Form-M08.pdf",
+      "sha256": "53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a"
+    }
+  ],
+  "negative_controls": {
+    "acrobat_rows": 18,
+    "artifact_verified_rows": 18,
+    "executed_rows": 18,
+    "pac_rows": 18,
+    "path": "data/controls.csv",
+    "reason": "All planned controls have hash-linked artifact, veraPDF, PAC, and Acrobat evidence. Controls remain descriptive baseline/false-positive evidence rather than positive-study outcomes.",
+    "status": "COMPLETE",
+    "verapdf_rows": 18
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "repository_commit": "7b78a42dfe7a9e6ebe936d8aabbe1417e3a0b99c",
+  "source_pdf_hashes": [
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-01_Magazine-danish.pdf",
+      "sha256": "aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+      "sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-03_AcademicAbstract.pdf",
+      "sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-04_Presentation.pdf",
+      "sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-05_BookChapter-german.pdf",
+      "sha256": "fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-06_Brochure.pdf",
+      "sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-08_BookChapter.pdf",
+      "sha256": "2b958600daec79373736f413f2712fcd9c604de2c352cbc1ec9d67cc5d7932f1"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-09_Scanned.pdf",
+      "sha256": "bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae"
+    },
+    {
+      "path": "corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+      "sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806"
+    }
+  ],
+  "status": "READY",
+  "study_id": "PDFa11yMut-2026-09-21",
+  "validator_report_hashes": [
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M01__a52e75193364438a1701f76c986fc047ee3e3b98dd691ec662d2c1d380c5d2df.accreport.html",
+      "sha256": "e7c3dc0aace814af5007f256a55319f7fd25ab3c4956a3920dfffdc657178c98"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M02__e8df97191d286d7b52b625d3664034a14374aac4965a0bdd2aa6af57f9876c5f.accreport.html",
+      "sha256": "c6c973ada952bb098291103d58038fffcecd181209f22805ba8e7f05c8fa4d19"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M03__f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb.accreport.html",
+      "sha256": "fd9908553dde3de67b99b569e0b88f2b8102aea8e5155029f55b4b19383e5fb0"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M04__eb79fabe18daacdee5408ca7bc5a7968f8113c1721ff80830870d5680a639c82.accreport.html",
+      "sha256": "60cda1ca4f602450a82b817172dab0106056e460a4019d5aa089204aaba24c64"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M05__5b5f3a85909983e4b44ba0babf92c7e9704757387a94804ef792ca3d3918bb6f.accreport.html",
+      "sha256": "8d0700057884ce0113df2c2be217f915f9825ab373bd2b514508531bdf541c9a"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M06__4774ad31d5381502e81bc0e30ee6a92559c51bf4bd3772adcc50b3ca1d671d81.accreport.html",
+      "sha256": "a6e1a166e8aa38ba7ef720befd36c96c2e4b3af2682082511ed7e4a6762528c8"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M07__a45021dfa3ce09f803eac101d0d5bffcd1326662a9a71c028bbd51cbe01a595f.accreport.html",
+      "sha256": "382bde08b2f57d1dae512d287353f33ae5bf4b43b6a4afa7f89c2522ae7db2bb"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M08__798d1807493ecbed375ba1a175bb6d19f6d51dfe508c6df88df7ec3f8e1d6061.accreport.html",
+      "sha256": "ab1f812da276c337b6fbcbaf79f768fce88ddfa71127a41339766f1ad4d6d533"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish-M09__3ef299495b93ea1d1fd50ba38ec265412abb6e1d7e147918d50ec9afcc36662b.accreport.html",
+      "sha256": "58c8f79671d377fc7b707b0f02b40145827ea8b92a3101b5c00f96024230146b"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-01_Magazine-danish__aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434.accreport.html",
+      "sha256": "972f01218b19aacb9823cb7a8b649494616b7e1e35ecb156ddabd257ec86bb62"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice-M02__462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd.accreport.html",
+      "sha256": "067281ab7cc98e6f5409f1c120fe58953f74d34f25f7f4a7f45b34c43831e036"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice-M03__7887ebfcc438c907ca1981ad33769f3ebee0831b86c8f18ba672a682e45e0323.accreport.html",
+      "sha256": "8eac8bac0c89e446b574ccd06a740088503fb3e643e0a168e968ff7dee3c65b5"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice-M04__c831396c411f0e67e1fa9eea43cf7e8f741b9f99c69cbdd9f0ce3c17dcab2514.accreport.html",
+      "sha256": "2cf5f6f7a95e8242d5fab65a4bf23480d86cfb573b7a07ecb049a274bcf80ef7"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice-M07__14e04ae7cadc509f5b6479aff17be9cf6d79e68524801d8aa9a27e49ea348506.accreport.html",
+      "sha256": "527a4a3e736bad369b2b0ba0d9348a746492b5c61e2826ad8cbf21162fd30432"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice-M08__4fa45b60c80cb404e90b60c4eb2e273acfc22555afdab15b8b1684d09b4f33df.accreport.html",
+      "sha256": "68455bc3f7db33e2ff86de4501d7fc6ebd98cf94effc11c601f426cf677f8e00"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice-M10__a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48.accreport.html",
+      "sha256": "51093561d1b3ea6cdc7965555228f9f7b2c39d6f4a4f125acbcc196e4af1abf4"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-02_Invoice__fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9.accreport.html",
+      "sha256": "71e2fa9af7ed82b0b4ef4c0f7ec938860bbf87494ae6ef492f7a1b415780eaec"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M01__3e2fe0a15cd8758f335e91aef7bb50a2b45f2e003448723f106d803a55ce788f.accreport.html",
+      "sha256": "e611849fdbc62bcb25ad91faf3412f5c03b4210aa33338364086a0cb2c40a3e6"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M02__16aed0e5075a817106227b70904ceee8d8c2f771c2a83fc933e07e4a561ba5f1.accreport.html",
+      "sha256": "b9e2e87d5fae663119bb05fe691cc7d3dfa50a825c5d7d8b8656e5beffd937fd"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M03__fcc8533b325c9a1a1675c46ec0856649fa02feea531e4aba4492a12a41e1a571.accreport.html",
+      "sha256": "76cde60edb735e0d739254baaa62f636216672ce04a83aa5be0ac2984c07339a"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M04__aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec.accreport.html",
+      "sha256": "357d9124c8df7e49bcc6f0e240679ce8f813260317f33d126c43fda33e0cc80e"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M05__ee82308195b4488f8c6e01bc8e4ba469df760c122c766ff84fc3425302d6f528.accreport.html",
+      "sha256": "5c340990a65aedf1ebb8d8506452e7c22098f819c2e0b8dcb5439fe632cd7f6b"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M06__ca37553b2d45198cd26b168a6c9eb41f248cd4f9179118b991fc47917a443afb.accreport.html",
+      "sha256": "436b61ce413c216dd95c8ce28a307b03a62338c89fa2922d125b27d09ba99268"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract-M08__381ec9f9fe1f7ef256d3f2ed7e5e405bb9802b17bb64d762f572bc6d313af091.accreport.html",
+      "sha256": "2601a42121c961bcfe2ef246f54a5ad08123b6170d11962f84fdee64470f909d"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-03_AcademicAbstract__e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0.accreport.html",
+      "sha256": "2c3995391084463ad697a8411bd4570e63d5e268c27ec51780e6bb87da1cb3c4"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M01__1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c.accreport.html",
+      "sha256": "23c6b7fb31cbe9b5ba67a259d085459cca18aa5fcd3b9dcdf47933bcff5942b0"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M02__e85501fb90d221c574cae80f0cab8f7db33b2a21c9b89e7f2de4167b4dd87880.accreport.html",
+      "sha256": "d6c0f759378a8da9e7c0e35feca3e055923507c623beef52d77b8fddcbc0be97"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M03__23612f2c7708412a2bcfc9ba1023d8712c0db74be6f6752d7b04bb54b23913b7.accreport.html",
+      "sha256": "841a6aa835a88ead8544891d5899c859b7c609dc233b3a10fb3209ea916ec7de"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M04__d54e7cdfa78b6be17e9234803de1e88ece27cba0282e244b0f0abfdd992487cd.accreport.html",
+      "sha256": "a3a26734c62e3f8eb12791ac64b65271e38344db668c8e827dbaa31570631ebb"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M05__5d72a6c172200b5c5bf50850d45e535a9ed8454edfec1b2714a6c72159995d5c.accreport.html",
+      "sha256": "f9145fbcb0197c90fec70373d5fdefcf92c3a2b86474bf65d99b156a8d7c7f52"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M06__56a2b7314c6bb652499bd6ed6a070925d4a76b840d9a06a4377b055a02d37da4.accreport.html",
+      "sha256": "5d676f78c8220b16996caf9a30bed72b8d9bc29035b273a73beb3e56312f1429"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M07__09d414160bdb30b7d9aa23413647b6ba38f434340f1d3f0d3164a1d37d5d3088.accreport.html",
+      "sha256": "3109627f78887c7419aa34e0f5ed3667b06b103491ce288914e56d691e0c6e31"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M08__72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539.accreport.html",
+      "sha256": "314f7635442d7027e6dd13ace5a3dc562c59861d3b9cfa81ae29117cab7bd160"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation-M09__d9603ca680cfdcaf22033828f12e55e1d26f825bcbdfaf7dd0a29798ea61de3a.accreport.html",
+      "sha256": "7ef1772ce15cc497f3574d43e19f0bf63b844ce7bb437ec659211b60efc006c5"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-04_Presentation__90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575.accreport.html",
+      "sha256": "ae56fcb818efe3b5588629a96c3e4cf4c9c138e730f63a45c7af598249b9f62e"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M01__f3455e42a1e7610054506c9ece9cfbef949f888e93294fce9eae762222be6078.accreport.html",
+      "sha256": "0df2467b4e610be023235ab1202862c8f8a7094e68a12d735a3d80f964147e21"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M02__5b806fd39c6559c0416737eb3cc131c05f5071f0b1d758af0fecca9b315070af.accreport.html",
+      "sha256": "014918af225d1187d0e338b9ec91fa237ea380b69874ebdd05b905461928d91d"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M03__08a17db95cf262351a8e2a6464edaec73836e71fd34b0db112bdec9676930e75.accreport.html",
+      "sha256": "dc80d8ad1fd52f26be4053007b35d02edff37691e44689a4d8934356e787a907"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M04__668b5c55c85237169484722c15354e8d353179f8b9fc9e96a2a6f83a13c71250.accreport.html",
+      "sha256": "4050b7372bb71c66fa5d89801e1d64c9f8d99c1b4a0512b6a44e1058b9d308d0"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M05__b7a688694201ed24e8dda1fcf6290c752e42d1ab1d074fc0c8f9d29c0dcad216.accreport.html",
+      "sha256": "68909bb993caf9b41c2fd6a293c5f2494231834e98b0b07b27df246867eb97d9"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M06__823c2b5ddc120128c9e6eb07963de30f15be94f72a40d781b698af48fb5833a6.accreport.html",
+      "sha256": "e1ac24b57edd43410cbf7b9776d0441c3cd5ca258fa39b1cfbc0cf05326c2d4b"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M07__be8cb7f6aca4a81ecb01654b816f6ae0f5cf8f5daa45ebf5468925fcf7ab9742.accreport.html",
+      "sha256": "e886f879cfc0081faefc10f76719900546194dc7a921703f4e325e9e49436163"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M08__01ada38b1d9dc17882581a3ae080fa771f7a3ed2d3affbff49473ff510719fdd.accreport.html",
+      "sha256": "11e0a8e9840d0b1f7f333adfb2e8653d44a6eeb15efecbb19c50c245f2fbde30"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M09__0ceaf48c6cf200ecab12a36c5bc30bb019911102fe2f2c7bc94508c87f43333f.accreport.html",
+      "sha256": "e67562804d5f803790bad39688eb731b3589bf355f318e3720f51a43c55ef852"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german-M10__4dcdbc2dd191cbca8b848640ec29c68cd21d74dedbbcacdb21e76112bb1d3f9c.accreport.html",
+      "sha256": "797b1801911fce44bd4ff03111d67e94ec3537f0624f6813dd5e5a8b8c4b205c"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-05_BookChapter-german__fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352.accreport.html",
+      "sha256": "3c916b3bab7b301e1ba13d50b91cfdcadd435eb68ca51325c09803a5dce8318c"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M01__a1a94935bccdbaad7b39c045e9c627fb5deacc3f7fd7fa80c8c77cd6c02acf0a.accreport.html",
+      "sha256": "5d30f7ad04658bccb84c72107ad28a572c93ca43b82610d8c3692903bac13b7a"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M02__6a7c6c4b28369d6bc3ab0f091ff69a08665fe3b8d8398a7fa59ac5bab1cef360.accreport.html",
+      "sha256": "1a409c799f864a948acd61b43b1305553d64ee81c822879f192bcb873f16873f"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M03__ed0e82b1eecd666930ccb41d3c75cc0a8703cc39d76b6ab87e15b1f70fd5935f.accreport.html",
+      "sha256": "f48318d6f407c97260645deb5ae894131fbe4ec44ee51ade7d9eee3ab85e21ff"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M04__12c8c27582c8ca949f0f95dc11371ef2a8c3a3a6a72bed7e8b82ff9aa74a049d.accreport.html",
+      "sha256": "4d04c320ce148a2f7d24995ca80164dba1a15d528014ba8f91f4961f5b06bc4e"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M05__692c7fddc91d6d6899dc1f9e820e2851a6cbeaa9694f0841b53445b15b8e3012.accreport.html",
+      "sha256": "c6233aa0e86057846348837ee222b38454f15eccf693d6a0373d6bd88e20e4bc"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M06__a8629a74e71648776b2bb71606a7de30f1cbea3ffa60417d0bc936fabdb3c382.accreport.html",
+      "sha256": "737ad02c23210115e5b08adbbc061739eef3e0cd5ebab82cfa9f1fc415ae87eb"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M07__7aed010a1cad015f6b9de4498a855cccc6599be37fe85e0ecdbddaef1d9af3dd.accreport.html",
+      "sha256": "39769e710238b84c978c2426101ca5adeb23929075663837659c5682be244826"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure-M08__fa090d7a7a195eca6b885da4e9b0884b162b73a3b015be189fc41173738c2996.accreport.html",
+      "sha256": "8b68f751cddebc6ff2a8e3156328f7eb73cc9014528ae4f36cd98c1cd695fbae"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-06_Brochure__aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e.accreport.html",
+      "sha256": "ddae8755359d10e442d08e5bdbbca4e60bca3427edc1ca515d047d50114e7bf2"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M01__f5fdd674ca53247a75d32f520d656f24f8e97e864466f9a72ca8e62487f63178.accreport.html",
+      "sha256": "d3e8ae4fdea6b335d529ba7093269c409cb8f253620da9c1aaeebcb31825c33f"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M02__820bea08c3a5eed724bb8d1e65d9e9733c1ca47a0e003ae477aea7cce81725e4.accreport.html",
+      "sha256": "ceb736e799c1047e6ee0e8a8aaf8cab3a0ba6694842492b1b3c59f4c9d01ef84"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M03__2907d533740ae0bea18da032ef36cea8ec48e3bf026dcf8b61439b86b931ed27.accreport.html",
+      "sha256": "d4b325d67d327e9c707935c94d7bf81427ab822ca312494a6a02d905be4a9b8d"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M04__20ac005e0fb4cf3812fefd64b496cf14488a56d493e7c7ee5f5045ce9540c1f5.accreport.html",
+      "sha256": "6c7012c28f79471271e9fcab9befce2b2e9ba1d7d2c1fcbd4fb6af6f82ffdb24"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M05__db8fd0be417f0b011ca55e313d0bc1bbe4421aec1d8bb27584fa99a9c5d1f7d3.accreport.html",
+      "sha256": "ea17801bbfee1cc40c137478f6ddd0fabecc29e055ecb6bc1f01013c5a9853a7"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M06__86091f5caa50e48f16a3a67354122d88c286f8ad8e5a892f22202d5dfe0be414.accreport.html",
+      "sha256": "bb17d891989d1f74d368c5d601d79f7995ca4eecfc54bc31660f1c17788f4620"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M07__8df764ab15f21435fc2283a261e0fa073baef1005f3d740e3991a952285746e8.accreport.html",
+      "sha256": "3f5f6c4f15d55688984fea72f289f5665f517f7d54cffbdbf3e499b5dc2b112e"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M08__2c631cd85add3b7883781fb114651993280bb8c9f360361eaf20cb1f3c1ef0c1.accreport.html",
+      "sha256": "981095c973b9070d9276a4a4db137b61575fbea5a89c780ebf93364f3a31a553"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter-M10__135ebc92b095127190c98164be07186359b69f0908bda83266abdbb34adab269.accreport.html",
+      "sha256": "13242f1cced5476c09e2c59ad6701a2b51440e20af1efc1b14cf80fecc16fba9"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-08_BookChapter__2b958600daec79373736f413f2712fcd9c604de2c352cbc1ec9d67cc5d7932f1.accreport.html",
+      "sha256": "f21220bdf4e4c87e97c284bb203fe68519f4f40479fd108714142ee373372f36"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M01__04ce7bde54a9e481e0da7d5bf8a4e7fc98467f2bdbc3803291d166e219df9dc0.accreport.html",
+      "sha256": "821cd0556060e658e991f802f0b766b13a8b896199b2b6c70c686096ae82b06a"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M02__f45a0b6356c4f2435d8bd75482c8ff0c17fc8f072b81169e342bff4376b04946.accreport.html",
+      "sha256": "7336bd2238f0602a5d6b67a1fe86872b46c8b7f59ed9e928d76f282033bc3d6d"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M03__b86a34d9c3d9be9e5022027a4856df45a5ab30b42b4cc04791130c0229119f7b.accreport.html",
+      "sha256": "0ad947afe15e1ab06e64f5aecf0b62aabe3145ff1f5c9a5763e1967969919bc4"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M04__494532eaa86c5136f8de492a0bf4f227d91b90aabc6d7eed62506f2e1838ef28.accreport.html",
+      "sha256": "5335c26ba1346fd8594fbc88e84d6a8dda3dcc4cf45605a18fcf0e7f55ed0fa5"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M05__6bbc4a32f5cfa0ae69e6f77ec68a66988bc5644b1e60e34278181c151d71b932.accreport.html",
+      "sha256": "cda18530ded485d3d55aac00366d859e3f16c91b04b0d277b59fe1eb1f33fc0b"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M06__637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa.accreport.html",
+      "sha256": "94291ce8824a2933234df50cdaeedba1c96e420a2668f242611edd390055b266"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M07__c16652da4ab2f15701bf4b12fb0790c269bea5fadbfd0443c1e5db51c51d2c3a.accreport.html",
+      "sha256": "6e103026e1c8ba736283197c461c9ca4cfd7ccb9dcd01dbe6945746980f55694"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned-M10__c5f2c1706faf55b963f7ae539710aa419a530967f41fcbc495d5fbc6708927e8.accreport.html",
+      "sha256": "4e74642f783536d2244aa742138cf45d6922cb64102067217e5020448540208f"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-09_Scanned__bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae.accreport.html",
+      "sha256": "f3aa4a4fdeeab0628723e34143acb10c77c9c5665c3ed9a991f7a10d872de921"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-10_Form-M01__3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece.accreport.html",
+      "sha256": "e9c5748c2e6da2a92d5861ba29d43282bde5379f57543c38047bf4497ff4526e"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-10_Form-M02__85550ea9d4a77f73600cbc328ea4c1edf6916e032e2f5c79bf30e97f3db2d478.accreport.html",
+      "sha256": "33547ced7b285018bd1028e72ab486322b6bec34adeccc4ff9adc94c4ebc8fed"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-10_Form-M08__53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a.accreport.html",
+      "sha256": "490933893d5105d35f7d64904668171e580c9545d9b61a02b34f5317d1c2b455"
+    },
+    {
+      "path": "evidence\\acrobat\\PDFUA-Ref-2-10_Form__06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806.accreport.html",
+      "sha256": "32b40f4daad3405ef55dc79e6cf23d3ef25721871c0849bb5287fe6d2300c323"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G01-BENIGN.pdf.accreport.html",
+      "sha256": "b3b5e36362b71ca04be46d404bb49169be6dabd8dc1cded4ee5ee646614abb8c"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G01-NOOP.pdf.accreport.html",
+      "sha256": "b300d9b737d92d313ef05efac937d1f29e0b668b86dae363c09a14b54d1c2cc9"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G02-BENIGN.pdf.accreport.html",
+      "sha256": "66df7d176a1e05f897a89e89fd4bcce7a74d0085bc9505371fc282e8f1d62ced"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G02-NOOP.pdf.accreport.html",
+      "sha256": "b5331cf1a3562fda435a20cd983a0b48fcec330aa736f9bf25f9fc65ac9b5dfc"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G03-BENIGN.pdf.accreport.html",
+      "sha256": "96cdfecaeb951cd276817548649e43ea0d1f7fded019960922e35335e5cf71bb"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G03-NOOP.pdf.accreport.html",
+      "sha256": "8036f0dd89f57907d274082654f3d85368037598c6956a8aeee130ce1a980c82"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G04-BENIGN.pdf.accreport.html",
+      "sha256": "4621569db51b00382657684dc8859ff4a08a12c385d7b817ce4f8997cad2fe8b"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G04-NOOP.pdf.accreport.html",
+      "sha256": "b953df4d70dae7ee990173f778f0ce90782686de32bcf900c754b614b11a1981"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G05-BENIGN.pdf.accreport.html",
+      "sha256": "70d423b627fc1d40efc6ac82037874fb3617b707930d802c4709d51cb5e1527c"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G05-NOOP.pdf.accreport.html",
+      "sha256": "6f78d8bb01c048c1dc5cb56570c15368278df34f6bf0c0fd89e469b37af850f4"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G06-BENIGN.pdf.accreport.html",
+      "sha256": "4d45e951d08f13f6763a66f5652adf69282c15ee82c5d265b260ab77190221c2"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G06-NOOP.pdf.accreport.html",
+      "sha256": "41fed471c8942a8fe58520e8b1245318118ed8862d3920202c3605ce24884287"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G08-BENIGN.pdf.accreport.html",
+      "sha256": "06cce474e3738e867ee2df2c90f1c73d7ac503842017912d9383bed8f75928c0"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G08-NOOP.pdf.accreport.html",
+      "sha256": "46fa59deb0449c51d1eeefbc5fbf9a386be90c0520098eff6c846837a9ea2217"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G09-BENIGN.pdf.accreport.html",
+      "sha256": "c7da49a755e89b092686963a0febd73d74a11c92b85328daa0cb7730ec020b3d"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G09-NOOP.pdf.accreport.html",
+      "sha256": "356a1da57fd6d52aa687c32e4ba56f29a268f44be264666877159c15cef79a6f"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G10-BENIGN.pdf.accreport.html",
+      "sha256": "27c4d99a2e3a4ee8d5ca29d1f79f9bcfd29fea3645619bb790f9ed70a766bd45"
+    },
+    {
+      "path": "evidence\\controls\\acrobat\\G10-NOOP.pdf.accreport.html",
+      "sha256": "6b2dddd1cb1d399b78d742e3cf99e852963ce87f8ac6a77f9cfc50e4d3f3efb9"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G01-BENIGN.pdf",
+      "sha256": "6b17d002bc85d4d73d352266cfc86b119efeca3749b1ad1c15b76fde6d65c984"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G01-NOOP.pdf",
+      "sha256": "cc9d8adb2e7dcf0539da9020a1e8c2cc388bf8caed34eeeae21b03b81e42023f"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G02-BENIGN.pdf",
+      "sha256": "7dbe221cf301193e5ff058f6047862935bcb9bb7edcf0c0aa0483183b203694d"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G02-NOOP.pdf",
+      "sha256": "794cf3e302b9270645e1ed3871427074c914fa90250c787d78fb76c90311220d"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G03-BENIGN.pdf",
+      "sha256": "9d5309b5fb2784f4503585eeef98978690620e254b19ff81c28dab0a89ca32f5"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G03-NOOP.pdf",
+      "sha256": "16644ae16bd30ea90ff54b3aa9be9b56e5103e8efa537ef34a132294720fc782"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G04-BENIGN.pdf",
+      "sha256": "feec114d55d93fb120592540ea2e8d7ccdc3800968ab09720bd4c4104bed2ab4"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G04-NOOP.pdf",
+      "sha256": "4deb967b7c3d99fe9d22aceaf821b7242df8235362338242bd5fc1f23b942c0f"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G05-BENIGN.pdf",
+      "sha256": "940f6ee17f8466cc149fcdf7fb90930380fabd205a3a883a49f36fa1f204f50a"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G05-NOOP.pdf",
+      "sha256": "e8843db5755aeb1ace7748387c1d172c25c50723bfc92906da9fd0d8fe38eac7"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G06-BENIGN.pdf",
+      "sha256": "299f0ee18380c3ba4b9c4a2ba48257f42361733d77b5f3f0a76ce8d7c58c7ca3"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G06-NOOP.pdf",
+      "sha256": "cce516b2ee562d389ec09b1f6c250479ca14d76b06a60fa2c18567db86f12001"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G08-BENIGN.pdf",
+      "sha256": "1f472e849a1fccd201932ed3b4bf026064a3f1b7fb70557a444baaae9609a66c"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G08-NOOP.pdf",
+      "sha256": "bb3bd74de53685ebc212fd0488a5bb339442cc404e0af386d2fcfd2b773c4363"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G09-BENIGN.pdf",
+      "sha256": "353123a658182f03248757ccd799ba6e9ae09d2c78275a255268e0d6d6702a16"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G09-NOOP.pdf",
+      "sha256": "e61d28ef8faed0ed21de09325edb5954576697891eb75fafff6afc2a4e9010eb"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G10-BENIGN.pdf",
+      "sha256": "7c0a24e0f3c835eae8fa616ec38f2a21e1fb94a58c643fcbd592b81b555cdb3c"
+    },
+    {
+      "path": "evidence\\controls\\pac\\G10-NOOP.pdf",
+      "sha256": "3305f2b0f916f6695f752eb333a8e8260c0f74c825d17160ba15b1363c44da3f"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G01-BENIGN.json",
+      "sha256": "57f63800a081d3704c91e92c03101018c94fc37b26b4aa00314f6b3a95e46c45"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G01-NOOP.json",
+      "sha256": "d5db922b106bfa0722569d777f0412e8bb3d429524b2909a64df068f576f7f99"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G02-BENIGN.json",
+      "sha256": "b4b3ee1eef046d4e64741b8c9d2f2023d982bb5099044fe60c3151fcc192e03d"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G02-NOOP.json",
+      "sha256": "cf076b002b799c85ddb0bef8684c3a7c74c24a6278d47c4d0d68da0524255b9f"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G03-BENIGN.json",
+      "sha256": "5858ae60e1d19b562c983da358745a5add23bd9b87b0288d79662e47dbc96c50"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G03-NOOP.json",
+      "sha256": "c995f5b7974ee1b0d62916201bfe6fdd34d707f874b9c17a01ecbb3da8ed9857"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G04-BENIGN.json",
+      "sha256": "201004286d9e8a147eb1b9fa3d38d00185f4aacfe43e3cbeeb79aa71aa763c0a"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G04-NOOP.json",
+      "sha256": "5ab43a26f72852d6b45bf8a0a8f008ecb30d42894afc98520c944f5353fa1091"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G05-BENIGN.json",
+      "sha256": "19e5b654b4b1c3d3f7d4dce403b735508a7bd4decc2dd877252a1b199440d3e7"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G05-NOOP.json",
+      "sha256": "87ba311647466fe9e73726ca72a33ca9213733e1805f3908f8b014cc345b0455"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G06-BENIGN.json",
+      "sha256": "bac36023a82f0db7cfebf31ce30d9f77717bb0157684c986c51bdc5ff7679e9a"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G06-NOOP.json",
+      "sha256": "4d970760308d58cc2065ee7bf0c4e2af180a74117684d642281c90b12b62844b"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G08-BENIGN.json",
+      "sha256": "f1409c1fb75e7991e1f5a6696edd7e8b4493a3abe983c5cbbffb5ee0461028c6"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G08-NOOP.json",
+      "sha256": "9e21eb198df19952ff23e40c4e1cd55356aaa143659c389b8481ec7cb45e6c1d"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G09-BENIGN.json",
+      "sha256": "7d61999d213f4944158a8d1506035a19a2aec49deddc16bd5fe803a9c84430bd"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G09-NOOP.json",
+      "sha256": "e99a2bc8f1a8ebcd6e703838e0cf4c55f989f563f891c7615740d028b72568f7"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G10-BENIGN.json",
+      "sha256": "16543c2654a284e01a712958c4dbc2c464ef262d133e67473ff198dcaa215525"
+    },
+    {
+      "path": "evidence\\controls\\verapdf\\G10-NOOP.json",
+      "sha256": "25ea8049e70040d6284e27e616a05ce20ec1606d37d6f0219a81361730127b83"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M01__a52e75193364438a1701f76c986fc047ee3e3b98dd691ec662d2c1d380c5d2df.pdf",
+      "sha256": "038aa9ad7921fc70be32b63f541167f86fec2a13535567919a4c31eb4785eb21"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M02__e8df97191d286d7b52b625d3664034a14374aac4965a0bdd2aa6af57f9876c5f.pdf",
+      "sha256": "0300499ed8fab311145bb7ee08bbed20b066e581f3d3fa21e600b49b1eece2c3"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M03__f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb.pdf",
+      "sha256": "ab6c809a9043ef5ad5129d0097524ca2b88d068ca242914a4e174b7ec0634a00"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M04__eb79fabe18daacdee5408ca7bc5a7968f8113c1721ff80830870d5680a639c82.pdf",
+      "sha256": "3a8b32e2243d343555aa61e19e4e5d7cc3865bfb21aca29d0c122ffd21830b79"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M05__5b5f3a85909983e4b44ba0babf92c7e9704757387a94804ef792ca3d3918bb6f.pdf",
+      "sha256": "f9fe93eed193bd0c3bdbf0ff435e5b949d542ae701083769df3f1e36986dee23"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M06__4774ad31d5381502e81bc0e30ee6a92559c51bf4bd3772adcc50b3ca1d671d81.pdf",
+      "sha256": "caf48fc679af420ea6574b213c52507b9f19746ca0fb8d594a795f9bd18ad006"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M07__a45021dfa3ce09f803eac101d0d5bffcd1326662a9a71c028bbd51cbe01a595f.pdf",
+      "sha256": "46c34acbf4061723f5e7298d43b27ddc9d4e73a3428bd316cfe8506b31dae95e"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M08__798d1807493ecbed375ba1a175bb6d19f6d51dfe508c6df88df7ec3f8e1d6061.pdf",
+      "sha256": "6d9d111112a78dc37d96408e3a4f85dc77b06db80759be3fc4d4e74ceeb55b49"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish-M09__3ef299495b93ea1d1fd50ba38ec265412abb6e1d7e147918d50ec9afcc36662b.pdf",
+      "sha256": "f1a883b27ddb5b016181c1d3a3adbe16a90dd50866194a896f12bd1ad35b5871"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-01_Magazine-danish__aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434.pdf",
+      "sha256": "7ea351e503df335652fd885f0d33c9adff6149c6dc8fcb86509e13c6853b481c"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-02_Invoice-M02__462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd.pdf",
+      "sha256": "3084891763465e322bda9db5fe732438634cc711190e8cdb76f67a9bf2313a47"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-02_Invoice-M10__a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48.pdf",
+      "sha256": "979516466e5b91817bf2ff50fef06a1f7b8825a4b43957dfc4dbb5fe2e5ebc1e"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-02_Invoice__fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9.pdf",
+      "sha256": "3621fe77b343560b6e362f89ab12ee72a8badac611682214dc52d9f20fc64a2e"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-03_AcademicAbstract-M01__3e2fe0a15cd8758f335e91aef7bb50a2b45f2e003448723f106d803a55ce788f.pdf",
+      "sha256": "60aeca172577ae4de9260ae52e062ce51a90f49219fd173c72cc3f06bb82cb93"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-03_AcademicAbstract-M02__16aed0e5075a817106227b70904ceee8d8c2f771c2a83fc933e07e4a561ba5f1.pdf",
+      "sha256": "c5b117cabf707300f3b5a1b4a8d51a7bb5b3de110baa1598e6555b84c7ab769b"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-03_AcademicAbstract-M04__aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec.pdf",
+      "sha256": "1542ab73e6d8486f85ecd61babf566e4efd02d224f918815d24af626b482a1f4"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-03_AcademicAbstract-M05__ee82308195b4488f8c6e01bc8e4ba469df760c122c766ff84fc3425302d6f528.pdf",
+      "sha256": "4852ff6813f63d88917c2c34f40048d2f815926ea95061bc3f92b30466085679"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-03_AcademicAbstract__e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0.pdf",
+      "sha256": "3aab25e1ad75079fc20e656158a60dffbac770a61a5e038f1598d242db06c3d7"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-04_Presentation-M01__1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c.pdf",
+      "sha256": "f702b8d50ec82c6c6c0269d54143932cbdc280825dee1071312129994b1bcc72"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-04_Presentation-M02__e85501fb90d221c574cae80f0cab8f7db33b2a21c9b89e7f2de4167b4dd87880.pdf",
+      "sha256": "e1c501c872d3effacc43b219b985414a3f0e36ae9e73d83938b3a98dd6e106ec"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-04_Presentation-M04__d54e7cdfa78b6be17e9234803de1e88ece27cba0282e244b0f0abfdd992487cd.pdf",
+      "sha256": "2799724283f21852829b9b924a81a04f6be0a9b4309873f1ebca0d055c7e0679"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-04_Presentation-M05__5d72a6c172200b5c5bf50850d45e535a9ed8454edfec1b2714a6c72159995d5c.pdf",
+      "sha256": "be05f5f51fb3f623be19561801bdaf7e89c0208491ac489f1010bf61ab88eaba"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-04_Presentation__90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575.pdf",
+      "sha256": "f6fa27a49a60d2bb2e68467b2d310423b87722b63cffa981c4e1ddb9b606d50b"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-05_BookChapter-german-M01__f3455e42a1e7610054506c9ece9cfbef949f888e93294fce9eae762222be6078.pdf",
+      "sha256": "1ff0ba676ded79b8c82286db7e6c50ecd649552a9e681430e928dc5a2a4bac36"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-05_BookChapter-german-M02__5b806fd39c6559c0416737eb3cc131c05f5071f0b1d758af0fecca9b315070af.pdf",
+      "sha256": "e6bd80896a623ababd8cad876eac8de6cd8d82558c3529468219de3fd34eb235"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-05_BookChapter-german-M04__668b5c55c85237169484722c15354e8d353179f8b9fc9e96a2a6f83a13c71250.pdf",
+      "sha256": "d4a2b0b8ebce18bc49eb37b157ea53056931069b8c1d33b517fb3ea523c86c09"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-05_BookChapter-german-M05__b7a688694201ed24e8dda1fcf6290c752e42d1ab1d074fc0c8f9d29c0dcad216.pdf",
+      "sha256": "8665f477048ecc0cc440ee531f04920093f3c4f1e5a5ff5cb30c6fb8def2fab0"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-05_BookChapter-german__fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352.pdf",
+      "sha256": "94cdf1f6894111f9ab11e5b805d9851111e81f781cfcdb1dabccc3f7354a5a8b"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-06_Brochure-M01__a1a94935bccdbaad7b39c045e9c627fb5deacc3f7fd7fa80c8c77cd6c02acf0a.pdf",
+      "sha256": "555ba9533ab14108c45388c0a119ca3c15abfd2e3709d29d95366fbab9898f69"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-06_Brochure-M02__6a7c6c4b28369d6bc3ab0f091ff69a08665fe3b8d8398a7fa59ac5bab1cef360.pdf",
+      "sha256": "9f0716e2658a75d7321c078821bbe52ff9268ec7b943f2445c2571d07397b18d"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-06_Brochure-M04__12c8c27582c8ca949f0f95dc11371ef2a8c3a3a6a72bed7e8b82ff9aa74a049d.pdf",
+      "sha256": "d80059444dd71b3762b47391de5ca173f6f3ff1f6f9d074b7636cc8afe85632e"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-06_Brochure-M05__692c7fddc91d6d6899dc1f9e820e2851a6cbeaa9694f0841b53445b15b8e3012.pdf",
+      "sha256": "a78167e215dafdf0e09fee85feda7c7fc844ec943c0e9cb3827bc95fa990f001"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-06_Brochure__aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e.pdf",
+      "sha256": "cc41c353a4ebd34dd0438d1a039c14f4b8a274ea2652351a4c4a48474213bd58"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-08_BookChapter-M01__f5fdd674ca53247a75d32f520d656f24f8e97e864466f9a72ca8e62487f63178.pdf",
+      "sha256": "4d11c7eb57a5cc002c8d238f73109101585479baf23a628cde0d56066f8a77d1"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-08_BookChapter-M02__820bea08c3a5eed724bb8d1e65d9e9733c1ca47a0e003ae477aea7cce81725e4.pdf",
+      "sha256": "d5cc8e78001ab7004e46697d36e376273a0131d799bfa5f3d8a590dbb0a447a8"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-08_BookChapter-M04__20ac005e0fb4cf3812fefd64b496cf14488a56d493e7c7ee5f5045ce9540c1f5.pdf",
+      "sha256": "e5409b82927d5f08806efc93da4c5bd3de9752fe1de0bfe6d4a308a20a7a926a"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-08_BookChapter-M05__db8fd0be417f0b011ca55e313d0bc1bbe4421aec1d8bb27584fa99a9c5d1f7d3.pdf",
+      "sha256": "2b5368b011c3462b32258c51d04abbd948ee04586dca5ab19d4c86c54b57749d"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-08_BookChapter__2b958600daec79373736f413f2712fcd9c604de2c352cbc1ec9d67cc5d7932f1.pdf",
+      "sha256": "a08383b29256a8a56655ebe19ddb7640106a6edcb4b30837896a2c57ded6430b"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-10_Form-M01__3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece.pdf",
+      "sha256": "eead9be59f82931505c1e3954728f085444413c2886156ebf2a944a1156ba796"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-10_Form-M02__85550ea9d4a77f73600cbc328ea4c1edf6916e032e2f5c79bf30e97f3db2d478.pdf",
+      "sha256": "8602c73250ba2bb24dcf12c72c78e34b8e6dce8968fb457cae92a632dcdb50b7"
+    },
+    {
+      "path": "evidence\\pac\\ai\\PDFUA-Ref-2-10_Form__06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806.pdf",
+      "sha256": "72664e90dc840294df09d6e16dc71f094420b1ecb50229817b80515152daa504"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M01__a52e75193364438a1701f76c986fc047ee3e3b98dd691ec662d2c1d380c5d2df.pdf",
+      "sha256": "bb9a1feedc8808a53e7c3d36b234d8a7bc278be4cef232c5b5787e65daade29a"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M02__e8df97191d286d7b52b625d3664034a14374aac4965a0bdd2aa6af57f9876c5f.pdf",
+      "sha256": "8d601831c7252a43f2c55d0a27cbb5dc7f1bd76593570ecc55f8df137f88b7b0"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M03__f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb.pdf",
+      "sha256": "8d1129919cb54190ccba6ab36c363ce3bfd28be7dfaaa5b9c0df0477303b57b0"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M04__eb79fabe18daacdee5408ca7bc5a7968f8113c1721ff80830870d5680a639c82.pdf",
+      "sha256": "8e3489df88fb21107f74ce57b60a3bfa8e73dd9cb6e75a7dafd32d3ab47afd4a"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M05__5b5f3a85909983e4b44ba0babf92c7e9704757387a94804ef792ca3d3918bb6f.pdf",
+      "sha256": "3c22aff305822cb7ba97753e1c3a25e64bb3b67e1e736ffb547b756dbd4c4f83"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M06__4774ad31d5381502e81bc0e30ee6a92559c51bf4bd3772adcc50b3ca1d671d81.pdf",
+      "sha256": "8871e86c2239648c1281f2f1ea2076377bfafce5e715baa2a2a8d44c8d6bc0b9"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M07__a45021dfa3ce09f803eac101d0d5bffcd1326662a9a71c028bbd51cbe01a595f.pdf",
+      "sha256": "014b93861a886584014a6a91d7ede6c0768cc9134ee562ebf388fe3e2eaa1449"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M08__798d1807493ecbed375ba1a175bb6d19f6d51dfe508c6df88df7ec3f8e1d6061.pdf",
+      "sha256": "97db6561b2401e1c708587f79586103a54c819018ccc8f5c5c6ee0e57f8d6d42"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish-M09__3ef299495b93ea1d1fd50ba38ec265412abb6e1d7e147918d50ec9afcc36662b.pdf",
+      "sha256": "0af8da33fe8ff946439362b4b52411eea7bb4ade13a0c3297691bb188dd3648a"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-01_Magazine-danish__aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434.pdf",
+      "sha256": "39c151e280e828bd3a4a583a038ca0f0ec53975d6f8e14a5f585f4c6df69be0d"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice-M02__462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd.pdf",
+      "sha256": "c94ed44553b17885a9a7de14e3336c1ce04f5ed20236ace97a935a69bb43c052"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice-M03__7887ebfcc438c907ca1981ad33769f3ebee0831b86c8f18ba672a682e45e0323.pdf",
+      "sha256": "0f7742068a228379603b4953d5cdc1c327ed5b2edbc7f99cc2245d756b1c715a"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice-M04__c831396c411f0e67e1fa9eea43cf7e8f741b9f99c69cbdd9f0ce3c17dcab2514.pdf",
+      "sha256": "f89a29ca9f9869c3b5ef190482e6b1055ac1234dff9189f209a5d92805924e75"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice-M07__14e04ae7cadc509f5b6479aff17be9cf6d79e68524801d8aa9a27e49ea348506.pdf",
+      "sha256": "8a4cde7b3378dec8d1ad60b7441389861026d26255b204330ace6e3d57041514"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice-M08__4fa45b60c80cb404e90b60c4eb2e273acfc22555afdab15b8b1684d09b4f33df.pdf",
+      "sha256": "925fd0e19bf474e29843055b4d6f49941c09ba815572060a2f514becf9b8c562"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice-M10__a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48.pdf",
+      "sha256": "f1baf5b007565b3025f807b71b3f6dadedfc3500f6b6d3dd5e9013e9245f24b1"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-02_Invoice__fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9.pdf",
+      "sha256": "ad63ecb8c88aca137c4ee3e2011edaf8ffe123d926b3e10c90f06dc61418a1c7"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M01__3e2fe0a15cd8758f335e91aef7bb50a2b45f2e003448723f106d803a55ce788f.pdf",
+      "sha256": "ba1e5361a58f1595c48d6e055735986e9285be1a64226ec9c7045c5474f274ef"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M02__16aed0e5075a817106227b70904ceee8d8c2f771c2a83fc933e07e4a561ba5f1.pdf",
+      "sha256": "4c7c3c466436c7b8a36fcc828b55950cf0171abebb6bd683d9f410c92f386eec"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M03__fcc8533b325c9a1a1675c46ec0856649fa02feea531e4aba4492a12a41e1a571.pdf",
+      "sha256": "0b1561c2efbb659f7a8da343a5a2aa592123bd11a1eec58ac7d62f9ec6d249c7"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M04__aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec.pdf",
+      "sha256": "a86795cb89d758d7254c40e1a20fb4f70cdcc5f5c931310f2c4df1c643746b5e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M05__ee82308195b4488f8c6e01bc8e4ba469df760c122c766ff84fc3425302d6f528.pdf",
+      "sha256": "16028883478f7f9e1525f5341b709dfd6ab0ed74c644c697965fec208e82bf71"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M06__ca37553b2d45198cd26b168a6c9eb41f248cd4f9179118b991fc47917a443afb.pdf",
+      "sha256": "9a572b52bde80b5bfb0b0e93700249387b00406c01c2bf3835c32a1ee6b8a121"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract-M08__381ec9f9fe1f7ef256d3f2ed7e5e405bb9802b17bb64d762f572bc6d313af091.pdf",
+      "sha256": "ca953e3482775113027796025780bff991edca8f84dbe184cbde458f659ed5ae"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-03_AcademicAbstract__e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0.pdf",
+      "sha256": "f1172d54adb5a196ae9698d5895f8a318652f26f5f47fd0d50d7bd73469bfc78"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M01__1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c.pdf",
+      "sha256": "676fdb12f5b6367e4dcb3bdfc6abf6dbabbd83d9e97570f92c656b6aa4e52b17"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M02__e85501fb90d221c574cae80f0cab8f7db33b2a21c9b89e7f2de4167b4dd87880.pdf",
+      "sha256": "5bfc5c0bbb1ee0b02a9a7fb8373551894e34fe5c92e4700028f4716dabbea6ec"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M03__23612f2c7708412a2bcfc9ba1023d8712c0db74be6f6752d7b04bb54b23913b7.pdf",
+      "sha256": "df2183784feb537cd6e88b2d1ddad9cb83f1d80c74d27d426eae0fc4eb5242ec"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M04__d54e7cdfa78b6be17e9234803de1e88ece27cba0282e244b0f0abfdd992487cd.pdf",
+      "sha256": "cbe28585a4d6c6adba3dffcc0a957895888494b1a9489b2f77c11d4cdddc1f76"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M05__5d72a6c172200b5c5bf50850d45e535a9ed8454edfec1b2714a6c72159995d5c.pdf",
+      "sha256": "1c354fc80cbbabfa50b483b742d9eb3ff834e8dd01187cc7aa550a6a180c40c7"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M06__56a2b7314c6bb652499bd6ed6a070925d4a76b840d9a06a4377b055a02d37da4.pdf",
+      "sha256": "55f99e47dc27ba24066d4430800ed7f1ba34438f471a0b24d93520e4e924a4e8"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M07__09d414160bdb30b7d9aa23413647b6ba38f434340f1d3f0d3164a1d37d5d3088.pdf",
+      "sha256": "398184e6a816166f6b7e9ee8ef530147b9dc76b002708ca28467e14a0b28e837"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M08__72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539.pdf",
+      "sha256": "fb3498dd88b620469bfaf273450a1edb3c78fe4c02a50f7559352ec8af5f6354"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation-M09__d9603ca680cfdcaf22033828f12e55e1d26f825bcbdfaf7dd0a29798ea61de3a.pdf",
+      "sha256": "3db6795f573e02dfb0dbb2f1a4bfdcee45955a9348136a850083fb120ea8328e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-04_Presentation__90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575.pdf",
+      "sha256": "fec7ddd22bfe17fc6f65d23c9cabab0cc7726784069f0201d5f6c29f85666a92"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M01__f3455e42a1e7610054506c9ece9cfbef949f888e93294fce9eae762222be6078.pdf",
+      "sha256": "13e63b69f3d68c9923e124b4e16b4cdd3c8d224647f77dac9af231a229f76514"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M02__5b806fd39c6559c0416737eb3cc131c05f5071f0b1d758af0fecca9b315070af.pdf",
+      "sha256": "744da1955947f254ba8fc789d4ae449f0303019bbd0ba564020e5bc22312b6b9"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M03__08a17db95cf262351a8e2a6464edaec73836e71fd34b0db112bdec9676930e75.pdf",
+      "sha256": "36d1704204141232fe4c4caf5fe0b1cadcaee9ebe55ea8eb87e5fd79bbbc782e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M04__668b5c55c85237169484722c15354e8d353179f8b9fc9e96a2a6f83a13c71250.pdf",
+      "sha256": "4059d232982ab9208f33b17cf407453323912370c7eaa25426c391801bb3104f"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M05__b7a688694201ed24e8dda1fcf6290c752e42d1ab1d074fc0c8f9d29c0dcad216.pdf",
+      "sha256": "75a3e608fe1ffda8a147db3565c8553840e521f2101684d17ae0dc891bf190e7"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M06__823c2b5ddc120128c9e6eb07963de30f15be94f72a40d781b698af48fb5833a6.pdf",
+      "sha256": "d2a2d56d16b9380bd1e8ae630ab1d943795bfbd989c6c5cb23b54b5c7bda5baa"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M07__be8cb7f6aca4a81ecb01654b816f6ae0f5cf8f5daa45ebf5468925fcf7ab9742.pdf",
+      "sha256": "ef5e8b8729a0c31047e76fd51e16a7155e2d5dba48074eb5811634955f97f0e8"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M08__01ada38b1d9dc17882581a3ae080fa771f7a3ed2d3affbff49473ff510719fdd.pdf",
+      "sha256": "a1f796a810d5552657529894552928ca1a2915073f71daa6ecc0daf9a76c78d5"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M09__0ceaf48c6cf200ecab12a36c5bc30bb019911102fe2f2c7bc94508c87f43333f.pdf",
+      "sha256": "6b27d942f80a2bcae477b940a000863c4ff377260917989a795a5d4824817f2b"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german-M10__4dcdbc2dd191cbca8b848640ec29c68cd21d74dedbbcacdb21e76112bb1d3f9c.pdf",
+      "sha256": "e50b6f9f85ea91d39f5556f18200fae570d9fe172d678074087471acd9e53e9c"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-05_BookChapter-german__fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352.pdf",
+      "sha256": "54f9e2da0d787dca155284ee004b68780a66fafe62533922efa6dce3cd171b37"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M01__a1a94935bccdbaad7b39c045e9c627fb5deacc3f7fd7fa80c8c77cd6c02acf0a.pdf",
+      "sha256": "27ef61c817c381834d988dbb9f52cc34686cfbcaa33fd3b7c083458759e35956"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M02__6a7c6c4b28369d6bc3ab0f091ff69a08665fe3b8d8398a7fa59ac5bab1cef360.pdf",
+      "sha256": "ab2cfc9f87a6c7ab77e6c706d4847847416bc6a0f709765e2e315407721a079d"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M03__ed0e82b1eecd666930ccb41d3c75cc0a8703cc39d76b6ab87e15b1f70fd5935f.pdf",
+      "sha256": "9154b4751582b1c6a56d44dc4b09333747de703024eb61cbc59978114531acd1"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M04__12c8c27582c8ca949f0f95dc11371ef2a8c3a3a6a72bed7e8b82ff9aa74a049d.pdf",
+      "sha256": "7c1aec1b02ae0ffb798118432a8581e90e4431336720cff04f40a5abfff1c23e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M05__692c7fddc91d6d6899dc1f9e820e2851a6cbeaa9694f0841b53445b15b8e3012.pdf",
+      "sha256": "69fed463072444c09c17856875a855dd16985c9a808cf24870deb68edb9153b2"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M06__a8629a74e71648776b2bb71606a7de30f1cbea3ffa60417d0bc936fabdb3c382.pdf",
+      "sha256": "0f99d81634b2c79c098d97adbcaaca57895612d375bd6d9191fc44d072fcd992"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M07__7aed010a1cad015f6b9de4498a855cccc6599be37fe85e0ecdbddaef1d9af3dd.pdf",
+      "sha256": "18ff436a2a0f1c1673a90e471dcc4ff546f47df9b3b6565d112458e7457c7377"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure-M08__fa090d7a7a195eca6b885da4e9b0884b162b73a3b015be189fc41173738c2996.pdf",
+      "sha256": "ef31623b610e3e131a4959e49f57bd2bb9bcc94160e1ff0118363ccac24faf2e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-06_Brochure__aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e.pdf",
+      "sha256": "a762620dacfe81aac95f5dc9be792ffeaf6fb459db3e91427d40a4aafa2e5c32"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M01__f5fdd674ca53247a75d32f520d656f24f8e97e864466f9a72ca8e62487f63178.pdf",
+      "sha256": "464df1a108ab89fe4b497f7bd7cde8b1938671979f9f4b7867cb33edca9130fe"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M02__820bea08c3a5eed724bb8d1e65d9e9733c1ca47a0e003ae477aea7cce81725e4.pdf",
+      "sha256": "8889aa313199ef82870d3aa89b8b48de2d511420c3d88696b72c3aadbd0ec765"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M03__2907d533740ae0bea18da032ef36cea8ec48e3bf026dcf8b61439b86b931ed27.pdf",
+      "sha256": "a8fa374c3f9610f7ac96fbb351ffa6fcf1b2c4770a4f1d1471cc970a296d42f8"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M04__20ac005e0fb4cf3812fefd64b496cf14488a56d493e7c7ee5f5045ce9540c1f5.pdf",
+      "sha256": "4223fc676fccddd82b61f474bf40edadbae9b9e8130a6ce94fb680a5dbfa49b6"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M05__db8fd0be417f0b011ca55e313d0bc1bbe4421aec1d8bb27584fa99a9c5d1f7d3.pdf",
+      "sha256": "e93250fccd5f84ff19f304389cd016b0b13b5a54a553091ab6d028859cb5d65e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M06__86091f5caa50e48f16a3a67354122d88c286f8ad8e5a892f22202d5dfe0be414.pdf",
+      "sha256": "c1d461c1874dbd91e920d5918fa213cdfe5e2ffb0d4e2cf93f16cfe3fbb5d7e3"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M07__8df764ab15f21435fc2283a261e0fa073baef1005f3d740e3991a952285746e8.pdf",
+      "sha256": "6537ea3888165f387d3ac1a03f870dc1d8de2528f76bc6f1b79d689393df2adf"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M08__2c631cd85add3b7883781fb114651993280bb8c9f360361eaf20cb1f3c1ef0c1.pdf",
+      "sha256": "2d34c30be2d9b6f28922efc1d69827001aceaf8f37f2eabe5772de54b5ed5a90"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter-M10__135ebc92b095127190c98164be07186359b69f0908bda83266abdbb34adab269.pdf",
+      "sha256": "e6247b1829f281623d522af3f32ea62a57979fe7718a508d4ec5ddf8c76725b5"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-08_BookChapter__2b958600daec79373736f413f2712fcd9c604de2c352cbc1ec9d67cc5d7932f1.pdf",
+      "sha256": "032e212608eb5d4555f41c2bd910b67b4addcd397cb89fe551c8a6394fffd3a2"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M01__04ce7bde54a9e481e0da7d5bf8a4e7fc98467f2bdbc3803291d166e219df9dc0.pdf",
+      "sha256": "cb10b977a13ab1e1bfba3167ef033e5e9f21d93eb0c8336b6adcd5dc78ffbecb"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M02__f45a0b6356c4f2435d8bd75482c8ff0c17fc8f072b81169e342bff4376b04946.pdf",
+      "sha256": "eeeae139d95ad1daacdbde98a1b6517b64d1f80a94cfd51fd0348cad19b01bb7"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M03__b86a34d9c3d9be9e5022027a4856df45a5ab30b42b4cc04791130c0229119f7b.pdf",
+      "sha256": "5ba9578f1e51e173510b891cc99885f3c54435ee14247b5f5d7341dbe5cd6be2"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M04__494532eaa86c5136f8de492a0bf4f227d91b90aabc6d7eed62506f2e1838ef28.pdf",
+      "sha256": "738086f02f11058e85a5badc87031a7e7eaa9c41297cdc1d941d56bbe3b5724e"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M05__6bbc4a32f5cfa0ae69e6f77ec68a66988bc5644b1e60e34278181c151d71b932.pdf",
+      "sha256": "d0931721d9f0b15ed88f639d980345740eb8e76540db3f2f84578f078585142b"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M06__637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa.pdf",
+      "sha256": "863c6029ad6d77f6e54fbcf14817b1cae994e3730f57535921e84f6842eeb97a"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M07__c16652da4ab2f15701bf4b12fb0790c269bea5fadbfd0443c1e5db51c51d2c3a.pdf",
+      "sha256": "470169c932afc789f3a9ee0b237aabaca17e02e79a3e5f0166a7ef46bd865478"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned-M10__c5f2c1706faf55b963f7ae539710aa419a530967f41fcbc495d5fbc6708927e8.pdf",
+      "sha256": "e3cf9cc48417dabde743d4bc1fb83fbc810633e1aebf40f515e9355dd29d3393"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-09_Scanned__bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae.pdf",
+      "sha256": "673df5083f88b4c5f366c278da3578e0a34bbe41a0393a8650aaf6065f764236"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-10_Form-M01__3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece.pdf",
+      "sha256": "dc6f05043b7ae1cd365d698f0538e6cc991a13d833fb61737c765275cbad6d9d"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-10_Form-M02__85550ea9d4a77f73600cbc328ea4c1edf6916e032e2f5c79bf30e97f3db2d478.pdf",
+      "sha256": "95405cb1821583036acde4fe2b690080b570c76555808eb43d546af10d685a90"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-10_Form-M08__53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a.pdf",
+      "sha256": "f85b88580429d4f33e08c2aede97e3a7b5f057361e199a4e1ff2d596e4d3e2b7"
+    },
+    {
+      "path": "evidence\\pac\\formal\\PDFUA-Ref-2-10_Form__06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806.pdf",
+      "sha256": "8c4839cc3b305aad108a4f7a9128324f6da60885e850612d72a517dabaf013ce"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M01__a52e75193364438a1701f76c986fc047ee3e3b98dd691ec662d2c1d380c5d2df.json",
+      "sha256": "decd37f29b4fa58437fff627a4b82dec4387283f4cafdec2c68a221922beaabc"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M02__e8df97191d286d7b52b625d3664034a14374aac4965a0bdd2aa6af57f9876c5f.json",
+      "sha256": "8d56998267d9bff35b2b95769ac2c760507b901bef385a0567a9ad3acf1df3f4"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M03__f7b9e14f0320211e69643205e92b5c0719008a512cbb0b572b00d5362d011bfb.json",
+      "sha256": "95465604eefbb33d812407c798c8fe889ca4bc56afc33704cbf8789c698ce5f3"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M04__eb79fabe18daacdee5408ca7bc5a7968f8113c1721ff80830870d5680a639c82.json",
+      "sha256": "3584356a160feeee8650df7074b8c8d37ca1d821d5a513fa7718c853d055090b"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M05__5b5f3a85909983e4b44ba0babf92c7e9704757387a94804ef792ca3d3918bb6f.json",
+      "sha256": "fa782439164f2107e387d7b6cd1dfa8fe884419aa30722a324fe78e8b5d0253e"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M06__4774ad31d5381502e81bc0e30ee6a92559c51bf4bd3772adcc50b3ca1d671d81.json",
+      "sha256": "50359b3756b92ad0cb44f28e67518f0a3499011c38360405bca01a6690a5b519"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M07__a45021dfa3ce09f803eac101d0d5bffcd1326662a9a71c028bbd51cbe01a595f.json",
+      "sha256": "7dc9719085a105e0a19f75cff5491d104b93593a0a71eab49646112f96ff788e"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M08__798d1807493ecbed375ba1a175bb6d19f6d51dfe508c6df88df7ec3f8e1d6061.json",
+      "sha256": "3ca00190cd7e2a8c7d49635e69e9866901fb0d9a492f4ddab64929b8d8bf8eed"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish-M09__3ef299495b93ea1d1fd50ba38ec265412abb6e1d7e147918d50ec9afcc36662b.json",
+      "sha256": "8fedb19c02cdcef64dda58b30ddcb90536a0eb04ef8d54a80c2f59dc60b7f76f"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-01_Magazine-danish__aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434.json",
+      "sha256": "63b3fc83813aea48462af9c7fc137555c70f82eec55316b383b4505089565dc3"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice-M02__462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd.json",
+      "sha256": "16d29ace21ba5e41514b3dd03c33e120d9d5474f3df0dc22d74d60e5606b8c4f"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice-M03__7887ebfcc438c907ca1981ad33769f3ebee0831b86c8f18ba672a682e45e0323.json",
+      "sha256": "db8d4f2e2c17f3a086f2febe5f62db6340dfded8fa47bdbb0c56544ed9045534"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice-M04__c831396c411f0e67e1fa9eea43cf7e8f741b9f99c69cbdd9f0ce3c17dcab2514.json",
+      "sha256": "c5ecc1e217f846ea3d569ddaa622a3600f31189772bca48e173c911576cff122"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice-M07__14e04ae7cadc509f5b6479aff17be9cf6d79e68524801d8aa9a27e49ea348506.json",
+      "sha256": "4b5d21781082dc9c1ac0ce53a9008f4cfdc7deb2e6f1f6ac6b9ec8db1a728c88"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice-M08__4fa45b60c80cb404e90b60c4eb2e273acfc22555afdab15b8b1684d09b4f33df.json",
+      "sha256": "fa2ac5ea5e975fad45294ac784443d6c1f7af972e6cb0617a2e7f0b9a4de9726"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice-M10__a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48.json",
+      "sha256": "54e5fb9ce4c0917fbb07cd4f0a72283d2f4e8c3f79f42e1fb4250f480762093b"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-02_Invoice__fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9.json",
+      "sha256": "97498a11ef3a55305b8b9f57f1fa85d4f52968f725319a27c1e87ecef3da4ef3"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M01__3e2fe0a15cd8758f335e91aef7bb50a2b45f2e003448723f106d803a55ce788f.json",
+      "sha256": "45ae8e5018ad751c297f0dcead9959d6d66339ba04f22db3a669da3b8017c949"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M02__16aed0e5075a817106227b70904ceee8d8c2f771c2a83fc933e07e4a561ba5f1.json",
+      "sha256": "5030e5782f112f84288e1ae1d92e8ad11b19efa47029dbf4133a5c252c9fb47f"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M03__fcc8533b325c9a1a1675c46ec0856649fa02feea531e4aba4492a12a41e1a571.json",
+      "sha256": "d42d40790a6f631d2ab2a7fd25f03f3b9c448884c37f3fc31ef11ae02de7e6c8"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M04__aa1b231accabf87602fa064972332501785b16ce8de42ade4ccb57463f5281ec.json",
+      "sha256": "98a39c8c7cf543e03ea391ca040813f637e96bbf59cabd5e0ca89f2d07301718"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M05__ee82308195b4488f8c6e01bc8e4ba469df760c122c766ff84fc3425302d6f528.json",
+      "sha256": "789254eb6485b1555f0965cd1b6aa51629304da58ea18539c3fd9e0ab43cd482"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M06__ca37553b2d45198cd26b168a6c9eb41f248cd4f9179118b991fc47917a443afb.json",
+      "sha256": "0720112b58256b51d875bee5e8e435c59feeb21b74893e32a5e528445f93b7b3"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract-M08__381ec9f9fe1f7ef256d3f2ed7e5e405bb9802b17bb64d762f572bc6d313af091.json",
+      "sha256": "0947e3a1e9226ee4b99f36f602c2f55104c05704a25e9909b7a88adcd386eee8"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-03_AcademicAbstract__e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0.json",
+      "sha256": "c9aa0d92d35718324aa348010ba72827d480012352baba3a9735c90b53fcf79f"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M01__1e4ccf771ae704a24d184020cdac9bd43d0a9bdb6ab88e04b7893d040d642c9c.json",
+      "sha256": "64e6e0f66371d14afa1ad421f5962f09043ad60562dbb36c99103b24602b164c"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M02__e85501fb90d221c574cae80f0cab8f7db33b2a21c9b89e7f2de4167b4dd87880.json",
+      "sha256": "8ea3d0f6d06cc87cb6ddcf3350d661ee37fa0fd13a6af2b1d41ae754e57c02b2"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M03__23612f2c7708412a2bcfc9ba1023d8712c0db74be6f6752d7b04bb54b23913b7.json",
+      "sha256": "9cf7538bc99cb4737067497f64842e3d49a54109c1c78e4b2a5e8307524c422f"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M04__d54e7cdfa78b6be17e9234803de1e88ece27cba0282e244b0f0abfdd992487cd.json",
+      "sha256": "e8239c1d52406d1170fa2c2f2beb29c544986ba477aacc6afe15e4de37a65863"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M05__5d72a6c172200b5c5bf50850d45e535a9ed8454edfec1b2714a6c72159995d5c.json",
+      "sha256": "013f132ac11dfa0e4cd7c001bbfcfe20396850d699af696e52293227628d42ce"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M06__56a2b7314c6bb652499bd6ed6a070925d4a76b840d9a06a4377b055a02d37da4.json",
+      "sha256": "b924b10b903282153e973fda7d6b1146371c59ef73a01b72c99cdc52ad059f48"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M07__09d414160bdb30b7d9aa23413647b6ba38f434340f1d3f0d3164a1d37d5d3088.json",
+      "sha256": "3688d061cf383375576f74c33fb90f913c335b4d5ec86681b2f32d14923b25ce"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M08__72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539.json",
+      "sha256": "996c2a8cfcc7ef5c5f9be5f32620ce53d5f6c2692c1b0fc0ce9072ca2b841dd3"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation-M09__d9603ca680cfdcaf22033828f12e55e1d26f825bcbdfaf7dd0a29798ea61de3a.json",
+      "sha256": "c59d31a9bf02b1638e6c5ceead0dff540f65cd6e9cc22c538bbb0d8a5b759386"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-04_Presentation__90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575.json",
+      "sha256": "b2dde1a9da8957051df06c42e0fdae04dd26d78abe62c49fb1b086092c534532"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M01__f3455e42a1e7610054506c9ece9cfbef949f888e93294fce9eae762222be6078.json",
+      "sha256": "d2a896906327d1c66acb8cf44ebf88fb0f268951d7b13ac26a33431dcb0f9362"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M02__5b806fd39c6559c0416737eb3cc131c05f5071f0b1d758af0fecca9b315070af.json",
+      "sha256": "93c6a4b08285a562aa16fbd6674d35538f129082ac50851f05344024ee8c89a0"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M03__08a17db95cf262351a8e2a6464edaec73836e71fd34b0db112bdec9676930e75.json",
+      "sha256": "afa1646105365d7b23b2d9c90126d9b984c09206aa62a924e70afd28f9a1c207"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M04__668b5c55c85237169484722c15354e8d353179f8b9fc9e96a2a6f83a13c71250.json",
+      "sha256": "31ce29f9e2382c56bdcbe08e709d398dd4b5fcbd05d1951d47d09e138309b4ba"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M05__b7a688694201ed24e8dda1fcf6290c752e42d1ab1d074fc0c8f9d29c0dcad216.json",
+      "sha256": "0208b414951783ed21b2e37e354a201dfb204256f4b0c46e0765f259d236bcef"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M06__823c2b5ddc120128c9e6eb07963de30f15be94f72a40d781b698af48fb5833a6.json",
+      "sha256": "7c837fdba05bd38136f4eb732214bc42c8033cd647908f319d7fc9e9ee95d6be"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M07__be8cb7f6aca4a81ecb01654b816f6ae0f5cf8f5daa45ebf5468925fcf7ab9742.json",
+      "sha256": "05878c733b4ab48d7540fc2e056dd6f8b3d002122fbeda483e4583c53b4bc6c9"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M08__01ada38b1d9dc17882581a3ae080fa771f7a3ed2d3affbff49473ff510719fdd.json",
+      "sha256": "03db3bfc2f524096cb77172ecbc471711855031d840f8b41ba884877217e8743"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M09__0ceaf48c6cf200ecab12a36c5bc30bb019911102fe2f2c7bc94508c87f43333f.json",
+      "sha256": "951ab55695d1d514fedaff4307d8a46177e5c60044b46436fa561ba2e7030dd0"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german-M10__4dcdbc2dd191cbca8b848640ec29c68cd21d74dedbbcacdb21e76112bb1d3f9c.json",
+      "sha256": "82dcd2962d509ab4b367ab013210057abecd734ce3eedec66d84023c8fdccf64"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-05_BookChapter-german__fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352.json",
+      "sha256": "03c487722b29098eb33588af2f988eefe5bf4fc18e5230238453466e82d013db"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M01__a1a94935bccdbaad7b39c045e9c627fb5deacc3f7fd7fa80c8c77cd6c02acf0a.json",
+      "sha256": "224453b792ae45c12cc447461b7e5d1f7f0f535728ede5eafdedbf8b6a4138f2"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M02__6a7c6c4b28369d6bc3ab0f091ff69a08665fe3b8d8398a7fa59ac5bab1cef360.json",
+      "sha256": "067b37f9e7f810a446dc96cbd138c023bbbd4cf04ea8e3d284529f3880dbfd82"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M03__ed0e82b1eecd666930ccb41d3c75cc0a8703cc39d76b6ab87e15b1f70fd5935f.json",
+      "sha256": "96ebcf7e36d0766703cec4fda16da87d3d21d3c74a1c8dc72459169d19c1c287"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M04__12c8c27582c8ca949f0f95dc11371ef2a8c3a3a6a72bed7e8b82ff9aa74a049d.json",
+      "sha256": "5b7ea6a5d29b8c87e9b5ec2034861f415e38beac3844f632589a1edc779659aa"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M05__692c7fddc91d6d6899dc1f9e820e2851a6cbeaa9694f0841b53445b15b8e3012.json",
+      "sha256": "0f4d9a61fc2b27fbbd8d94cec211bd95321d8e49cc4d538060f6755e771fa4df"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M06__a8629a74e71648776b2bb71606a7de30f1cbea3ffa60417d0bc936fabdb3c382.json",
+      "sha256": "dd50f51ddbf778e2212108397450ab5dafbc928353fd33258583796777cea697"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M07__7aed010a1cad015f6b9de4498a855cccc6599be37fe85e0ecdbddaef1d9af3dd.json",
+      "sha256": "804fa1a6e4409c97edc4c27a68b7ef6d1a23c97c22ce19211a066144d5d6ca56"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure-M08__fa090d7a7a195eca6b885da4e9b0884b162b73a3b015be189fc41173738c2996.json",
+      "sha256": "58ac7e6ae63cb5b0e41f28d50a0806eafd5ec796e6b66d7087c6c6aa7f0cc5cf"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-06_Brochure__aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e.json",
+      "sha256": "1c4118d037e94b829722f435a1d43fa6cc1f81159108e1327ffb4887f98d5684"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M01__f5fdd674ca53247a75d32f520d656f24f8e97e864466f9a72ca8e62487f63178.json",
+      "sha256": "787e5f03f12cc48006691f4d2881ef5b745d9c784141c35ef7bd916d1bb64b11"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M02__820bea08c3a5eed724bb8d1e65d9e9733c1ca47a0e003ae477aea7cce81725e4.json",
+      "sha256": "c1fd34e6d81130479e80670ab78ae5404b7eaaeeac9a0a58b72c1a981604c794"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M03__2907d533740ae0bea18da032ef36cea8ec48e3bf026dcf8b61439b86b931ed27.json",
+      "sha256": "6460503139b35e611e7b8aed9567b70b796cfdb2a07222c4c62ab96f54023b73"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M04__20ac005e0fb4cf3812fefd64b496cf14488a56d493e7c7ee5f5045ce9540c1f5.json",
+      "sha256": "f3cd2c74fabe96020e677f61908a6a7c407c08ce283e870b023e69749504d75c"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M05__db8fd0be417f0b011ca55e313d0bc1bbe4421aec1d8bb27584fa99a9c5d1f7d3.json",
+      "sha256": "200d08daf15e08917983e612f1ba2daec9dd50c3729673020559fb786f06daf4"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M06__86091f5caa50e48f16a3a67354122d88c286f8ad8e5a892f22202d5dfe0be414.json",
+      "sha256": "58d39b3ab90b2367662875e4b4198660a8e742b1932c8b7dd4f56102a1685a5d"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M07__8df764ab15f21435fc2283a261e0fa073baef1005f3d740e3991a952285746e8.json",
+      "sha256": "c1d7f843ab89e0d8477402de63b5f766ad80359370146df8ba782f7fc9a025e4"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M08__2c631cd85add3b7883781fb114651993280bb8c9f360361eaf20cb1f3c1ef0c1.json",
+      "sha256": "be5347eb42f2cb79e403201f437b86592ae8d16455fae2ae421bb9a061e9228c"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter-M10__135ebc92b095127190c98164be07186359b69f0908bda83266abdbb34adab269.json",
+      "sha256": "3217df96cc22c44cd7e137308ca66a2f55b16dad9d58e44c2235a0c4efa50bde"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-08_BookChapter__2b958600daec79373736f413f2712fcd9c604de2c352cbc1ec9d67cc5d7932f1.json",
+      "sha256": "c3dbb54aeefe2a25e683c66ae21518cf4f8916fe98ac334c7d33395850bfeabf"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M01__04ce7bde54a9e481e0da7d5bf8a4e7fc98467f2bdbc3803291d166e219df9dc0.json",
+      "sha256": "a3a789eeb6b12428cb2c051213fb283a8f57887b47fa92b20883cd18d44e929a"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M02__f45a0b6356c4f2435d8bd75482c8ff0c17fc8f072b81169e342bff4376b04946.json",
+      "sha256": "468bfdd8f241283d9972ecef72b2ad637cefb99c6b102af154d56114816895ad"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M03__b86a34d9c3d9be9e5022027a4856df45a5ab30b42b4cc04791130c0229119f7b.json",
+      "sha256": "82df3763e65a77047d02451c95514bedc0ab97a58cef3092d0841850f4c2c678"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M04__494532eaa86c5136f8de492a0bf4f227d91b90aabc6d7eed62506f2e1838ef28.json",
+      "sha256": "6ff497e9ce1105d7aecbde1e1f0c8fa89d092ba20d1397f6926fb777f26e22dc"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M05__6bbc4a32f5cfa0ae69e6f77ec68a66988bc5644b1e60e34278181c151d71b932.json",
+      "sha256": "4ede64d83c260696fcc89cc2aa7a30739dbc6a035c3aa290d5f30d45cbc82e73"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M06__637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa.json",
+      "sha256": "d08001e075d332611751f37f2c13b9d534f68b2db12b7ad89eddbea60575f94b"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M07__c16652da4ab2f15701bf4b12fb0790c269bea5fadbfd0443c1e5db51c51d2c3a.json",
+      "sha256": "4a63e5fd6c254c69302d6736a6297b7afdad07c017104f6bf5c0ca60f1978556"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned-M10__c5f2c1706faf55b963f7ae539710aa419a530967f41fcbc495d5fbc6708927e8.json",
+      "sha256": "967e68080ed65f51fa0f6b1838fffd0c880b15b69b4da93dcfedb22b8845480c"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-09_Scanned__bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae.json",
+      "sha256": "6bc3cdccf5c28ae0896d7388e779ca7d1fba717824d69fa5f2cb6dc2ac3695cf"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-10_Form-M01__3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece.json",
+      "sha256": "0c3d8a45fcec51a357f1a91c98e0d14f50000ce1888fea7bcec664f39031122c"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-10_Form-M02__85550ea9d4a77f73600cbc328ea4c1edf6916e032e2f5c79bf30e97f3db2d478.json",
+      "sha256": "41084f1682a10f420a5d8e7af435f6b1037567e0b325ace3c38c80ab1bc2e767"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-10_Form-M08__53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a.json",
+      "sha256": "485679c8f53465f54e82f534aa27f3f4e3c819a031631b27639898c07fc3f239"
+    },
+    {
+      "path": "evidence\\verapdf\\PDFUA-Ref-2-10_Form__06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806.json",
+      "sha256": "4c975bd962da3ba28c952c5d73f035335967b133b1e9db6e4baf8f800b1aab08"
+    }
+  ]
+}

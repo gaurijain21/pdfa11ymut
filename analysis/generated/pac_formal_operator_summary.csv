@@ -1,0 +1,11 @@
+operator,operator_class,active_mutants,intended_detections,survived_automated_checks,collateral_detections,baseline_carried,unrelated_failures,ambiguous
+M01,semantic,9,0,7,2,0,0,0
+M02,semantic,9,0,7,2,0,0,0
+M03,machine_checkable,8,8,0,0,0,0,0
+M04,semantic,8,0,0,8,0,0,0
+M05,semantic,7,0,6,0,1,0,0
+M06,machine_checkable,7,0,6,0,1,0,0
+M07,machine_checkable,7,7,0,0,0,0,0
+M08,machine_checkable,8,8,0,0,0,0,0
+M09,machine_checkable,3,3,0,0,0,0,0
+M10,machine_checkable,4,4,0,0,0,0,0

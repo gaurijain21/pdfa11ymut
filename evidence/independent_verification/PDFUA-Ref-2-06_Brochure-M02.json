@@ -1,0 +1,3290 @@
+{
+  "artifact_id": "PDFUA-Ref-2-06_Brochure-M02",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              50,
+              {
+                "/K": [
+                  {
+                    "/Type": "/OBJR"
+                  },
+                  51
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/P"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Caption"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      54
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  7
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      55
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  9
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      56
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  11
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/Alt": "Logo PDF Association\u0000",
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          52,
+          {
+            "/K": [
+              {
+                "/Type": "/OBJR"
+              },
+              53
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          43,
+          44
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      5
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  6
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      7
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  8
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      9
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  45,
+                  46
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      11
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      13
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  14
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      15
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  16
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      17
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  18
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          19
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          20
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          47,
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49,
+          50
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          23
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          53,
+          54
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          51,
+          52
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      29
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  30
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      31
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  32
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      33
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  34
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      35
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  36
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          37
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              39
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              40,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              41
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Partially sighted person looking at a computer screen through a magnifying glass\u0000",
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          12
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          13
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          57,
+          58
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          15
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          16
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          17
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      18
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  19
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      20
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  21
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      22
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  23
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      24
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  25
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          29
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              30
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              31,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              32
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              33
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              34,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              35
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          36
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          59,
+          60
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Logo PDF Association",
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          40
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          41
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              43
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              44,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              45
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              46,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              47
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Title"
+      },
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              50,
+              {
+                "/K": [
+                  {
+                    "/Type": "/OBJR"
+                  },
+                  51
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/P"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Caption"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      54
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  7
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      55
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  9
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      56
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  11
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/Alt": "Logo PDF Association\u0000",
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          52,
+          {
+            "/K": [
+              {
+                "/Type": "/OBJR"
+              },
+              53
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          43,
+          44
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      5
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  6
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      7
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  8
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      9
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  45,
+                  46
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      11
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      13
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  14
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      15
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  16
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      17
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  18
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          19
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          20
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          47,
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49,
+          50
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          23
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          53,
+          54
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          51,
+          52
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      29
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  30
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      31
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  32
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      33
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  34
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      35
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  36
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          37
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              39
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              40,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              41
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Partially sighted person looking at a computer screen through a magnifying glass\u0000",
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          12
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          13
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          57,
+          58
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          15
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          16
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          17
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      18
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  19
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      20
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  21
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      22
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  23
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      24
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  25
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          29
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              30
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              31,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              32
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              33
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              34,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              35
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          36
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          59,
+          60
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Logo PDF Association",
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          40
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          41
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              43
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              44,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              45
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              46,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              47
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      }
+    ],
+    "target_object": "19:0"
+  },
+  "mutant_sha256": "6a7c6c4b28369d6bc3ab0f091ff69a08665fe3b8d8398a7fa59ac5bab1cef360",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/GoTo": 12,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/S": 2,
+      "/Span": 27,
+      "/Title": 1,
+      "/Transparency": 2,
+      "/TrimBox": 2,
+      "/URI": 7
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/GoTo": 12,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/S": 2,
+      "/Span": 27,
+      "/Title": 1,
+      "/Transparency": 2,
+      "/TrimBox": 2,
+      "/URI": 7
+    }
+  },
+  "operator": "M02",
+  "parser_a": "PASS",
+  "parser_b": "PASS",
+  "renderer_a": "PASS",
+  "renderer_b": "PASS",
+  "renderer_b_detail": {
+    "dpi": 150,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1754,
+          1241
+        ],
+        "mutant_dimensions": [
+          1754,
+          1241
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1754,
+          1241
+        ],
+        "mutant_dimensions": [
+          1754,
+          1241
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

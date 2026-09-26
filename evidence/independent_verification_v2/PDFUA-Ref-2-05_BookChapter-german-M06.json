@@ -1,0 +1,814 @@
+{
+  "artifact_id": "PDFUA-Ref-2-05_BookChapter-german-M06",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 21
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  124
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              125
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  124
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              125
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  126
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              127,
+              {
+                "/K": [
+                  128
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              },
+              129
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  130
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              131
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  124
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              125
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  126
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              127,
+              {
+                "/K": [
+                  128
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              },
+              129
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  130
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              131
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI"
+      }
+    ],
+    "target_object": "430:0"
+  },
+  "mutant_sha256": "823c2b5ddc120128c9e6eb07963de30f15be94f72a40d781b698af48fb5833a6",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_signature_after": [
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    124
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "INT",
+                125
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    124
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "INT",
+                125
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    126
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "INT",
+                127
+              ],
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    128
+                  ]
+                ]
+              ],
+              [
+                "INT",
+                129
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    130
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "INT",
+                131
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "matching_mutant_target_count": 1,
+    "matching_mutant_target_xrefs": [
+      453
+    ],
+    "non_target_list_role_sequences_equal": true,
+    "role_counts_after": {
+      "/Article": 1,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 3,
+      "/H1": 7,
+      "/H2": 15,
+      "/H3": 19,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Article": 1,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 3,
+      "/H1": 7,
+      "/H2": 15,
+      "/H3": 19,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "target_li_refs_after": [
+      454,
+      454,
+      458,
+      463
+    ],
+    "target_li_refs_before": [
+      431,
+      435,
+      440
+    ],
+    "target_role_after": "/L",
+    "target_role_before": "/L",
+    "target_role_sequence_after": [
+      "/LI",
+      "/LI",
+      "/LI",
+      "/LI"
+    ],
+    "target_role_sequence_before": [
+      "/LI",
+      "/LI",
+      "/LI"
+    ],
+    "target_structure_path": [
+      0,
+      0,
+      2,
+      11
+    ],
+    "target_xref_after": 453,
+    "target_xref_by_structure_path": 453,
+    "target_xrefs": [
+      430
+    ]
+  },
+  "operator": "M06",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

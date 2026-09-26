@@ -1,0 +1,240 @@
+schema_version: 2
+benchmark: PDFa11yMut
+classification:
+  class_a: machine-checkable/conformance-oriented
+  class_b: semantic/human-judgment/assistive-representation
+common:
+  target_selection_method: first eligible reachable target in stable structure traversal order
+  random_seed: null
+  negative_controls: [byte-preserved no-op, benign property-preserving copy]
+operators:
+  - id: M01
+    name: Structural reading-order swap
+    class: class_b
+    accessibility_property: intended logical reading order
+    pdfua_relationship: semantic interpretation of structure-tree order; not assumed to be an automated PDF/UA rule
+    preconditions: [two distinct direct structure-element children in /K]
+    target_structure_types: [L, LI, Table, TR, P, Div]
+    transformation: swap the first two direct child references in the target element's /K array
+    invariants: [page content unchanged, child multiset unchanged, child objects unchanged, roles and containment unchanged]
+    expected_structural_delta: one /K ordering change at the target parent
+    expected_assistive_effect: assistive traversal visits the first two children in the opposite order
+    known_applicable_validator_rules: [outside formal automated scope unless a validator explicitly claims logical reading order]
+    expected_automated_detectability: outside or partly outside formal automated scope
+    source_reference: "PDF Association, Matterhorn Protocol 1.1, logical reading order human-check family; PDF Association, Techniques for Accessible PDF, reading-order techniques"
+    checkpoint_or_technique: Human review of logical reading order; no machine rule is claimed
+    machine_checkable: false
+    validator_dependent: true
+    semantic_or_at_evidence_required: true
+    invalid_target_conditions: [fewer than two direct structure-element children, shared child identity cannot be established]
+    baseline_conflict_conditions: [golden already has an unresolved reading-order finding relevant to the target]
+    collateral_change_conditions: [changed parent containment, changed roles, changed marked-content associations, changed page content]
+    positive_control: paired golden/mutant AT observation when available
+    applicability_notes: report as survived automated checks unless a tool explicitly claims this check
+  - id: M02
+    name: Omission from assistive structure
+    class: class_b
+    accessibility_property: visible content represented in tagged structure
+    pdfua_relationship: semantic/content-completeness requirement; exact automated coverage is validator dependent
+    preconditions: [reachable target with a direct structure-element child, page content remains untouched]
+    target_structure_types: [Document, Part, Sect, Div, L, Table]
+    transformation: remove the first direct structure-element reference from the target element's /K array
+    invariants: [page content unchanged, no page/resource/annotation change, no remaining /K reference changed, removed subtree not reattached]
+    expected_structural_delta: one direct child is no longer reachable from the structure tree
+    expected_assistive_effect: content associated with the removed subtree is absent from tagged traversal
+    known_applicable_validator_rules: [outside or validator-dependent formal scope; no stable rule identity claimed]
+    expected_automated_detectability: tool/profile dependent; do not assume a miss is a conformance miss
+    source_reference: "PDF Association, Matterhorn Protocol 1.1, tagged-content/structure completeness checks; PDF Association, Techniques for Accessible PDF, tagging techniques"
+    checkpoint_or_technique: Content-to-structure completeness review; no universal automated rule is claimed
+    machine_checkable: false
+    validator_dependent: true
+    semantic_or_at_evidence_required: true
+    invalid_target_conditions: [no reachable direct child, removed subtree is still reachable elsewhere]
+    baseline_conflict_conditions: [golden already omits the same target content]
+    collateral_change_conditions: [page content, resources, annotations, or remaining /K references change]
+    positive_control: paired semantic/AT observation when available
+    applicability_notes: requires AT or semantic review for user-facing impact
+  - id: M03
+    name: Incorrect heading level
+    class: class_a
+    accessibility_property: heading hierarchy
+    pdfua_relationship: PDF/UA-1 heading hierarchy requirement
+    preconditions: [/S is /H1 through /H5, changed role remains a heading]
+    target_structure_types: [H1, H2, H3, H4, H5]
+    transformation: change /S from /Hn to /H(n+2), capped at /H6 only when recorded by the verifier
+    invariants: [only target /S changes, /K and page content unchanged, parent/child containment unchanged]
+    expected_structural_delta: one heading role change creating a skipped level
+    expected_assistive_effect: outline/navigation exposes an incorrect hierarchy
+    known_applicable_validator_rules: ["ISO 14289-1:2014 7.4.2; veraPDF hasCorrectNestingLevel; Acrobat Appropriate nesting; PAC Structure elements"]
+    expected_automated_detectability: machine-checkable under the tested profiles
+    source_reference: "ISO 14289-1:2014, 7.4.2; PDF Association, Matterhorn Protocol 1.1, heading hierarchy checks"
+    checkpoint_or_technique: veraPDF PDF/UA-1 clause 7.4.2 / hasCorrectNestingLevel
+    machine_checkable: true
+    validator_dependent: true
+    semantic_or_at_evidence_required: false
+    invalid_target_conditions: [target is not H1-H5, resulting target is H6]
+    baseline_conflict_conditions: [golden already reports a heading-nesting failure on the matched baseline]
+    collateral_change_conditions: [any /K, /P, /Pg, page content, or non-target role changes]
+    positive_control: M03 mutant with matched clean golden baseline
+    applicability_notes: positive reference class, not a novelty claim
+  - id: M04
+    name: Wrong marked-content association
+    class: class_b
+    accessibility_property: semantic association between structure elements and marked content
+    pdfua_relationship: association correctness can require semantic judgment even when COS remains well-formed
+    preconditions: [two same-role sibling leaf elements, each with exactly one direct marked-content item]
+    target_structure_types: [LI, P, Span, Lbl, LBody, TD, TH]
+    transformation: exchange only the two leaf elements' direct marked-content references; preserve sibling order and roles
+    invariants: [parent /K arrays unchanged, roles/P/Pg/descendants unchanged, list/table containment unchanged, page content unchanged]
+    expected_structural_delta: two leaf /K associations exchange while containment remains stable
+    expected_assistive_effect: a structural position exposes sibling content
+    known_applicable_validator_rules: [outside formal automated scope unless a validator exposes association-specific evidence]
+    expected_automated_detectability: semantic/property dependent; classify only relevant failures
+    source_reference: "PDF Association, Techniques for Accessible PDF, structure/content association techniques; Matterhorn Protocol 1.1, semantic structure checks"
+    checkpoint_or_technique: Association-specific semantic review; the historical G02-M04 case is not used
+    machine_checkable: false
+    validator_dependent: true
+    semantic_or_at_evidence_required: true
+    invalid_target_conditions: [siblings do not share a role, either leaf has not exactly one content item]
+    baseline_conflict_conditions: [golden already has an association failure at the selected leaves]
+    collateral_change_conditions: [parent /K order, roles, /P, /Pg, list/table containment, or page content changes]
+    positive_control: paired semantic/AT observation when available
+    applicability_notes: current hash-linked M04 mutants are separate Class B artifacts
+  - id: M05
+    name: Internal MCID sequence reversal
+    class: class_b
+    accessibility_property: sequence of marked-content chunks within one structure element
+    pdfua_relationship: reading semantics may require context; structural legality alone is insufficient
+    preconditions: [/K array has at least two content items and no direct structure-element children]
+    target_structure_types: [P, Span, LI, LBody, TD, TH]
+    transformation: reverse the target element's /K array
+    invariants: [page content unchanged, content-item multiset unchanged, target role/P/Pg and parent containment unchanged]
+    expected_structural_delta: one content-item sequence reversal
+    expected_assistive_effect: internal text chunks may be exposed in reverse order
+    known_applicable_validator_rules: [outside formal automated scope unless a validator claims intra-element content order]
+    expected_automated_detectability: outside or partly outside formal automated scope
+    source_reference: "PDF Association, Matterhorn Protocol 1.1, logical order human-check family; PDF Association, Techniques for Accessible PDF, content-order techniques"
+    checkpoint_or_technique: Intra-element content-order semantic review
+    machine_checkable: false
+    validator_dependent: true
+    semantic_or_at_evidence_required: true
+    invalid_target_conditions: [fewer than two direct content items, direct structure-element child present]
+    baseline_conflict_conditions: [golden already has an intra-element order failure at the selected node]
+    collateral_change_conditions: [page content, content-item multiset, role, /P, /Pg, or parent containment changes]
+    positive_control: paired semantic/AT observation when available
+    applicability_notes: require AT/semantic evidence before claiming a user-facing defect
+  - id: M06
+    name: Duplicate list-item reference
+    class: class_b
+    accessibility_property: list containment and uniqueness of list items
+    pdfua_relationship: list structure/assistive-representation concern; no explicit Matterhorn machine failure condition for duplicate references was identified
+    preconditions: [/L /K array contains at least one /LI child reference]
+    target_structure_types: [L]
+    transformation: duplicate the first direct /LI reference in the target /L /K array
+    invariants: [page content unchanged, existing children and roles unchanged, only target /K length and duplicate reference changed]
+    expected_structural_delta: one additional reference to an existing /LI child
+    expected_assistive_effect: one list item is represented twice in structural traversal
+    known_applicable_validator_rules: [Matterhorn 01-006/16-003 provide semantic list-structure checks but do not specify a duplicate-reference machine condition; no stable validator-specific rule emitted in active reports]
+    expected_automated_detectability: semantic/representation dependent; do not interpret no automated finding as a validator failure
+    source_reference: "ISO 14289-1:2014, structure-element constraints; PDF Association, Techniques for Accessible PDF, list structure techniques"
+    checkpoint_or_technique: List /L to /LI containment and duplicate-reference structural inspection
+    machine_checkable: false
+    validator_dependent: true
+    semantic_or_at_evidence_required: true
+    invalid_target_conditions: [target is not /L, target has no direct /LI child]
+    baseline_conflict_conditions: [golden already contains a duplicate list-item reference or relevant list failure]
+    collateral_change_conditions: [page content, existing child identities, roles, or non-target /K entries change]
+    positive_control: M06 mutant with matched reference baseline and optional paired AT observation
+    applicability_notes: structurally confirmed mutation retained as Class B because the authoritative materials reviewed do not establish a specific machine-checkable duplicate-reference requirement
+  - id: M07
+    name: Missing figure alternate description
+    class: class_a
+    accessibility_property: alternate description on a figure
+    pdfua_relationship: PDF/UA-1 figure alternate-description requirement
+    preconditions: [/S /Figure and non-empty /Alt]
+    target_structure_types: [Figure]
+    transformation: remove only the target figure's /Alt entry
+    invariants: [page content/image streams unchanged, structure containment and roles unchanged, only /Alt removed]
+    expected_structural_delta: one figure loses its alternate description
+    expected_assistive_effect: assistive technology receives no figure description
+    known_applicable_validator_rules: ["ISO 14289-1:2014 7.3; veraPDF alternate-description rule; PAC Alternative Descriptions; Acrobat Figures alternate text"]
+    expected_automated_detectability: machine-checkable when the profile checks required figure alternate text
+    source_reference: "ISO 14289-1:2014, 7.3; PDF Association, Techniques for Accessible PDF, figure alternate-description technique"
+    checkpoint_or_technique: veraPDF PDF/UA-1 clause 7.3 / figure alternate description
+    machine_checkable: true
+    validator_dependent: true
+    semantic_or_at_evidence_required: false
+    invalid_target_conditions: [target is not /Figure, /Alt is absent or empty in the golden]
+    baseline_conflict_conditions: [golden already lacks a usable alternate description or reports the same figure failure]
+    collateral_change_conditions: [page content/image streams, structure containment, roles, or other alternate descriptions change]
+    positive_control: M07 mutant with matched clean golden baseline
+    applicability_notes: use only on figures with a stable non-empty source description
+  - id: M08
+    name: Missing document language metadata
+    class: class_a
+    accessibility_property: document language metadata
+    pdfua_relationship: PDF/UA-1 document-language requirement
+    preconditions: [catalog has a non-empty /Lang value]
+    target_structure_types: [Catalog]
+    transformation: remove only the catalog /Lang entry
+    invariants: [all catalog keys other than /Lang unchanged, structure tree and page content unchanged]
+    expected_structural_delta: catalog /Lang removed
+    expected_assistive_effect: default language is no longer declared for speech/pronunciation
+    known_applicable_validator_rules: ["ISO 14289-1:2014 7.2; veraPDF natural-language rule; PAC Natural language; Acrobat Primary language"]
+    expected_automated_detectability: machine-checkable where language metadata is checked
+    source_reference: "ISO 14289-1:2014, 7.2; PDF Association, Techniques for Accessible PDF, document-language technique"
+    checkpoint_or_technique: veraPDF PDF/UA-1 clause 7.2 / natural language for page content
+    machine_checkable: true
+    validator_dependent: true
+    semantic_or_at_evidence_required: false
+    invalid_target_conditions: [catalog /Lang is absent or empty in the golden]
+    baseline_conflict_conditions: [validator rejects the golden /Lang value, as documented for G09-M08]
+    collateral_change_conditions: [any catalog key other than /Lang, structure tree, or page content changes]
+    positive_control: M08 mutant with matched clean golden baseline and explicit baseline-conflict check
+    applicability_notes: baseline must document a language
+  - id: M09
+    name: Invalid RoleMap target
+    class: class_a
+    accessibility_property: valid role mapping
+    pdfua_relationship: PDF/UA-1 role-mapping requirement
+    preconditions: [/RoleMap has an existing custom key mapped to a valid role and used by a reachable structure element]
+    target_structure_types: [StructTreeRoot, Catalog]
+    transformation: change one existing custom RoleMap value to /PDFa11yMutUndefinedRole
+    invariants: [role-map keys and non-target values unchanged, structure elements and page content unchanged]
+    expected_structural_delta: one role-map target no longer resolves
+    expected_assistive_effect: custom-tag interpretation becomes undefined
+    known_applicable_validator_rules: ["ISO 14289-1:2014 7.1; veraPDF role-map rule; PAC Role mapping"]
+    expected_automated_detectability: machine-checkable where role-map resolution is checked
+    source_reference: "ISO 14289-1:2014, 7.1; PDF Association, Techniques for Accessible PDF, role-mapping technique"
+    checkpoint_or_technique: veraPDF PDF/UA-1 clause 7.1 / custom role must resolve to a standard role
+    machine_checkable: true
+    validator_dependent: true
+    semantic_or_at_evidence_required: false
+    invalid_target_conditions: [RoleMap has no custom key, selected key is not used by a reachable structure element, mapped value is not a valid role]
+    baseline_conflict_conditions: [golden already has an unresolved used custom role]
+    collateral_change_conditions: [any RoleMap key/non-target value, structure element, or page content changes]
+    positive_control: M09 mutant with reachable used RoleMap key and matched clean golden baseline
+    applicability_notes: never add an unused synthetic RoleMap entry
+  - id: M10
+    name: Illegal table-child role
+    class: class_a
+    accessibility_property: table containment
+    pdfua_relationship: PDF/UA-1 table containment requirement
+    preconditions: [/Table contains /TR that directly contains /TD or /TH]
+    target_structure_types: [TD, TH]
+    transformation: change one direct cell child's /S from /TD or /TH to /P while leaving /TR unchanged
+    invariants: [page content unchanged, all /K arrays unchanged, only target cell role changes]
+    expected_structural_delta: /TR directly contains a prohibited non-cell role
+    expected_assistive_effect: table cell semantics are lost or misinterpreted
+    known_applicable_validator_rules: ["ISO 14289-1:2014 7.2; veraPDF TR-element child-role rule; PAC Structure tree; conditional Acrobat Headers direct-consequence proxy"]
+    expected_automated_detectability: machine-checkable where table containment is checked
+    source_reference: "ISO 14289-1:2014, 7.2; PDF Association, Techniques for Accessible PDF, table structure technique"
+    checkpoint_or_technique: veraPDF PDF/UA-1 clause 7.2 / TR may contain only TH and TD elements
+    machine_checkable: true
+    validator_dependent: true
+    semantic_or_at_evidence_required: false
+    invalid_target_conditions: [target is not a direct /TD or /TH child of /TR]
+    baseline_conflict_conditions: [golden already contains an illegal table-child role at the target row]
+    collateral_change_conditions: [page content, /K arrays, non-target roles, or table containment changes]
+    positive_control: M10 mutant with matched clean golden baseline
+    applicability_notes: "Classify exact table-containment failures directly. For Acrobat Full Check only, a newly failed Headers checkpoint is a direct-consequence proxy under the decision rule fixed before final adjudication when the manifest and fresh verification prove the sole semantic delta is a direct /TH to /P child-role change under the same /TR, target /K and all non-target structure are unchanged, page-content hashes match, rendering is pixel-identical, and the matched baseline passes Headers. Do not generalize this proxy to other mutations or generic header findings."

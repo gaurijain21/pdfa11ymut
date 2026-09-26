@@ -1,0 +1,3195 @@
+{
+  "generated_at_utc": "2026-09-25T22:07:18.925592+00:00",
+  "generation": {
+    "delta": {
+      "new_role": "/PDFa11yMutUndefinedRole",
+      "old_role": "/Span",
+      "role_key": "/HyphenSpan",
+      "target_object": "direct"
+    },
+    "operator": "M09",
+    "requested_target": "auto",
+    "source_pages": 2
+  },
+  "generation_version": "0.2.0",
+  "mutant_id": "PDFUA-Ref-2-03_AcademicAbstract-M09",
+  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\tmp\\m09_recovery_candidates\\PDFUA-Ref-2-03_AcademicAbstract-M09.pdf",
+  "mutant_sha256": "cd66ff83ef53176a8a5d9cd5c27986ea3e89f78577a040e72298e5a6f3f4bf0d",
+  "operator": "M09",
+  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-03_AcademicAbstract.pdf",
+  "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
+  "status": "valid",
+  "verification": {
+    "intended_delta": {
+      "new_role": "/PDFa11yMutUndefinedRole",
+      "old_role": "/Span",
+      "role_key": "/HyphenSpan",
+      "target_object": "direct"
+    },
+    "invariant_checks": {
+      "operator_specific_delta": true,
+      "page_content_byte_hashes_equal": true,
+      "page_count_preserved": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true
+    },
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\tmp\\m09_recovery_candidates\\PDFUA-Ref-2-03_AcademicAbstract-M09.pdf",
+    "mutant_sha256": "cd66ff83ef53176a8a5d9cd5c27986ea3e89f78577a040e72298e5a6f3f4bf0d",
+    "mutation_valid": true,
+    "observed_changed_structure_paths": [],
+    "observed_delta": {},
+    "operator": "M09",
+    "operator_delta_reason": "used RoleMap value changed exactly; structure tree is unchanged",
+    "page_count_preserved": true,
+    "parseability": true,
+    "rendering": {
+      "different_pixel_count": 0,
+      "dpi": 150,
+      "max_channel_difference": 0,
+      "metric": "exact RGB pixel equality",
+      "pages": [
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            1275,
+            1650
+          ],
+          "page": 1
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            1275,
+            1650
+          ],
+          "page": 2
+        }
+      ],
+      "renderer": "pdftoppm",
+      "rmse": 0.0,
+      "status": "pass",
+      "tolerance": 0
+    },
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-03_AcademicAbstract.pdf",
+    "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
+    "structural_after": {
+      "0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H2"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[120.835, 619.567, 245.87, 630.607]",
+            "d.seggern@callassoftware.com (mailto:d.seggern@callassoftware.com)"
+          ],
+          [
+            "mcid",
+            2,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.10": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.11": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.12": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            17,
+            0
+          ]
+        ],
+        "role": "/H2"
+      },
+      "0.13": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.14": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            19,
+            0
+          ],
+          [
+            "mcid",
+            79,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.14.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            80,
+            0
+          ],
+          [
+            "mcid",
+            81,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.15": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.16": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            25,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.16.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.17": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.18": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.19": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[131.515, 549.25, 234.23, 560.289]",
+            "tamir@roundtrippdf.com (mailto:tamir@roundtrippdf.com)"
+          ],
+          [
+            "mcid",
+            4,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.20": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.21": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.21.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.21.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.21.0.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.0.1.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.0.1.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.0.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.0.1.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.0.1.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            49,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.2.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            48,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.21.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.3.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            50,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            51,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.4.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            52,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            53,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            55,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.4.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            54,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.21.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.5.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            56,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.5.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            57,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.6.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            58,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.6.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            59,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.7.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            60,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.7.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            61,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            63,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.7.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            62,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.21.8": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.8.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            64,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.8.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            65,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.22": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            75,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.23": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            73,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            68,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            70,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.23.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            67,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.23.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            69,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.24": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            26,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.25": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            27,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.26": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.26.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[52.802, 81.274, 167.938, 90.449]",
+            "https://doi.org/10.1145/3342558.3351873 "
+          ],
+          [
+            "mcid",
+            29,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.27": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            3,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            5,
+            1
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.27.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.27.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.28": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/ParagraphSpan"
+          ],
+          [
+            "struct",
+            "/ParagraphSpan"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.28.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            8,
+            1
+          ]
+        ],
+        "role": "/ParagraphSpan"
+      },
+      "0.28.0.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.28.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            11,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            13,
+            1
+          ]
+        ],
+        "role": "/ParagraphSpan"
+      },
+      "0.28.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.28.1.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.29": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14,
+            1
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[362.265, 619.567, 496.9, 630.607]",
+            "klaas.posselt@einmanncombo.de (mailto:klaas.posselt@einmanncombo.de)"
+          ],
+          [
+            "mcid",
+            31,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.30": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            17,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            19,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            21,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            23,
+            1
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.30.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.30.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.30.5": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.30.7": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            32,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[373.185, 549.25, 485.02, 560.289]",
+            "thomas.zellmann@pdfa.org (mailto:thomas.zellmann@pdfa.org)"
+          ],
+          [
+            "mcid",
+            33,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            8,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            10,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.6.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.6.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.8": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.9": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.9.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.9.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            72,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.9.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            71,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      }
+    },
+    "structural_before": {
+      "0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H2"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[120.835, 619.567, 245.87, 630.607]",
+            "d.seggern@callassoftware.com (mailto:d.seggern@callassoftware.com)"
+          ],
+          [
+            "mcid",
+            2,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.10": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.11": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.12": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            17,
+            0
+          ]
+        ],
+        "role": "/H2"
+      },
+      "0.13": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.14": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            19,
+            0
+          ],
+          [
+            "mcid",
+            79,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.14.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            80,
+            0
+          ],
+          [
+            "mcid",
+            81,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.15": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.16": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            25,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.16.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.17": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.18": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.19": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[131.515, 549.25, 234.23, 560.289]",
+            "tamir@roundtrippdf.com (mailto:tamir@roundtrippdf.com)"
+          ],
+          [
+            "mcid",
+            4,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.20": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.21": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.21.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.21.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.21.0.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.0.1.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.0.1.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.0.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.0.1.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.0.1.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            49,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.2.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            48,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.21.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.3.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            50,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            51,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.4.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            52,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            53,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            55,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.4.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            54,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.21.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.5.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            56,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.5.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            57,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.6.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            58,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.6.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            59,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.7.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            60,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.7.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            61,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            63,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.21.7.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            62,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.21.8": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.21.8.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            64,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.21.8.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            65,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.22": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            75,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.23": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            73,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            68,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            70,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.23.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            67,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.23.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            69,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.24": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            26,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.25": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            27,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.26": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.26.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[52.802, 81.274, 167.938, 90.449]",
+            "https://doi.org/10.1145/3342558.3351873 "
+          ],
+          [
+            "mcid",
+            29,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.27": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            3,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            5,
+            1
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.27.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.27.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.28": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/ParagraphSpan"
+          ],
+          [
+            "struct",
+            "/ParagraphSpan"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.28.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            8,
+            1
+          ]
+        ],
+        "role": "/ParagraphSpan"
+      },
+      "0.28.0.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.28.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            11,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            13,
+            1
+          ]
+        ],
+        "role": "/ParagraphSpan"
+      },
+      "0.28.1.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.28.1.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.29": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14,
+            1
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[362.265, 619.567, 496.9, 630.607]",
+            "klaas.posselt@einmanncombo.de (mailto:klaas.posselt@einmanncombo.de)"
+          ],
+          [
+            "mcid",
+            31,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.30": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            17,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            19,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            21,
+            1
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            23,
+            1
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.30.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.30.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.30.5": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.30.7": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22,
+            1
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            32,
+            0
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Link",
+            "[373.185, 549.25, 485.02, 560.289]",
+            "thomas.zellmann@pdfa.org (mailto:thomas.zellmann@pdfa.org)"
+          ],
+          [
+            "mcid",
+            33,
+            0
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            8,
+            0
+          ],
+          [
+            "struct",
+            "/HyphenSpan"
+          ],
+          [
+            "mcid",
+            10,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.6.1": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.6.3": {
+        "actual_text": "\u00ad",
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9,
+            0
+          ]
+        ],
+        "role": "/HyphenSpan"
+      },
+      "0.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.8": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.9": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.9.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.9.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            72,
+            0
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.9.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            71,
+            0
+          ]
+        ],
+        "role": "/LBody"
+      }
+    },
+    "unexpected_structural_changes": []
+  }
+}

@@ -1,0 +1,4 @@
+validator,detected,missed,needs_manual_check,not_applicable,total_with_classification,rate_numerator,rate_denominator,rate_denominator_definition,rate
+PAC,30,39,0,0,69,30,69,Detected + Missed; manual and not-applicable rows excluded,0.4348
+Acrobat,26,28,15,0,69,26,54,Detected + Missed; manual and not-applicable rows excluded,0.4815
+veraPDF,30,39,0,0,69,30,69,Detected + Missed; manual and not-applicable rows excluded,0.4348

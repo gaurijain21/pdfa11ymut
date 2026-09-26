@@ -1,0 +1,3818 @@
+{
+  "generated_at_utc": "2026-09-22T03:18:49.927956+00:00",
+  "generation": {
+    "delta": {
+      "new_k": [],
+      "old_k": [
+        {
+          "/K": [
+            {
+              "/K": [
+                {
+                  "/Alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+                  "/K": [
+                    {
+                      "/MCID": 0,
+                      "/Pg": {
+                        "type": "/Page"
+                      },
+                      "/Type": "/MCR"
+                    }
+                  ],
+                  "/Lang": "en",
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/Figure",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    0
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/Alt": "Photo of sales rep.",
+                  "/K": [
+                    1
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/Figure",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    {
+                      "/K": [
+                        2
+                      ],
+                      "/P": {
+                        "type": "/StructElem"
+                      },
+                      "/Pg": {
+                        "type": "/Page"
+                      },
+                      "/S": "/P",
+                      "/Type": "/StructElem"
+                    }
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/S": "/Caption",
+                  "/Type": "/StructElem"
+                }
+              ],
+              "/P": {
+                "type": "/StructElem"
+              },
+              "/S": "/Sect",
+              "/Type": "/StructElem"
+            },
+            {
+              "/K": [
+                {
+                  "/K": [
+                    3
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                }
+              ],
+              "/P": {
+                "type": "/StructElem"
+              },
+              "/S": "/Sect",
+              "/Type": "/StructElem"
+            },
+            {
+              "/K": [
+                {
+                  "/K": [
+                    4
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/H1",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    5
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    {
+                      "/K": [
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                6
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                7
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                8
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                9
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                10
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        }
+                      ],
+                      "/P": {
+                        "type": "/StructElem"
+                      },
+                      "/S": "/THead",
+                      "/Type": "/StructElem"
+                    },
+                    {
+                      "/K": [
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                11
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                12
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                13
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                14
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                15
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                16
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                17
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                18
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                19
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                20
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                21
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                22
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                23
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                24
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                25
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                26
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                27
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                28
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                29
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                30
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                31
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                32
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                33
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                34
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                35
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                36
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                37
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                38
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                39
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                40
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                41
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                42
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                43
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                44
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                45
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                46
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        }
+                      ],
+                      "/P": {
+                        "type": "/StructElem"
+                      },
+                      "/S": "/TBody",
+                      "/Type": "/StructElem"
+                    }
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/S": "/Table",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    47
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                }
+              ],
+              "/P": {
+                "type": "/StructElem"
+              },
+              "/S": "/Sect",
+              "/Type": "/StructElem"
+            }
+          ],
+          "/P": {
+            "type": "/StructElem"
+          },
+          "/S": "/Part",
+          "/Type": "/StructElem"
+        }
+      ],
+      "target_object": "3:0"
+    },
+    "operator": "M02",
+    "requested_target": "auto",
+    "source_pages": 1
+  },
+  "generation_version": "0.2.0",
+  "mutant_id": "PDFUA-Ref-2-02_Invoice-M02",
+  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M02.pdf",
+  "mutant_sha256": "462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd",
+  "operator": "M02",
+  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+  "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+  "status": "valid",
+  "verification": {
+    "intended_delta": {
+      "new_k": [],
+      "old_k": [
+        {
+          "/K": [
+            {
+              "/K": [
+                {
+                  "/Alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+                  "/K": [
+                    {
+                      "/MCID": 0,
+                      "/Pg": {
+                        "type": "/Page"
+                      },
+                      "/Type": "/MCR"
+                    }
+                  ],
+                  "/Lang": "en",
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/Figure",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    0
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/Alt": "Photo of sales rep.",
+                  "/K": [
+                    1
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/Figure",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    {
+                      "/K": [
+                        2
+                      ],
+                      "/P": {
+                        "type": "/StructElem"
+                      },
+                      "/Pg": {
+                        "type": "/Page"
+                      },
+                      "/S": "/P",
+                      "/Type": "/StructElem"
+                    }
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/S": "/Caption",
+                  "/Type": "/StructElem"
+                }
+              ],
+              "/P": {
+                "type": "/StructElem"
+              },
+              "/S": "/Sect",
+              "/Type": "/StructElem"
+            },
+            {
+              "/K": [
+                {
+                  "/K": [
+                    3
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                }
+              ],
+              "/P": {
+                "type": "/StructElem"
+              },
+              "/S": "/Sect",
+              "/Type": "/StructElem"
+            },
+            {
+              "/K": [
+                {
+                  "/K": [
+                    4
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/H1",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    5
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    {
+                      "/K": [
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                6
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                7
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                8
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                9
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                10
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TH",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        }
+                      ],
+                      "/P": {
+                        "type": "/StructElem"
+                      },
+                      "/S": "/THead",
+                      "/Type": "/StructElem"
+                    },
+                    {
+                      "/K": [
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                11
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                12
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                13
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                14
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                15
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                16
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                17
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                18
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                19
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                20
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                21
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                22
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                23
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                24
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                25
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                26
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                27
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                28
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                29
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                30
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                31
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                32
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                33
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                34
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                35
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                36
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                37
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                38
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                39
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                40
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/K": [
+                                41
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                42
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                43
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                44
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                45
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        },
+                        {
+                          "/K": [
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            },
+                            {
+                              "/K": [
+                                46
+                              ],
+                              "/P": {
+                                "type": "/StructElem"
+                              },
+                              "/Pg": {
+                                "type": "/Page"
+                              },
+                              "/S": "/TD",
+                              "/Type": "/StructElem"
+                            }
+                          ],
+                          "/P": {
+                            "type": "/StructElem"
+                          },
+                          "/S": "/TR",
+                          "/Type": "/StructElem"
+                        }
+                      ],
+                      "/P": {
+                        "type": "/StructElem"
+                      },
+                      "/S": "/TBody",
+                      "/Type": "/StructElem"
+                    }
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/S": "/Table",
+                  "/Type": "/StructElem"
+                },
+                {
+                  "/K": [
+                    47
+                  ],
+                  "/P": {
+                    "type": "/StructElem"
+                  },
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/S": "/P",
+                  "/Type": "/StructElem"
+                }
+              ],
+              "/P": {
+                "type": "/StructElem"
+              },
+              "/S": "/Sect",
+              "/Type": "/StructElem"
+            }
+          ],
+          "/P": {
+            "type": "/StructElem"
+          },
+          "/S": "/Part",
+          "/Type": "/StructElem"
+        }
+      ],
+      "target_object": "3:0"
+    },
+    "invariant_checks": {
+      "operator_specific_delta": true,
+      "page_content_byte_hashes_equal": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true
+    },
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M02.pdf",
+    "mutant_sha256": "462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd",
+    "mutation_valid": true,
+    "observed_changed_structure_paths": [
+      "0",
+      "0.0",
+      "0.0.0",
+      "0.0.0.0",
+      "0.0.0.1",
+      "0.0.0.2",
+      "0.0.0.3",
+      "0.0.0.3.0",
+      "0.0.1",
+      "0.0.1.0",
+      "0.0.2",
+      "0.0.2.0",
+      "0.0.2.1",
+      "0.0.2.2",
+      "0.0.2.2.0",
+      "0.0.2.2.0.0",
+      "0.0.2.2.0.0.0",
+      "0.0.2.2.0.0.1",
+      "0.0.2.2.0.0.2",
+      "0.0.2.2.0.0.3",
+      "0.0.2.2.0.0.4",
+      "0.0.2.2.1",
+      "0.0.2.2.1.0",
+      "0.0.2.2.1.0.0",
+      "0.0.2.2.1.0.1",
+      "0.0.2.2.1.0.2",
+      "0.0.2.2.1.0.3",
+      "0.0.2.2.1.0.4",
+      "0.0.2.2.1.1",
+      "0.0.2.2.1.1.0",
+      "0.0.2.2.1.1.1",
+      "0.0.2.2.1.1.2",
+      "0.0.2.2.1.1.3",
+      "0.0.2.2.1.1.4",
+      "0.0.2.2.1.2",
+      "0.0.2.2.1.2.0",
+      "0.0.2.2.1.2.1",
+      "0.0.2.2.1.2.2",
+      "0.0.2.2.1.2.3",
+      "0.0.2.2.1.2.4",
+      "0.0.2.2.1.3",
+      "0.0.2.2.1.3.0",
+      "0.0.2.2.1.3.1",
+      "0.0.2.2.1.3.2",
+      "0.0.2.2.1.3.3",
+      "0.0.2.2.1.3.4",
+      "0.0.2.2.1.4",
+      "0.0.2.2.1.4.0",
+      "0.0.2.2.1.4.1",
+      "0.0.2.2.1.4.2",
+      "0.0.2.2.1.4.3",
+      "0.0.2.2.1.4.4",
+      "0.0.2.2.1.5",
+      "0.0.2.2.1.5.0",
+      "0.0.2.2.1.5.1",
+      "0.0.2.2.1.5.2",
+      "0.0.2.2.1.5.3",
+      "0.0.2.2.1.5.4",
+      "0.0.2.2.1.6",
+      "0.0.2.2.1.6.0",
+      "0.0.2.2.1.6.1",
+      "0.0.2.2.1.6.2",
+      "0.0.2.2.1.6.3",
+      "0.0.2.2.1.6.4",
+      "0.0.2.2.1.7",
+      "0.0.2.2.1.7.0",
+      "0.0.2.2.1.7.1",
+      "0.0.2.2.1.7.2",
+      "0.0.2.2.1.7.3",
+      "0.0.2.2.1.7.4",
+      "0.0.2.3"
+    ],
+    "observed_delta": {
+      "0": {
+        "after": {
+          "alt": null,
+          "k": [],
+          "role": "/Document"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/Part"
+            ]
+          ],
+          "role": "/Document"
+        }
+      },
+      "0.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/Sect"
+            ],
+            [
+              "struct",
+              "/Sect"
+            ],
+            [
+              "struct",
+              "/Sect"
+            ]
+          ],
+          "role": "/Part"
+        }
+      },
+      "0.0.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/Figure"
+            ],
+            [
+              "struct",
+              "/P"
+            ],
+            [
+              "struct",
+              "/Figure"
+            ],
+            [
+              "struct",
+              "/Caption"
+            ]
+          ],
+          "role": "/Sect"
+        }
+      },
+      "0.0.0.0": {
+        "after": null,
+        "before": {
+          "alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+          "k": [
+            [
+              "mcr",
+              0
+            ]
+          ],
+          "role": "/Figure"
+        }
+      },
+      "0.0.0.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              0
+            ]
+          ],
+          "role": "/P"
+        }
+      },
+      "0.0.0.2": {
+        "after": null,
+        "before": {
+          "alt": "Photo of sales rep.",
+          "k": [
+            [
+              "mcid",
+              1
+            ]
+          ],
+          "role": "/Figure"
+        }
+      },
+      "0.0.0.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/P"
+            ]
+          ],
+          "role": "/Caption"
+        }
+      },
+      "0.0.0.3.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              2
+            ]
+          ],
+          "role": "/P"
+        }
+      },
+      "0.0.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/P"
+            ]
+          ],
+          "role": "/Sect"
+        }
+      },
+      "0.0.1.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              3
+            ]
+          ],
+          "role": "/P"
+        }
+      },
+      "0.0.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/H1"
+            ],
+            [
+              "struct",
+              "/P"
+            ],
+            [
+              "struct",
+              "/Table"
+            ],
+            [
+              "struct",
+              "/P"
+            ]
+          ],
+          "role": "/Sect"
+        }
+      },
+      "0.0.2.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              4
+            ]
+          ],
+          "role": "/H1"
+        }
+      },
+      "0.0.2.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              5
+            ]
+          ],
+          "role": "/P"
+        }
+      },
+      "0.0.2.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/THead"
+            ],
+            [
+              "struct",
+              "/TBody"
+            ]
+          ],
+          "role": "/Table"
+        }
+      },
+      "0.0.2.2.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TR"
+            ]
+          ],
+          "role": "/THead"
+        }
+      },
+      "0.0.2.2.0.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.0.0.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              6
+            ]
+          ],
+          "role": "/TH"
+        }
+      },
+      "0.0.2.2.0.0.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              7
+            ]
+          ],
+          "role": "/TH"
+        }
+      },
+      "0.0.2.2.0.0.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              8
+            ]
+          ],
+          "role": "/TH"
+        }
+      },
+      "0.0.2.2.0.0.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              9
+            ]
+          ],
+          "role": "/TH"
+        }
+      },
+      "0.0.2.2.0.0.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              10
+            ]
+          ],
+          "role": "/TH"
+        }
+      },
+      "0.0.2.2.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ],
+            [
+              "struct",
+              "/TR"
+            ]
+          ],
+          "role": "/TBody"
+        }
+      },
+      "0.0.2.2.1.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.0.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              11
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.0.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              12
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.0.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              13
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.0.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              14
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.0.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              15
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.1.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              16
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.1.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              17
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.1.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              18
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.1.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              19
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.1.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              20
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.2.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              21
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.2.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              22
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.2.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              23
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.2.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              24
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.2.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              25
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.3.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              26
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.3.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              27
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.3.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              28
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.3.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              29
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.3.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              30
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.4.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              31
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.4.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              32
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.4.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              33
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.4.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              34
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.4.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              35
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.5": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.5.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              36
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.5.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              37
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.5.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              38
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.5.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              39
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.5.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              40
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.6": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.6.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              41
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.6.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              42
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.6.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              43
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.6.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              44
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.6.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              45
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.7": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ],
+            [
+              "struct",
+              "/TD"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.1.7.0": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.7.1": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.7.2": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.7.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.2.1.7.4": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              46
+            ]
+          ],
+          "role": "/TD"
+        }
+      },
+      "0.0.2.3": {
+        "after": null,
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              47
+            ]
+          ],
+          "role": "/P"
+        }
+      }
+    },
+    "operator": "M02",
+    "operator_delta_reason": "first direct structure child omitted",
+    "page_count_preserved": true,
+    "parseability": true,
+    "rendering": {
+      "different_pixel_count": 0,
+      "dpi": 150,
+      "max_channel_difference": 0,
+      "metric": "exact RGB pixel equality",
+      "pages": [
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            1240,
+            1755
+          ],
+          "page": 1
+        }
+      ],
+      "renderer": "pdftoppm",
+      "rmse": 0.0,
+      "status": "pass",
+      "tolerance": 0
+    },
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+    "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+    "structural_after": {
+      "0": {
+        "alt": null,
+        "k": [],
+        "role": "/Document"
+      }
+    },
+    "structural_before": {
+      "0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Part"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ],
+          [
+            "struct",
+            "/Sect"
+          ],
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Part"
+      },
+      "0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Caption"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0.0": {
+        "alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+        "k": [
+          [
+            "mcr",
+            0
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.0.2": {
+        "alt": "Photo of sales rep.",
+        "k": [
+          [
+            "mcid",
+            1
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Caption"
+      },
+      "0.0.0.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Table"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.0.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/THead"
+          ],
+          [
+            "struct",
+            "/TBody"
+          ]
+        ],
+        "role": "/Table"
+      },
+      "0.0.2.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TR"
+          ]
+        ],
+        "role": "/THead"
+      },
+      "0.0.2.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            8
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ]
+        ],
+        "role": "/TBody"
+      },
+      "0.0.2.2.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            13
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            17
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            19
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            21
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            25
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            26
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            27
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            29
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.4.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            31
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            32
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            33
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.5.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.6.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.7.0": {
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.1": {
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.2": {
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.3": {
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47
+          ]
+        ],
+        "role": "/P"
+      }
+    },
+    "unexpected_structural_changes": []
+  }
+}

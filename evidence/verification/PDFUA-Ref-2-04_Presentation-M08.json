@@ -1,0 +1,4987 @@
+{
+  "generated_at_utc": "2026-09-22T03:22:13.411321+00:00",
+  "generation": {
+    "delta": {
+      "new_lang": null,
+      "old_lang": "en-GB",
+      "target_object": "direct"
+    },
+    "operator": "M08",
+    "requested_target": "auto",
+    "source_pages": 8
+  },
+  "generation_version": "0.2.0",
+  "mutant_id": "PDFUA-Ref-2-04_Presentation-M08",
+  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M08.pdf",
+  "mutant_sha256": "72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539",
+  "operator": "M08",
+  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-04_Presentation.pdf",
+  "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+  "status": "valid",
+  "verification": {
+    "intended_delta": {
+      "new_lang": null,
+      "old_lang": "en-GB",
+      "target_object": "direct"
+    },
+    "invariant_checks": {
+      "operator_specific_delta": true,
+      "page_content_byte_hashes_equal": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true
+    },
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-04_Presentation-M08.pdf",
+    "mutant_sha256": "72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539",
+    "mutation_valid": true,
+    "observed_changed_structure_paths": [
+      "0.0.3.0.1",
+      "0.1.0.1.0.1.0",
+      "0.1.0.1.1.1.0",
+      "0.1.0.1.2.1.0",
+      "0.1.0.1.3.1.0",
+      "0.1.1.0.2.0.1",
+      "0.1.4.1.1.1.2.0.1",
+      "0.1.5.1.1.1.1",
+      "0.1.5.1.1.1.3.0.1",
+      "0.1.7.3.0",
+      "0.1.7.4.0",
+      "0.1.7.5.0",
+      "0.1.7.6.0"
+    ],
+    "observed_delta": {
+      "0.0.3.0.1": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(13, 0, 2279905392016), '/Pg': IndirectObject(11, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              3
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(14, 0, 2279905384848), '/Pg': IndirectObject(12, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              3
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.0.1.0.1.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(37, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              13
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(38, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              13
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.0.1.1.1.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(39, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              15
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(40, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              15
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.0.1.2.1.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(41, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              17
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(42, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              17
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.0.1.3.1.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(43, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              19
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(44, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "mcid",
+              19
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.1.0.2.0.1": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(7, 0, 2279905392016), '/Pg': IndirectObject(5, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(8, 0, 2279905384848), '/Pg': IndirectObject(6, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.4.1.1.1.2.0.1": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(74, 0, 2279905392016), '/Pg': IndirectObject(72, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(75, 0, 2279905384848), '/Pg': IndirectObject(73, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.5.1.1.1.1": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(83, 0, 2279905392016), '/Pg': IndirectObject(81, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(84, 0, 2279905384848), '/Pg': IndirectObject(82, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.5.1.1.1.3.0.1": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(85, 0, 2279905392016), '/Pg': IndirectObject(81, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(86, 0, 2279905384848), '/Pg': IndirectObject(82, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.7.3.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(100, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(101, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.7.4.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(102, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(103, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.7.5.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(104, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(105, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      },
+      "0.1.7.6.0": {
+        "after": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(106, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        },
+        "before": {
+          "alt": "",
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(107, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+            ],
+            [
+              "struct",
+              "/Span"
+            ]
+          ],
+          "role": "/Link"
+        }
+      }
+    },
+    "operator": "M08",
+    "operator_delta_reason": "catalog /Lang was removed",
+    "page_count_preserved": true,
+    "parseability": true,
+    "rendering": {
+      "different_pixel_count": 0,
+      "dpi": 150,
+      "max_channel_difference": 0,
+      "metric": "exact RGB pixel equality",
+      "pages": [
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 1
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 2
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 3
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 4
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 5
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 6
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 7
+        },
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            4000,
+            2250
+          ],
+          "page": 8
+        }
+      ],
+      "renderer": "pdftoppm",
+      "rmse": 0.0,
+      "status": "pass",
+      "tolerance": 0
+    },
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-04_Presentation.pdf",
+    "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+    "structural_after": {
+      "0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Article"
+          ],
+          [
+            "struct",
+            "/Article"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Story"
+          ]
+        ],
+        "role": "/Article"
+      },
+      "0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Frontpage:P-TitleHeader"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0
+          ]
+        ],
+        "role": "/Frontpage:P-TitleHeader"
+      },
+      "0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/Frontpage:P-TitleSubline"
+          ],
+          [
+            "struct",
+            "/Frontpage:P-TitleAuthor"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.0.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            7
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            9
+          ]
+        ],
+        "role": "/Frontpage:P-TitleSubline"
+      },
+      "0.0.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.1.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            8
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Frontpage:P-TitleAuthor"
+      },
+      "0.0.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.2": {
+        "alt": "Logo PDF Association",
+        "k": [
+          [
+            "mcid",
+            1
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Frontpage:P-TitleFooter"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.0.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/Frontpage:P-TitleFooter"
+      },
+      "0.0.3.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(13, 0, 2279905392016), '/Pg': IndirectObject(11, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            3
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Story"
+          ]
+        ],
+        "role": "/Article"
+      },
+      "0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.0.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(37, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            13
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.1.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(39, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            15
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.0.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.2.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(41, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            17
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.0.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.3.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.3.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(43, 0, 2279905392016), '/Pg': IndirectObject(35, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            19
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P-example"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20
+          ],
+          [
+            "struct",
+            "/Reference"
+          ],
+          [
+            "struct",
+            "/Note"
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Reference"
+      },
+      "0.1.1.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            21
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Footer"
+          ]
+        ],
+        "role": "/Note"
+      },
+      "0.1.1.0.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Footer"
+      },
+      "0.1.1.0.2.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(7, 0, 2279905392016), '/Pg': IndirectObject(5, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.1.0.2.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.1.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24
+          ],
+          [
+            "mcid",
+            25
+          ],
+          [
+            "mcid",
+            26
+          ],
+          [
+            "mcid",
+            27
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.1.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.1.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            29
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            32
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.1.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            31
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.1.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.1.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.2.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            33
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36
+          ]
+        ],
+        "role": "/P-example"
+      },
+      "0.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H2"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H2"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39
+          ]
+        ],
+        "role": "/H2"
+      },
+      "0.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.2.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.2.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            48
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            49
+          ]
+        ],
+        "role": "/H2"
+      },
+      "0.1.2.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.2.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.3.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.3.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            51
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            50
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            52
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.3.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.3.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            54
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            53
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            55
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P-example"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            56
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.3.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.3.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.3.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            58
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            57
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            59
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.3.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.3.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.3.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            61
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            60
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            62
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            64
+          ],
+          [
+            "mcid",
+            65
+          ],
+          [
+            "mcid",
+            66
+          ],
+          [
+            "mcid",
+            67
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.3.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            63
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            68
+          ]
+        ],
+        "role": "/P-example"
+      },
+      "0.1.4": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P-example"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.4.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            69
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.4.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.4.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.4.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.4.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            71
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            70
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            72
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.4.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.4.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.4.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            74
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            73
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            75
+          ],
+          [
+            "struct",
+            "/Reference"
+          ],
+          [
+            "struct",
+            "/Note"
+          ],
+          [
+            "mcid",
+            77
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.4.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Reference"
+      },
+      "0.1.4.1.1.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            76
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Footer"
+          ]
+        ],
+        "role": "/Note"
+      },
+      "0.1.4.1.1.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            79
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Footer"
+      },
+      "0.1.4.1.1.1.2.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(74, 0, 2279905392016), '/Pg': IndirectObject(72, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.4.1.1.1.2.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            80
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            78
+          ]
+        ],
+        "role": "/P-example"
+      },
+      "0.1.5": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.5.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            81
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.5.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.5.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.5.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.5.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            83
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            82
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            84
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.5.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.5.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.5.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            86
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            85
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            87
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Reference"
+          ],
+          [
+            "struct",
+            "/Note"
+          ],
+          [
+            "mcid",
+            90
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.5.1.1.1.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(83, 0, 2279905392016), '/Pg': IndirectObject(81, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.5.1.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            88
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Reference"
+      },
+      "0.1.5.1.1.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            89
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Footer"
+          ]
+        ],
+        "role": "/Note"
+      },
+      "0.1.5.1.1.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            94
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Footer"
+      },
+      "0.1.5.1.1.1.3.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(85, 0, 2279905392016), '/Pg': IndirectObject(81, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.5.1.1.1.3.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            95
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.5.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.5.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            92
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.2.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            91
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            93
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.6": {
+        "alt": "cover book \u201eBarrierefreie PDF-Dokuemnte erstellen\u201c",
+        "k": [
+          [
+            "mcid",
+            96
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.1.7": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Quote"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/H1-GiT"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.7.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/P-Quote"
+      },
+      "0.1.7.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            97
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            98
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            99
+          ]
+        ],
+        "role": "/H1-GiT"
+      },
+      "0.1.7.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.3.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(100, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.3.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            100
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.4": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.4.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(102, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.4.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            101
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.5": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.5.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(104, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.5.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            102
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.6": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.6.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(106, 0, 2279905392016), '/Pg': IndirectObject(98, 0, 2279905392016), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.6.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            103
+          ]
+        ],
+        "role": "/Span"
+      }
+    },
+    "structural_before": {
+      "0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Article"
+          ],
+          [
+            "struct",
+            "/Article"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Story"
+          ]
+        ],
+        "role": "/Article"
+      },
+      "0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Frontpage:P-TitleHeader"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0
+          ]
+        ],
+        "role": "/Frontpage:P-TitleHeader"
+      },
+      "0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/Frontpage:P-TitleSubline"
+          ],
+          [
+            "struct",
+            "/Frontpage:P-TitleAuthor"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.0.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            7
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            9
+          ]
+        ],
+        "role": "/Frontpage:P-TitleSubline"
+      },
+      "0.0.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.1.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            8
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Frontpage:P-TitleAuthor"
+      },
+      "0.0.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.0.2": {
+        "alt": "Logo PDF Association",
+        "k": [
+          [
+            "mcid",
+            1
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Frontpage:P-TitleFooter"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.0.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/Frontpage:P-TitleFooter"
+      },
+      "0.0.3.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(14, 0, 2279905384848), '/Pg': IndirectObject(12, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            3
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Story"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Story"
+          ]
+        ],
+        "role": "/Article"
+      },
+      "0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.0.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(38, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            13
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.1.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(40, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            15
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.0.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.2.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(42, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            17
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.0.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.0.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.0.1.3.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.0.1.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.0.1.3.1.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(44, 0, 2279905384848), '/Pg': IndirectObject(36, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "mcid",
+            19
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P-example"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20
+          ],
+          [
+            "struct",
+            "/Reference"
+          ],
+          [
+            "struct",
+            "/Note"
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Reference"
+      },
+      "0.1.1.0.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            21
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Footer"
+          ]
+        ],
+        "role": "/Note"
+      },
+      "0.1.1.0.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Footer"
+      },
+      "0.1.1.0.2.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(8, 0, 2279905384848), '/Pg': IndirectObject(6, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.1.0.2.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.1.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24
+          ],
+          [
+            "mcid",
+            25
+          ],
+          [
+            "mcid",
+            26
+          ],
+          [
+            "mcid",
+            27
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.1.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.1.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            29
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            32
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.1.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            31
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.1.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.1.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.2.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            33
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.1.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36
+          ]
+        ],
+        "role": "/P-example"
+      },
+      "0.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H2"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/H2"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39
+          ]
+        ],
+        "role": "/H2"
+      },
+      "0.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.2.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.2.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            48
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            49
+          ]
+        ],
+        "role": "/H2"
+      },
+      "0.1.2.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.2.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.3.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.3.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            51
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            50
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            52
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.2.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.2.3.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.2.3.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            54
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            53
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.2.3.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            55
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P-example"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            56
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.3.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.3.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.3.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            58
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            57
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            59
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.3.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.3.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.3.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            61
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            60
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            62
+          ],
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "mcid",
+            64
+          ],
+          [
+            "mcid",
+            65
+          ],
+          [
+            "mcid",
+            66
+          ],
+          [
+            "mcid",
+            67
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.3.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            63
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.3.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            68
+          ]
+        ],
+        "role": "/P-example"
+      },
+      "0.1.4": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ],
+          [
+            "struct",
+            "/P-example"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.4.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            69
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.4.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.4.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.4.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.4.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            71
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            70
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            72
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.4.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.4.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.4.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            74
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            73
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            75
+          ],
+          [
+            "struct",
+            "/Reference"
+          ],
+          [
+            "struct",
+            "/Note"
+          ],
+          [
+            "mcid",
+            77
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.4.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Reference"
+      },
+      "0.1.4.1.1.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            76
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.1.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Footer"
+          ]
+        ],
+        "role": "/Note"
+      },
+      "0.1.4.1.1.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            79
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Footer"
+      },
+      "0.1.4.1.1.1.2.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(75, 0, 2279905384848), '/Pg': IndirectObject(73, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.4.1.1.1.2.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            80
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.4.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            78
+          ]
+        ],
+        "role": "/P-example"
+      },
+      "0.1.5": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/L"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.5.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            81
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.1.5.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ],
+          [
+            "struct",
+            "/LI"
+          ]
+        ],
+        "role": "/L"
+      },
+      "0.1.5.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.5.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.5.1.0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            83
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            82
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            84
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.5.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.5.1.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.5.1.1.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            86
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            85
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            87
+          ],
+          [
+            "struct",
+            "/Link"
+          ],
+          [
+            "struct",
+            "/Reference"
+          ],
+          [
+            "struct",
+            "/Note"
+          ],
+          [
+            "mcid",
+            90
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.5.1.1.1.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(84, 0, 2279905384848), '/Pg': IndirectObject(82, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.5.1.1.1.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            88
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Reference"
+      },
+      "0.1.5.1.1.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            89
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.1.1.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Footer"
+          ]
+        ],
+        "role": "/Note"
+      },
+      "0.1.5.1.1.1.3.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            94
+          ],
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Footer"
+      },
+      "0.1.5.1.1.1.3.0.1": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(86, 0, 2279905384848), '/Pg': IndirectObject(82, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.5.1.1.1.3.0.1.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            95
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.2": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Lbl"
+          ],
+          [
+            "struct",
+            "/LBody"
+          ]
+        ],
+        "role": "/LI"
+      },
+      "0.1.5.1.2.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Lbl"
+      },
+      "0.1.5.1.2.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            92
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.2.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            91
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.5.1.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            93
+          ]
+        ],
+        "role": "/LBody"
+      },
+      "0.1.6": {
+        "alt": "cover book \u201eBarrierefreie PDF-Dokuemnte erstellen\u201c",
+        "k": [
+          [
+            "mcid",
+            96
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.1.7": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P-Quote"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/H1-GiT"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ],
+          [
+            "struct",
+            "/P-Text"
+          ]
+        ],
+        "role": "/Story"
+      },
+      "0.1.7.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/P-Quote"
+      },
+      "0.1.7.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            97
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.1": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.1.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            98
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            99
+          ]
+        ],
+        "role": "/H1-GiT"
+      },
+      "0.1.7.3": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.3.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(101, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.3.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            100
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.4": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.4.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(103, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.4.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            101
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.5": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.5.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(105, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.5.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            102
+          ]
+        ],
+        "role": "/Span"
+      },
+      "0.1.7.6": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Link"
+          ]
+        ],
+        "role": "/P-Text"
+      },
+      "0.1.7.6.0": {
+        "alt": "",
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(107, 0, 2279905384848), '/Pg': IndirectObject(99, 0, 2279905384848), '/Type': '/OBJR'}"
+          ],
+          [
+            "struct",
+            "/Span"
+          ]
+        ],
+        "role": "/Link"
+      },
+      "0.1.7.6.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            103
+          ]
+        ],
+        "role": "/Span"
+      }
+    },
+    "unexpected_structural_changes": []
+  }
+}

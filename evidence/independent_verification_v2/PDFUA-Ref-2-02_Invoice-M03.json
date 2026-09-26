@@ -1,0 +1,95 @@
+{
+  "artifact_id": "PDFUA-Ref-2-02_Invoice-M03",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          595,
+          842
+        ],
+        "mutant_dimensions": [
+          595,
+          842
+        ],
+        "page": 1
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_role": "/H3",
+    "old_role": "/H1",
+    "target_object": "36:0"
+  },
+  "mutant_sha256": "7887ebfcc438c907ca1981ad33769f3ebee0831b86c8f18ba672a682e45e0323",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H3": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H3": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H1": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "target_xrefs": [
+      36
+    ]
+  },
+  "operator": "M03",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

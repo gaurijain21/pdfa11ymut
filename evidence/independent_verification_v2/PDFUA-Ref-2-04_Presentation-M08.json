@@ -1,0 +1,192 @@
+{
+  "artifact_id": "PDFUA-Ref-2-04_Presentation-M08",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 8
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_lang": null,
+    "old_lang": "en-GB",
+    "target_object": "direct"
+  },
+  "mutant_sha256": "72f5f8517793703f0eb2affec0285f5bfb13a062e91810ef96c17a766aa81539",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "catalog_lang_after": [
+      "null",
+      "null"
+    ],
+    "catalog_lang_before": [
+      "string",
+      "en-GB"
+    ],
+    "role_counts_after": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage:P-TitleAuthor": 1,
+      "/Frontpage:P-TitleFooter": 1,
+      "/Frontpage:P-TitleHeader": 1,
+      "/Frontpage:P-TitleSubline": 1,
+      "/H1": 5,
+      "/H1-GiT": 1,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P-Footer": 3,
+      "/P-Quote": 1,
+      "/P-Text": 5,
+      "/P-example": 3,
+      "/Reference": 3,
+      "/Span": 53,
+      "/Story": 10,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage:P-TitleAuthor": 1,
+      "/Frontpage:P-TitleFooter": 1,
+      "/Frontpage:P-TitleHeader": 1,
+      "/Frontpage:P-TitleSubline": 1,
+      "/H1": 5,
+      "/H1-GiT": 1,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P-Footer": 3,
+      "/P-Quote": 1,
+      "/P-Text": 5,
+      "/P-example": 3,
+      "/Reference": 3,
+      "/Span": 53,
+      "/Story": 10,
+      "/Title": 1
+    },
+    "target_xrefs": []
+  },
+  "operator": "M08",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

@@ -1,0 +1,149 @@
+{
+  "artifact_id": "PDFUA-Ref-2-06_Brochure-M05",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      44,
+      43
+    ],
+    "old_k": [
+      43,
+      44
+    ],
+    "target_object": "70:0"
+  },
+  "mutant_sha256": "692c7fddc91d6d6899dc1f9e820e2851a6cbeaa9694f0841b53445b15b8e3012",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_k_signature_after": {
+      "70": [
+        [
+          "INT",
+          44
+        ],
+        [
+          "INT",
+          43
+        ]
+      ]
+    },
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "target_delta_matches": true,
+    "target_k_signature_after": {
+      "70": [
+        [
+          "INT",
+          44
+        ],
+        [
+          "INT",
+          43
+        ]
+      ]
+    },
+    "target_k_signature_before": {
+      "70": [
+        [
+          "INT",
+          43
+        ],
+        [
+          "INT",
+          44
+        ]
+      ]
+    },
+    "target_roles_after": {
+      "70": "/P"
+    },
+    "target_roles_before": {
+      "70": "/P"
+    },
+    "target_structure_paths": {
+      "70": [
+        0,
+        8
+      ]
+    },
+    "target_xrefs": [
+      70
+    ],
+    "target_xrefs_after": {
+      "70": 137
+    },
+    "whole_tree_expected_equals_mutant": true
+  },
+  "operator": "M05",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

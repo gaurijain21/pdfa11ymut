@@ -1,12 +1,5 @@
-# Analysis
+# Active analysis
 
-This folder contains editable analysis artifacts and working paper notes.
+The active analysis is produced by `python scripts/rebuild_analysis.py` from the canonical files in `data/`. The generated outputs report 69 active formal mutants and 207 classified validator-mutant rows after the documented baseline conflict and four historical M09 artifacts with unavailable original mutant bytes were excluded from the active denominator, plus nine illustrative exploratory NVDA observations. PAC AI remains a separate future-work experiment and is never merged into formal outcomes: the preserved package is aggregate-only, and a fresh native pilot exposed semantic finding text but no supported complete semantic export/API, so its canonical rows remain gated. Historical 23-mutant summaries in this directory are audit records only.
 
-## Files
-
-- `pdfa11ymut_detection_analysis.xlsx` - editable workbook with detection matrix, rates, agreement, research questions, and notes.
-- `pdfa11ymut_analysis.md` - narrative analysis summary.
-- `pdfa11ymut_paper_draft.md` - editable Markdown manuscript draft.
-- `ieee_arxiv_submission_plan.md` - submission planning notes.
-
-The workbook and Markdown draft are intended to support paper writing and review. The canonical machine-readable result files are in `../data/`.
+The older files in this directory and the release package are historical artifacts. They contain fixed summary values and must not be used as current experimental results without a fresh rebuild from hash-linked evidence. `analysis/generated/final_study_handoff.md` is the current handoff record.

@@ -1,0 +1,21 @@
+{
+  "ai_classification_categories": [
+    "AI_INTENDED_FINDING",
+    "AI_RELATED_BUT_INCOMPLETE",
+    "AI_UNRELATED_FINDING",
+    "AI_BASELINE_CARRIED",
+    "AI_NO_RELEVANT_FINDING",
+    "AI_AMBIGUOUS"
+  ],
+  "at_cases_prepared": 9,
+  "formal_freeze_integrity": "PASS",
+  "generated_at_utc": "2026-09-21T21:47:43.026296+00:00",
+  "native_control_status": "UNAVAILABLE_AFTER_REQUIRED_RETRY_AND_REINITIALIZATION",
+  "next_action": "Reconfirm native PAC control, enable PAC AI, then execute B07 golden baselines before B08 mutants.",
+  "pac_ai_classification_template_rows": 35,
+  "selected_golden_baselines": 8,
+  "selected_machine_controls": 6,
+  "selected_mutants_total": 35,
+  "selected_semantic_mutants": 29,
+  "total_pac_ai_gui_runs": 43
+}

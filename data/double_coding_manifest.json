@@ -1,0 +1,17 @@
+{
+  "status": "ADJUDICATED_WITH_DOCUMENTED_CORRECTIONS",
+  "case_count": 207,
+  "source": "data/validator_runs.csv",
+  "scope": "active mutant rows with Formal, Full Check, or PDF/UA-1 ua1 configuration",
+  "blinding": "queue omits artifact, source, operator, validator, configuration, and canonical classification; steward key retains them",
+  "materialized": true,
+  "queue_path": "data/double_coding_queue.csv",
+  "key_path": "data/double_coding_key.csv",
+  "packet_path": "evidence/double_coding",
+  "completion_rule": "Do not populate canonical coder fields until two separately recorded decision fields and any adjudication are recorded; this manifest does not establish that the passes were independent human decisions.",
+  "agreement_count": 204,
+  "disagreement_count": 3,
+  "ambiguous_final_count": 0,
+  "correction_ledger": "data/double_coding_corrections.csv",
+  "original_coder_packets_preserved": true
+}

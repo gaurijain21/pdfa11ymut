@@ -1,0 +1,2194 @@
+{
+  "generated_at_utc": "2026-09-22T03:18:56.256033+00:00",
+  "generation": {
+    "delta": {
+      "new_role": "/P",
+      "old_role": "/TH",
+      "target_object": "41:0"
+    },
+    "operator": "M10",
+    "requested_target": "auto",
+    "source_pages": 1
+  },
+  "generation_version": "0.2.0",
+  "mutant_id": "PDFUA-Ref-2-02_Invoice-M10",
+  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M10.pdf",
+  "mutant_sha256": "a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48",
+  "operator": "M10",
+  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+  "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+  "status": "valid",
+  "verification": {
+    "intended_delta": {
+      "new_role": "/P",
+      "old_role": "/TH",
+      "target_object": "41:0"
+    },
+    "invariant_checks": {
+      "operator_specific_delta": true,
+      "page_content_byte_hashes_equal": true,
+      "page_count_preserved": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true
+    },
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-02_Invoice-M10.pdf",
+    "mutant_sha256": "a4e6177f2fba056f3364f7ac88c2907effa97ee177584a1c46c4aeeca5f31c48",
+    "mutation_valid": true,
+    "observed_changed_structure_paths": [
+      "0.0.2.2.0.0",
+      "0.0.2.2.0.0.0"
+    ],
+    "observed_delta": {
+      "0.0.2.2.0.0": {
+        "after": {
+          "actual_text": null,
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/P"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ]
+          ],
+          "role": "/TR"
+        },
+        "before": {
+          "actual_text": null,
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ],
+            [
+              "struct",
+              "/TH"
+            ]
+          ],
+          "role": "/TR"
+        }
+      },
+      "0.0.2.2.0.0.0": {
+        "after": {
+          "actual_text": null,
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              6,
+              0
+            ]
+          ],
+          "role": "/P"
+        },
+        "before": {
+          "actual_text": null,
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              6,
+              0
+            ]
+          ],
+          "role": "/TH"
+        }
+      }
+    },
+    "operator": "M10",
+    "operator_delta_reason": "observed table-cell role change to /P; contents and outside structure are unchanged",
+    "page_count_preserved": true,
+    "parseability": true,
+    "rendering": {
+      "different_pixel_count": 0,
+      "dpi": 150,
+      "max_channel_difference": 0,
+      "metric": "exact RGB pixel equality",
+      "pages": [
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            1240,
+            1755
+          ],
+          "page": 1
+        }
+      ],
+      "renderer": "pdftoppm",
+      "rmse": 0.0,
+      "status": "pass",
+      "tolerance": 0
+    },
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-02_Invoice.pdf",
+    "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+    "structural_after": {
+      "0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Part"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ],
+          [
+            "struct",
+            "/Sect"
+          ],
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Part"
+      },
+      "0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Caption"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0.0": {
+        "actual_text": null,
+        "alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+        "k": [
+          [
+            "mcr",
+            0,
+            0
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.0.2": {
+        "actual_text": null,
+        "alt": "Photo of sales rep.",
+        "k": [
+          [
+            "mcid",
+            1,
+            0
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Caption"
+      },
+      "0.0.0.3.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Table"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.0.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/THead"
+          ],
+          [
+            "struct",
+            "/TBody"
+          ]
+        ],
+        "role": "/Table"
+      },
+      "0.0.2.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TR"
+          ]
+        ],
+        "role": "/THead"
+      },
+      "0.0.2.2.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2.2.0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            8,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ]
+        ],
+        "role": "/TBody"
+      },
+      "0.0.2.2.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            13,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            17,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            19,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            21,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            25,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.3.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            26,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            27,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            29,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.4.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            31,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            32,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            33,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.5.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.6.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.7.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47,
+            0
+          ]
+        ],
+        "role": "/P"
+      }
+    },
+    "structural_before": {
+      "0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Part"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ],
+          [
+            "struct",
+            "/Sect"
+          ],
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Part"
+      },
+      "0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Figure"
+          ],
+          [
+            "struct",
+            "/Caption"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0.0": {
+        "actual_text": null,
+        "alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+        "k": [
+          [
+            "mcr",
+            0,
+            0
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.0.2": {
+        "actual_text": null,
+        "alt": "Photo of sales rep.",
+        "k": [
+          [
+            "mcid",
+            1,
+            0
+          ]
+        ],
+        "role": "/Figure"
+      },
+      "0.0.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Caption"
+      },
+      "0.0.0.3.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            2,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1"
+          ],
+          [
+            "struct",
+            "/P"
+          ],
+          [
+            "struct",
+            "/Table"
+          ],
+          [
+            "struct",
+            "/P"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            4,
+            0
+          ]
+        ],
+        "role": "/H1"
+      },
+      "0.0.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5,
+            0
+          ]
+        ],
+        "role": "/P"
+      },
+      "0.0.2.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/THead"
+          ],
+          [
+            "struct",
+            "/TBody"
+          ]
+        ],
+        "role": "/Table"
+      },
+      "0.0.2.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TR"
+          ]
+        ],
+        "role": "/THead"
+      },
+      "0.0.2.2.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ],
+          [
+            "struct",
+            "/TH"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            6,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            7,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            8,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            9,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.0.0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            10,
+            0
+          ]
+        ],
+        "role": "/TH"
+      },
+      "0.0.2.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ],
+          [
+            "struct",
+            "/TR"
+          ]
+        ],
+        "role": "/TBody"
+      },
+      "0.0.2.2.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            12,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            13,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            14,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.1.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            16,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            17,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            19,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.1.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            20,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.2.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            21,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            22,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            23,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            24,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.2.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            25,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.3.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            26,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            27,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            28,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            29,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.3.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            30,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.4.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            31,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            32,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            33,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            34,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.4.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            35,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.5.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            36,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            37,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            38,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            39,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.5.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            40,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.6.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            41,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            42,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            43,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            44,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.6.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            45,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ],
+          [
+            "struct",
+            "/TD"
+          ]
+        ],
+        "role": "/TR"
+      },
+      "0.0.2.2.1.7.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [],
+        "role": "/TD"
+      },
+      "0.0.2.2.1.7.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            46,
+            0
+          ]
+        ],
+        "role": "/TD"
+      },
+      "0.0.2.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            47,
+            0
+          ]
+        ],
+        "role": "/P"
+      }
+    },
+    "unexpected_structural_changes": []
+  }
+}

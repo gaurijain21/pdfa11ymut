@@ -1,3 +1,7 @@
+# Historical paper draft — not the current manuscript
+
+> This pre-repair draft preserves the earlier five-document/23-mutant experiment for audit provenance only. It must not be cited as the active study. The current manuscript is `paper/pdfa11ymut_ieee.tex`, generated from the canonical state in `STUDY_MANIFEST.json`.
+
 # PDFa11yMut: Mutation-Based Evaluation of Automated PDF Accessibility Validators
 
 ## Abstract

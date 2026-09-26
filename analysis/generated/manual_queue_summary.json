@@ -1,0 +1,32 @@
+{
+  "at_representative_cases": 9,
+  "by_validator_and_kind": {
+    "Acrobat|Full Check|golden_baseline": 9,
+    "Acrobat|Full Check|mutant": 69,
+    "NVDA|Representative comparison|mutant": 9,
+    "PAC|AI cohort selection|setup": 1,
+    "PAC|AI|golden_baseline": 8,
+    "PAC|AI|mutant": 34,
+    "PAC|Formal|golden_baseline": 9,
+    "PAC|Formal|mutant": 69,
+    "Provenance|Source/license mapping|setup": 1,
+    "veraPDF|PDF/UA-1 ua1 JSON batch|setup": 1
+  },
+  "future_formal_mutant_actions": 138,
+  "human_required_runs": 207,
+  "immediate_actions": 43,
+  "new_queue_rows_including_setup": 210,
+  "nvda_comparisons": 9,
+  "pac_ai_expected_after_formal_filtering": 34,
+  "pac_ai_maximum_goldens": 9,
+  "pac_ai_maximum_mutants": 39,
+  "pac_ai_maximum_total_runs": 48,
+  "pac_ai_selected_mutants_now": 34,
+  "pac_ai_selection_setup_actions": 1,
+  "previous_todo_count": 300,
+  "provenance_setup_actions": 1,
+  "realistic_staged_total_excluding_unselected_ai": "PENDING_FORMAL_EVIDENCE",
+  "setup_actions": 3,
+  "verapdf_setup_actions": 1,
+  "worst_case_total_human_actions": 215
+}

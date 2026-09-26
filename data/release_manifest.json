@@ -1,0 +1,89 @@
+{
+  "manifest_version": "1.0",
+  "release_status": "HISTORICAL_CONDITIONALLY_READY_NOT_CURRENT",
+  "historical_notice": "Preserved release metadata; not the current paper freeze. Use STUDY_MANIFEST.json for canonical counts and current status.",
+  "scope": "Nine PDF/UA Reference Suite files; fixed PAC Formal, Acrobat Full Check, veraPDF PDF/UA-1, and illustrative exploratory NVDA observations.",
+  "counts": {
+    "golden_pdfs": 9,
+    "valid_generated_mutants": 70,
+    "active_formal_mutants": 69,
+    "active_formal_validator_rows": 207,
+    "at_observations_complete": 9,
+    "pac_ai_selected_mutants": 34,
+    "pac_ai_aggregate_only_rows": 34
+  },
+  "exclusions": [
+    {
+      "mutant_id": "PDFUA-Ref-2-09_Scanned-M08",
+      "operator": "M08",
+      "source_golden": "PDFUA-Ref-2-09_Scanned",
+      "status": "EXCLUDED_BASELINE_CONFLICT",
+      "verdict": "TOOL_SPECIFIC_AMBIGUITY",
+      "reason": "PAC fails the G09 catalog /Lang value 'English' under Natural language, while veraPDF passes the non-empty catalog language and detects removal as ISO 14289-1:2014 clause 7.2 test 2. PAC's exported aggregate cannot distinguish invalid language value from missing language metadata.",
+      "action_taken": "Exclude from active cross-validator M08 interpretation; retain mutant, raw PAC evidence, and raw veraPDF evidence as a documented baseline discrepancy."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-03_AcademicAbstract-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-03_AcademicAbstract",
+      "status": "EXCLUDED_INVALID_TARGET",
+      "verdict": "INVALID_MUTATION_TARGET",
+      "reason": "The prior M09 mutant changed an unused /Artifact RoleMap entry; no reachable structure element used that custom role, so the bytes changed without breaking an exercised role mapping.",
+      "action_taken": "Retire the prior mutant and its validator rows from the active denominator; retain raw reports and generation-failure evidence for audit."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-06_Brochure-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-06_Brochure",
+      "status": "EXCLUDED_INVALID_TARGET",
+      "verdict": "INVALID_MUTATION_TARGET",
+      "reason": "The prior M09 mutant changed an unused /Article RoleMap entry; no reachable structure element used that custom role, so the bytes changed without breaking an exercised role mapping.",
+      "action_taken": "Retire the prior mutant and its validator rows from the active denominator; retain raw reports and generation-failure evidence for audit."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-09_Scanned-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-09_Scanned",
+      "status": "EXCLUDED_INVALID_TARGET",
+      "verdict": "INVALID_MUTATION_TARGET",
+      "reason": "The prior M09 mutant changed an unused /H7 RoleMap entry; no reachable structure element used that custom role, so the bytes changed without breaking an exercised role mapping.",
+      "action_taken": "Retire the prior mutant and its validator rows from the active denominator; retain raw reports and generation-failure evidence for audit."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-10_Form-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-10_Form",
+      "status": "EXCLUDED_INVALID_TARGET",
+      "verdict": "INVALID_MUTATION_TARGET",
+      "reason": "The prior M09 mutant changed an unused /Article RoleMap entry; no reachable structure element used that custom role, so the bytes changed without breaking an exercised role mapping.",
+      "action_taken": "Retire the prior mutant and its validator rows from the active denominator; retain raw reports and generation-failure evidence for audit."
+    },
+    {
+      "artifact_id": "G02-M04",
+      "reason": "historical pair, COS audit, and raw reports unavailable; permanently excluded"
+    }
+  ],
+  "pac_ai": "Separate future-work experiment; preserved package is aggregate-only, while the fresh native pilot exposed element-level finding text/scores but no supported complete semantic export/API, so no full-cohort mutation-specific classification is inferred.",
+  "at": {
+    "observer_design": "single-observer illustrative exploratory observations under one fixed configuration",
+    "primary_evidence": "timestamped transcripts plus targeted Speech Viewer captures linked to the named NVDA/Acrobat configuration",
+    "log_sha256": "cd91230be795aba7708c6671f3bc43ca93d57bc9cfcb305c9a27a4a6c523ecf5",
+    "screenshots_available_for": [
+      "PDFUA-Ref-2-02_Invoice-M01",
+      "PDFUA-Ref-2-10_Form-M08"
+    ],
+    "limitation": "screenshots are targeted evidence for two cases; the pilot remains single-observer and configuration-specific"
+  },
+  "provenance": "Collection-level PDF/UA Reference Suite mapping and CC BY 4.0 attribution are recorded; original acquisition archive/timestamp was not retained.",
+  "required_reproduction_inputs": [
+    "corpus/golden/",
+    "corpus/mutants/",
+    "operators/operators.yaml",
+    "data/mutants.jsonl",
+    "data/validator_runs.csv",
+    "evidence/",
+    "scripts/",
+    "reproduce.py"
+  ],
+  "release_notes": "The mismatch-backup PDF remains in place as a recovery artifact and is explicitly excluded by data/corpus_extra_artifacts.csv."
+}

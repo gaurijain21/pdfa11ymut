@@ -1,0 +1,2 @@
+path,sha256,artifact_status,in_reproducible_corpus,reason
+corpus/mutants/PDFUA-Ref-2-03_AcademicAbstract-M02.mismatch-backup-8A3CFD49C71D65A759FE085CA864F19B6C30C7140DEA73E57F2AED4D81AA0DDF.pdf,8a3cfd49c71d65a759fe085ca864f19b6c30c7140dea73e57f2aed4d81aa0ddf,RECOVERY_ARTIFACT,FALSE,"Mismatch-backup retained for recovery; it is not listed in data/mutants.jsonl or any reproducible corpus manifest."

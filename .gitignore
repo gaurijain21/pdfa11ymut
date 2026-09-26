@@ -21,5 +21,43 @@ __pycache__/
 *.tmp
 ~$*
 
-# Keep raw corpora out until redistribution is confirmed.
-corpus/
+# Keep only transient corpus/evidence files ignored; intentionally release files can be tracked.
+corpus/**/*.tmp
+corpus/**/*.part
+corpus/**/*mismatch-backup*
+evidence/**/*.tmp
+outputs/**/*.tmp
+
+# Local veraPDF/JDK installation artifacts; the launcher/options remain reproducible.
+tools/verapdf/*.zip
+tools/verapdf/jdk/
+tools/verapdf/installer/
+tools/verapdf/installed/
+
+# Local validator downloads and portable runtimes; keep only reproducible launch/config files.
+tools/validators/downloads/
+tools/validators/java/
+tools/validators/verapdf/
+tools/validators/verapdf-app/
+tools/validators/pac/
+
+# Raw third-party/vendor evidence is retained in the private research
+# checkout but excluded from the public Git freeze unless separately cleared.
+evidence/acrobat/
+evidence/at/
+evidence/controls/
+evidence/double_coding/
+evidence/double_coding_baselines/
+evidence/pac/
+evidence/pac_ai/
+evidence/verapdf/
+
+# Historical bundles and scratch/build outputs are not current release inputs.
+pdfa11ymut_release_*.zip
+pdfa11ymut_release_*.zip.sha256
+pdfa11ymut_arxiv*.zip
+paper/archive/
+tmp/
+outputs/
+arxiv_submission_final/
+arxiv_submission_final_updated/

@@ -1,0 +1,354 @@
+{
+  "artifact_id": "PDFUA-Ref-2-05_BookChapter-german-M04",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "intended_delta": {
+    "new_k": [
+      16,
+      14
+    ],
+    "old_k": [
+      14,
+      16
+    ],
+    "target_object": "341:0;342:0"
+  },
+  "mutant_sha256": "668b5c55c85237169484722c15354e8d353179f8b9fc9e96a2a6f83a13c71250",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "role_counts_after": {
+      "/Article": 2,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 5,
+      "/GoTo": 48,
+      "/H1": 7,
+      "/H2": 15,
+      "/H3": 19,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/S": 49,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Thumb": 21,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 23
+    },
+    "role_counts_before": {
+      "/Article": 2,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 5,
+      "/GoTo": 48,
+      "/H1": 7,
+      "/H2": 15,
+      "/H3": 19,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/S": 49,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Thumb": 21,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 23
+    }
+  },
+  "operator": "M04",
+  "parser_a": "PASS",
+  "parser_b": "PASS",
+  "renderer_a": "PASS",
+  "renderer_b": "PASS",
+  "renderer_b_detail": {
+    "dpi": 150,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 21
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "source_sha256": "fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

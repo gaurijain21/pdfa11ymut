@@ -1,0 +1,15 @@
+{
+  "implementation": "Greenfield",
+  "version": "1.30.2",
+  "official_release_url": "https://software.verapdf.org/rel/1.30/verapdf-greenfield-1.30.2-installer.zip",
+  "installed_root": "tools/verapdf/installed",
+  "verapdf_batch_path": "tools/verapdf/installed/verapdf.bat",
+  "reproducible_launcher": "tools/verapdf/verapdf-with-local-java.cmd",
+  "java_runtime": "tools/verapdf/jdk/jdk-17.0.20.1+1/bin/java.exe",
+  "java_version": "17.0.20.1",
+  "profile": "PDF/UA-1 ua1",
+  "report_format": "json",
+  "raw_evidence_directory": "evidence/verapdf",
+  "batch_size": 84,
+  "notes": "The launcher sets JAVACMD to the repository-local Microsoft OpenJDK runtime and then calls the official veraPDF batch file."
+}

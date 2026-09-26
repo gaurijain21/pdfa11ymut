@@ -1,4 +1,6 @@
-# PDFa11yMut Experimental Detection Analysis
+# PDFa11yMut Historical Experimental Detection Analysis
+
+> Historical notice: this pre-rebuild analysis is retained for audit provenance only. It contains the old G02-M04 claim, which is permanently excluded by `G02-M04_AUDIT.md`, and must not be cited or submitted as a current result. Current results are generated under `analysis/generated/` from canonical data.
 
 ## Scope And Provenance
 

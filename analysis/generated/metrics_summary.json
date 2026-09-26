@@ -1,0 +1,162 @@
+{
+  "status": "formal_complete_at_complete_pac_ai_future_work",
+  "analysis_status": "formal_complete_at_complete_pac_ai_future_work",
+  "valid_verified_mutants": 73,
+  "active_mutants": 69,
+  "valid_mutants": 69,
+  "corpus_records": 9,
+  "canonical_validator_rows": 292,
+  "classified_formal_rows": 207,
+  "required_classified_formal_rows": 207,
+  "at_observation_rows": 9,
+  "at_observation_complete_rows": 9,
+  "at_observer_design": "single-observer illustrative exploratory observations under one fixed NVDA/Acrobat/Windows configuration",
+  "pac_ai_status": "native_pilot_semantic_text_no_export_gate",
+  "pac_ai_selected_mutants": 34,
+  "pac_ai_deferred_mutants": 0,
+  "pac_ai_classified_mutants": 0,
+  "overall": [
+    {
+      "validator": "PAC",
+      "detected": 30,
+      "missed": 39,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 69,
+      "rate_numerator": 30,
+      "rate_denominator": 69,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.4348"
+    },
+    {
+      "validator": "Acrobat",
+      "detected": 26,
+      "missed": 28,
+      "needs_manual_check": 15,
+      "not_applicable": 0,
+      "total_with_classification": 69,
+      "rate_numerator": 26,
+      "rate_denominator": 54,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.4815"
+    },
+    {
+      "validator": "veraPDF",
+      "detected": 30,
+      "missed": 39,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 69,
+      "rate_numerator": 30,
+      "rate_denominator": 69,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.4348"
+    }
+  ],
+  "class_summary": [
+    {
+      "class": "class_a",
+      "validator": "PAC",
+      "detected": 30,
+      "missed": 0,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 30,
+      "rate_numerator": 30,
+      "rate_denominator": 30,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "1.0000"
+    },
+    {
+      "class": "class_a",
+      "validator": "Acrobat",
+      "detected": 26,
+      "missed": 4,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 30,
+      "rate_numerator": 26,
+      "rate_denominator": 30,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.8667"
+    },
+    {
+      "class": "class_a",
+      "validator": "veraPDF",
+      "detected": 30,
+      "missed": 0,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 30,
+      "rate_numerator": 30,
+      "rate_denominator": 30,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "1.0000"
+    },
+    {
+      "class": "class_b",
+      "validator": "PAC",
+      "detected": 0,
+      "missed": 39,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 39,
+      "rate_numerator": 0,
+      "rate_denominator": 39,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.0000"
+    },
+    {
+      "class": "class_b",
+      "validator": "Acrobat",
+      "detected": 0,
+      "missed": 24,
+      "needs_manual_check": 15,
+      "not_applicable": 0,
+      "total_with_classification": 39,
+      "rate_numerator": 0,
+      "rate_denominator": 24,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.0000"
+    },
+    {
+      "class": "class_b",
+      "validator": "veraPDF",
+      "detected": 0,
+      "missed": 39,
+      "needs_manual_check": 0,
+      "not_applicable": 0,
+      "total_with_classification": 39,
+      "rate_numerator": 0,
+      "rate_denominator": 39,
+      "rate_denominator_definition": "Detected + Missed; manual and not-applicable rows excluded",
+      "rate": "0.0000"
+    }
+  ],
+  "agreement": [
+    {
+      "validator_pair": "PAC vs Acrobat",
+      "agree": 50,
+      "disagree": 19,
+      "total_pairwise_classified": 69,
+      "agreement_rate": "0.7246",
+      "disagreement_cases": "PDFUA-Ref-2-01_Magazine-danish-M01;PDFUA-Ref-2-01_Magazine-danish-M05;PDFUA-Ref-2-01_Magazine-danish-M09;PDFUA-Ref-2-02_Invoice-M10;PDFUA-Ref-2-03_AcademicAbstract-M01;PDFUA-Ref-2-03_AcademicAbstract-M05;PDFUA-Ref-2-04_Presentation-M01;PDFUA-Ref-2-04_Presentation-M05;PDFUA-Ref-2-04_Presentation-M09;PDFUA-Ref-2-05_BookChapter-german-M01;PDFUA-Ref-2-05_BookChapter-german-M05;PDFUA-Ref-2-05_BookChapter-german-M09;PDFUA-Ref-2-06_Brochure-M01;PDFUA-Ref-2-06_Brochure-M05;PDFUA-Ref-2-08_BookChapter-M01;PDFUA-Ref-2-08_BookChapter-M05;PDFUA-Ref-2-09_Scanned-M01;PDFUA-Ref-2-09_Scanned-M05;PDFUA-Ref-2-10_Form-M01"
+    },
+    {
+      "validator_pair": "PAC vs veraPDF",
+      "agree": 69,
+      "disagree": 0,
+      "total_pairwise_classified": 69,
+      "agreement_rate": "1.0000",
+      "disagreement_cases": ""
+    },
+    {
+      "validator_pair": "Acrobat vs veraPDF",
+      "agree": 50,
+      "disagree": 19,
+      "total_pairwise_classified": 69,
+      "agreement_rate": "0.7246",
+      "disagreement_cases": "PDFUA-Ref-2-01_Magazine-danish-M01;PDFUA-Ref-2-01_Magazine-danish-M05;PDFUA-Ref-2-01_Magazine-danish-M09;PDFUA-Ref-2-02_Invoice-M10;PDFUA-Ref-2-03_AcademicAbstract-M01;PDFUA-Ref-2-03_AcademicAbstract-M05;PDFUA-Ref-2-04_Presentation-M01;PDFUA-Ref-2-04_Presentation-M05;PDFUA-Ref-2-04_Presentation-M09;PDFUA-Ref-2-05_BookChapter-german-M01;PDFUA-Ref-2-05_BookChapter-german-M05;PDFUA-Ref-2-05_BookChapter-german-M09;PDFUA-Ref-2-06_Brochure-M01;PDFUA-Ref-2-06_Brochure-M05;PDFUA-Ref-2-08_BookChapter-M01;PDFUA-Ref-2-08_BookChapter-M05;PDFUA-Ref-2-09_Scanned-M01;PDFUA-Ref-2-09_Scanned-M05;PDFUA-Ref-2-10_Form-M01"
+    }
+  ]
+}

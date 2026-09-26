@@ -1,0 +1,25 @@
+{
+  "PAC_FORMAL_RESULTS_FROZEN": true,
+  "active_mutants": 70,
+  "classified": 70,
+  "missing": 0,
+  "ambiguous": 0,
+  "excluded_mutants": [
+    "PDFUA-Ref-2-03_AcademicAbstract-M09",
+    "PDFUA-Ref-2-06_Brochure-M09",
+    "PDFUA-Ref-2-09_Scanned-M08",
+    "PDFUA-Ref-2-09_Scanned-M09",
+    "PDFUA-Ref-2-10_Form-M09"
+  ],
+  "m04_implementation_clean": true,
+  "m04_redesign_required": false,
+  "m04_observed_pac_checkpoint": "PDF Syntax (2); retained PAC PDF report does not expose a more granular subrule",
+  "analysis_status": "formal_evidence_frozen",
+  "next_stage": {
+    "batch_id": "CROSS_VALIDATOR_FORMAL_ANALYSIS",
+    "status": "COMPLETE",
+    "note": "PAC Formal, Acrobat Full Check, and veraPDF formal rows are classified in the canonical cross-validator analysis. PAC AI and AT remain separate unresolved/future-work phases."
+  },
+  "generated_at_utc": "2026-09-21T21:49:01.212385+00:00",
+  "note": "Freeze records PAC Formal evidence and classifications only. It does not compute final cross-validator detection rates or paper conclusions."
+}

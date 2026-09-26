@@ -1,0 +1,478 @@
+{
+  "artifact_id": "PDFUA-Ref-2-01_Magazine-danish-M05",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "intended_delta": {
+    "new_k": [
+      15,
+      34
+    ],
+    "old_k": [
+      34,
+      15
+    ],
+    "target_object": "1465:0"
+  },
+  "mutant_sha256": "5b5f3a85909983e4b44ba0babf92c7e9704757387a94804ef792ca3d3918bb6f",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "role_counts_after": {
+      "/Art": 15,
+      "/BlockQuote": 16,
+      "/Caption": 38,
+      "/Div": 41,
+      "/Document": 1,
+      "/Figure": 80,
+      "/GTS": 1,
+      "/GoTo": 72,
+      "/H1": 17,
+      "/H2": 54,
+      "/L": 6,
+      "/LBody": 30,
+      "/LI": 30,
+      "/Lbl": 30,
+      "/Link": 25,
+      "/Luminosity": 6,
+      "/P": 290,
+      "/Sect": 3,
+      "/Span": 298,
+      "/TOC": 1,
+      "/TOCI": 11,
+      "/Title": 1,
+      "/Transparency": 41,
+      "/TrimBox": 32,
+      "/URI": 14
+    },
+    "role_counts_before": {
+      "/Art": 15,
+      "/BlockQuote": 16,
+      "/Caption": 38,
+      "/Div": 41,
+      "/Document": 1,
+      "/Figure": 80,
+      "/GTS": 1,
+      "/GoTo": 72,
+      "/H1": 17,
+      "/H2": 54,
+      "/L": 6,
+      "/LBody": 30,
+      "/LI": 30,
+      "/Lbl": 30,
+      "/Link": 25,
+      "/Luminosity": 6,
+      "/P": 290,
+      "/Sect": 3,
+      "/Span": 298,
+      "/TOC": 1,
+      "/TOCI": 11,
+      "/Title": 1,
+      "/Transparency": 41,
+      "/TrimBox": 32,
+      "/URI": 14
+    }
+  },
+  "operator": "M05",
+  "parser_a": "PASS",
+  "parser_b": "PASS",
+  "renderer_a": "PASS",
+  "renderer_b": "PASS",
+  "renderer_b_detail": {
+    "dpi": 150,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 21
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 22
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 23
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 24
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 25
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 26
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 27
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 28
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 29
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 30
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 31
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1654
+        ],
+        "mutant_dimensions": [
+          1241,
+          1654
+        ],
+        "page": 32
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "source_sha256": "aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

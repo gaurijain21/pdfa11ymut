@@ -1,0 +1,6730 @@
+{
+  "artifact_id": "PDFUA-Ref-2-06_Brochure-M01",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Title"
+      },
+      {
+        "/Alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              50,
+              {
+                "/K": [
+                  {
+                    "/Type": "/OBJR"
+                  },
+                  51
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/P"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Caption"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      54
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  7
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      55
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  9
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      56
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  11
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/Alt": "Logo PDF Association\u0000",
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          52,
+          {
+            "/K": [
+              {
+                "/Type": "/OBJR"
+              },
+              53
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          43,
+          44
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      5
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  6
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      7
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  8
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      9
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  45,
+                  46
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      11
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      13
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  14
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      15
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  16
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      17
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  18
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          19
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          20
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          47,
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49,
+          50
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          23
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          53,
+          54
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          51,
+          52
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      29
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  30
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      31
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  32
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      33
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  34
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      35
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  36
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          37
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              39
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              40,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              41
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Partially sighted person looking at a computer screen through a magnifying glass\u0000",
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          12
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          13
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          57,
+          58
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          15
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          16
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          17
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      18
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  19
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      20
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  21
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      22
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  23
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      24
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  25
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          29
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              30
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              31,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              32
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              33
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              34,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              35
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          36
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          59,
+          60
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Logo PDF Association",
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          40
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          41
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              43
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              44,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              45
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              46,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              47
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Title"
+      },
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              50,
+              {
+                "/K": [
+                  {
+                    "/Type": "/OBJR"
+                  },
+                  51
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/P"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Caption"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      54
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  7
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      55
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  9
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      56
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  11
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/Alt": "Logo PDF Association\u0000",
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          52,
+          {
+            "/K": [
+              {
+                "/Type": "/OBJR"
+              },
+              53
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          43,
+          44
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          2
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          3
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          4
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      5
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  6
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      7
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  8
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      9
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  45,
+                  46
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      11
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      13
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  14
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      15
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  16
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      17
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  18
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          19
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          20
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          47,
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49,
+          50
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          23
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          53,
+          54
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          51,
+          52
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      29
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  30
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      31
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  32
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      33
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  34
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      35
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  36
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          37
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              39
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              40,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              41
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Partially sighted person looking at a computer screen through a magnifying glass\u0000",
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          12
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          13
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          57,
+          58
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          15
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          16
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          17
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      18
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  19
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      20
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  21
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      22
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  23
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      24
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Lbl"
+              },
+              {
+                "/K": [
+                  25
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/LBody"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LI"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/L"
+      },
+      {
+        "/K": [
+          26
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          27
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          28
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          29
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              30
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              31,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              32
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              33
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              34,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              35
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          36
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1"
+      },
+      {
+        "/K": [
+          59,
+          60
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/Alt": "Logo PDF Association",
+        "/K": [
+          38
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Figure"
+      },
+      {
+        "/K": [
+          48
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          49
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          40
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          41
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          42
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              43
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              44,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              45
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          },
+          {
+            "/K": [
+              46,
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Link"
+          },
+          {
+            "/K": [
+              47
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Span"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/P"
+      }
+    ],
+    "target_object": "19:0"
+  },
+  "mutant_sha256": "a1a94935bccdbaad7b39c045e9c627fb5deacc3f7fd7fa80c8c77cd6c02acf0a",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_k_signature_after": [
+      [
+        "/P",
+        [
+          [
+            "INT",
+            3
+          ]
+        ]
+      ],
+      [
+        "/Title",
+        [
+          [
+            "INT",
+            2
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/Caption",
+        [
+          [
+            "/P",
+            [
+              [
+                "INT",
+                50
+              ],
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    51
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        54
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    7
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        55
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    9
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        56
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    11
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            4
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            52
+          ],
+          [
+            "/Link",
+            [
+              [
+                "REF"
+              ],
+              [
+                "INT",
+                53
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            43
+          ],
+          [
+            "INT",
+            44
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            2
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            3
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            4
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        5
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    6
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        7
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    8
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        9
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    45
+                  ],
+                  [
+                    "INT",
+                    46
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        11
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    12
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        13
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    14
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        15
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    16
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        17
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    18
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            19
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            20
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            47
+          ],
+          [
+            "INT",
+            48
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            49
+          ],
+          [
+            "INT",
+            50
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            23
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            53
+          ],
+          [
+            "INT",
+            54
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            51
+          ],
+          [
+            "INT",
+            52
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            26
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            27
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            28
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        29
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    30
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        31
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    32
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        33
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    34
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        35
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    36
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            37
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            38
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                39
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                40
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                41
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            42
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            12
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            13
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            57
+          ],
+          [
+            "INT",
+            58
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            15
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            16
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            17
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        18
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    19
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        20
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    21
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        22
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    23
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        24
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    25
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            26
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            27
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            28
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            29
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                30
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                31
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                32
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                33
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                34
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                35
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            36
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            59
+          ],
+          [
+            "INT",
+            60
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            38
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            48
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            49
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            40
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            41
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            42
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                43
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                44
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                45
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                46
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                47
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "reachable_structure_root_present": true,
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "target_delta_matches": true,
+    "target_k_length_after": 50,
+    "target_k_length_before": 50,
+    "target_k_signature_after": [
+      [
+        "/P",
+        [
+          [
+            "INT",
+            3
+          ]
+        ]
+      ],
+      [
+        "/Title",
+        [
+          [
+            "INT",
+            2
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/Caption",
+        [
+          [
+            "/P",
+            [
+              [
+                "INT",
+                50
+              ],
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    51
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        54
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    7
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        55
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    9
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        56
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    11
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            4
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            52
+          ],
+          [
+            "/Link",
+            [
+              [
+                "REF"
+              ],
+              [
+                "INT",
+                53
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            43
+          ],
+          [
+            "INT",
+            44
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            2
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            3
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            4
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        5
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    6
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        7
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    8
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        9
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    45
+                  ],
+                  [
+                    "INT",
+                    46
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        11
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    12
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        13
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    14
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        15
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    16
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        17
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    18
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            19
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            20
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            47
+          ],
+          [
+            "INT",
+            48
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            49
+          ],
+          [
+            "INT",
+            50
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            23
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            53
+          ],
+          [
+            "INT",
+            54
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            51
+          ],
+          [
+            "INT",
+            52
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            26
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            27
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            28
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        29
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    30
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        31
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    32
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        33
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    34
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        35
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    36
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            37
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            38
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                39
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                40
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                41
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            42
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            12
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            13
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            57
+          ],
+          [
+            "INT",
+            58
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            15
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            16
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            17
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        18
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    19
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        20
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    21
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        22
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    23
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        24
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    25
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            26
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            27
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            28
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            29
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                30
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                31
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                32
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                33
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                34
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                35
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            36
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            59
+          ],
+          [
+            "INT",
+            60
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            38
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            48
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            49
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            40
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            41
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            42
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                43
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                44
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                45
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                46
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                47
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "target_k_signature_before": [
+      [
+        "/Title",
+        [
+          [
+            "INT",
+            2
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            3
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/Caption",
+        [
+          [
+            "/P",
+            [
+              [
+                "INT",
+                50
+              ],
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    51
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        54
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    7
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        55
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    9
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        56
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    11
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            4
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            52
+          ],
+          [
+            "/Link",
+            [
+              [
+                "REF"
+              ],
+              [
+                "INT",
+                53
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            43
+          ],
+          [
+            "INT",
+            44
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            2
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            3
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            4
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        5
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    6
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        7
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    8
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        9
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    45
+                  ],
+                  [
+                    "INT",
+                    46
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        11
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    12
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        13
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    14
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        15
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    16
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        17
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    18
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            19
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            20
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            47
+          ],
+          [
+            "INT",
+            48
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            49
+          ],
+          [
+            "INT",
+            50
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            23
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            53
+          ],
+          [
+            "INT",
+            54
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            51
+          ],
+          [
+            "INT",
+            52
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            26
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            27
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            28
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        29
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    30
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        31
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    32
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        33
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    34
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        35
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    36
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            37
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            38
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                39
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                40
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                41
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            42
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            12
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            13
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            57
+          ],
+          [
+            "INT",
+            58
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            15
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            16
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            17
+          ]
+        ]
+      ],
+      [
+        "/L",
+        [
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        18
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    19
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        20
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    21
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        22
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    23
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LI",
+            [
+              [
+                "/Lbl",
+                [
+                  [
+                    "/Span",
+                    [
+                      [
+                        "INT",
+                        24
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/LBody",
+                [
+                  [
+                    "INT",
+                    25
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            26
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            27
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            28
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            29
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                30
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                31
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                32
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                33
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                34
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                35
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/H1",
+        [
+          [
+            "INT",
+            36
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            59
+          ],
+          [
+            "INT",
+            60
+          ]
+        ]
+      ],
+      [
+        "/Figure",
+        [
+          [
+            "INT",
+            38
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            48
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            49
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            40
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            41
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "INT",
+            42
+          ]
+        ]
+      ],
+      [
+        "/P",
+        [
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                43
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                44
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                45
+              ]
+            ]
+          ],
+          [
+            "/Link",
+            [
+              [
+                "INT",
+                46
+              ],
+              [
+                "REF"
+              ],
+              [
+                "REF"
+              ]
+            ]
+          ],
+          [
+            "/Span",
+            [
+              [
+                "INT",
+                47
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "target_role_after": "/Document",
+    "target_role_before": "/Document",
+    "target_structure_path": [
+      0
+    ],
+    "target_xref_after": 110,
+    "target_xrefs": [
+      19
+    ],
+    "whole_tree_expected_equals_mutant": true
+  },
+  "operator": "M01",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

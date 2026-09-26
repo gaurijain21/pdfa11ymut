@@ -1,0 +1,286 @@
+{
+  "canonical_inputs": [
+    "operators/operators.yaml",
+    "data/mutants.jsonl",
+    "data/mutant_exclusions.csv",
+    "data/validator_runs.csv",
+    "data/corpus_inventory.csv",
+    "data/corpus_provenance_sources.csv",
+    "data/controls.csv",
+    "data/at_observations.csv"
+  ],
+  "coding_provenance": {
+    "identity_provenance_available": false,
+    "independent_human_claim": false,
+    "public_reporting_rule": "Do not report independent-coder identity, independence, or agreement statistics as a study claim.",
+    "status": "ROLE_LABELED_DECISIONS_AND_ADJUDICATION_RETAINED_AS_INTERNAL_AUDIT_PROVENANCE"
+  },
+  "counts": {
+    "active_mutants": 69,
+    "at_complete": 9,
+    "at_observations": 9,
+    "classified_formal_rows": 207,
+    "controls": 18,
+    "disagreement_by_cause": {
+      "ACROBAT_MANUAL_VS_AUTOMATED": 30,
+      "M09_ROLEMAP_RULE_PROFILE_DIFFERENCE": 6,
+      "RULE_OR_PROFILE_DIFFERENCE": 2
+    },
+    "disagreement_rows": 38,
+    "documented_exclusions": 5,
+    "excluded_ids_in_valid_manifest": [
+      "PDFUA-Ref-2-03_AcademicAbstract-M09",
+      "PDFUA-Ref-2-06_Brochure-M09",
+      "PDFUA-Ref-2-09_Scanned-M08",
+      "PDFUA-Ref-2-10_Form-M09"
+    ],
+    "excluded_records_in_manifest": 0,
+    "formal_double_coded_rows": 207,
+    "formal_rows": 207,
+    "formal_rows_per_validator": {
+      "Acrobat": 69,
+      "PAC": 69,
+      "veraPDF": 69
+    },
+    "generated_mutant_pdf_files": 72,
+    "generation_records": 73,
+    "golden_reference_pdfs": 9,
+    "pac_ai_rows": 34,
+    "valid_verified_mutants": 73
+  },
+  "environment_files": [
+    "data/pac_formal_run_metadata.json",
+    "data/acrobat_run_metadata.json",
+    "data/verapdf_setup.json",
+    "data/validator_environment.csv"
+  ],
+  "evidence": {
+    "active_formal_rows_missing_evidence_count": 0,
+    "active_formal_rows_with_missing_evidence": [],
+    "independent_structure_status": {
+      "PASS": 69
+    },
+    "independent_verification_rows": 69,
+    "validator_evidence_check_command": "python scripts/check_evidence.py"
+  },
+  "excluded_mutants": [
+    {
+      "action_taken": "Exclude from active cross-validator M08 interpretation; retain mutant, raw PAC evidence, and raw veraPDF evidence as a documented baseline discrepancy.",
+      "decision_date": "2026-09-25",
+      "mutant_id": "PDFUA-Ref-2-09_Scanned-M08",
+      "operator": "M08",
+      "present_in_valid_manifest": true,
+      "reason": "PAC fails the G09 catalog /Lang value 'English' under Natural language, while veraPDF passes the non-empty catalog language and detects removal as ISO 14289-1:2014 clause 7.2 test 2. PAC's exported aggregate cannot distinguish invalid language value from missing language metadata.",
+      "rule_timing": "AFTER_DISCOVERY_REVIEW; not prospective/preregistered",
+      "source_golden": "PDFUA-Ref-2-09_Scanned",
+      "status": "EXCLUDED_BASELINE_CONFLICT",
+      "verdict": "TOOL_SPECIFIC_AMBIGUITY"
+    },
+    {
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid.",
+      "decision_date": "2026-09-25",
+      "mutant_id": "PDFUA-Ref-2-03_AcademicAbstract-M09",
+      "operator": "M09",
+      "present_in_valid_manifest": true,
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "rule_timing": "AFTER_DISCOVERY_REVIEW; not prospective/preregistered",
+      "source_golden": "PDFUA-Ref-2-03_AcademicAbstract",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE"
+    },
+    {
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid.",
+      "decision_date": "2026-09-25",
+      "mutant_id": "PDFUA-Ref-2-06_Brochure-M09",
+      "operator": "M09",
+      "present_in_valid_manifest": true,
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "rule_timing": "AFTER_DISCOVERY_REVIEW; not prospective/preregistered",
+      "source_golden": "PDFUA-Ref-2-06_Brochure",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE"
+    },
+    {
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid.",
+      "decision_date": "2026-09-25",
+      "mutant_id": "PDFUA-Ref-2-09_Scanned-M09",
+      "operator": "M09",
+      "present_in_valid_manifest": false,
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "rule_timing": "AFTER_DISCOVERY_REVIEW; not prospective/preregistered",
+      "source_golden": "PDFUA-Ref-2-09_Scanned",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE"
+    },
+    {
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid.",
+      "decision_date": "2026-09-25",
+      "mutant_id": "PDFUA-Ref-2-10_Form-M09",
+      "operator": "M09",
+      "present_in_valid_manifest": true,
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "rule_timing": "AFTER_DISCOVERY_REVIEW; not prospective/preregistered",
+      "source_golden": "PDFUA-Ref-2-10_Form",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE"
+    }
+  ],
+  "formal_operator_outcomes": {
+    "M01:Acrobat": {
+      "Needs Manual Check": 8
+    },
+    "M01:PAC": {
+      "Missed": 8
+    },
+    "M01:veraPDF": {
+      "Missed": 8
+    },
+    "M02:Acrobat": {
+      "Missed": 9
+    },
+    "M02:PAC": {
+      "Missed": 9
+    },
+    "M02:veraPDF": {
+      "Missed": 9
+    },
+    "M03:Acrobat": {
+      "Detected": 8
+    },
+    "M03:PAC": {
+      "Detected": 8
+    },
+    "M03:veraPDF": {
+      "Detected": 8
+    },
+    "M04:Acrobat": {
+      "Missed": 8
+    },
+    "M04:PAC": {
+      "Missed": 8
+    },
+    "M04:veraPDF": {
+      "Missed": 8
+    },
+    "M05:Acrobat": {
+      "Needs Manual Check": 7
+    },
+    "M05:PAC": {
+      "Missed": 7
+    },
+    "M05:veraPDF": {
+      "Missed": 7
+    },
+    "M06:Acrobat": {
+      "Missed": 7
+    },
+    "M06:PAC": {
+      "Missed": 7
+    },
+    "M06:veraPDF": {
+      "Missed": 7
+    },
+    "M07:Acrobat": {
+      "Detected": 7
+    },
+    "M07:PAC": {
+      "Detected": 7
+    },
+    "M07:veraPDF": {
+      "Detected": 7
+    },
+    "M08:Acrobat": {
+      "Detected": 8
+    },
+    "M08:PAC": {
+      "Detected": 8
+    },
+    "M08:veraPDF": {
+      "Detected": 8
+    },
+    "M09:Acrobat": {
+      "Missed": 3
+    },
+    "M09:PAC": {
+      "Detected": 3
+    },
+    "M09:veraPDF": {
+      "Detected": 3
+    },
+    "M10:Acrobat": {
+      "Detected": 3,
+      "Missed": 1
+    },
+    "M10:PAC": {
+      "Detected": 4
+    },
+    "M10:veraPDF": {
+      "Detected": 4
+    }
+  },
+  "formal_outcomes": {
+    "Acrobat": {
+      "Detected": 26,
+      "Missed": 28,
+      "Needs Manual Check": 15
+    },
+    "PAC": {
+      "Detected": 30,
+      "Missed": 39
+    },
+    "veraPDF": {
+      "Detected": 30,
+      "Missed": 39
+    }
+  },
+  "generated_by": "scripts/build_study_manifest.py",
+  "manifest_version": "1.0",
+  "mutants_per_class": {
+    "class_a": 30,
+    "class_b": 39
+  },
+  "mutants_per_operator": {
+    "M01": 8,
+    "M02": 9,
+    "M03": 8,
+    "M04": 8,
+    "M05": 7,
+    "M06": 7,
+    "M07": 7,
+    "M08": 8,
+    "M09": 3,
+    "M10": 4
+  },
+  "notes": [
+    "Legacy 23-mutant summaries are historical and are not read.",
+    "PAC AI remains separate and is not part of formal rates.",
+    "A manually generated Invoice-M01 PDF is used in AT evidence but has no active data/mutants.jsonl generation record; it is not in the formal denominator.",
+    "An exact acquisition archive/timestamp for the local reference PDFs was not retained.",
+    "Three newly generated reachable-target M09 candidates are valid generation records but remain excluded because they cannot replace historical validator evidence; see data/m09_recovery_candidates.csv."
+  ],
+  "paper_artifacts": {
+    "paper_pdf_accessibility_status": "TAGGED_METADATA_PRESENT_SEMANTIC_REVIEW_FAILED_2026-09-25",
+    "pdf": {
+      "path": "paper/pdfa11ymut_ieee.pdf",
+      "sha256": "e3d432ba99b3f4dee0c9506ffa940d08d9cc2d7ea51b0f55156587b16066ffe6"
+    },
+    "source": {
+      "path": "paper/pdfa11ymut_ieee.tex",
+      "sha256": "16abce33b726ece6521afe2373c43c95e5ee1d909ead1070c7768bfe03dba854"
+    }
+  },
+  "repository": {
+    "git_branch": "main",
+    "git_head": "7b78a42dfe7a9e6ebe936d8aabbe1417e3a0b99c",
+    "worktree_dirty": true
+  },
+  "reproduction_commands": [
+    "python scripts/build_study_manifest.py",
+    "python scripts/rebuild_analysis.py",
+    "python scripts/verify_study_state.py --verify",
+    "python scripts/check_evidence.py",
+    "python -m unittest discover -s tests -p \"test*.py\" -q"
+  ],
+  "status": "AUDIT_DERIVED_NOT_PAPER_FROZEN",
+  "study_scope": "Controlled structure-level mutations applied to PDF/UA Reference Suite reference baselines; formal checker outcomes are mutation-specific and configuration-scoped."
+}

@@ -1,0 +1,887 @@
+{
+  "artifact_id": "PDFUA-Ref-2-10_Form-M01",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 1
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1-content"
+      },
+      {
+        "/K": [
+          18
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Title"
+      },
+      {
+        "/K": [
+          1,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          3,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          5,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          7,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          8,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          9,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          10
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          11,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          13,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          14
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          15,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          18
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Title"
+      },
+      {
+        "/K": [
+          0
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/H1-content"
+      },
+      {
+        "/K": [
+          1,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          3,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          5,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          7,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          8,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          9,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          10
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          11,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          13,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          },
+          14
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      },
+      {
+        "/K": [
+          15,
+          {
+            "/K": [
+              {
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/Type": "/OBJR"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Form"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/Pg": {
+          "type": "/Page"
+        },
+        "/S": "/Labels"
+      }
+    ],
+    "target_object": "60:0"
+  },
+  "mutant_sha256": "3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_k_signature_after": [
+      [
+        "/H1-content",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/Title",
+        [
+          [
+            "INT",
+            18
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            1
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            3
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            5
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            7
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            8
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            9
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            10
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            11
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            13
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            14
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            15
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ]
+    ],
+    "reachable_structure_root_present": true,
+    "role_counts_after": {
+      "/Document": 1,
+      "/Form": 9,
+      "/H1-content": 1,
+      "/Labels": 5,
+      "/Sect": 1,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Document": 1,
+      "/Form": 9,
+      "/H1-content": 1,
+      "/Labels": 5,
+      "/Sect": 1,
+      "/Title": 1
+    },
+    "target_delta_matches": true,
+    "target_k_length_after": 7,
+    "target_k_length_before": 7,
+    "target_k_signature_after": [
+      [
+        "/H1-content",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/Title",
+        [
+          [
+            "INT",
+            18
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            1
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            3
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            5
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            7
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            8
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            9
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            10
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            11
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            13
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            14
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            15
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ]
+    ],
+    "target_k_signature_before": [
+      [
+        "/Title",
+        [
+          [
+            "INT",
+            18
+          ]
+        ]
+      ],
+      [
+        "/H1-content",
+        [
+          [
+            "INT",
+            0
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            1
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            3
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            5
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            7
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            8
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            9
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            10
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            11
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            13
+          ],
+          [
+            "/Form",
+            []
+          ],
+          [
+            "INT",
+            14
+          ]
+        ]
+      ],
+      [
+        "/Labels",
+        [
+          [
+            "INT",
+            15
+          ],
+          [
+            "/Form",
+            []
+          ]
+        ]
+      ]
+    ],
+    "target_role_after": "/Sect",
+    "target_role_before": "/Sect",
+    "target_structure_path": [
+      0,
+      0
+    ],
+    "target_xref_after": 85,
+    "target_xrefs": [
+      60
+    ],
+    "whole_tree_expected_equals_mutant": true
+  },
+  "operator": "M01",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

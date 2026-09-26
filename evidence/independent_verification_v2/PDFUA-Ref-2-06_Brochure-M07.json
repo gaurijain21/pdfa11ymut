@@ -1,0 +1,92 @@
+{
+  "artifact_id": "PDFUA-Ref-2-06_Brochure-M07",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_alt": null,
+    "old_alt": "Guiding stripes on sidewalks for the visually impaired\u0000",
+    "target_object": "103:0"
+  },
+  "mutant_sha256": "7aed010a1cad015f6b9de4498a855cccc6599be37fe85e0ecdbddaef1d9af3dd",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "figure_alt_count_after": 3,
+    "figure_alt_count_before": 4,
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "target_xrefs": [
+      103
+    ]
+  },
+  "operator": "M07",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

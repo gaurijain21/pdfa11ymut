@@ -1,0 +1,114 @@
+{
+  "manifest_version": "1.1",
+  "generated_from": "scripts/build_formal_freeze.py",
+  "git_commit": "7b78a42dfe7a9e6ebe936d8aabbe1417e3a0b99c",
+  "excluded_artifacts": [
+    {
+      "mutant_id": "PDFUA-Ref-2-09_Scanned-M08",
+      "operator": "M08",
+      "source_golden": "PDFUA-Ref-2-09_Scanned",
+      "status": "EXCLUDED_BASELINE_CONFLICT",
+      "verdict": "TOOL_SPECIFIC_AMBIGUITY",
+      "reason": "PAC fails the G09 catalog /Lang value 'English' under Natural language, while veraPDF passes the non-empty catalog language and detects removal as ISO 14289-1:2014 clause 7.2 test 2. PAC's exported aggregate cannot distinguish invalid language value from missing language metadata.",
+      "action_taken": "Exclude from active cross-validator M08 interpretation; retain mutant, raw PAC evidence, and raw veraPDF evidence as a documented baseline discrepancy."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-03_AcademicAbstract-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-03_AcademicAbstract",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE",
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-06_Brochure-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-06_Brochure",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE",
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-09_Scanned-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-09_Scanned",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE",
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid."
+    },
+    {
+      "mutant_id": "PDFUA-Ref-2-10_Form-M09",
+      "operator": "M09",
+      "source_golden": "PDFUA-Ref-2-10_Form",
+      "status": "EXCLUDED_UNVERIFIABLE_TARGET",
+      "verdict": "ORIGINAL_ARTIFACT_UNAVAILABLE",
+      "reason": "Historical generator records say the changed RoleMap key was unused, but Matterhorn Protocol 1.1 states RoleMap failure conditions apply regardless of whether a tag is used. The original mutant PDF is not retained, so the intended COS delta and purity cannot now be independently re-audited.",
+      "action_taken": "Keep out of the active reachable-target denominator; retain validator reports and generation records; do not describe this artifact as scientifically invalid."
+    }
+  ],
+  "freeze": {
+    "path": "analysis\\generated\\formal_results_freeze.csv",
+    "exists": true,
+    "row_count": 207,
+    "expected_row_count": 207,
+    "unique_mutants": 69,
+    "expected_unique_mutants": 69,
+    "classified_rows": 207,
+    "all_ambiguous_or_confounded_false": true,
+    "sha256": "4e205fa4d025c002281ee26ec5fc7cd6e6c71ac7170deff2d20eeddd496c4fdf"
+  },
+  "inputs": [
+    {
+      "path": "data\\validator_runs.csv",
+      "exists": true,
+      "row_count": 292,
+      "sha256": "8a8658e2907fbb5b821bcfc612c66719e798e056fb1eb0f7c4dd0158b55e2966"
+    },
+    {
+      "path": "data\\baseline_deltas.csv",
+      "exists": true,
+      "row_count": 257,
+      "sha256": "4acd196cc683e796993a88c2fbc1acf72a14617ab174440a0ab433f336880702"
+    },
+    {
+      "path": "data\\baseline_conflict_resolutions.csv",
+      "exists": true,
+      "row_count": 1,
+      "sha256": "6f072779ac218771c4552ebaf5b419b8b116cac305d6c4928f194d83d5768361"
+    },
+    {
+      "path": "analysis\\generated\\baseline_operator_conflicts.csv",
+      "exists": true,
+      "row_count": 2,
+      "sha256": "ce62054a223887cbe0180ff476dfe78d7237a75c2fbe315045da97c314498d96"
+    },
+    {
+      "path": "analysis\\generated\\baseline_cross_validator_disagreements.csv",
+      "exists": true,
+      "row_count": 4,
+      "sha256": "3791023b85a0b9d5b20fa8fd0f1e8637bdd3525cd4d6ef49e07ab6de0e78e54f"
+    },
+    {
+      "path": "data\\pac_evidence_manifest.csv",
+      "exists": true,
+      "row_count": 66,
+      "sha256": "296215a7f1ba3c52f46d6243a7e2a4c44b23da370cf3d8719461b6934b146166"
+    },
+    {
+      "path": "data\\acrobat_evidence_manifest.csv",
+      "exists": true,
+      "row_count": 74,
+      "sha256": "ee4261b3b3506b90156852c3040cba1160bd6cd069cdefa1bb50cbe0e58540b8"
+    },
+    {
+      "path": "data\\verapdf_runs.csv",
+      "exists": true,
+      "row_count": 84,
+      "sha256": "dfb4891c93ce94d1d127f3c00ac781f080654694de52a3555d7fc63838fbd066"
+    }
+  ],
+  "integrity_status": "PASS"
+}

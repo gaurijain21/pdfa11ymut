@@ -1,5 +1,7 @@
 # IEEE + arXiv Submission Plan for PDFa11yMut
 
+> Historical planning document. It contains intermediate study counts and is not the current manuscript or canonical result source. Use `STUDY_MANIFEST.json`, `README.md`, and `paper/pdfa11ymut_ieee.tex` for the current state.
+
 ## Chosen Direction
 
 Primary framing: software testing / benchmark evaluation.

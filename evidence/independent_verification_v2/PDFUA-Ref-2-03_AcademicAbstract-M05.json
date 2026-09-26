@@ -1,0 +1,152 @@
+{
+  "artifact_id": "PDFUA-Ref-2-03_AcademicAbstract-M05",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          792
+        ],
+        "mutant_dimensions": [
+          612,
+          792
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          792
+        ],
+        "mutant_dimensions": [
+          612,
+          792
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      81,
+      80
+    ],
+    "old_k": [
+      80,
+      81
+    ],
+    "target_object": "206:0"
+  },
+  "mutant_sha256": "ee82308195b4488f8c6e01bc8e4ba469df760c122c766ff84fc3425302d6f528",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_k_signature_after": {
+      "206": [
+        [
+          "INT",
+          81
+        ],
+        [
+          "INT",
+          80
+        ]
+      ]
+    },
+    "role_counts_after": {
+      "/Document": 1,
+      "/H1": 6,
+      "/H2": 1,
+      "/HyphenSpan": 34,
+      "/L": 4,
+      "/LBody": 24,
+      "/LI": 24,
+      "/Lbl": 24,
+      "/Link": 13,
+      "/P": 51,
+      "/PageRoot": 2,
+      "/ParagraphSpan": 2,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Document": 1,
+      "/H1": 6,
+      "/H2": 1,
+      "/HyphenSpan": 34,
+      "/L": 4,
+      "/LBody": 24,
+      "/LI": 24,
+      "/Lbl": 24,
+      "/Link": 13,
+      "/P": 51,
+      "/PageRoot": 2,
+      "/ParagraphSpan": 2,
+      "/Title": 1
+    },
+    "target_delta_matches": true,
+    "target_k_signature_after": {
+      "206": [
+        [
+          "INT",
+          81
+        ],
+        [
+          "INT",
+          80
+        ]
+      ]
+    },
+    "target_k_signature_before": {
+      "206": [
+        [
+          "INT",
+          80
+        ],
+        [
+          "INT",
+          81
+        ]
+      ]
+    },
+    "target_roles_after": {
+      "206": "/Link"
+    },
+    "target_roles_before": {
+      "206": "/Link"
+    },
+    "target_structure_paths": {
+      "206": [
+        0,
+        14,
+        2
+      ]
+    },
+    "target_xrefs": [
+      206
+    ],
+    "target_xrefs_after": {
+      "206": 127
+    },
+    "whole_tree_expected_equals_mutant": true
+  },
+  "operator": "M05",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

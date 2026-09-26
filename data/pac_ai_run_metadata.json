@@ -1,0 +1,25 @@
+{
+  "ai_enabled": true,
+  "ai_registry_path": "HKCU\\Software\\axes4\\PAC\\EnableAIChecks",
+  "ai_registry_target_value": 1,
+  "ai_registry_value_observed": null,
+  "ai_state": "ENABLED_OBSERVED_IN_NATIVE_PAC_AI_TAB",
+  "generated_at_utc": "2026-09-25T04:29:08.1839946Z",
+  "limitation": "Native PAC AI was executed for the required one-golden/one-mutant pilot. Results in Detail exposed element-level finding text, scores, and page visualization, but PAC 26.1.0.0 provides no supported complete semantic export/API. The pilot therefore does not authorize a full PAC AI classification rerun under the project protocol.",
+  "metadata_version": "1.0",
+  "model_info": "PAC-managed AI model; PAC 26.1.0.0 did not expose an exact model/build identifier in the controlled UI.",
+  "native_control_status": "AVAILABLE_NATIVE_PAC_WINDOW_VERIFIED",
+  "pac_build": "26.1.0.0 (PAC.exe FileVersion/ProductVersion)",
+  "pac_executable": "C:\\Users\\iamga\\AppData\\Local\\PAC\\PAC.exe",
+  "pac_version": "26.1.0.0",
+  "platform": "Windows 10 Home 25H2, build 26200.9457, x64",
+  "profile": "PDF/UA formal/traditional check with PAC AI semantic analysis",
+  "requested_ai_enabled": true,
+  "run_configuration": "PAC AI",
+  "settings": {
+    "ai_analysis": "enabled for the AI batch only",
+    "formal_checks": "unchanged from PAC Formal baseline configuration",
+    "pdf_modification": "forbidden",
+    "remediation": "disabled"
+  }
+}

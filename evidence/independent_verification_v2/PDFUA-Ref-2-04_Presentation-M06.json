@@ -1,0 +1,921 @@
+{
+  "artifact_id": "PDFUA-Ref-2-04_Presentation-M06",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 8
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  13
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  13
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  14
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  15
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  16
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  17
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  18
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  19
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  12
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  13
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  14
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  15
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  16
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  17
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  18
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Span"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/Alt": "",
+                "/K": [
+                  {
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/OBJR"
+                  },
+                  19
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Link"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      }
+    ],
+    "target_object": "152:0"
+  },
+  "mutant_sha256": "56a2b7314c6bb652499bd6ed6a070925d4a76b840d9a06a4377b055a02d37da4",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_signature_after": [
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    12
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    13
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    12
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    13
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    14
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    15
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    16
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    17
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "/Span",
+                [
+                  [
+                    "INT",
+                    18
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/Link",
+                [
+                  [
+                    "REF"
+                  ],
+                  [
+                    "REF"
+                  ],
+                  [
+                    "INT",
+                    19
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "matching_mutant_target_count": 1,
+    "matching_mutant_target_xrefs": [
+      151
+    ],
+    "non_target_list_role_sequences_equal": true,
+    "role_counts_after": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage:P-TitleAuthor": 1,
+      "/Frontpage:P-TitleFooter": 1,
+      "/Frontpage:P-TitleHeader": 1,
+      "/Frontpage:P-TitleSubline": 1,
+      "/H1": 5,
+      "/H1-GiT": 1,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P-Footer": 3,
+      "/P-Quote": 1,
+      "/P-Text": 5,
+      "/P-example": 3,
+      "/Reference": 3,
+      "/Span": 53,
+      "/Story": 10,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage:P-TitleAuthor": 1,
+      "/Frontpage:P-TitleFooter": 1,
+      "/Frontpage:P-TitleHeader": 1,
+      "/Frontpage:P-TitleSubline": 1,
+      "/H1": 5,
+      "/H1-GiT": 1,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P-Footer": 3,
+      "/P-Quote": 1,
+      "/P-Text": 5,
+      "/P-example": 3,
+      "/Reference": 3,
+      "/Span": 53,
+      "/Story": 10,
+      "/Title": 1
+    },
+    "target_li_refs_after": [
+      152,
+      152,
+      157,
+      162,
+      167
+    ],
+    "target_li_refs_before": [
+      153,
+      158,
+      163,
+      168
+    ],
+    "target_role_after": "/L",
+    "target_role_before": "/L",
+    "target_role_sequence_after": [
+      "/LI",
+      "/LI",
+      "/LI",
+      "/LI",
+      "/LI"
+    ],
+    "target_role_sequence_before": [
+      "/LI",
+      "/LI",
+      "/LI",
+      "/LI"
+    ],
+    "target_structure_path": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "target_xref_after": 151,
+    "target_xref_by_structure_path": 151,
+    "target_xrefs": [
+      152
+    ]
+  },
+  "operator": "M06",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

@@ -1,0 +1,163 @@
+{
+  "artifact_id": "PDFUA-Ref-2-06_Brochure-M04",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          842,
+          596
+        ],
+        "mutant_dimensions": [
+          842,
+          596
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      3,
+      2
+    ],
+    "old_k": [
+      2,
+      3
+    ],
+    "target_object": "35:0;36:0"
+  },
+  "mutant_sha256": "12c8c27582c8ca949f0f95dc11371ef2a8c3a3a6a72bed7e8b82ff9aa74a049d",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_k_signature_after": {
+      "35": [
+        [
+          "INT",
+          3
+        ]
+      ],
+      "36": [
+        [
+          "INT",
+          2
+        ]
+      ]
+    },
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 4,
+      "/H1": 11,
+      "/L": 4,
+      "/LBody": 18,
+      "/LI": 18,
+      "/Lbl": 18,
+      "/Link": 7,
+      "/P": 30,
+      "/Span": 27,
+      "/Title": 1
+    },
+    "target_delta_matches": true,
+    "target_k_signature_after": {
+      "35": [
+        [
+          "INT",
+          3
+        ]
+      ],
+      "36": [
+        [
+          "INT",
+          2
+        ]
+      ]
+    },
+    "target_k_signature_before": {
+      "35": [
+        [
+          "INT",
+          2
+        ]
+      ],
+      "36": [
+        [
+          "INT",
+          3
+        ]
+      ]
+    },
+    "target_roles_after": {
+      "35": "/P",
+      "36": "/P"
+    },
+    "target_roles_before": {
+      "35": "/P",
+      "36": "/P"
+    },
+    "target_structure_paths": {
+      "35": [
+        0,
+        9
+      ],
+      "36": [
+        0,
+        10
+      ]
+    },
+    "target_xrefs": [
+      35,
+      36
+    ],
+    "target_xrefs_after": {
+      "35": 138,
+      "36": 139
+    },
+    "whole_tree_expected_equals_mutant": true
+  },
+  "operator": "M04",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "aefd5ab48a908b9996ffadcb14d8ff31a2c653657cbe011a46f4cf61396a589e",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

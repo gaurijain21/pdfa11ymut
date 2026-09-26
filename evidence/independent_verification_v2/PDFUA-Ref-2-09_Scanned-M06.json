@@ -1,0 +1,1392 @@
+{
+  "artifact_id": "PDFUA-Ref-2-09_Scanned-M06",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 21
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 22
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 23
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 24
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 25
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 26
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 27
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 28
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 29
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 30
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 31
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 32
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 33
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 34
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 35
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 36
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 37
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 38
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 39
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 40
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 41
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 42
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 43
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 44
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 45
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 46
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 47
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 48
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 49
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 50
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 51
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 52
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 53
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 54
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 55
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 56
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 57
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 58
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 59
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 60
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 61
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 62
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 63
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 64
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 65
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 66
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 67
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 68
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 69
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 70
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 71
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 72
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 73
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 74
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 75
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 76
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 77
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 78
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 79
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 80
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 81
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          537,
+          648
+        ],
+        "mutant_dimensions": [
+          537,
+          648
+        ],
+        "page": 82
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              106
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  108
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              106
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  108
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              113
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  115
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              106
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  108
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              113
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  115
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/LBody"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/LI"
+      }
+    ],
+    "target_object": "3312:0"
+  },
+  "mutant_sha256": "637c71a7db4ce2fccd3d34ad662d600b62ef46c275c3ca370c2d17a97980c9fa",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_signature_after": [
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "INT",
+                106
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    108
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "INT",
+                106
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    108
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "INT",
+                113
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    115
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "matching_mutant_target_count": 1,
+    "matching_mutant_target_xrefs": [
+      977
+    ],
+    "non_target_list_role_sequences_equal": true,
+    "role_counts_after": {
+      "/BlockQuote": 1,
+      "/Caption": 64,
+      "/Div": 58,
+      "/Document": 1,
+      "/Figure": 83,
+      "/Formula": 480,
+      "/H1": 1,
+      "/H2": 12,
+      "/H3": 76,
+      "/H4": 231,
+      "/H5": 36,
+      "/H6": 3,
+      "/L": 82,
+      "/LBody": 208,
+      "/LI": 208,
+      "/Lbl": 208,
+      "/NonStruct": 82,
+      "/P": 957,
+      "/Span": 2,
+      "/TD": 30,
+      "/TH": 34,
+      "/TR": 9,
+      "/Table": 4
+    },
+    "role_counts_before": {
+      "/BlockQuote": 1,
+      "/Caption": 64,
+      "/Div": 58,
+      "/Document": 1,
+      "/Figure": 83,
+      "/Formula": 480,
+      "/H1": 1,
+      "/H2": 12,
+      "/H3": 76,
+      "/H4": 231,
+      "/H5": 36,
+      "/H6": 3,
+      "/L": 82,
+      "/LBody": 208,
+      "/LI": 208,
+      "/Lbl": 208,
+      "/NonStruct": 82,
+      "/P": 957,
+      "/Span": 2,
+      "/TD": 30,
+      "/TH": 34,
+      "/TR": 9,
+      "/Table": 4
+    },
+    "target_li_refs_after": [
+      978,
+      978,
+      982
+    ],
+    "target_li_refs_before": [
+      3313,
+      3314
+    ],
+    "target_role_after": "/L",
+    "target_role_before": "/L",
+    "target_role_sequence_after": [
+      "/LI",
+      "/LI",
+      "/LI"
+    ],
+    "target_role_sequence_before": [
+      "/LI",
+      "/LI"
+    ],
+    "target_structure_path": [
+      0,
+      1,
+      13
+    ],
+    "target_xref_after": 977,
+    "target_xref_by_structure_path": 977,
+    "target_xrefs": [
+      3312
+    ]
+  },
+  "operator": "M06",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "bb46d5c723fe1427dd1bf92ccd8653f9a5cef4054f7d878168b99477fa3792ae",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

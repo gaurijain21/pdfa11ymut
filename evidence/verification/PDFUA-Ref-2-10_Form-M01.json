@@ -1,0 +1,1793 @@
+{
+  "generated_at_utc": "2026-09-22T03:43:29.818213+00:00",
+  "generation": {
+    "delta": {
+      "new_k": [
+        {
+          "/K": [
+            0
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/H1-content"
+        },
+        {
+          "/K": [
+            18
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Title"
+        },
+        {
+          "/K": [
+            1,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            3,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            5,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            7,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            8,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            9,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            10
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            11,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            13,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            14
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            15,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        }
+      ],
+      "old_k": [
+        {
+          "/K": [
+            18
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Title"
+        },
+        {
+          "/K": [
+            0
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/H1-content"
+        },
+        {
+          "/K": [
+            1,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            3,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            5,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            7,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            8,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            9,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            10
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            11,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            13,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            14
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            15,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        }
+      ],
+      "target_object": "60:0"
+    },
+    "operator": "M01",
+    "requested_target": "auto",
+    "source_pages": 1
+  },
+  "generation_version": "0.2.0",
+  "mutant_id": "PDFUA-Ref-2-10_Form-M01",
+  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-10_Form-M01.pdf",
+  "mutant_sha256": "3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece",
+  "operator": "M01",
+  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+  "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
+  "status": "valid",
+  "verification": {
+    "intended_delta": {
+      "new_k": [
+        {
+          "/K": [
+            0
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/H1-content"
+        },
+        {
+          "/K": [
+            18
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Title"
+        },
+        {
+          "/K": [
+            1,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            3,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            5,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            7,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            8,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            9,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            10
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            11,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            13,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            14
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            15,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        }
+      ],
+      "old_k": [
+        {
+          "/K": [
+            18
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Title"
+        },
+        {
+          "/K": [
+            0
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/H1-content"
+        },
+        {
+          "/K": [
+            1,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            3,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            5,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            7,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            8,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            9,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            10
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            11,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            13,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            },
+            14
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        },
+        {
+          "/K": [
+            15,
+            {
+              "/K": [
+                {
+                  "/Pg": {
+                    "type": "/Page"
+                  },
+                  "/Type": "/OBJR"
+                }
+              ],
+              "/P": {
+                "type": "None"
+              },
+              "/S": "/Form"
+            }
+          ],
+          "/P": {
+            "type": "None"
+          },
+          "/Pg": {
+            "type": "/Page"
+          },
+          "/S": "/Labels"
+        }
+      ],
+      "target_object": "60:0"
+    },
+    "invariant_checks": {
+      "operator_specific_delta": true,
+      "page_content_byte_hashes_equal": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true
+    },
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\mutants\\PDFUA-Ref-2-10_Form-M01.pdf",
+    "mutant_sha256": "3f4549f2b3c4a7e8ec2859096f3bc42513bf0df4cad6c5ee1f324835425bfece",
+    "mutation_valid": true,
+    "observed_changed_structure_paths": [
+      "0.0",
+      "0.0.0",
+      "0.0.1",
+      "0.0.2.1",
+      "0.0.3.1",
+      "0.0.4.1",
+      "0.0.4.3",
+      "0.0.4.5",
+      "0.0.4.7",
+      "0.0.5.1",
+      "0.0.5.3",
+      "0.0.6.1"
+    ],
+    "observed_delta": {
+      "0.0": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/H1-content"
+            ],
+            [
+              "struct",
+              "/Title"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ]
+          ],
+          "role": "/Sect"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "struct",
+              "/Title"
+            ],
+            [
+              "struct",
+              "/H1-content"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ],
+            [
+              "struct",
+              "/Labels"
+            ]
+          ],
+          "role": "/Sect"
+        }
+      },
+      "0.0.0": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              0
+            ]
+          ],
+          "role": "/H1-content"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              18
+            ]
+          ],
+          "role": "/Title"
+        }
+      },
+      "0.0.1": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              18
+            ]
+          ],
+          "role": "/Title"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "mcid",
+              0
+            ]
+          ],
+          "role": "/H1-content"
+        }
+      },
+      "0.0.2.1": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(20, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(73, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.3.1": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(23, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(74, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.4.1": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(12, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(82, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.4.3": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(27, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(83, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.4.5": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(33, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(84, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.4.7": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(39, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(85, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.5.1": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(45, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(78, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.5.3": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(52, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(79, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      },
+      "0.0.6.1": {
+        "after": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(25, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        },
+        "before": {
+          "alt": null,
+          "k": [
+            [
+              "other",
+              "{'/Obj': IndirectObject(67, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+            ]
+          ],
+          "role": "/Form"
+        }
+      }
+    },
+    "operator": "M01",
+    "operator_delta_reason": "first two direct children exchanged",
+    "page_count_preserved": true,
+    "parseability": true,
+    "rendering": {
+      "different_pixel_count": 0,
+      "dpi": 150,
+      "max_channel_difference": 0,
+      "metric": "exact RGB pixel equality",
+      "pages": [
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            1241,
+            1754
+          ],
+          "page": 1
+        }
+      ],
+      "renderer": "pdftoppm",
+      "rmse": 0.0,
+      "status": "pass",
+      "tolerance": 0
+    },
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+    "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
+    "structural_after": {
+      "0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/H1-content"
+          ],
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0
+          ]
+        ],
+        "role": "/H1-content"
+      },
+      "0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(20, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(23, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            7
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            8
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            9
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            10
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.4.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(12, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.3": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(27, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.5": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(33, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.7": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(39, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            13
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            14
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.5.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(45, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5.3": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(52, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.6": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.6.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(25, 0, 2278502260368), '/Pg': IndirectObject(18, 0, 2278502260368), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      }
+    },
+    "structural_before": {
+      "0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/H1-content"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.0.1": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0
+          ]
+        ],
+        "role": "/H1-content"
+      },
+      "0.0.2": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.2.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(73, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.3": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.3.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(74, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            7
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            8
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            9
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            10
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.4.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(82, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.3": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(83, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.5": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(84, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.7": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(85, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            13
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            14
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.5.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(78, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5.3": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(79, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.6": {
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.6.1": {
+        "alt": null,
+        "k": [
+          [
+            "other",
+            "{'/Obj': IndirectObject(67, 0, 2278502252880), '/Pg': IndirectObject(94, 0, 2278502252880), '/Type': '/OBJR'}"
+          ]
+        ],
+        "role": "/Form"
+      }
+    },
+    "unexpected_structural_changes": []
+  }
+}

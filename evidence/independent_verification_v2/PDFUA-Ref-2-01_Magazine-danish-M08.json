@@ -1,0 +1,470 @@
+{
+  "artifact_id": "PDFUA-Ref-2-01_Magazine-danish-M08",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 21
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 22
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 23
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 24
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 25
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 26
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 27
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 28
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 29
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 30
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 31
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          794
+        ],
+        "mutant_dimensions": [
+          596,
+          794
+        ],
+        "page": 32
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_lang": null,
+    "old_lang": "da",
+    "target_object": "direct"
+  },
+  "mutant_sha256": "798d1807493ecbed375ba1a175bb6d19f6d51dfe508c6df88df7ec3f8e1d6061",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "catalog_lang_after": [
+      "null",
+      "null"
+    ],
+    "catalog_lang_before": [
+      "string",
+      "da"
+    ],
+    "role_counts_after": {
+      "/Art": 15,
+      "/BlockQuote": 16,
+      "/Caption": 38,
+      "/Div": 41,
+      "/Document": 1,
+      "/Figure": 80,
+      "/H1": 17,
+      "/H2": 54,
+      "/L": 6,
+      "/LBody": 30,
+      "/LI": 30,
+      "/Lbl": 30,
+      "/Link": 25,
+      "/P": 290,
+      "/Sect": 3,
+      "/Span": 298,
+      "/TOC": 1,
+      "/TOCI": 11,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Art": 15,
+      "/BlockQuote": 16,
+      "/Caption": 38,
+      "/Div": 41,
+      "/Document": 1,
+      "/Figure": 80,
+      "/H1": 17,
+      "/H2": 54,
+      "/L": 6,
+      "/LBody": 30,
+      "/LI": 30,
+      "/Lbl": 30,
+      "/Link": 25,
+      "/P": 290,
+      "/Sect": 3,
+      "/Span": 298,
+      "/TOC": 1,
+      "/TOCI": 11,
+      "/Title": 1
+    },
+    "target_xrefs": []
+  },
+  "operator": "M08",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "aef89af13c9c94fc4f4e1a8c5872450cc4c8fff7de544d8ada6a0912425aa434",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

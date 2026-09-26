@@ -1,0 +1,86 @@
+{
+  "artifact_id": "PDFUA-Ref-2-02_Invoice-M08",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          595,
+          842
+        ],
+        "mutant_dimensions": [
+          595,
+          842
+        ],
+        "page": 1
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_lang": null,
+    "old_lang": "en",
+    "target_object": "direct"
+  },
+  "mutant_sha256": "4fa45b60c80cb404e90b60c4eb2e273acfc22555afdab15b8b1684d09b4f33df",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "catalog_lang_after": [
+      "null",
+      "null"
+    ],
+    "catalog_lang_before": [
+      "string",
+      "en"
+    ],
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H1": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H1": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "target_xrefs": []
+  },
+  "operator": "M08",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

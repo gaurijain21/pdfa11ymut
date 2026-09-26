@@ -1,0 +1,29 @@
+{
+  "manifest_type": "current_public_release_policy",
+  "status": "PUBLIC_RELEASE_READY_RAW_EVIDENCE_EXCLUDED",
+  "canonical_source": "STUDY_MANIFEST.json",
+  "code_and_documentation": {
+    "license": "MIT",
+    "include": true
+  },
+  "reference_corpus_and_derivatives": {
+    "license": "CC BY 4.0 collection-level terms documented in CORPUS_LICENSES.md",
+    "include": true,
+    "required_notice": "PDF/UA-1 Reference Suite 1.1, PDF Association, https://pdfa.org/resource/pdfua-reference-suite/; attribution and changes-made notice required"
+  },
+  "raw_validator_reports": {
+    "include": false,
+    "status": "EXPLICITLY_EXCLUDED_NO_CLEARANCE_CLAIM",
+    "public_substitute": "hashes, schemas, classifications, and evidence index"
+  },
+  "raw_at_logs_and_screenshots": {
+    "include": false,
+    "status": "EXPLICITLY_EXCLUDED_NO_CLEARANCE_CLAIM",
+    "public_substitute": "hashes, protocol, and observation summaries"
+  },
+  "historical_archives": {
+    "include": false,
+    "status": "ARCHIVAL_ONLY"
+  },
+  "assembly_rule": "Build only from the canonical manifest; raw vendor and AT evidence are excluded unless a future version records explicit clearance."
+}

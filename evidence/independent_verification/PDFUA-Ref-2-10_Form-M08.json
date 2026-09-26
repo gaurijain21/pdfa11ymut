@@ -1,0 +1,68 @@
+{
+  "artifact_id": "PDFUA-Ref-2-10_Form-M08",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "intended_delta": {
+    "new_lang": null,
+    "old_lang": "en-GB",
+    "target_object": "direct"
+  },
+  "mutant_sha256": "53befb723e3cca79d246644678be0a3a09dae65ff4e514fc56d3fa404cd4ff8a",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "catalog_lang_after": "null",
+    "catalog_lang_before": "string",
+    "role_counts_after": {
+      "/Document": 1,
+      "/Form": 9,
+      "/H1": 1,
+      "/Labels": 5,
+      "/S": 9,
+      "/Sect": 1,
+      "/Thumb": 1,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Document": 1,
+      "/Form": 9,
+      "/H1": 1,
+      "/Labels": 5,
+      "/S": 9,
+      "/Sect": 1,
+      "/Thumb": 1,
+      "/Title": 1
+    }
+  },
+  "operator": "M08",
+  "parser_a": "PASS",
+  "parser_b": "PASS",
+  "renderer_a": "PASS",
+  "renderer_b": "PASS",
+  "renderer_b_detail": {
+    "dpi": 150,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1241,
+          1754
+        ],
+        "mutant_dimensions": [
+          1241,
+          1754
+        ],
+        "page": 1
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

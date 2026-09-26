@@ -1,0 +1,274 @@
+{
+  "artifact_id": "PDFUA-Ref-2-03_AcademicAbstract-M06",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          792
+        ],
+        "mutant_dimensions": [
+          612,
+          792
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          792
+        ],
+        "mutant_dimensions": [
+          612,
+          792
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              72
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl",
+            "/Type": "/StructElem"
+          },
+          {
+            "/K": [
+              71
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody",
+            "/Type": "/StructElem"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI",
+        "/Type": "/StructElem"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              72
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl",
+            "/Type": "/StructElem"
+          },
+          {
+            "/K": [
+              71
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody",
+            "/Type": "/StructElem"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI",
+        "/Type": "/StructElem"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              72
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Lbl",
+            "/Type": "/StructElem"
+          },
+          {
+            "/K": [
+              71
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/LBody",
+            "/Type": "/StructElem"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/LI",
+        "/Type": "/StructElem"
+      }
+    ],
+    "target_object": "208:0"
+  },
+  "mutant_sha256": "ca37553b2d45198cd26b168a6c9eb41f248cd4f9179118b991fc47917a443afb",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_signature_after": [
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "INT",
+                72
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "INT",
+                71
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "/LI",
+        [
+          [
+            "/Lbl",
+            [
+              [
+                "INT",
+                72
+              ]
+            ]
+          ],
+          [
+            "/LBody",
+            [
+              [
+                "INT",
+                71
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "matching_mutant_target_count": 1,
+    "matching_mutant_target_xrefs": [
+      118
+    ],
+    "non_target_list_role_sequences_equal": true,
+    "role_counts_after": {
+      "/Document": 1,
+      "/H1": 6,
+      "/H2": 1,
+      "/HyphenSpan": 34,
+      "/L": 4,
+      "/LBody": 24,
+      "/LI": 24,
+      "/Lbl": 24,
+      "/Link": 13,
+      "/P": 51,
+      "/PageRoot": 2,
+      "/ParagraphSpan": 2,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Document": 1,
+      "/H1": 6,
+      "/H2": 1,
+      "/HyphenSpan": 34,
+      "/L": 4,
+      "/LBody": 24,
+      "/LI": 24,
+      "/Lbl": 24,
+      "/Link": 13,
+      "/P": 51,
+      "/PageRoot": 2,
+      "/ParagraphSpan": 2,
+      "/Title": 1
+    },
+    "target_li_refs_after": [
+      119,
+      119
+    ],
+    "target_li_refs_before": [
+      207
+    ],
+    "target_role_after": "/L",
+    "target_role_before": "/L",
+    "target_role_sequence_after": [
+      "/LI",
+      "/LI"
+    ],
+    "target_role_sequence_before": [
+      "/LI"
+    ],
+    "target_structure_path": [
+      0,
+      9
+    ],
+    "target_xref_after": 118,
+    "target_xref_by_structure_path": 118,
+    "target_xrefs": [
+      208
+    ]
+  },
+  "operator": "M06",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

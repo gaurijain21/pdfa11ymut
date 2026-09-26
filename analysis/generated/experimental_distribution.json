@@ -1,0 +1,55 @@
+{
+  "machine_checkable_operators": 6,
+  "mutants_per_class": {
+    "machine-checkable": 37,
+    "semantic": 32
+  },
+  "mutants_per_golden": {
+    "PDFUA-Ref-2-01_Magazine-danish": 9,
+    "PDFUA-Ref-2-02_Invoice": 6,
+    "PDFUA-Ref-2-03_AcademicAbstract": 7,
+    "PDFUA-Ref-2-04_Presentation": 9,
+    "PDFUA-Ref-2-05_BookChapter-german": 10,
+    "PDFUA-Ref-2-06_Brochure": 8,
+    "PDFUA-Ref-2-08_BookChapter": 9,
+    "PDFUA-Ref-2-09_Scanned": 8,
+    "PDFUA-Ref-2-10_Form": 3
+  },
+  "mutants_per_operator": {
+    "M01": 8,
+    "M02": 9,
+    "M03": 8,
+    "M04": 8,
+    "M05": 7,
+    "M06": 7,
+    "M07": 7,
+    "M08": 8,
+    "M09": 3,
+    "M10": 4
+  },
+  "mutants_per_target_structure_type": {
+    "/Article": 1,
+    "/Document": 15,
+    "/Figure": 7,
+    "/H1": 9,
+    "/L": 7,
+    "/LBody": 1,
+    "/Lbl": 1,
+    "/Link": 1,
+    "/P": 3,
+    "/P + /P": 5,
+    "/Sect": 1,
+    "/Span + /Span": 2,
+    "/TH": 4,
+    "/TH + /TH": 1,
+    "Catalog (/Lang)": 8,
+    "Catalog/StructTreeRoot (/RoleMap)": 3
+  },
+  "operators_total": 10,
+  "semantic_operators": 4,
+  "total_mutants": 69,
+  "warnings": [
+    "An operator has fewer than four valid mutants.",
+    "M10 has four valid mutants and is concentrated in the small subset of documents containing eligible table-cell targets; interpret per-operator results with coverage context."
+  ]
+}

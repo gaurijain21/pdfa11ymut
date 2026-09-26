@@ -1,0 +1,476 @@
+{
+  "artifact_id": "PDFUA-Ref-2-08_BookChapter-M07",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 21
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 22
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 23
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 24
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 25
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 26
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 27
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 28
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 29
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 30
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 31
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          783
+        ],
+        "mutant_dimensions": [
+          612,
+          783
+        ],
+        "page": 32
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_alt": null,
+    "old_alt": "\u694c\u656e\u6720\u6172\u6870\u7320\u6f68\u6977\u676e\u7420\u6568\u4720\u6961\u206e\u6e69\u6820\u6965\u6867\u2074\u6570\u2072\u6579\u7261\u6220\u2079\u616d\u656c\u2073\u6e61\u2064\u6566\u616d\u656c\u2073\u7266\u6d6f\u6220\u7269\u6874\u7420\u7268\u756f\u6867\u6120\u6f64\u656c\u6373\u6e65\u6563\u202e\u0a0d\u6854\u2065\u2d59\u7861\u7369\u7220\u7065\u6572\u6573\u746e\u2073\u6548\u6769\u7468\u6720\u6961\u206e\u6328\u2f6d\u7279\u2029\u6e61\u2064\u6172\u676e\u7365\u6620\u6f72\u206d\u2035\u6f74\u3220\u2e35\u0a0d\u6854\u2065\u2d58\u7861\u7369\u7220\u7065\u6572\u6573\u746e\u2073\u6741\u2065\u6e69\u7920\u6165\u7372\u6120\u646e\u7220\u6e61\u6567\u2073\u7266\u6d6f\u3520\u7420\u206f\u3032\u0d2e\u540a\u6568\u6572\u6920\u2073\u6973\u6e67\u6669\u6369\u6e61\u2074\u7267\u776f\u6874\u7520\u746e\u6c69\u6120\u6567\u3520\u202c\u6f66\u6c6c\u776f\u6465\u6220\u2079\u2061\u6573\u6f63\u646e\u7261\u2079\u616c\u6772\u2065\u7267\u776f\u6874\u7320\u7570\u7472\u6620\u726f\u6720\u7269\u736c\u6120\u2074\u6261\u756f\u2074\u6761\u2065\u3031\u352e\u6120\u646e\u6220\u796f\u2073\u6f66\u6c6c\u776f\u7320\u6d6f\u2065\u2e32\u2035\u6579\u7261\u2073\u616c\u6574\u2e72\u4620\u7275\u6874\u7265\u6420\u7365\u7263\u6269\u6465\u6920\u206e\u6874\u2065\u7270\u7665\u6f69\u7375\u7020\u7261\u6761\u6172\u6870\u0d2e\n",
+    "target_object": "1440:0"
+  },
+  "mutant_sha256": "8df764ab15f21435fc2283a261e0fa073baef1005f3d740e3991a952285746e8",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "figure_alt_count_after": 12,
+    "figure_alt_count_before": 13,
+    "role_counts_after": {
+      "/BlockQuote": 1,
+      "/Caption": 55,
+      "/Div": 47,
+      "/Document": 1,
+      "/Figure": 13,
+      "/H1": 1,
+      "/H2": 10,
+      "/H3": 21,
+      "/H4": 21,
+      "/H5": 2,
+      "/L": 52,
+      "/LBody": 216,
+      "/LI": 216,
+      "/Lbl": 177,
+      "/Link": 8,
+      "/NonStruct": 32,
+      "/P": 264,
+      "/Span": 1,
+      "/TD": 28,
+      "/TH": 17,
+      "/TOC": 2,
+      "/TOCI": 7,
+      "/TR": 15,
+      "/Table": 1
+    },
+    "role_counts_before": {
+      "/BlockQuote": 1,
+      "/Caption": 55,
+      "/Div": 47,
+      "/Document": 1,
+      "/Figure": 13,
+      "/H1": 1,
+      "/H2": 10,
+      "/H3": 21,
+      "/H4": 21,
+      "/H5": 2,
+      "/L": 52,
+      "/LBody": 216,
+      "/LI": 216,
+      "/Lbl": 177,
+      "/Link": 8,
+      "/NonStruct": 32,
+      "/P": 264,
+      "/Span": 1,
+      "/TD": 28,
+      "/TH": 17,
+      "/TOC": 2,
+      "/TOCI": 7,
+      "/TR": 15,
+      "/Table": 1
+    },
+    "target_xrefs": [
+      1440
+    ]
+  },
+  "operator": "M07",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "2b958600daec79373736f413f2712fcd9c604de2c352cbc1ec9d67cc5d7932f1",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

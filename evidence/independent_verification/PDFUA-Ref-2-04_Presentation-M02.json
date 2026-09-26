@@ -1,0 +1,3766 @@
+{
+  "artifact_id": "PDFUA-Ref-2-04_Presentation-M02",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "intended_delta": {
+    "new_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  11
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              12
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              13
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              14
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              15
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              16
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              17
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              18
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              19
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  20,
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          21
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Reference"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          37,
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              {
+                                "/K": [
+                                  38
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/P-Footer"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Note",
+                    "/Type": "/StructElem"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              23
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              22
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          24,
+                          25,
+                          26,
+                          27
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              29
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              28
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          30,
+                          {
+                            "/K": [
+                              31
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          32
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              34
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              33
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          35
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  36
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P-example"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  39
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H2"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              41
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              40
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          42
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              44
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              43
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          45
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              47
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              46
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          48
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  49
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H2"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              51
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              50
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          52
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              54
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              53
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          55
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  56
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              58
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              57
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          59
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              61
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              60
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          62,
+                          {
+                            "/K": [
+                              63
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          64,
+                          65,
+                          66,
+                          67
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  68
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P-example"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  69
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              71
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              70
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          72
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              74
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              73
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          75,
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  76
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Reference"
+                          },
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  79,
+                                  {
+                                    "/Alt": "",
+                                    "/K": [
+                                      {
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/Type": "/OBJR"
+                                      },
+                                      {
+                                        "/K": [
+                                          80
+                                        ],
+                                        "/P": {
+                                          "type": "None"
+                                        },
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/S": "/Span"
+                                      }
+                                    ],
+                                    "/P": {
+                                      "type": "None"
+                                    },
+                                    "/S": "/Link"
+                                  }
+                                ],
+                                "/P": {
+                                  "type": "/StructElem"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/P-Footer"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Note",
+                            "/Type": "/StructElem"
+                          },
+                          77
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  78
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P-example"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  81
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              83
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              82
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          84
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              86
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              85
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          87,
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              {
+                                "/K": [
+                                  88
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Link"
+                          },
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  89
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Reference"
+                          },
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  94,
+                                  {
+                                    "/Alt": "",
+                                    "/K": [
+                                      {
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/Type": "/OBJR"
+                                      },
+                                      {
+                                        "/K": [
+                                          95
+                                        ],
+                                        "/P": {
+                                          "type": "None"
+                                        },
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/S": "/Span"
+                                      }
+                                    ],
+                                    "/P": {
+                                      "type": "None"
+                                    },
+                                    "/S": "/Link"
+                                  }
+                                ],
+                                "/P": {
+                                  "type": "/StructElem"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/P-Footer"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Note",
+                            "/Type": "/StructElem"
+                          },
+                          90
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              92
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              91
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          93
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/Alt": "cover book \u201eBarrierefreie PDF-Dokuemnte erstellen\u201c",
+            "/K": [
+              96
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Figure"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      97
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Quote"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      98
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  99
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1-GiT"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          100
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          101
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          102
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          103
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Article"
+      }
+    ],
+    "old_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  0
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Frontpage:P-TitleHeader"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      4
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/Title"
+              },
+              {
+                "/K": [
+                  5,
+                  {
+                    "/K": [
+                      6
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  },
+                  7,
+                  {
+                    "/K": [
+                      8
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  },
+                  9
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Frontpage:P-TitleSubline"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      10
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/Frontpage:P-TitleAuthor"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/Alt": "Logo PDF Association",
+            "/K": [
+              1
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Figure"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  2,
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      3
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Frontpage:P-TitleFooter"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Article"
+      },
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/K": [
+                  11
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              12
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              13
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              14
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              15
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              16
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              17
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              18
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              19
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  20,
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          21
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Reference"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          37,
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              {
+                                "/K": [
+                                  38
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Link"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/P-Footer"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Note",
+                    "/Type": "/StructElem"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              23
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              22
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          24,
+                          25,
+                          26,
+                          27
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              29
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              28
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          30,
+                          {
+                            "/K": [
+                              31
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          32
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              34
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              33
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          35
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  36
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P-example"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  39
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H2"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              41
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              40
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          42
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              44
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              43
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          45
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              47
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              46
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          48
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  49
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H2"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              51
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              50
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          52
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              54
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              53
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          55
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  56
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              58
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              57
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          59
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              61
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              60
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          62,
+                          {
+                            "/K": [
+                              63
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          64,
+                          65,
+                          66,
+                          67
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  68
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P-example"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  69
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              71
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              70
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          72
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              74
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              73
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          75,
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  76
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Reference"
+                          },
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  79,
+                                  {
+                                    "/Alt": "",
+                                    "/K": [
+                                      {
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/Type": "/OBJR"
+                                      },
+                                      {
+                                        "/K": [
+                                          80
+                                        ],
+                                        "/P": {
+                                          "type": "None"
+                                        },
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/S": "/Span"
+                                      }
+                                    ],
+                                    "/P": {
+                                      "type": "None"
+                                    },
+                                    "/S": "/Link"
+                                  }
+                                ],
+                                "/P": {
+                                  "type": "/StructElem"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/P-Footer"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Note",
+                            "/Type": "/StructElem"
+                          },
+                          77
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              },
+              {
+                "/K": [
+                  78
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P-example"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  81
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              83
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              82
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          84
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              86
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              85
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          87,
+                          {
+                            "/Alt": "",
+                            "/K": [
+                              {
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/Type": "/OBJR"
+                              },
+                              {
+                                "/K": [
+                                  88
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Link"
+                          },
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  89
+                                ],
+                                "/P": {
+                                  "type": "None"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/Span"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Reference"
+                          },
+                          {
+                            "/K": [
+                              {
+                                "/K": [
+                                  94,
+                                  {
+                                    "/Alt": "",
+                                    "/K": [
+                                      {
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/Type": "/OBJR"
+                                      },
+                                      {
+                                        "/K": [
+                                          95
+                                        ],
+                                        "/P": {
+                                          "type": "None"
+                                        },
+                                        "/Pg": {
+                                          "type": "/Page"
+                                        },
+                                        "/S": "/Span"
+                                      }
+                                    ],
+                                    "/P": {
+                                      "type": "None"
+                                    },
+                                    "/S": "/Link"
+                                  }
+                                ],
+                                "/P": {
+                                  "type": "/StructElem"
+                                },
+                                "/Pg": {
+                                  "type": "/Page"
+                                },
+                                "/S": "/P-Footer"
+                              }
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/S": "/Note",
+                            "/Type": "/StructElem"
+                          },
+                          90
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              92
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          },
+                          {
+                            "/K": [
+                              91
+                            ],
+                            "/P": {
+                              "type": "None"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/Span"
+                          }
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/S": "/Lbl"
+                      },
+                      {
+                        "/K": [
+                          93
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/LBody"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/LI"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/L"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          },
+          {
+            "/Alt": "cover book \u201eBarrierefreie PDF-Dokuemnte erstellen\u201c",
+            "/K": [
+              96
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/Pg": {
+              "type": "/Page"
+            },
+            "/S": "/Figure"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      97
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Quote"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      98
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/Span"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  99
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1-GiT"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          100
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          101
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          102
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              },
+              {
+                "/K": [
+                  {
+                    "/Alt": "",
+                    "/K": [
+                      {
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/Type": "/OBJR"
+                      },
+                      {
+                        "/K": [
+                          103
+                        ],
+                        "/P": {
+                          "type": "None"
+                        },
+                        "/Pg": {
+                          "type": "/Page"
+                        },
+                        "/S": "/Span"
+                      }
+                    ],
+                    "/P": {
+                      "type": "None"
+                    },
+                    "/S": "/Link"
+                  }
+                ],
+                "/P": {
+                  "type": "None"
+                },
+                "/S": "/P-Text"
+              }
+            ],
+            "/P": {
+              "type": "None"
+            },
+            "/S": "/Story"
+          }
+        ],
+        "/P": {
+          "type": "None"
+        },
+        "/S": "/Article"
+      }
+    ],
+    "target_object": "289:0"
+  },
+  "mutant_sha256": "e85501fb90d221c574cae80f0cab8f7db33b2a21c9b89e7f2de4167b4dd87880",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "role_counts_after": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage": 4,
+      "/GoTo": 8,
+      "/H1": 6,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P": 12,
+      "/Reference": 3,
+      "/S": 13,
+      "/Span": 53,
+      "/Story": 10,
+      "/Thumb": 8,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 9
+    },
+    "role_counts_before": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage": 4,
+      "/GoTo": 8,
+      "/H1": 6,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P": 12,
+      "/Reference": 3,
+      "/S": 13,
+      "/Span": 53,
+      "/Story": 10,
+      "/Thumb": 8,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 9
+    }
+  },
+  "operator": "M02",
+  "parser_a": "PASS",
+  "parser_b": "PASS",
+  "renderer_a": "PASS",
+  "renderer_b": "PASS",
+  "renderer_b_detail": {
+    "dpi": 150,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 8
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

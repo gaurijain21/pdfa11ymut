@@ -1,0 +1,13 @@
+component,version,configuration,settings,source
+PAC,26.1.0.0,PAC Formal,"{""ai_enabled"": false, ""platform"": ""Windows 10 Home 25H2, build 26200.9168, x64"", ""profile"": ""PDF/UA formal/traditional check""}",data/pac_formal_run_metadata.json
+Adobe Acrobat,2026.002.21931,Acrobat Full Check,"{""attach_report_to_document"": false, ""auto_tag_form_fields"": false, ""auto_tagging"": false, ""category"": ""Document"", ""checked_categories"": ""31 of 32 checks selected (native session; canonical)"", ""checker"": ""Accessibility Checker / Full Check"", ""configuration_discrepancy"": ""Canonical record uses 31 of 32 checks selected from the preserved native session and G01 report context; the older 31 of 31 metadata wording is retained as historical provenance. Reports/classifications were not changed."", ""create_accessibility_report"": true, ""historical_metadata_checked_categories"": ""All 31 of 31 checks selected"", ""page_range"": ""All pages in document"", ""platform"": ""Windows 10 Home 25H2, build 26200.9168, x64"", ""reading_order_or_document_options"": ""Default Acrobat Full Check settings; no remediation applied"", ""remediation"": false}",data/acrobat_run_metadata.json and docs/NATIVE_VALIDATOR_SESSION.md
+veraPDF,1.30.2,PDF/UA-1 ua1,"{""implementation"": ""Greenfield"", ""java_version"": ""17.0.20.1"", ""report_format"": ""json""}",data/verapdf_setup.json
+Python,3.11.9,runtime,"{""platform"": ""Windows-10-10.0.26200-SP0""}",runtime capture
+pypdf,6.18.1,runtime,,importlib.metadata
+PyMuPDF,1.28.2,runtime,,importlib.metadata
+Pillow,12.1.1,runtime,,importlib.metadata
+PyYAML,6.0.3,runtime,,importlib.metadata
+pdftoppm,pdftoppm version 26.07.0,runtime,"{""path"": ""C:\\Users\\iamga\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE""}",runtime capture
+qpdf,UNAVAILABLE,runtime,"{""path"": """"}",runtime capture
+mutool,UNAVAILABLE,runtime,"{""path"": """"}",runtime capture
+Tectonic,Tectonic 0.17.0,manuscript build,"{""path"": ""C:\\Gauri\\ma11ypdf\\tmp\\tectonic\\bin\\tectonic.exe""}",runtime capture

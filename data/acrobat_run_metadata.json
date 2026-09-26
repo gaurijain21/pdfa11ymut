@@ -1,0 +1,27 @@
+{
+  "product": "Adobe Acrobat Pro",
+  "release_channel": "Continuous Release",
+  "version": "2026.002.21931",
+  "build": "2026.002.21931",
+  "bitness": "64-bit",
+  "executable": "C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\Acrobat.exe",
+  "platform": "Windows 10 Home 25H2, build 26200.9168, x64",
+  "checker": "Accessibility Checker / Full Check",
+  "configuration": {
+    "page_range": "All pages in document",
+    "category": "Document",
+    "checked_categories": "31 of 32 checks selected (native session; canonical)",
+    "historical_metadata_checked_categories": "All 31 of 31 checks selected",
+    "create_accessibility_report": true,
+    "attach_report_to_document": false,
+    "auto_tagging": false,
+    "auto_tag_form_fields": false,
+    "remediation": false,
+    "reading_order_or_document_options": "Default Acrobat Full Check settings; no remediation applied"
+  },
+  "report_format": "Acrobat native accessibility report (HTML)",
+  "requested_evidence_directory": "evidence\\acrobat",
+  "run_configuration": "Acrobat Full Check",
+  "ai_state": "Not applicable; PAC AI is a separate validator configuration",
+  "notes": "Version/build and Full Check settings were observed in Acrobat on 2026-09-18. The preserved native-session note and G01 report context record 31 of 32 checks selected; an older metadata field recorded 31 of 31 and is retained above as historical provenance. Raw Acrobat report export is retained in native format; manual-check items are not automated failures. No report bytes or classifications were changed when this configuration record was reconciled."
+}

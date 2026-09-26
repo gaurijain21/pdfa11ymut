@@ -1,0 +1,1460 @@
+{
+  "artifact_id": "PDFUA-Ref-2-02_Invoice-M02",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          595,
+          842
+        ],
+        "mutant_dimensions": [
+          595,
+          842
+        ],
+        "page": 1
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_k": [],
+    "old_k": [
+      {
+        "/K": [
+          {
+            "/K": [
+              {
+                "/Alt": "Logo of Kraxi Systems, Inc. Paper Planes",
+                "/K": [
+                  {
+                    "/MCID": 0,
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/Type": "/MCR"
+                  }
+                ],
+                "/Lang": "en",
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Figure",
+                "/Type": "/StructElem"
+              },
+              {
+                "/K": [
+                  0
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P",
+                "/Type": "/StructElem"
+              },
+              {
+                "/Alt": "Photo of sales rep.",
+                "/K": [
+                  1
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/Figure",
+                "/Type": "/StructElem"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      2
+                    ],
+                    "/P": {
+                      "type": "/StructElem"
+                    },
+                    "/Pg": {
+                      "type": "/Page"
+                    },
+                    "/S": "/P",
+                    "/Type": "/StructElem"
+                  }
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/S": "/Caption",
+                "/Type": "/StructElem"
+              }
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/S": "/Sect",
+            "/Type": "/StructElem"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  3
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P",
+                "/Type": "/StructElem"
+              }
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/S": "/Sect",
+            "/Type": "/StructElem"
+          },
+          {
+            "/K": [
+              {
+                "/K": [
+                  4
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/H1",
+                "/Type": "/StructElem"
+              },
+              {
+                "/K": [
+                  5
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P",
+                "/Type": "/StructElem"
+              },
+              {
+                "/K": [
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              6
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TH",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              7
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TH",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              8
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TH",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              9
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TH",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              10
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TH",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      }
+                    ],
+                    "/P": {
+                      "type": "/StructElem"
+                    },
+                    "/S": "/THead",
+                    "/Type": "/StructElem"
+                  },
+                  {
+                    "/K": [
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              11
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              12
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              13
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              14
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              15
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              16
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              17
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              18
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              19
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              20
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              21
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              22
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              23
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              24
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              25
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              26
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              27
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              28
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              29
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              30
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              31
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              32
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              33
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              34
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              35
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              36
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              37
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              38
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              39
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              40
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/K": [
+                              41
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              42
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              43
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              44
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              45
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      },
+                      {
+                        "/K": [
+                          {
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          },
+                          {
+                            "/K": [
+                              46
+                            ],
+                            "/P": {
+                              "type": "/StructElem"
+                            },
+                            "/Pg": {
+                              "type": "/Page"
+                            },
+                            "/S": "/TD",
+                            "/Type": "/StructElem"
+                          }
+                        ],
+                        "/P": {
+                          "type": "/StructElem"
+                        },
+                        "/S": "/TR",
+                        "/Type": "/StructElem"
+                      }
+                    ],
+                    "/P": {
+                      "type": "/StructElem"
+                    },
+                    "/S": "/TBody",
+                    "/Type": "/StructElem"
+                  }
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/S": "/Table",
+                "/Type": "/StructElem"
+              },
+              {
+                "/K": [
+                  47
+                ],
+                "/P": {
+                  "type": "/StructElem"
+                },
+                "/Pg": {
+                  "type": "/Page"
+                },
+                "/S": "/P",
+                "/Type": "/StructElem"
+              }
+            ],
+            "/P": {
+              "type": "/StructElem"
+            },
+            "/S": "/Sect",
+            "/Type": "/StructElem"
+          }
+        ],
+        "/P": {
+          "type": "/StructElem"
+        },
+        "/S": "/Part",
+        "/Type": "/StructElem"
+      }
+    ],
+    "target_object": "3:0"
+  },
+  "mutant_sha256": "462607fdecfb53a1cfdf57d060f6f2ef467370ae7d39213b258398a1777120fd",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_target_k_signature_after": [],
+    "reachable_structure_root_present": true,
+    "role_counts_after": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H1": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "role_counts_before": {
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 2,
+      "/H1": 1,
+      "/P": 5,
+      "/Part": 1,
+      "/Sect": 3,
+      "/TBody": 1,
+      "/TD": 40,
+      "/TH": 5,
+      "/THead": 1,
+      "/TR": 9,
+      "/Table": 1
+    },
+    "target_delta_matches": true,
+    "target_k_length_after": 0,
+    "target_k_length_before": 1,
+    "target_k_signature_after": [],
+    "target_k_signature_before": [
+      [
+        "/Part",
+        [
+          [
+            "/Sect",
+            [
+              [
+                "/Figure",
+                []
+              ],
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    0
+                  ]
+                ]
+              ],
+              [
+                "/Figure",
+                [
+                  [
+                    "INT",
+                    1
+                  ]
+                ]
+              ],
+              [
+                "/Caption",
+                [
+                  [
+                    "/P",
+                    [
+                      [
+                        "INT",
+                        2
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/Sect",
+            [
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "/Sect",
+            [
+              [
+                "/H1",
+                [
+                  [
+                    "INT",
+                    4
+                  ]
+                ]
+              ],
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    5
+                  ]
+                ]
+              ],
+              [
+                "/Table",
+                [
+                  [
+                    "/THead",
+                    [
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TH",
+                            [
+                              [
+                                "INT",
+                                6
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TH",
+                            [
+                              [
+                                "INT",
+                                7
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TH",
+                            [
+                              [
+                                "INT",
+                                8
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TH",
+                            [
+                              [
+                                "INT",
+                                9
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TH",
+                            [
+                              [
+                                "INT",
+                                10
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "/TBody",
+                    [
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                11
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                12
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                13
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                14
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                15
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                16
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                17
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                18
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                19
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                20
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                21
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                22
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                23
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                24
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                25
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                26
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                27
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                28
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                29
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                30
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                31
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                32
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                33
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                34
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                35
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                36
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                37
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                38
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                39
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                40
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                41
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                42
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                43
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                44
+                              ]
+                            ]
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                45
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "/TR",
+                        [
+                          [
+                            "/TD",
+                            []
+                          ],
+                          [
+                            "/TD",
+                            []
+                          ],
+                          [
+                            "/TD",
+                            []
+                          ],
+                          [
+                            "/TD",
+                            []
+                          ],
+                          [
+                            "/TD",
+                            [
+                              [
+                                "INT",
+                                46
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "/P",
+                [
+                  [
+                    "INT",
+                    47
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "target_role_after": "/Document",
+    "target_role_before": "/Document",
+    "target_structure_path": [
+      0
+    ],
+    "target_xref_after": 25,
+    "target_xrefs": [
+      3
+    ],
+    "whole_tree_expected_equals_mutant": true
+  },
+  "operator": "M02",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "fbae08464f192f532205833215505b78266e86df6283d9b0c439cb06927ce0b9",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

@@ -1,0 +1,13 @@
+{
+  "pac_version": "26.1.0.0",
+  "pac_build": "26.1.0.0 (PAC.exe FileVersion/ProductVersion)",
+  "pac_executable": "C:\\Users\\iamga\\AppData\\Local\\PAC\\PAC.exe",
+  "platform": "Windows 10 Home 25H2, build 26200.9168, x64",
+  "profile": "PDF/UA formal/traditional check",
+  "run_configuration": "PAC Formal",
+  "ai_enabled": false,
+  "ai_registry_path": "HKCU\\Software\\axes4\\PAC\\EnableAIChecks",
+  "ai_registry_value": 0,
+  "ai_registry_change": "Value was absent on verification; set to DWORD 0 and re-verified before PAC Formal evidence ingestion. PAC AI remained disabled/excluded.",
+  "configuration_note": "PAC AI was OFF and excluded for B01_GOLDEN_PAC_FORMAL and B04_MUTANT_PAC_FORMAL."
+}

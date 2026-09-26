@@ -1,0 +1,188 @@
+{
+  "artifact_id": "PDFUA-Ref-2-04_Presentation-M07",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          1920,
+          1080
+        ],
+        "mutant_dimensions": [
+          1920,
+          1080
+        ],
+        "page": 8
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_alt": null,
+    "old_alt": "Logo PDF Association",
+    "target_object": "301:0"
+  },
+  "mutant_sha256": "09d414160bdb30b7d9aa23413647b6ba38f434340f1d3f0d3164a1d37d5d3088",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "figure_alt_count_after": 1,
+    "figure_alt_count_before": 2,
+    "role_counts_after": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage:P-TitleAuthor": 1,
+      "/Frontpage:P-TitleFooter": 1,
+      "/Frontpage:P-TitleHeader": 1,
+      "/Frontpage:P-TitleSubline": 1,
+      "/H1": 5,
+      "/H1-GiT": 1,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P-Footer": 3,
+      "/P-Quote": 1,
+      "/P-Text": 5,
+      "/P-example": 3,
+      "/Reference": 3,
+      "/Span": 53,
+      "/Story": 10,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage:P-TitleAuthor": 1,
+      "/Frontpage:P-TitleFooter": 1,
+      "/Frontpage:P-TitleHeader": 1,
+      "/Frontpage:P-TitleSubline": 1,
+      "/H1": 5,
+      "/H1-GiT": 1,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P-Footer": 3,
+      "/P-Quote": 1,
+      "/P-Text": 5,
+      "/P-example": 3,
+      "/Reference": 3,
+      "/Span": 53,
+      "/Story": 10,
+      "/Title": 1
+    },
+    "target_xrefs": [
+      301
+    ]
+  },
+  "operator": "M07",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

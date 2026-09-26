@@ -1,0 +1,98 @@
+{
+  "artifact_id": "PDFUA-Ref-2-03_AcademicAbstract-M08",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          792
+        ],
+        "mutant_dimensions": [
+          612,
+          792
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          612,
+          792
+        ],
+        "mutant_dimensions": [
+          612,
+          792
+        ],
+        "page": 2
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_lang": null,
+    "old_lang": "en-GB",
+    "target_object": "direct"
+  },
+  "mutant_sha256": "381ec9f9fe1f7ef256d3f2ed7e5e405bb9802b17bb64d762f572bc6d313af091",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "catalog_lang_after": [
+      "null",
+      "null"
+    ],
+    "catalog_lang_before": [
+      "string",
+      "en-GB"
+    ],
+    "role_counts_after": {
+      "/Document": 1,
+      "/H1": 6,
+      "/H2": 1,
+      "/HyphenSpan": 34,
+      "/L": 4,
+      "/LBody": 24,
+      "/LI": 24,
+      "/Lbl": 24,
+      "/Link": 13,
+      "/P": 51,
+      "/PageRoot": 2,
+      "/ParagraphSpan": 2,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Document": 1,
+      "/H1": 6,
+      "/H2": 1,
+      "/HyphenSpan": 34,
+      "/L": 4,
+      "/LBody": 24,
+      "/LI": 24,
+      "/Lbl": 24,
+      "/Link": 13,
+      "/P": 51,
+      "/PageRoot": 2,
+      "/ParagraphSpan": 2,
+      "/Title": 1
+    },
+    "target_xrefs": []
+  },
+  "operator": "M08",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "e61257d371261867926eb006f8895569a95fcfbcb93fca3be04b8b9187cb93a0",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

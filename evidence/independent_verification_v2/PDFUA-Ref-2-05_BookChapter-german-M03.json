@@ -1,0 +1,368 @@
+{
+  "artifact_id": "PDFUA-Ref-2-05_BookChapter-german-M03",
+  "independent_delta_status": "CONFIRMED",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "independent_render_detail": {
+    "dpi": 72,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 8
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 9
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 10
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 11
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 12
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 13
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 14
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 15
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 16
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 17
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 18
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 19
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 20
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          596,
+          842
+        ],
+        "mutant_dimensions": [
+          596,
+          842
+        ],
+        "page": 21
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "independent_render_status": "PASS",
+  "independent_structure_status": "PASS",
+  "intended_delta": {
+    "new_role": "/H3",
+    "old_role": "/H1",
+    "target_object": "319:0"
+  },
+  "mutant_sha256": "08a17db95cf262351a8e2a6464edaec73836e71fd34b0db112bdec9676930e75",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "expected_role_counts_after": {
+      "/Article": 1,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 3,
+      "/H1": 6,
+      "/H2": 15,
+      "/H3": 20,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "role_counts_after": {
+      "/Article": 1,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 3,
+      "/H1": 6,
+      "/H2": 15,
+      "/H3": 20,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "role_counts_before": {
+      "/Article": 1,
+      "/Caption": 1,
+      "/Document": 1,
+      "/Figure": 3,
+      "/H1": 7,
+      "/H2": 15,
+      "/H3": 19,
+      "/H4": 6,
+      "/L": 8,
+      "/LBody": 37,
+      "/LI": 37,
+      "/Lbl": 58,
+      "/Link": 46,
+      "/P": 178,
+      "/Reference": 21,
+      "/Span": 313,
+      "/Story": 3,
+      "/TD": 12,
+      "/TH": 10,
+      "/TOC": 5,
+      "/TOCI": 21,
+      "/TR": 6,
+      "/Table": 1,
+      "/Title": 1
+    },
+    "target_xrefs": [
+      319
+    ]
+  },
+  "operator": "M03",
+  "primary_render_status": "PASS",
+  "primary_verification_status": "PASS",
+  "source_sha256": "fc525b8899da31779b6143c16053779cd560d4417018a901472de33c71252352",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}

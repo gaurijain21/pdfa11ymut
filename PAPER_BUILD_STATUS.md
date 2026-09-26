@@ -1,0 +1,7 @@
+# Paper build status
+
+The active manuscript source is `paper/pdfa11ymut_ieee.tex`. Its formal result tables are generated at `analysis/generated/results_fragment.tex` by `python scripts/rebuild_analysis.py`; compile from the `paper/` directory so the relative `\input` resolves. The canonical active denominator is 69 mutants and 207 formal rows. Role-labeled decision fields and adjudication are retained for auditability, but no independent-human coder claim is made.
+
+The current `paper/pdfa11ymut_ieee.pdf` is a four-page artifact with SHA-256 `E3D432BA99B3F4DEE0C9506FFA940D08D9CC2D7EA51B0F55156587B16066FFE6`. It was rebuilt from the current source with the local Tectonic 0.17.0 executable, rendered at 120 DPI, and visually inspected. The previous PDF is preserved at `paper/archive/pre_current_rebuild/pdfa11ymut_ieee_2026-09-24.pdf` with its original hash. The rebuild emits TeX underfull/overfull-box warnings, including one 8.3pt overfull box in the generated results fragment; visual inspection found no clipping, overlap, or unreadable table. `pdfinfo` reports `Tagged: yes`; the catalog contains `/Lang`, `/MarkInfo`, `/StructTreeRoot`, and title/subject metadata. Semantic PDF/UA quality remains venue-dependent.
+
+The arXiv and project ZIPs in this worktree are historical packages and must be regenerated only after the source is compiled and the canonical manifest is frozen. Package contents were previously inventoried to exclude prior release archives, `.git`, `tmp`, `__pycache__`, and `.pyc` files.

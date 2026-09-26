@@ -1,0 +1,718 @@
+{
+  "generated_at_utc": "2026-09-25T22:07:39.849063+00:00",
+  "generation": {
+    "delta": {
+      "new_role": "/PDFa11yMutUndefinedRole",
+      "old_role": "/H1",
+      "role_key": "/H1-content",
+      "target_object": "direct"
+    },
+    "operator": "M09",
+    "requested_target": "auto",
+    "source_pages": 1
+  },
+  "generation_version": "0.2.0",
+  "mutant_id": "PDFUA-Ref-2-10_Form-M09",
+  "mutant_pdf": "C:\\Gauri\\ma11ypdf\\tmp\\m09_recovery_candidates\\PDFUA-Ref-2-10_Form-M09.pdf",
+  "mutant_sha256": "e2b5511bd9e536e37d90d6fd659dbb068a3ed464210a0dce77d81797262619f4",
+  "operator": "M09",
+  "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+  "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
+  "status": "valid",
+  "verification": {
+    "intended_delta": {
+      "new_role": "/PDFa11yMutUndefinedRole",
+      "old_role": "/H1",
+      "role_key": "/H1-content",
+      "target_object": "direct"
+    },
+    "invariant_checks": {
+      "operator_specific_delta": true,
+      "page_content_byte_hashes_equal": true,
+      "page_count_preserved": true,
+      "rendering_preserved": true,
+      "source_and_mutant_hash_differ": true
+    },
+    "mutant_pdf": "C:\\Gauri\\ma11ypdf\\tmp\\m09_recovery_candidates\\PDFUA-Ref-2-10_Form-M09.pdf",
+    "mutant_sha256": "e2b5511bd9e536e37d90d6fd659dbb068a3ed464210a0dce77d81797262619f4",
+    "mutation_valid": true,
+    "observed_changed_structure_paths": [],
+    "observed_delta": {},
+    "operator": "M09",
+    "operator_delta_reason": "used RoleMap value changed exactly; structure tree is unchanged",
+    "page_count_preserved": true,
+    "parseability": true,
+    "rendering": {
+      "different_pixel_count": 0,
+      "dpi": 150,
+      "max_channel_difference": 0,
+      "metric": "exact RGB pixel equality",
+      "pages": [
+        {
+          "bbox": null,
+          "different_pixels": 0,
+          "dimensions": [
+            1241,
+            1754
+          ],
+          "page": 1
+        }
+      ],
+      "renderer": "pdftoppm",
+      "rmse": 0.0,
+      "status": "pass",
+      "tolerance": 0
+    },
+    "source_pdf": "C:\\Gauri\\ma11ypdf\\corpus\\golden\\PDFUA-Ref-2-10_Form.pdf",
+    "source_sha256": "06d5cacd7c5ba9573a57c6d99d3f357ee14a24cff0c138036840fc44c6311806",
+    "structural_after": {
+      "0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/H1-content"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "role": "/H1-content"
+      },
+      "0.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 584.546, 538.583, 607.223]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 522.199, 538.583, 544.876]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            7,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            8,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            9,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            10,
+            0
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 469.073, 69.0315, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[102.33, 469.073, 114.668, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[144.849, 469.073, 157.188, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[187.369, 469.073, 199.708, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            13,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            14,
+            0
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.5.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 406.727, 69.0315, 419.065]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[102.33, 406.727, 114.668, 419.065]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.6.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 335.16, 538.583, 357.837]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      }
+    },
+    "structural_before": {
+      "0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Sect"
+          ]
+        ],
+        "role": "/Document"
+      },
+      "0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "struct",
+            "/Title"
+          ],
+          [
+            "struct",
+            "/H1-content"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ],
+          [
+            "struct",
+            "/Labels"
+          ]
+        ],
+        "role": "/Sect"
+      },
+      "0.0.0": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            18,
+            0
+          ]
+        ],
+        "role": "/Title"
+      },
+      "0.0.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            0,
+            0
+          ]
+        ],
+        "role": "/H1-content"
+      },
+      "0.0.2": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            1,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.2.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 584.546, 538.583, 607.223]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            3,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.3.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 522.199, 538.583, 544.876]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            5,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            7,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            8,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            9,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            10,
+            0
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.4.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 469.073, 69.0315, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[102.33, 469.073, 114.668, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[144.849, 469.073, 157.188, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.4.7": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[187.369, 469.073, 199.708, 481.412]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            11,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            13,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ],
+          [
+            "mcid",
+            14,
+            0
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.5.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 406.727, 69.0315, 419.065]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.5.3": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[102.33, 406.727, 114.668, 419.065]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      },
+      "0.0.6": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "mcid",
+            15,
+            0
+          ],
+          [
+            "struct",
+            "/Form"
+          ]
+        ],
+        "role": "/Labels"
+      },
+      "0.0.6.1": {
+        "actual_text": null,
+        "alt": null,
+        "k": [
+          [
+            "objr",
+            0,
+            "/Widget",
+            "[56.6929, 335.16, 538.583, 357.837]",
+            null
+          ]
+        ],
+        "role": "/Form"
+      }
+    },
+    "unexpected_structural_changes": []
+  }
+}

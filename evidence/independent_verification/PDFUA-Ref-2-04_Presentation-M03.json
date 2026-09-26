@@ -1,0 +1,179 @@
+{
+  "artifact_id": "PDFUA-Ref-2-04_Presentation-M03",
+  "independent_invariants": {
+    "annotation_xrefs_equal": true,
+    "content_stream_hashes_equal": true,
+    "page_boxes_equal": true,
+    "page_count_equal": true,
+    "page_images_equal": true
+  },
+  "intended_delta": {
+    "new_role": "/H3",
+    "old_role": "/H1",
+    "target_object": "151:0"
+  },
+  "mutant_sha256": "23612f2c7708412a2bcfc9ba1023d8712c0db74be6f6752d7b04bb54b23913b7",
+  "mutation_confidence": "HIGH",
+  "observed_delta": {
+    "role_counts_after": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage": 4,
+      "/GoTo": 8,
+      "/H1": 5,
+      "/H2": 2,
+      "/H3": 1,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P": 12,
+      "/Reference": 3,
+      "/S": 13,
+      "/Span": 53,
+      "/Story": 10,
+      "/Thumb": 8,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 9
+    },
+    "role_counts_before": {
+      "/Article": 2,
+      "/Document": 1,
+      "/Figure": 2,
+      "/Frontpage": 4,
+      "/GoTo": 8,
+      "/H1": 6,
+      "/H2": 2,
+      "/L": 7,
+      "/LBody": 19,
+      "/LI": 19,
+      "/Lbl": 19,
+      "/Link": 13,
+      "/Note": 3,
+      "/P": 12,
+      "/Reference": 3,
+      "/S": 13,
+      "/Span": 53,
+      "/Story": 10,
+      "/Thumb": 8,
+      "/Title": 1,
+      "/Transparency": 1,
+      "/URI": 9
+    }
+  },
+  "operator": "M03",
+  "parser_a": "PASS",
+  "parser_b": "PASS",
+  "renderer_a": "PASS",
+  "renderer_b": "PASS",
+  "renderer_b_detail": {
+    "dpi": 150,
+    "pages": [
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 1
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 2
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 3
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 4
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 5
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 6
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 7
+      },
+      {
+        "equal": true,
+        "golden_dimensions": [
+          4000,
+          2250
+        ],
+        "mutant_dimensions": [
+          4000,
+          2250
+        ],
+        "page": 8
+      }
+    ],
+    "renderer": "MuPDF",
+    "status": "PASS"
+  },
+  "source_sha256": "90acb829ca8bfa037796592539d15010e9099d1cd2622aac1fce7d9fd3ae7575",
+  "unexpected_content_changes": [],
+  "unexpected_structural_changes": []
+}
