@@ -271,8 +271,8 @@
   },
   "repository": {
     "git_branch": "main",
-    "git_head": "7b78a42dfe7a9e6ebe936d8aabbe1417e3a0b99c",
-    "worktree_dirty": true
+    "git_head": "04de450600797b85ee9c54c9d9f350f64d8288df",
+    "worktree_dirty": false
   },
   "reproduction_commands": [
     "python scripts/build_study_manifest.py",

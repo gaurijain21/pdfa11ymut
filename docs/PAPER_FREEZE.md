@@ -2,7 +2,7 @@
 
 This is a preparation record, not a Git tag or release.
 
-- repository HEAD at final repair audit: `7b78a42dfe7a9e6ebe936d8aabbe1417e3a0b99c`
+- repository HEAD at final freeze: `04de450600797b85ee9c54c9d9f350f64d8288df`
 - working tree: dirty before the final freeze; a clean public Git freeze must exclude raw vendor/AT evidence and historical bundles
 - canonical manifest: `STUDY_MANIFEST.json`
 - canonical manifest SHA-256: `3ca72697e60e97b88c14f8be9a9c4624460bb570656a3db3e66e8194ab70b83f`
