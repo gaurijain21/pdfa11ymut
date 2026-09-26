@@ -18,6 +18,7 @@ EXCLUDED_DIRS = {
 }
 EXCLUDED_RELATIVE_DIRS = {Path("paper") / "archive"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo"}
+EXCLUDED_NAME_MARKERS = (".mismatch-backup-",)
 
 
 def is_excluded(relative: Path, output_name: str, digest_name: str, manifest_name: str) -> bool:
@@ -26,6 +27,8 @@ def is_excluded(relative: Path, output_name: str, digest_name: str, manifest_nam
     if any(relative.parts[: len(root.parts)] == root.parts for root in EXCLUDED_RELATIVE_DIRS):
         return True
     if relative.suffix.lower() in EXCLUDED_SUFFIXES:
+        return True
+    if any(marker in relative.name for marker in EXCLUDED_NAME_MARKERS):
         return True
     if relative.suffix.lower() == ".zip":
         return True
