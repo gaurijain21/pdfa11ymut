@@ -2,10 +2,10 @@
 
 This is a preparation record, not a Git tag or release.
 
-- repository HEAD at final freeze: `04de450600797b85ee9c54c9d9f350f64d8288df`
+- manifest-generation commit: `a67850dbe9d0d729baabf2b42ce1b5c315da11a7`
 - working tree: dirty before the final freeze; a clean public Git freeze must exclude raw vendor/AT evidence and historical bundles
 - canonical manifest: `STUDY_MANIFEST.json`
-- canonical manifest SHA-256: `3ca72697e60e97b88c14f8be9a9c4624460bb570656a3db3e66e8194ab70b83f`
+- canonical manifest SHA-256: `0E98CC97F09A3F7B37D62159005CA3B49016E19226A1D09519A61303A5F2E6FF`
 - manuscript source SHA-256: `16abce33b726ece6521afe2373c43c95e5ee1d909ead1070c7768bfe03dba854`
 - current manuscript PDF SHA-256: `e3d432ba99b3f4dee0c9506ffa940d08d9cc2d7ea51b0f55156587b16066ffe6`
 - recommended eventual tag: `paper-freeze-v1`
