@@ -138,6 +138,9 @@ def build_checksums() -> None:
     paths: set[Path] = set()
     for pattern in ["corpus/golden/*.pdf", "corpus/mutants/*.pdf", "corpus/controls/*.pdf", "evidence/pac/**/*.pdf", "evidence/acrobat/**/*.html", "evidence/verapdf/**/*.json", "evidence/controls/**/*.pdf", "evidence/controls/**/*.json", "evidence/controls/**/*.html", "evidence/at/**/*.txt", "evidence/at/**/*.png", "evidence/independent_verification/**/*.json", "evidence/independent_verification_v2/**/*.json"]:
         paths.update(ROOT.glob(pattern))
+    # Mismatch backups are private debugging artifacts and are excluded from
+    # the public boundary; they must not become checksum requirements.
+    paths = {path for path in paths if ".mismatch-backup-" not in path.name}
     # Include canonical ledgers and manifests, but not the checksum file itself.
     for rel in ["STUDY_MANIFEST.json", "data/mutants.jsonl", "data/mutant_exclusions.csv", "data/validator_runs.csv", "data/controls.csv", "data/control_results.csv", "data/at_observations.csv", "data/operator_target_selection.csv", "data/mutant_delta_manifest.jsonl", "paper/pdfa11ymut_ieee.tex", "paper/pdfa11ymut_ieee.pdf"]:
         if (ROOT / rel).is_file(): paths.add(ROOT / rel)
